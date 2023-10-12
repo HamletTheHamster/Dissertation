@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1697129184 "test.tex" "test.pdf" "test" 1697129185 0
+["pdflatex"] 1697130683 "test.tex" "test.pdf" "test" 1697130684 0
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -32,8 +32,8 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1697124486 7883456 d9f847720c95f326509a187b15d58186 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "UHNA3.jpeg" 1697128862 2481940 cadfe850d8b6aa7c18cb109e761544c0 ""
-  "test.aux" 1697129185 274 7c31452963e2fd5f167982853409c63b "pdflatex"
-  "test.tex" 1697129183 352 5fea246729815e42fa13f0e9383e2c07 ""
+  "test.aux" 1697130684 275 393287b7d3dab9c4a4dccd9f3ce9678e "pdflatex"
+  "test.tex" 1697130682 353 fc1e844b22ece3d89363cb3852db4564 ""
   (generated)
   "test.aux"
   "test.log"
