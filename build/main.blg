@@ -10,6 +10,8 @@ A level-1 auxiliary file: pre/1-Dedication.aux
 A level-1 auxiliary file: pre/1-Preface.aux
 A level-1 auxiliary file: 1-Introduction.aux
 A level-1 auxiliary file: 2-Cooling.aux
+A level-1 auxiliary file: 3-Chapter.aux
+A level-1 auxiliary file: 4-Chapter.aux
 A level-1 auxiliary file: Discussion.aux
 A level-1 auxiliary file: post/z-Acronyms.aux
 A level-1 auxiliary file: post/zz-Appendix.aux
@@ -17,7 +19,7 @@ Database file #1: references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 1 entry,
             3168 wiz_defined-function locations,
-            671 strings with 5073 characters,
+            673 strings with 5099 characters,
 and the built_in function-call counts, 434 in all, are:
 = -- 37
 > -- 22

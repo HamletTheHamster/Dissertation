@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.12)  12 OCT 2023 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.12)  12 OCT 2023 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -585,8 +585,9 @@ h' as default language. on input line 138.
  (build/main.aux (build/pre/0-Title.aux) (build/pre/0-Abstract.aux)
 (build/pre/0-Copyright.aux) (build/pre/0-Acknowledgements.aux)
 (build/pre/1-Dedication.aux) (build/pre/1-Preface.aux)
-(build/1-Introduction.aux) (build/2-Cooling.aux) (build/Discussion.aux)
-(build/post/z-Acronyms.aux) (build/post/zz-Appendix.aux))
+(build/1-Introduction.aux) (build/2-Cooling.aux) (build/3-Chapter.aux)
+(build/4-Chapter.aux) (build/Discussion.aux) (build/post/z-Acronyms.aux)
+(build/post/zz-Appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
@@ -608,8 +609,7 @@ LaTeX Font Info:    ... okay on input line 138.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
 LaTeX Font Info:    ... okay on input line 138.
 Package hyperref Info: Link coloring ON on input line 138.
- (build/main.out)
-(build/main.out)
+ (build/main.out) (build/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -782,7 +782,7 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 Chapter 1.
 Package acronym Info: Label `acro:AGU' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
-<figs/chapter1/Bandfield_crater_AS17-P-2889.jpg, id=129, 2509.375pt x 1766.6pt>
+<figs/chapter1/Bandfield_crater_AS17-P-2889.jpg, id=163, 2509.375pt x 1766.6pt>
 
 File: figs/chapter1/Bandfield_crater_AS17-P-2889.jpg Graphic file (type jpg)
 <use figs/chapter1/Bandfield_crater_AS17-P-2889.jpg>
@@ -805,11 +805,31 @@ Chapter 2.
 
 
 ] [4]
+\openout2 = `3-Chapter.aux'.
+
+ (./3-Chapter.tex
+Chapter 3.
+) [5
+
+
+
+
+] [6]
+\openout2 = `4-Chapter.aux'.
+
+ (./4-Chapter.tex
+Chapter 4.
+) [7
+
+
+
+
+] [8]
 \openout2 = `Discussion.aux'.
 
  (./Discussion.tex
-Chapter 3.
-) [5
+Chapter 5.
+) [9
 
 
 
@@ -818,16 +838,16 @@ Chapter 3.
 ]
 \openout2 = `post/z-Acronyms.aux'.
 
- (./post/z-Acronyms.tex [6
+ (./post/z-Acronyms.tex [10
 
 
 
 
 
-]) [7]
+]) [11]
 \openout2 = `post/zz-Appendix.aux'.
 
- (./post/zz-Appendix.tex [8
+ (./post/zz-Appendix.tex [12
 
 
 
@@ -835,14 +855,14 @@ Chapter 3.
 
 ]
 Appendix A.
-[9]
-<figs/chapter1/astronaut_footprint.jpg, id=180, 938.5464pt x 942.4008pt>
+[13]
+<figs/chapter1/astronaut_footprint.jpg, id=231, 938.5464pt x 942.4008pt>
 File: figs/chapter1/astronaut_footprint.jpg Graphic file (type jpg)
 <use figs/chapter1/astronaut_footprint.jpg>
 Package pdftex.def Info: figs/chapter1/astronaut_footprint.jpg  used on input l
 ine 13.
 (pdftex.def)             Requested size: 397.66681pt x 399.29463pt.
- [10 <./figs/chapter1/astronaut_footprint.jpg>]) (build/main.bbl) [11
+ [14 <./figs/chapter1/astronaut_footprint.jpg>]) (build/main.bbl) [15
 
 
 
@@ -853,16 +873,17 @@ ine 13.
 (build/main.aux (build/pre/0-Title.aux) (build/pre/0-Abstract.aux)
 (build/pre/0-Copyright.aux) (build/pre/0-Acknowledgements.aux)
 (build/pre/1-Dedication.aux) (build/pre/1-Preface.aux)
-(build/1-Introduction.aux) (build/2-Cooling.aux) (build/Discussion.aux)
-(build/post/z-Acronyms.aux) (build/post/zz-Appendix.aux))
+(build/1-Introduction.aux) (build/2-Cooling.aux) (build/3-Chapter.aux)
+(build/4-Chapter.aux) (build/Discussion.aux) (build/post/z-Acronyms.aux)
+(build/post/zz-Appendix.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 07E4524936BC1B731509155E94F0242A;1950.
+(rerunfilecheck)             Checksum: 44357494D1DC1CE5DE83B74B6BF4A852;2625.
  ) 
 Here is how much of TeX's memory you used:
- 19272 strings out of 476025
- 372850 string characters out of 5790016
+ 19350 strings out of 476025
+ 374680 string characters out of 5790016
  1868388 words of memory out of 5000000
- 39339 multiletter control sequences out of 15000+600000
+ 39391 multiletter control sequences out of 15000+600000
  517310 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,77p,1131b,1104s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -876,10 +897,10 @@ ocal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
 l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on build/main.pdf (19 pages, 3580754 bytes).
+Output written on build/main.pdf (23 pages, 3588470 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
- 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
