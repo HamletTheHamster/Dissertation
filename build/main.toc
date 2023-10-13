@@ -11,18 +11,21 @@
 \contentsline {section}{\numberline {2.4}Methods \& Results}{8}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Conclusions}{10}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Acknowledgements}{11}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Manuscript II: CABS}{13}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Manuscript II: A coherent stimulated phonon spectrometer}{13}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Abstract}{13}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Introduction}{13}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Manuscript III: }{15}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Manuscript III: Brillouin-induced Raman modes}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Abstract}{15}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Introduction}{15}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Discussion \& Conclusion}{17}{chapter.5}%
-\contentsline {chapter}{Acronyms}{19}{section*.26}%
-\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter \ref {chap: 2-Cooling}: Manuscript I}{21}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Mean-field analysis of Brillouin cooling}{21}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Envelope analysis of cooling dynamics, and validity of the mean-field model}{24}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Separation of time scales required for cooling of travelling wave phonons}{26}{subsection.A.1.2}%
-\contentsline {section}{\numberline {A.2}Pump-probe theory}{26}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Brillouin gain simulations}{27}{section.A.3}%
-\contentsline {chapter}{References}{29}{section*.29}%
+\contentsline {chapter}{\numberline {5}Manuscript IV: Nanoscale Brillouin scattering}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Abstract}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Introduction}{17}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Discussion \& Conclusion}{19}{chapter.6}%
+\contentsline {chapter}{Acronyms}{21}{section*.27}%
+\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter \ref {chap: 2-Cooling}: Manuscript I}{23}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Mean-field analysis of Brillouin cooling}{23}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Envelope analysis of cooling dynamics, and validity of the mean-field model}{26}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Separation of time scales required for cooling of travelling wave phonons}{28}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}Pump-probe theory}{28}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Brillouin gain simulations}{29}{section.A.3}%
+\contentsline {chapter}{References}{31}{section*.30}%
