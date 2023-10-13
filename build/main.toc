@@ -1,7 +1,7 @@
 \contentsline {chapter}{List of Tables}{iii}{section*.2}%
 \contentsline {chapter}{List of Figures}{iv}{section*.4}%
-\contentsline {chapter}{Dedication}{v}{section*.7}%
-\contentsline {chapter}{Preface}{vii}{section*.9}%
+\contentsline {chapter}{Dedication}{v}{section*.10}%
+\contentsline {chapter}{Preface}{vii}{section*.12}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Section 1}{1}{section.1.1}%
 \contentsline {chapter}{\numberline {2}Manuscript I: Laser cooling of traveling wave phonons in an optical fiber}{3}{chapter.2}%
@@ -18,11 +18,11 @@
 \contentsline {section}{\numberline {4.1}Abstract}{15}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Introduction}{15}{section.4.2}%
 \contentsline {chapter}{\numberline {5}Discussion \& Conclusion}{17}{chapter.5}%
-\contentsline {chapter}{Acronyms}{19}{section*.19}%
+\contentsline {chapter}{Acronyms}{19}{section*.26}%
 \contentsline {chapter}{\numberline {A}Supplementary Information for Chapter \ref {chap: 2-Cooling}: Manuscript I}{21}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Mean-field analysis of Brillouin cooling}{21}{section.A.1}%
 \contentsline {subsection}{\numberline {A.1.1}Envelope analysis of cooling dynamics, and validity of the mean-field model}{24}{subsection.A.1.1}%
 \contentsline {subsection}{\numberline {A.1.2}Separation of time scales required for cooling of travelling wave phonons}{26}{subsection.A.1.2}%
 \contentsline {section}{\numberline {A.2}Pump-probe theory}{26}{section.A.2}%
 \contentsline {section}{\numberline {A.3}Brillouin gain simulations}{27}{section.A.3}%
-\contentsline {chapter}{References}{29}{section*.21}%
+\contentsline {chapter}{References}{29}{section*.29}%

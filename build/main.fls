@@ -1084,11 +1084,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./figs/chapter1/Bandfield_crater_AS17-P-2889.jpg
-INPUT ./figs/chapter1/Bandfield_crater_AS17-P-2889.jpg
-INPUT figs/chapter1/Bandfield_crater_AS17-P-2889.jpg
-INPUT ./figs/chapter1/Bandfield_crater_AS17-P-2889.jpg
-INPUT ./figs/chapter1/Bandfield_crater_AS17-P-2889.jpg
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./2-Cooling.tex
 INPUT ./2-Cooling.tex
