@@ -6,14 +6,23 @@
 \contentsline {section}{\numberline {1.1}Section 1}{1}{section.1.1}%
 \contentsline {chapter}{\numberline {2}Manuscript I: Laser cooling of traveling wave phonons in an optical fiber}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Abstract}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Introduction}{3}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Manuscript II: }{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Abstract}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Introduction}{5}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Manuscript III: }{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Abstract}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Introduction}{7}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Discussion \& Conclusion}{9}{chapter.5}%
-\contentsline {chapter}{Acronyms}{11}{section*.16}%
-\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter \ref {chap:chapterI}: Manuscript I}{13}{appendix.A}%
-\contentsline {chapter}{References}{15}{section*.18}%
+\contentsline {section}{\numberline {2.2}Introduction}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Laser cooling of traveling wave phonons}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Methods \& Results}{8}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Conclusions}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Acknowledgements}{11}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Manuscript II: CABS}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Abstract}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Introduction}{13}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Manuscript III: }{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Abstract}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Introduction}{15}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Discussion \& Conclusion}{17}{chapter.5}%
+\contentsline {chapter}{Acronyms}{19}{section*.19}%
+\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter \ref {chap: 2-Cooling}: Manuscript I}{21}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Mean-field analysis of Brillouin cooling}{21}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Envelope analysis of cooling dynamics, and validity of the mean-field model}{24}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Separation of time scales required for cooling of travelling wave phonons}{26}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}Pump-probe theory}{26}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Brillouin gain simulations}{27}{section.A.3}%
+\contentsline {chapter}{References}{29}{section*.21}%

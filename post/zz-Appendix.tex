@@ -1,23 +1,256 @@
 \appendix
-\chapter{Supplementary Information for Chapter \ref{chap:chapterI}: Manuscript I}
-\label{appendix:chapter1}
+\chapter{Supplementary Information for Chapter \ref{chap: 2-Cooling}: Manuscript I}
+\label{appendix: 2-Cooling}
 \acresetall
 
-\lipsum[1]
+\section{Mean-field analysis of Brillouin cooling}
+\label{SI:meanField}
+The key features of Brillouin cooling can be understood from a mean-field analysis of the slowly-varying envelope equations. For an undepleted pump and ignoring the propagation of phonons, spontaneous Brillouin scattering can be described by the following coupled stochastic envelope equations
+\begin{eqnarray}
+\label{SVE}
+   && \dot{A}_S + v_g \partial_z A_S = -i g A_p B_S^\dag \\
+   && \dot{B}_S + \frac{\Gamma_0}{2} B_S  = -i g A_p A_S^\dag + \xi_S \\
+      \label{SVE-3}
+   && \dot{A}_{aS} + v_g \partial_z A_{aS} = -i g A_p B_{aS} \\
+   \label{SVE-4}
+   && \dot{B}_{aS} + \frac{\Gamma_0}{2} B_{aS}  = -i g A_{aS} A_p^\dag + \xi_{aS}
+\end{eqnarray}
+expressed in a frame rotating at the resonance frequency for each field \cite{kharel2016noise}.
+Here, $A_{S}$ ($A_{aS}$) and $B_{S}$ ($B_{aS}$) are the respective (right-moving) optical and mechanical envelopes for the Stokes (anti-Stokes) process, $A_p$ is the envelope for a constant undepleted pump, $g$ is the Brillouin coupling, and $v_g$ is the optical group velocity. Thermal fluctuations of the mechanical field are modeled using the locally correlated white noise Langevin forces
+$\xi_{j}$ ($j=S$ or $aS$)  with correlation properties
+\begin{eqnarray}
+  &&  \langle \xi_j(t,z) \xi_{j'}^\dag(t',z')\rangle = \Gamma_0 (n_{th}+1) \delta_{jj'} \delta(t-t')\delta(z-z') \quad \quad \\
+  \label{corr-2}
+  && \langle \xi_j^\dag(t,z) \xi_{j'}(t',z')\rangle = \Gamma_0 n_{th} \delta_{jj'} \delta(t-t')\delta(z-z')
+\end{eqnarray}
+and $\Gamma_0$ is the mechanical dissipation rate. Put in terms of readily measurable quantities, the power in an optical mode is given by $P_{S/aS/p} = \hbar \omega_{S/aS/p} v_g A^\dag_{S/aS/p}A_{S/aS/p}$ and the Brillouin gain can be expressed as
 
-\clearpage
-\begin{landscape}
-\begin{figure}[t]
-    \centering
-    \captionsetup{width=1.22\textwidth}
-    \includegraphics[height=0.85\textwidth]{figs/chapter1/astronaut_footprint.jpg}
-    \caption{Sideways figure/table example.}
-    \label{fig:chapter1:S1} 
-\end{figure}
-\end{landscape}
+\begin{equation}
+\label{eq:GB}
+    G_B = \frac{4 |g|^2}{\hbar \omega_p v_g^2 \Gamma_0}.
+\end{equation}
+
+We define the mean fields for the respective optical and mechanical fields $a_j$ and $b_j$  as the average of the envelope over the length of the waveguide
+\begin{eqnarray}
+&&  a_j = \frac{1}{L}\int_0^L dz \ A_j(z)
+\\
+&&  b_j = \frac{1}{L}\int_0^L dz \ B_j(z).
+\end{eqnarray}
+
+ The mean field equations can be obtained by averaging Eqs. \eqref{SVE}-\eqref{SVE-4} over the waveguide length, giving
+\begin{eqnarray}
+\label{eq:mean-field}
+   && \dot{a}_S + \frac{\gamma}{2}a_S = -i g A_p b_S^\dag \\
+   \label{eq:mean-field-2}
+   && \dot{b}_S + \frac{\Gamma_0}{2} b_S  = -i g A_p a_S^\dag + \bar{\xi}_S \\
+   && \dot{a}_{aS} + \frac{\gamma}{2} a_{aS} = -i g A_p b_{aS} \\
+   \label{eq:mean-field-4}
+   && \dot{b}_{aS} + \frac{\Gamma_0}{2} b_{aS}  = -i g a_{aS} A_p^\dag + \bar{\xi}_{aS}
+\end{eqnarray}
+where $\bar{\xi}_j$ is the spatial average of the Langevin force. Here, the mean-field optical decay rate $\gamma = 4 v_g/L$ is obtained from the spatial average of the derivative terms, assuming $a_j \approx (A_j(L)+A_j(0))/2$ and using that the scattered optical fields vanish at the input face, i.e., $A_j(0) = 0$, according to
+\begin{eqnarray}
+    \frac{v_g}{L} \int_0^L dz  \ \partial_z A_k(z)  = && \frac{v_g}{L}(A_k(L)-A_k(0)) \nonumber
+   \\
+    = && \frac{v_g}{L}(A_k(L)+ A_k(0)-2A_k(0))  \nonumber
+   \\
+    = && \frac{2v_g}{L}a_k.
+\end{eqnarray}
+
+Next we analyze the mean field dynamics. When $\gamma > \Gamma_0$, the optical fields respond to changes in the phonon amplitude faster than the phonon changes, enabling a quasistatic solution to the optical field dynamics given by
+\begin{eqnarray}
+\label{eq:Ad-Elim}
+   &&  \frac{\gamma}{2}a_S \approx -i g A_p b_S^\dag \\
+   \label{eq:Ad-Elim-2}
+   &&  \frac{\gamma}{2} a_{aS} \approx -i g A_p b_{aS}.
+\end{eqnarray}
+Inserting Eq. \eqref{eq:Ad-Elim} \& \eqref{eq:Ad-Elim-2} into Eqs. \eqref{eq:mean-field-2} \& \eqref{eq:mean-field-4} we find the effective phonon dynamics given by
+\begin{eqnarray}
+\label{eq:eff-mean-field}
+   && \dot{b}_S + \frac{1}{2} \Gamma_S b_S  =  \bar{\xi}_S \\
+   \label{eq:eff-mean-field-2}
+   && \dot{b}_{aS} + \frac{1}{2}\Gamma_{aS} b_{aS}  =  \bar{\xi}_{aS}
+\end{eqnarray}
+where $P_p = \hbar \omega_p v_g A^\dag_p A_p$, Eq. \eqref{eq:GB} and Eq. (2) of the main text have been used. In addition, to changing the effective phonon dynamics, these results show that the power spectra for the optical fields are proportional to the phonon power spectrum,
+\begin{eqnarray}
+   && \!\!\!\!\!\!\!\!\!\!S_S[\omega] = \frac{4|g|^2 |A_p|^2}{\gamma^2} \!\int_{-\infty}^{\infty} d\tau \ e^{i\omega \tau} \langle b_S(t+\tau) b_S^\dag(t)\rangle
+    \\
+   && \!\!\!\!\!\!\!\!\!\! S_{aS}[\omega] = \frac{4|g|^2 |A_p|^2}{\gamma^2} \!\int_{-\infty}^{\infty} d\tau \ e^{i\omega \tau} \langle b^\dag_{aS}(t\!+\!\tau) b_{aS}(t)\rangle \quad \quad
+\end{eqnarray}
+illustrating how the optical power spectra, defined by
+$S_j[\omega] = \int_{-\infty}^{\infty} d\tau \ \exp\{i\omega\tau\} \langle a^\dag_{j}(t+\tau) a_{j}(t)\rangle$, permit a form of nonequilibrium phonon spectroscopy. Solving Eqs. \eqref{eq:eff-mean-field} and using the correlation properties for the spatially averaged Langevin forces given by
+\begin{eqnarray}
+  &&  \langle \bar{\xi}_j(t) \bar{\xi}_{j'}^\dag(t')\rangle = \frac{1}{L}\Gamma_0 (n_{th}+1) \delta_{jj'} \delta(t-t') \\
+  && \langle \bar{\xi}_j^\dag(t) \bar{\xi}_{j'}(t')\rangle = \frac{1}{L}\Gamma_0 n_{th} \delta_{jj'} \delta(t-t'),
+\end{eqnarray}
+we find
+\begin{eqnarray}
+   && S_S[\omega] = \frac{\Gamma_0 G}{4  v_g} \frac{\Gamma_0 n_{th}}{\Gamma_S} \frac{\Gamma_S}{\omega^2 + \Gamma_S^2/4}
+    \\
+   && S_{aS}[\omega] = \frac{\Gamma_0 G }{4 v_g} \frac{\Gamma_0 n_{th}}{\Gamma_{aS}} \frac{\Gamma_{aS}}{\omega^2 + \Gamma_{aS}^2/4}.
+\end{eqnarray}
+The peak of the power spectrum (i.e., on resonance, or $\omega = 0$), used for the theory in Fig. 2e, is given by
+\begin{eqnarray}
+   && S^{peak}_S[P_p] = \frac{n_{th}}{v_g} \frac{GB P_p L}{(1-\frac{1}{4} G_B P_p L)^2}
+    \\
+   && S^{peak}_{aS}[P_p] = \frac{n_{th}}{v_g} \frac{G_B P_p L}{(1+\frac{1}{4} G_B P_p L)^2}.
+\end{eqnarray}
+To account for the radio-frequency to electrical conversion, the peak of the power spectrum at the lowest power ($P_0 = 4.1$ mW) is used to scale the theoretical curves to have units of $\mu V$
+\begin{eqnarray}
+    && S^{peak,RF}_S[P_p] = \frac{S^{peak,RF}_S[P_0]}{G_B P_0 L} \frac{G_B P_p L}{(1-\frac{1}{4} G_B P_p L)^2} \quad \quad
+    \\
+   && S^{peak,RF}_{aS}[P_p] = \frac{S^{peak,RF}_{aS}[P_0]}{G_B P_0 L} \frac{G_B P_p L}{(1+\frac{1}{4} G_B P_p L)^2}. \quad\quad\quad
+\end{eqnarray}
+
+\subsection{Envelope analysis of cooling dynamics, and validity of the mean-field model}
+Here, we show that in the limit of small single-pass gain, the conclusions of the mean-field model agree with the full envelope dynamics.
+
+In the Fourier domain, Eq. \eqref{SVE-4} can be readily solved and inserted in Eq. \eqref{SVE-3}, giving
+
+\begin{eqnarray}
+\label{SVE-3p}
+   && (\partial_z -i \Lambda)A_{aS}(\omega,z) = -\frac{1}{v_g}i g A_p \hat{B}_{aS}(\omega,z) \quad
+\end{eqnarray}
+where
+\begin{eqnarray}
+\label{lambda}
+    \Lambda = \frac{1}{v_g}\bigg[\omega + i \frac{|g|^2 |A_p|^2}{
+-i\omega + \Gamma_0/2} \bigg],
+\end{eqnarray}
+and \begin{eqnarray}
+\label{Bhat}
+\hat{B}(\omega,z) = \frac{1}{
+-i\omega + \Gamma_0/2} \xi(\omega,z).
+\end{eqnarray}
+Using Eqs. \eqref{corr-2} and \eqref{Bhat}, the solution to Eq. \eqref{SVE-3p} at the exit face of the fiber ($z=L$),
+\begin{eqnarray}
+    A_{aS}(\omega,L) = -i \frac{g A_p}{v_g}\int_0^{L} dz \ e^{i\Lambda(L-z)} \hat{B}(\omega,z),
+\end{eqnarray}
+can be directly used to obtain the power spectrum of spontaneously scattered anti-Stokes light
+\begin{eqnarray}
+  S_{aS,env}[\omega] &\equiv& \frac{\langle A_{aS}^\dag(\omega,L) A_{aS}(\omega',L)\rangle}{2\pi\delta(\omega-\omega')} \nonumber \\
+  &=& \frac{n_{th}}{v_g}
+  \bigg[
+  1-e^{
+  -G(\omega)} \bigg]
+\end{eqnarray}
+where
+\begin{eqnarray}
+   G(\omega) =  \frac{\Gamma^2/4}{\omega^2+\Gamma^2/4} G.
+\end{eqnarray}
+Noting that the power spectrum obtained directly from \eqref{SVE-3} is directly related to the effective phonon power spectrum $S_B[\omega]$
+\begin{eqnarray}
+ S_{aS,env}[\omega] \!\!\!& = &\!\!\! \left| \frac{g A_p}{v_g} \right|^2 \!\! \int_0^{L} \!\!\!\!\! dz\!\!\int_0^{L} \!\!\!\!\!dz'
+ e^{i\frac{\omega}{v_g}(z\!-\!z')}
+ \frac{\langle {B}^\dag(\omega,z) {B}(\omega',z')\rangle}{2\pi\delta(\omega-\omega')} \nonumber \\
+& = &\!\!\! \left| \frac{g A_p}{v_g} \right|^2 S_B[\omega],
+\end{eqnarray}
+(note the power spectrum of $B$ as opposed to $\hat{B}$) we identify the anti-Stokes phonon power spectrum including the effects of optomechanical cooling
+\begin{eqnarray}
+\label{phonon_ps}
+ S_B[\omega] = \frac{4 n_{th} L}{G \Gamma_0}(1-e^{-G(\omega)}).
+\end{eqnarray}
+Using $S_B[\omega]$ we can calculate the effective thermal occupation of the anti-Stokes phonon mode
+\begin{eqnarray}
+ n_{eff,env} & = & \frac{1}{2\pi L}\int_{-\infty}^{\infty} d \omega \ S_B[\omega]
+ \\
+ & = & n_{th} e^{-G/2}(I_0(G/2) + I_1(G/2))
+\end{eqnarray}
+where the $\omega$-integral can be expressed in terms of modified Bessel function $I_0$ and $I_1$. Moreover, the full-width at half maximum $\Gamma_{aS,env}$ can be calculated from $S_B$ using $S_B[\Gamma_{aS,env}/2]= S_B[0]/2$ giving effective anti-Stokes phonon decay rate derived from the envelope dynamics given by
+\begin{eqnarray}
+    \Gamma_{aS,env} = \Gamma_0\left[ \frac{G}{-\ln\left((1+e^{-G})/2\right)}-1 \right]^{1/2}.
+\end{eqnarray}
+In the limit of small single-pass gain $G$, these results can be compared with the mean-field model, showing agreement to order $G$ for the effective phonon decay rate and order $G^2$ for the effective thermal occupation
+\begin{align}
+& \!\!\!\! n_{eff}  \approx n_{th}(1-G/4+G^2/16- G^3/64 + ...) \\
+& \!\!\!\! n_{eff,env}   \approx  n_{th}(1-G/4+G^2/16- 5G^3/384 + ...)  \\
+& \!\!\!\! \Gamma_{aS}  =  \Gamma_0(1+G/4) \\
+& \!\!\!\! \Gamma_{aS,env}  \approx  \Gamma_0(1+G/4+G^2/32+...).
+\end{align}
+    For the maximum single pass gain explored in this study $G < 0.3$, the results of the mean-field and envelope models agree to better than $0.25 \%$ in effective lifewidths and better than $0.007\%$ in effective thermal occupation. The above analysis is similar for the Stokes process.
+
+\subsection{Separation of time scales required for cooling of travelling wave phonons}
+
+For cooling of travelling wave phonons to occur, anti-Stokes photons must exit the system more rapidly than it takes for the phonon to return to equilibrium, i.e., $4 v_g/L > \Gamma_0$. While the optomechanical cooling dynamics leads to an increase in the phonon relaxation rate $\Gamma_+$ with pump power, as described by Eq. \eqref{eq:gamma}, we will show that a simultaneous increase in the anti-Stokes photon group velocity preserves the required separation of timescales. Noting that the effective anti-Stokes group velocity is given by
+\begin{align}
+v_{g,eff} = \left(
+\frac{\partial {\rm Re}[\Lambda]}
+ {\partial \omega}\right)^{-1}  \approx \left(\frac{1}{v_{g}} - \frac{G_B P_p}{\Gamma_0} \right)^{-1}
+\end{align}
+where $\Lambda$ is defined in Eq. \eqref{lambda} and it is assumed that $\omega$ is near resonance, i.e., $\omega \ll \Gamma_0$ \cite{okawachi2005tunable,gonzalez2005optically}, we find
+\begin{align}
+\frac{4 v_{g,eff}}{L} = \frac{4 v_g/L}{1- \frac{1}{4} \frac{4 v_g/L}{\Gamma_0} G}
+> \Gamma_+ = \Gamma_0(1+G/4).
+\end{align}
+This result shows that even with the changes in the phonon decay rate produced by the cooling dynamics, the requisite separation of timescales are still satisfied  because the Brillouin nonlinearity produces a fast light effect for the participating anti-Stokes photons.
+
+\section{Pump-probe theory}
+\label{SI:pump-probe}
+In this section, we develop a mean-field theory to describe the pump-probe measurements. In these measurements, both pump and probe couple to the same phonon yielding the coupled envelope equations given by
+\begin{eqnarray}
+\label{eq:pump-probe}
+   && \dot{a}_{aS} + \frac{\gamma}{2} a_{aS} = -i g A_p b_{aS} \\
+   && \dot{a}_{sig} + \frac{\gamma}{2} a_{sig} = -i g A_{pr} b_{aS} \\
+   && \dot{b}_{aS} + \frac{\Gamma_0}{2} b_{aS}  = -i g a_{aS} A_p^\dag -i g a_{sig} A_{pr}^\dag + \bar{\xi}_{aS} \quad \quad
+\end{eqnarray}
+where $A_{aS}$ is the anti-Stokes light scattered from the pump $A_p$ and $A_{sig}$ is the anti-Stokes light scattered by the probe the undepleted probe laser $A_{pr}$.
+
+In the quasistatic limit (i.e., $\gamma > \Gamma_0$) and assuming the $|A_p| \gg |A_{pr}|$, the effective phonon dynamics is given by Eq. \eqref{eq:eff-mean-field-2} and the power spectrum of the scattered probe light is given by
+\begin{eqnarray}
+\label{eq:pump-probe-power}
+    S_{sig}[\omega,P_p] && \equiv \int_{-\infty}^\infty d\tau \ e^{i\omega\tau}\langle a^\dag_{sig}(t+\tau) a_{sig} (t) \rangle \nonumber  \\
+   && = \frac{\Gamma_0 G_p L P_{pr} }{4 v_g} \frac{\Gamma_0 n_{th}}{\Gamma_{aS}} \frac{\Gamma_{aS}}{\omega^2 + \Gamma_{aS}^2/4}.
+\end{eqnarray}
+where $P_{pr}$ is the fixed probe power and $\Gamma_{aS}$ is the phonon decay rate dependent upon the pump power defined in Eq. (2) of the main text. This result shows that as $\Gamma_{aS}$ increases, i.e., with increased pump power, the power spectrum broadens and decreases in magnitude. To obtain the theoretical curve shown in Fig. 2c, we use the peak value of $S_{sig}[0,0]$ to determine the constant prefactor in Eq. \eqref{eq:pump-probe-power} where $\Gamma_{aS} \to \Gamma_0$, including the optical to radiofrequency conversion
+\begin{equation}
+    S_{sig}[0,0] = \frac{ G_p L P_{pr} }{ v_g} \frac{n_{th}}{\Gamma_{0}^2}.
+\end{equation}
+Moving out of the rotating frame yields the prediction for the scattered probe power spectrum is
+\begin{eqnarray}
+\label{eq:pump-probe-power-RF}
+    S^{RF}_{sig}[\omega,P_p] = \frac{\Gamma_{0}^2/4}{(\omega-\omega_{pr}-\Omega)^2 + \Gamma_{aS}^2/4} S^{RF}_{sig}[0,0],
+\end{eqnarray}
+and used to plot the theory in Fig. 2e.
+
+\section{Brillouin gain simulations}
+
+We calculate the Brillouin gain spectrum by utilizing finite element simulations of the optical and acoustic modes of the LCOF. By including empirically derived material properties (see Tab. \ref{parameters}) and damping for silica \cite{vacher1981ultrasonic} and CS$_2$ \cite{coakley1975brillouin}, these simulations yield the spatial mode profiles for the electric field ${\bf E}$ and the elastic displacement ${\bf u}$ (Fig. 1c \& d). We obtain the Brillouin gain by evaluating the dissipated mechanical power using the equation
+\begin{equation}
+G_{B} = \frac{\omega_{\rm p}}{\Omega} \frac{1}{P_p P_S} \int_{wg} d^2x \ \langle {\bf f} \cdot \dot{\bf u} \rangle
+\end{equation}
+where $P_p$ and $P_S$ are the respective pump and Stokes powers of the simulated electromagnetic fields, $\Omega$ is the angular frequency of the mechanical mode, ${\bf f}$ is the electrostrictive force density, $\int_{wg}$ is an integral over the waveguide cross-section, and  $\langle  {\bf A}\cdot {\bf B} \rangle$ is the time average of the vector product ${\bf A}\cdot {\bf B}$. For propagation along the z-axis,  the electrostrictive force density ${\bf f}$ is given by
+\begin{align}
+\label{ }
+& f_j = \frac{1}{2} \varepsilon_0 n^4 p_{ijkl} \partial_i(E_k E_l^*)
+\quad {\rm (silica)}
+\\
+& {\bf f} = - \frac{1}{4} \varepsilon_0 \gamma_e \nabla |{\bf E}|^2 \quad ({\rm CS}_2)
+\end{align}
+where $\varepsilon_0$ is the permittivity of vacuum, $n$ is the refractive index, $p_{ijkl}$ is the photoelastic tensor, $\gamma_e$ is the electrostrictive constant, and the Einstein summation convention is assumed for repeated indices. In these expressions, we neglect the modal differences between the pump and the Stokes fields.
+
+Acoustic dissipation critically determines the predicted power spectrum. We account for dissipation by including empirically obtained acoustic quality factors for silica and CS$_2$ in our simulations \cite{coakley1975brillouin,vacher1981ultrasonic}. The parameters used in our simulation are summarized in the table below.
+
+\begin{table}[ht]
+\begin{tabular}{|c|c|c|c|}
+\hline material   & parameter 		& value 		            \\
+\hline CS$_2$ 	& density      		&  1260   kg/m$^3$  	    \\
+ 		& refractive index 		&  1.5885		              \\
+ 		& speed of sound   		&  1226     m/s	             \\
+		&electrostrictive constant ($\gamma_e$)  & 2.297   \\
+  & acoustic quality factor & 23.5 \\
+\hline SiO$_2$ 	&density  		     	&  2203     kg/m$^3$	     \\
+ 		& refractive index  		&  1.445    		    \\
+ 		& Young's modulus		&  73.1     GPa		    \\
+ 		& shear modulus   		&  31.24    GPa		    \\
+ 		& phot. elas. tensor (p$_{11}$,p$_{12}$,p$_{44}$) & (0.125,0.27,-0.073)   \\
+   & acoustic quality factor & 1800 \\
+\hline
+\end{tabular}
+\centering
+\caption{Parameters used in simulations of spontaneous Brillouin scattering spectra.}
+\label{parameters}
+\end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \chapter{Supplementary Information for Chapter \ref{chap:chapter2}: Manuscript II}
 % \label{appendix:chapter2}
 % \acresetall
-
