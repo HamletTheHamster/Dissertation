@@ -93,7 +93,18 @@
 \newcommand{\ohhho}{OH / \hho}
 
 %%%%%%%%%%%%
-\usepackage{sectsty} % 6/26/2022 COC: control style of sectioning (e.g., font size)
+%me-
+\usepackage[immediate]{silence}
+\WarningFilter[temp]{latex}{Command} % silence the warnings from sectsy "\underbar has changed" "\underline has changed"
+\usepackage{sectsty} % 6/26/2022 COC: control style of sectioning (e.g., font size) <- original line
+\DeactivateWarningFilters[temp] % So nothing unrelated gets silenced
+
+\makeatletter % disable the runtime redefinitions
+\let\SS@makeulinesect\relax
+\let\SS@makeulinepartchap\relax
+\makeatother
+%-me
+
 % \allsectionsfont{\sffamily}
 \chapternumberfont{\large}
 \chaptertitlefont{\large}

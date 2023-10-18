@@ -17,48 +17,45 @@ A level-1 auxiliary file: Discussion.aux
 A level-1 auxiliary file: post/z-Acronyms.aux
 A level-1 auxiliary file: post/zz-Appendix.aux
 Database file #1: references.bib
-Warning--I didn't find a database entry for "braden2013"
-Warning--I didn't find a database entry for "behunin2018fundamental"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 30 entries,
+You've used 31 entries,
             3168 wiz_defined-function locations,
-            862 strings with 10312 characters,
-and the built_in function-call counts, 14130 in all, are:
-= -- 1201
-> -- 1067
+            865 strings with 10477 characters,
+and the built_in function-call counts, 14691 in all, are:
+= -- 1248
+> -- 1113
 < -- 9
-+ -- 367
-- -- 408
-* -- 1192
-:= -- 2566
-add.period$ -- 30
-call.type$ -- 30
-change.case$ -- 208
-chr.to.int$ -- 30
-cite$ -- 30
-duplicate$ -- 500
-empty$ -- 850
-format.name$ -- 433
-if$ -- 2854
++ -- 383
+- -- 427
+* -- 1243
+:= -- 2665
+add.period$ -- 31
+call.type$ -- 31
+change.case$ -- 216
+chr.to.int$ -- 31
+cite$ -- 31
+duplicate$ -- 517
+empty$ -- 881
+format.name$ -- 451
+if$ -- 2968
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 98
-num.names$ -- 120
-pop$ -- 252
+missing$ -- 31
+newline$ -- 101
+num.names$ -- 124
+pop$ -- 261
 preamble$ -- 1
-purify$ -- 208
+purify$ -- 216
 quote$ -- 0
-skip$ -- 427
+skip$ -- 444
 stack$ -- 0
-substring$ -- 530
+substring$ -- 556
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 267
+type$ -- 276
 warning$ -- 0
-while$ -- 116
+while$ -- 120
 width$ -- 0
-write$ -- 305
-(There were 2 warnings)
+write$ -- 315
