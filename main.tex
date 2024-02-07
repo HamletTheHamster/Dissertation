@@ -160,7 +160,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \singlespacing
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{3} % depth of sections diplayed in table of contents
 \renewcommand{\contentsname}{Table of Contents}
 \tableofcontents
 \doublespacing
@@ -187,23 +187,27 @@
 
 %%%%%%%%%%%%%%%%%%%% INTRO & METHODS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mainmatter  % Regular numbers
-\include{1-Introduction}
+\include{Introduction}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Experimental}
 
 %%%%%%%%%%%%%%%%%%%% MANUSCRIPT CHAPTERS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\include{2-Cooling}
+\include{Cooling}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \clearpage
-\include{3-CABS}
+\include{CABS}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \clearpage
-\include{4-Raman}
+\include{Raman}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \clearpage
-\include{5-Nano}
+\include{Nano}
 
 %%%%%%%%%%%%%%%%%%%% DISCUSSION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
