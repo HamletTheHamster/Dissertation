@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+A level-1 auxiliary file: pre/0-Title.aux
+A level-1 auxiliary file: pre/0-Abstract.aux
+A level-1 auxiliary file: pre/0-Copyright.aux
+A level-1 auxiliary file: pre/0-Acknowledgements.aux
+A level-1 auxiliary file: pre/1-Dedication.aux
+A level-1 auxiliary file: pre/1-Preface.aux
+A level-1 auxiliary file: Introduction.aux
+A level-1 auxiliary file: Experimental.aux
+A level-1 auxiliary file: Cooling.aux
+A level-1 auxiliary file: CABS.aux
+A level-1 auxiliary file: Raman.aux
+A level-1 auxiliary file: Discussion.aux
+A level-1 auxiliary file: post/A-Acronyms.aux
+A level-1 auxiliary file: post/A-Code.aux
+A level-1 auxiliary file: post/A-Cooling.aux
+A level-1 auxiliary file: post/A-CABS.aux
+A level-1 auxiliary file: post/A-Raman.aux
+Database file #1: references.bib
+Warning--I didn't find a database entry for ""
+Warning--empty journal in maiman1960stimulated
+You've used 4 entries,
+            2481 wiz_defined-function locations,
+            592 strings with 5112 characters,
+and the built_in function-call counts, 1272 in all, are:
+= -- 98
+> -- 56
+< -- 3
++ -- 24
+- -- 16
+* -- 80
+:= -- 215
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 7
+chr.to.int$ -- 4
+cite$ -- 5
+duplicate$ -- 75
+empty$ -- 126
+format.name$ -- 21
+if$ -- 264
+int.to.chr$ -- 1
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 12
+pop$ -- 37
+preamble$ -- 1
+purify$ -- 4
+quote$ -- 0
+skip$ -- 44
+stack$ -- 0
+substring$ -- 26
+swap$ -- 7
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 25
+warning$ -- 1
+while$ -- 10
+width$ -- 0
+write$ -- 56
+(There were 2 warnings)
