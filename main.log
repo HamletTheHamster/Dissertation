@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  29 JUL 2024 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  29 OCT 2024 19:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -920,7 +920,7 @@ File: figs/4-CABS/CABS-100um CS2.png Graphic file (type png)
 Package pdftex.def Info: figs/4-CABS/CABS-100um CS2.png  used on input line 116
 .
 (pdftex.def)             Requested size: 469.75502pt x 469.74944pt.
-) [23] [24] [25 <./figs/4-CABS/CABS-100um CS2.png (PNG copy)>]
+ [23]) [24] [25 <./figs/4-CABS/CABS-100um CS2.png (PNG copy)>]
 \openout2 = `Raman.aux'.
 
  (./Raman.tex [26
