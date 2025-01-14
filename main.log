@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.13)  14 DEC 2024 07:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.13)  14 JAN 2025 06:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -457,6 +457,35 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen185
+\captionmargin=\dimen186
+\caption@leftmargin=\dimen187
+\caption@rightmargin=\dimen188
+\caption@width=\dimen189
+\caption@indent=\dimen190
+\caption@parindent=\dimen191
+\caption@hangindent=\dimen192
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count323
+\c@continuedfloat=\count324
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count325
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count326
+)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
@@ -484,21 +513,21 @@ Package: overpic 2024/01/06 2.1 picture overlays (RN)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count323
-\d@lta=\count324
-\@delta=\dimen185
-\@@delta=\dimen186
-\@gridcnt=\count325
-\@joinkind=\count326
-\@dotgap=\dimen187
-\@ddotgap=\dimen188
-\@x@diff=\count327
-\@y@diff=\count328
-\x@diff=\dimen189
-\y@diff=\dimen190
+\@@multicnt=\count327
+\d@lta=\count328
+\@delta=\dimen193
+\@@delta=\dimen194
+\@gridcnt=\count329
+\@joinkind=\count330
+\@dotgap=\dimen195
+\@ddotgap=\dimen196
+\@x@diff=\count331
+\@y@diff=\count332
+\x@diff=\dimen197
+\y@diff=\dimen198
 \@dotbox=\box69
-\num@segments=\count329
-\num@segmentsi=\count330
+\num@segments=\count333
+\num@segmentsi=\count334
 \@datafile=\read2
 )
 \OVP@box=\box70
@@ -507,21 +536,21 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip60
 \bibsep=\skip61
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count331
+\c@NAT@ctr=\count335
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip62
-\enit@outerparindent=\dimen191
+\enit@outerparindent=\dimen199
 \enit@toks=\toks31
 \enit@inbox=\box71
-\enit@count@id=\count332
-\enitdp@description=\count333
+\enit@count@id=\count336
+\enitdp@description=\count337
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen192
-\c@nlinenum=\count334
+\rotheadsize=\dimen256
+\c@nlinenum=\count338
 \TeXr@lab=\toks32
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
@@ -530,55 +559,30 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \LTright=\skip64
 \LTpre=\skip65
 \LTpost=\skip66
-\LTchunksize=\count335
-\LTcapwidth=\dimen193
+\LTchunksize=\count339
+\LTcapwidth=\dimen257
 \LT@head=\box72
 \LT@firsthead=\box73
 \LT@foot=\box74
 \LT@lastfoot=\box75
 \LT@gbox=\box76
-\LT@cols=\count336
-\LT@rows=\count337
-\c@LT@tables=\count338
-\c@LT@chunks=\count339
+\LT@cols=\count340
+\LT@rows=\count341
+\c@LT@tables=\count342
+\c@LT@chunks=\count343
 \LT@p@ftn=\toks33
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip67
-\multirow@cntb=\count340
+\multirow@cntb=\count344
 \multirow@dima=\skip68
-\bigstrutjot=\dimen194
+\bigstrutjot=\dimen258
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen195
-\captionmargin=\dimen196
-\caption@leftmargin=\dimen197
-\caption@rightmargin=\dimen198
-\caption@width=\dimen199
-\caption@indent=\dimen256
-\caption@parindent=\dimen257
-\caption@hangindent=\dimen258
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count341
-\c@continuedfloat=\count342
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: longtable package is loaded.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen259
 \WF@size=\dimen260
-\c@WF@wrappedlines=\count343
+\c@WF@wrappedlines=\count345
 \WF@box=\box77
 \WF@everypar=\toks34
 Package: wrapfig 2003/01/31  v 3.6
@@ -586,23 +590,23 @@ Package: wrapfig 2003/01/31  v 3.6
 (/usr/local/texlive/2024/texmf-dist/tex/latex/silence/silence.sty
 Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error mes
 sages
-\sl@Save=\count344
-\sl@StateNumber=\count345
-\sl@MessageCount=\count346
-\sl@Casualties=\count347
+\sl@Save=\count346
+\sl@StateNumber=\count347
+\sl@MessageCount=\count348
+\sl@Casualties=\count349
 \sl@Filter=\toks35
 \sl@Message=\toks36
 \sl@UnexpandedMessage=\toks37
 \sl@Mess@ge=\toks38
-\sl@WarningCount=\count348
-\sl@WarningNumber=\count349
-\sl@WarningCasualties=\count350
+\sl@WarningCount=\count350
+\sl@WarningNumber=\count351
+\sl@WarningCasualties=\count352
 \sl@TempBOW=\toks39
 \sl@BankOfWarnings=\toks40
 LaTeX Info: Redefining \GenericWarning on input line 433.
-\sl@ErrorCount=\count351
-\sl@ErrorNumber=\count352
-\sl@ErrorCasualties=\count353
+\sl@ErrorCount=\count353
+\sl@ErrorNumber=\count354
+\sl@ErrorCasualties=\count355
 \sl@TempBOE=\toks41
 \sl@BankOfErrors=\toks42
 LaTeX Info: Redefining \GenericError on input line 601.
@@ -611,8 +615,8 @@ LaTeX Info: Redefining \GenericError on input line 601.
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
-\c@rownumber=\count354
-\c@tabfoot=\count355
+\c@rownumber=\count356
+\c@tabfoot=\count357
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -620,7 +624,7 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count356
+\c@r@tfl@t=\count358
 \rotFPtop=\skip69
 \rotFPbot=\skip70
 \rot@float@box=\box78
@@ -636,7 +640,7 @@ F (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 188.
+h' as default language. on input line 189.
  (./main.aux (./pre/0-Title.aux) (./pre/0-Abstract.aux)
 (./pre/0-Copyright.aux) (./pre/0-Acknowledgements.aux) (./pre/1-Dedication.aux)
 (./pre/1-Preface.aux) (./Introduction.aux) (./Experimental.aux) (./Cooling.aux)
@@ -645,25 +649,25 @@ h' as default language. on input line 188.
 (./post/A-Raman.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-Package hyperref Info: Link coloring ON on input line 188.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 189.
+LaTeX Font Info:    ... okay on input line 189.
+Package hyperref Info: Link coloring ON on input line 189.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -675,7 +679,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 188.
+or `english'. on input line 189.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -713,16 +717,16 @@ or `english'. on input line 188.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
+\scratchcounter=\count359
 \scratchdimen=\dimen261
 \scratchbox=\box79
-\nofMPsegments=\count358
-\nofMParguments=\count359
+\nofMPsegments=\count360
+\nofMParguments=\count361
 \everyMPshowfont=\toks44
-\MPscratchCnt=\count360
+\MPscratchCnt=\count362
 \MPscratchDim=\dimen262
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
+\MPnumerator=\count363
+\makeMPintoPDFobject=\count364
 \everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -741,23 +745,28 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count363
-\symgns@font=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 188.
-Package gensymb Info: Math companion symbols declared on input line 188.
-LaTeX Info: Redefining \degree on input line 188.
-LaTeX Info: Redefining \celsius on input line 188.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 188.
-LaTeX Info: Redefining \ohm on input line 188.
-Package gensymb Info: Using \textohm for \ohm on input line 188.
-LaTeX Info: Redefining \micro on input line 188.
-Package gensymb Info: Using \textmu for \micro on input line 188.
+\c@lstlisting=\count365
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\symgns@font=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 189.
+Package gensymb Info: Math companion symbols declared on input line 189.
+LaTeX Info: Redefining \degree on input line 189.
+LaTeX Info: Redefining \celsius on input line 189.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 189.
+LaTeX Info: Redefining \ohm on input line 189.
+Package gensymb Info: Using \textohm for \ohm on input line 189.
+LaTeX Info: Redefining \micro on input line 189.
+Package gensymb Info: Using \textmu for \micro on input line 189.
 \openout2 = `pre/0-Title.aux'.
 
 
@@ -841,7 +850,7 @@ Chapter 1.
 
 
 ] [2]
-<figs/1-Intro/Boyd scattering frequency shift domains.png, id=474, 730.22812pt 
+<figs/1-Intro/Boyd scattering frequency shift domains.png, id=499, 730.22812pt 
 x 160.34906pt>
 File: figs/1-Intro/Boyd scattering frequency shift domains.png Graphic file (ty
 pe png)
@@ -855,7 +864,7 @@ although it is yet undefined on input line 37.
 Package acronym Info: Label `acro:CABS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 47.
-<figs/1-Intro/Boyd homogeneous material no scatter.png, id=497, 748.29562pt x 3
+<figs/1-Intro/Boyd homogeneous material no scatter.png, id=521, 748.29562pt x 3
 93.72093pt>
 File: figs/1-Intro/Boyd homogeneous material no scatter.png Graphic file (type 
 png)
@@ -903,71 +912,71 @@ Chapter 3.
 
 
 
-] [16] [17]) [18]
+] [16] [17] [18] [19]) [20] [21]
 \openout2 = `CABS.aux'.
 
- (./CABS.tex
+ (./CABS.tex [22
+
+
+
+
+]
 Chapter 4.
-[19
-
-
-
-
-] [20] [21] [22]
-<figs/4-CABS/CABS-100um CS2.png, id=604, 1445.4pt x 1445.4pt>
+[23] [24] [25] [26]
+<figs/4-CABS/CABS-100um CS2.png, id=644, 1445.4pt x 1445.4pt>
 File: figs/4-CABS/CABS-100um CS2.png Graphic file (type png)
 <use figs/4-CABS/CABS-100um CS2.png>
-Package pdftex.def Info: figs/4-CABS/CABS-100um CS2.png  used on input line 116
+Package pdftex.def Info: figs/4-CABS/CABS-100um CS2.png  used on input line 115
 .
 (pdftex.def)             Requested size: 469.75502pt x 469.74944pt.
- [23]) [24] [25 <./figs/4-CABS/CABS-100um CS2.png (PNG copy)>]
+ [27]) [28] [29 <./figs/4-CABS/CABS-100um CS2.png (PNG copy)>]
 \openout2 = `Raman.aux'.
 
- (./Raman.tex [26
+ (./Raman.tex [30
 
 
 
 
 ]
 Chapter 5.
-[27] [28]) [29]
+[31] [32]) [33]
 \openout2 = `Discussion.aux'.
 
- (./Discussion.tex [30
+ (./Discussion.tex [34
 
 
 
 
 ]
 Chapter 6.
-) [31]
+) [35]
 \openout2 = `post/A-Acronyms.aux'.
 
- (./post/A-Acronyms.tex [32
+ (./post/A-Acronyms.tex [36
 
 
 
 
 ]
 Appendix A.
-) [33]
+) [37]
 \openout2 = `post/A-Code.aux'.
 
- (./post/A-Code.tex [34
+ (./post/A-Code.tex [38
 
 
 
 
 ]
 Appendix B.
-[35]) [36
+[39]) [40
 
 ]
 \openout2 = `post/A-Cooling.aux'.
 
  (./post/A-Cooling.tex
 Appendix C.
-) [37
+) [41
 
 
 
@@ -975,46 +984,129 @@ Appendix C.
 ]
 \openout2 = `post/A-CABS.aux'.
 
- (./post/A-CABS.tex [38
+ (./post/A-CABS.tex [42
 
 
 
 
 ]
 Appendix D.
-) [39]
+
+LaTeX Warning: Reference `Eq:Theoretical Framework:Scattered Power' on page 43 
+undefined on input line 8.
+
+
+Overfull \hbox (25.39558pt too wide) in paragraph at lines 15--24
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `Eq:Theoretical Framework:Scattered Power' on page 43 
+undefined on input line 28.
+
+[43]
+<figs/4-CABS/PSPr-Contribute-Equally.pdf, id=727, 1084.05pt x 1084.05pt>
+File: figs/4-CABS/PSPr-Contribute-Equally.pdf Graphic file (type pdf)
+<use figs/4-CABS/PSPr-Contribute-Equally.pdf>
+Package pdftex.def Info: figs/4-CABS/PSPr-Contribute-Equally.pdf  used on input
+ line 48.
+(pdftex.def)             Requested size: 211.38832pt x 211.38063pt.
+<figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf, id=728, 1084.05pt x 1084.05pt>
+
+File: figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf Graphic file (type pdf)
+<use figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf>
+Package pdftex.def Info: figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf  used o
+n input line 55.
+(pdftex.def)             Requested size: 211.38832pt x 211.38063pt.
+
+
+LaTeX Warning: Reference `Eq:Theoretical Framework:Scattered Power' on page 44 
+undefined on input line 66.
+
+[44 <./figs/4-CABS/PSPr-Contribute-Equally.pdf> <./figs/4-CABS/PSPr-Contribute-
+Equally-2sigma.pdf
+
+pdfTeX warning: pdflatex (file ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+Package natbib Warning: Citation `boyd1990noise' on page 45 undefined on input 
+line 68.
+
+[45]
+
+Package natbib Warning: Citation `boyd1990noise' on page 46 undefined on input 
+line 101.
+
+
+Package natbib Warning: Citation `ippen1972stimulated' on page 46 undefined on 
+input line 101.
+
+
+Package natbib Warning: Citation `boyd1990noise' on page 46 undefined on input 
+line 103.
+
+[46]
+
+LaTeX Warning: Reference `Eq:Theoretical Framework:Scattered Power' on page 47 
+undefined on input line 128.
+
+
+Overfull \hbox (17.28511pt too wide) in paragraph at lines 147--156
+ [] 
+ []
+
+
+LaTeX Warning: Reference `Eq:Phi' on page 47 undefined on input line 160.
+
+[47]
+<figs/4-CABS/SponBSvsStimBSvsCoBS.pdf, id=785, 715.93271pt x 427.14142pt>
+File: figs/4-CABS/SponBSvsStimBSvsCoBS.pdf Graphic file (type pdf)
+<use figs/4-CABS/SponBSvsStimBSvsCoBS.pdf>
+Package pdftex.def Info: figs/4-CABS/SponBSvsStimBSvsCoBS.pdf  used on input li
+ne 164.
+(pdftex.def)             Requested size: 469.75502pt x 280.27176pt.
+) [48 <./figs/4-CABS/SponBSvsStimBSvsCoBS.pdf>]
 \openout2 = `post/A-Raman.aux'.
 
- (./post/A-Raman.tex [40
-
-
-
-
-]
+ (./post/A-Raman.tex
 Appendix E.
-) [41] (./main.bbl [42
+) [49
 
 
 
-]) [43] (./main.aux (./pre/0-Title.aux)
-(./pre/0-Abstract.aux) (./pre/0-Copyright.aux) (./pre/0-Acknowledgements.aux)
-(./pre/1-Dedication.aux) (./pre/1-Preface.aux) (./Introduction.aux)
-(./Experimental.aux) (./Cooling.aux) (./CABS.aux) (./Raman.aux)
-(./Discussion.aux) (./post/A-Acronyms.aux) (./post/A-Code.aux)
-(./post/A-Cooling.aux) (./post/A-CABS.aux) (./post/A-Raman.aux))
+
+] (./main.bbl [50
+
+
+
+])
+
+Package natbib Warning: There were undefined citations.
+
+[51] (./main.aux (./pre/0-Title.aux) (./pre/0-Abstract.aux)
+(./pre/0-Copyright.aux) (./pre/0-Acknowledgements.aux) (./pre/1-Dedication.aux)
+(./pre/1-Preface.aux) (./Introduction.aux) (./Experimental.aux) (./Cooling.aux)
+(./CABS.aux) (./Raman.aux) (./Discussion.aux) (./post/A-Acronyms.aux)
+(./post/A-Code.aux) (./post/A-Cooling.aux) (./post/A-CABS.aux)
+(./post/A-Raman.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B5299A26767108B56E552B863E5F5012;14625.
+(rerunfilecheck)             Checksum: 493A80C9E207FED818F7E9D7E7945724;15062.
  ) 
 Here is how much of TeX's memory you used:
- 21332 strings out of 474116
- 402623 string characters out of 5743681
- 1945187 words of memory out of 5000000
- 43124 multiletter control sequences out of 15000+600000
- 569919 words of font info for 78 fonts, out of 8000000 for 9000
+ 21517 strings out of 474116
+ 406696 string characters out of 5743681
+ 1946187 words of memory out of 5000000
+ 43278 multiletter control sequences out of 15000+600000
+ 571534 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  79i,11n,93p,1541b,1136s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1035,23 +1127,29 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
-/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-24/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/202
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/
-texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (53 pages, 537207 bytes).
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/
+local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/lo
+cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/loca
+l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/20
+24/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (61 pages, 1167696 bytes).
 PDF statistics:
- 804 PDF objects out of 1000 (max. 8388607)
- 706 compressed objects within 8 object streams
- 155 named destinations out of 1000 (max. 500000)
- 640 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 982 PDF objects out of 1000 (max. 8388607)
+ 819 compressed objects within 9 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 663 words of extra memory for PDF output out of 10000 (max. 10000000)
 
