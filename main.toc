@@ -73,7 +73,10 @@
 \contentsline {chapter}{\numberline {D}Supplementary Information for Chapter \ref {ch:CABS}: Manuscript II}{43}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Equal Contribution of Pump, Stokes, and Probe Optical Fields}{43}{section.D.1}%
 \contentsline {section}{\numberline {D.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{44}{section.D.2}%
-\contentsline {section}{\numberline {D.3}Data}{48}{section.D.3}%
-\contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{49}{appendix.E}%
-\contentsline {section}{\numberline {E.1}Data}{49}{section.E.1}%
-\contentsline {chapter}{References}{50}{section*.22}%
+\contentsline {section}{\numberline {D.3}Observance of Fano-Resonant Asymmetries at Small Signals}{49}{section.D.3}%
+\contentsline {subsection}{\numberline {D.3.1}Experiment A: Extended 1\,cm UHNA3 Fiber Spectra}{49}{subsection.D.3.1}%
+\contentsline {subsection}{\numberline {D.3.2}Experiment B: 1\,mm \ce {CS2} Spectra and Fano Distortions}{51}{subsection.D.3.2}%
+\contentsline {section}{\numberline {D.4}Data}{55}{section.D.4}%
+\contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{57}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Data}{57}{section.E.1}%
+\contentsline {chapter}{References}{58}{section*.25}%

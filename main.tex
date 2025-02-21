@@ -15,6 +15,7 @@
 
 \usepackage[nointegrals]{wasysym}
 \usepackage{siunitx}
+\usepackage{mhchem}
 \usepackage{mathtools} % loads amsmath also
 
 \usepackage[letterpaper, portrait, margin=1in]{geometry}
@@ -33,6 +34,7 @@
 \usepackage{listings} % to display code blocks
 \usepackage{xcolor} % For defining custom colors
 \usepackage{subcaption}
+\usepackage{placeins}
 
 % Define custom colors
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -70,25 +72,26 @@
         {³}{{\textsuperscript{3}}}1, % Replace ³ with superscript 3
 }
 
-\makeatletter
-\newcommand*{\org@overidelabel}{}
-\let\org@overridelabel\@verridelabel
-\@ifpackagelater{acronym}{2015/03/21}{% v1.41
-  \renewcommand*{\@verridelabel}[1]{%
-    \@bsphack
-    \protected@write\@auxout{}{\string\AC@undonewlabel{#1@cref}}%
-    \org@overridelabel{#1}%
-    \@esphack
-  }%
-}{% older versions
-  \renewcommand*{\@verridelabel}[1]{%
-    \@bsphack
-    \protected@write\@auxout{}{\string\undonewlabel{#1@cref}}%
-    \org@overridelabel{#1}%
-    \@esphack
-  }%
-}
-\makeatother
+% (Note to self: acronym package updated and broke this block)
+% \makeatletter
+% \newcommand*{\org@overidelabel}{}
+% \let\org@overridelabel\@verridelabel
+% \@ifpackagelater{acronym}{2015/03/21}{% v1.41
+%   \renewcommand*{\@verridelabel}[1]{%
+%     \@bsphack
+%     \protected@write\@auxout{}{\string\AC@undonewlabel{#1@cref}}%
+%     \org@overridelabel{#1}%
+%     \@esphack
+%   }%
+% }{% older versions
+%   \renewcommand*{\@verridelabel}[1]{%
+%     \@bsphack
+%     \protected@write\@auxout{}{\string\undonewlabel{#1@cref}}%
+%     \org@overridelabel{#1}%
+%     \@esphack
+%   }%
+% }
+% \makeatother
 
 \acrodef{ac}{Acronym}
 
