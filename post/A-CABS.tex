@@ -349,7 +349,7 @@ where $x = P_S(0)/P_P(0)$, or the ratio of the unknown Stokes power at the end o
 
 The solution to this numeric approach to scattered power in the high-gain (stimulated) Brillouin scattering regime with pump depletion effects at large $G$ is plotted for varying effective lengths in Fig. \ref{fig:SponBSvsStimBSvsCoBS}, along with the analytical solutions derived previously for the low-gain (spontaneous) regime and our coherently stimulated Brillouin spectrometer given by Eq. \ref{Eq:Theoretical Framework:Scattered Power}. System parameters used to generate the plot for each of the three processes are provided in Tables \ref{tab:CoBS Parameters} and \ref{tab:SBS Parameters}. Wherever possible, the parameters shared by all three Brillouin scattering processes were kept consistent, while quantities unique to each process were assigned their respective values.
 
-\begin{table}[h]
+\begin{table}[ht]
   \centering
   \textbf{Coherently Stimulated Brillouin Scattering Process Model System Parameters}
   \renewcommand{\arraystretch}{1.2}
@@ -364,7 +364,7 @@ The solution to this numeric approach to scattered power in the high-gain (stimu
   \label{tab:CoBS Parameters}
 \end{table}
 
-\begin{table}[h]
+\begin{table}[ht]
   \centering
   \textbf{Spontaneous and Stimulated Scattering Process Model System Parameters}
   \renewcommand{\arraystretch}{1.2}
@@ -381,7 +381,7 @@ The solution to this numeric approach to scattered power in the high-gain (stimu
 
 At lengths beyond a centimeter, the phase-matching relaxation of the coherently stimulated process begins to break down, and the specific choice in pump and probe detuning becomes critical. This corresponds to a narrowing of the $sinc^{2}$ function given in Eq. \ref{Eq:Phi}. The scattered power beyond this length rises and falls according to the oscillations of the $sinc^{2}$ function far from the origin. As length increases continuously beyond 1 meter, the scattered power oscillates with increasing frequency and ceases to offer practical significance. To better visualize the scattered power offered by the instrument in this region, we have computed the envelope of scattered power. In a laboratory setting, the appropriate pump and probe detuning would be selected for the specific sample length being measured such that the scattered power function lies on a local peak of the $sinc^{2}$ function.
 
-\begin{figure}[t]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{figs/4-CABS/SponBSvsStimBSvsCoBS.pdf}
 \caption{Comparison of scattered power from a spontaneous Brillouin scattering process and our coherently stimulated Brillouin spectrometer.}
@@ -390,6 +390,8 @@ At lengths beyond a centimeter, the phase-matching relaxation of the coherently 
 
 Fig. \ref{fig:SponBSvsStimBSvsCoBS} shows the advantage that our coherently stimulated Brillouin spectrometer offers compared to the traditional Brillouin processes for the example medium of UHNA3 fiber. For lengths up to about 50 meters and down to as low as 100 nanometers, the coherently stimulated process employed by our instrument offers superior scattered power, with the relative advantage peaking for a length just under 1 cm. At this length, the gain factor $G$ places the traditional process within the low-gain (spontaneous) regime, and thus the scattered power generated is only on the order of 10s of picoWatts. In contrast, the scattered power for the same system offered by our instrument is on the order of 10s of microWatts, exceeding that of the spontenous process by a factor of a million. This is, of course, the most ideal case for this system, however it can be seen from Fig. \ref{fig:SponBSvsStimBSvsCoBS} that the coherently stimulated process offers orders of magnitude more scattered power than either traditional process through a wide range of lengths.
 
+\newpage
+
 %--------------------------------------------------------------------%
 
 \section{Observance of Fano-Resonant Asymmetries at Small Signals}
@@ -397,14 +399,14 @@ Fig. \ref{fig:SponBSvsStimBSvsCoBS} shows the advantage that our coherently stim
 
 In \textit{Fano-Resonant Asymmetries at Small Signals} in Sec.~\ref{Results}) of the main text, we discussed how Fano-type interference can distort Brillouin line shapes in situations where the resonant Brillouin amplitude becomes comparable to the background continuum. We focus here on two experiments (A and B) that reveal these Fano asymmetries especially clearly. Experiment~A is a measurement series using the same \SI{1}{\centi\meter} UHNA3 fiber referenced in the main discussion, for which the main text showed only the fitted amplitudes (Fig.~\ref{fig:Phase-Match}). Here we show the full spectra, illustrating the emergence of asymmetries at lower amplitude conditions. Experiment~B is a distinct measurement involving a short (\(\sim\)\SI{1}{\milli\meter}) bulk liquid sample of carbon disulfide (\ce{CS2}) that we briefly mentioned in Sec.~\ref{Results:Fano-Resonant Asymmetries at Small Signals} but did not detail. This experiment was performed specifically to further probe the unexpected Fano-like distortions observed in Experiment~A. In each case, we outline the experimental setup, present the spectra, and highlight the appearance of Fano resonances. These observations corroborate the theoretical discussion of Fano line shapes (Sec.~\ref{Results:Fano-Resonant Asymmetries at Small Signals}) and provide insight into when and why they are most prominent.
 
-\subsection{Experiment A: Extended 1\,cm UHNA3 Fiber Spectra}
+\subsection{Experiment A: Extended \SI{1}{\centi\meter} UHNA3 Fiber Spectra}
 \label{Appendix:Fano:Experiment A}
 
 In the main text, we introduced a phase-matching experiment on \SI{1}{\centi\meter} of UHNA3 fiber in which the pump--probe detuning was varied from \SI{5}{\giga\hertz} to \SI{42}{\giga\hertz} in \SI{0.5}{\giga\hertz} increments. There, we reported only the resulting peak amplitudes, showing how they follow a \(\mathrm{sinc^{2}}\) dependence on detuning (Fig.~\ref{fig:Phase-Match} in the main text). However, each measurement in that scan also yields a full Brillouin spectrum—75 in total. Here, we present all 75 spectra to illustrate how the line shape transitions from nearly Lorentzian (when the Brillouin peak amplitude greatly exceeds the background continuum) to distinctly Fano-like (when the two amplitudes are comparable). We used the same setup and procedure described in \textit{Phase Matching Characterization} in Sec.~\ref{Results} of the main text. As the pump-probe detuning increases, the phase-matching term \(\mathrm{sinc^{2}(\Delta kL/2)}\) oscillates through peaks and troughs, causing the Brillouin peak amplitude to rise and fall. When the amplitude is sufficiently large, the Brillouin mode dominates the continuum and the spectrum appears nearly Lorentzian; when it drops to the order of the background amplitude, strong interference skews the line shape into a Fano-like profile.
 
-\begin{figure}[h!]
+\begin{figure}[ht]
 \centering
-\includegraphics[height=0.95\textheight]{figs/4-CABS/JoyDivisionCABSUHNA3.pdf}
+\includegraphics[height=0.90\textheight]{figs/4-CABS/JoyDivisionCABSUHNA3.pdf}
 \caption{Stacked Brillouin spectra showing Fano‐type line‐shape distortions at small signals in a \SI{1}{\centi\meter} UHNA3 fiber. Each trace corresponds to a different pump–probe detuning, revealing the discrete Brillouin resonance (near \SI{9.17}{\giga\hertz}) interfering with a broad continuum background. The resulting asymmetries highlight the characteristic Fano-resonant behavior under low signal conditions.}
 \label{fig:Joy Division UHNA3}
 \end{figure}
@@ -413,14 +415,14 @@ In the main text, we introduced a phase-matching experiment on \SI{1}{\centi\met
 
 Figure~\ref{fig:Joy Division UHNA3} highlights the progressive shift from Lorentzian to asymmetric line shapes. Near \SI{5}{\giga\hertz} detuning (top spectra), the resonant amplitude is large relative to the background, giving a classic Lorentzian peak (\(q\to\infty\)) at \(\sim\)\SI{9.17}{\giga\hertz}. By contrast, at detunings between \(\sim\)15-\SI{20}{\giga\hertz} (where the \(\mathrm{sinc^{2}}\) factor is near a local minimum), the peak amplitude falls to roughly the same level as the continuum, and Fano interference is observed. Interestingly, as the detuning is increased further, and the amplitude rises again on a subsequent \(\mathrm{sinc^{2}}\) “lobe,”, the spectra partly recover a Lorentzian shape. This cyclical behavior persists, with each local maximum yielding a near-Lorentzian profile and each local minimum reintroducing a strong Fano distortion. These observations confirm the relationship between Brillouin peak amplitude and continuum interference described in \textit{Fano-Resonant Asymmetries at Small Signals} in Sec.~\ref{Results}. When the Brillouin amplitude significantly exceeds the background, the discrete phonon resonance dominates, resulting in little or no asymmetry (\(q\to\pm\infty\)). Once the two amplitudes become comparable, Fano interference skews the line shape, shifting the apparent peak frequency slightly and altering the slope on one side of the resonance. Analyzing selected spectra with both Lorentzian and Fano fits indicates that ignoring these distortions can lead to up to a 5–10\% misestimation of peak amplitude in the “trough” (low-amplitude) sets. This underscores the importance of employing a Fano model—particularly in small-signal measurements where the Brillouin peak may not tower over the background.
 
-\subsection{Experiment B: 1\,mm \ce{CS2} Spectra and Fano Distortions}
+\subsection{Experiment B: \SI{1}{\milli\meter} \texorpdfstring{\ce{CS2}}{CS2} Spectra and Fano Distortions}
 \label{Appendix:Fano:Experiment B}
 
 We now turn to measurements on a \SI{1}{\milli\meter}-thick cell of \ce{CS2} in a free-space geometry, complementing the \SI{1}{\centi\meter} UHNA3 fiber results (Experiment~A). Both experiments used comparable sub-Watt optical powers (on the order of \(\sim\)60–\SI{70}{\milli\watt} pump, \(\sim\)25–\SI{30}{\milli\watt} Stokes, and \(\sim\)40–\SI{50}{\milli\watt} probe). However, unlike Experiment~A—which probed a \SI{1}{\centi\meter} fiber with \SI{0.5}{\giga\hertz} detuning increments from \SI{5}{\giga\hertz} to \SI{42}{\giga\hertz}—here the detuning is stepped in \SI{0.25}{\giga\hertz} increments between \SI{10}{\giga\hertz} and \SI{14}{\giga\hertz}. Because the \ce{CS2} sample is an order of magnitude shorter (\SI{1}{\milli\meter} vs.\ \SI{1}{\centi\meter}), its phase-matching bandwidth (\(\mathrm{sinc}^{2}\) profile) is roughly ten times wider, making these \SI{0.25}{\giga\hertz} steps effectively twenty times finer than the \SI{0.5}{\giga\hertz} steps used in the fiber experiment. This reduced range of detunings within a broader \(\mathrm{sinc^2}\) profile produce measured peaks all of similar amplitude to one another, as opposed to the dynamic evolution of peaks in the \SI{1}{\centi\meter} UHNA3 fiber data.
 
 Figure~\ref{fig:Joy Division CS2} shows all 17 spectra obtained at detuning increments of \SI{0.25}{\giga\hertz}, presented in order of increasing detuning from top spectrum to bottom spectrum. Each trace is offset vertically for clarity, with the topmost spectrum corresponding to \SI{10}{\giga\hertz} and the bottom spectrum corresponding to \SI{14}{\giga\hertz} detuning of the pump and the probe. A change in the detuning of the pump and probe via adjustment of the probe laser wavelength produces a change in phase of the resonant Brillouin signal. This changing resonant Brillouin phase relative to the background continuum produces spectra with different Fano-resonant distortions corresponding to specific values of the Fano parameter, \(q\), as discussed in \textit{Fano-Resonant Asymmetries at Small Signals} (Sec.~\ref{Results}). Fano-resonant asymmetries are seen in nearly every spectrum of this liquid experiment, indicating that the background continuum is competing strongly with the Brillouin amplitude in all measurements. This lower Brillouin amplitude is owing to the order of magnitude shorter sample length and roughly two orders of magnitude larger effective area in our free-space configuration compared to that of the UHNA3 fiber in Experiment~A.
 
-\begin{figure}[h!]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.7\textwidth]{figs/4-CABS/JoyDivisionCABSCS2.pdf}
   \caption{All measured Brillouin spectra for \SI{1}{\milli\meter}\,\ce{CS2} at detuning steps of \SI{0.25}{\giga\hertz} from \SI{10}{\giga\hertz} (top spectrum) to \SI{14}{\giga\hertz} (bottom spectrum). Each trace is offset for clarity.}
@@ -431,28 +433,42 @@ Figure~\ref{fig:Joy Division CS2} shows all 17 spectra obtained at detuning incr
 
 %!!! Talks about a lorentzian vs fano fit, which isn't shown yet in the plot!!!
 %VVV
-To illustrate the strong distinction in line-shape of a spectra resulting from a positive vs. negative \(q\) value, we focus on two particular detunings that yielded notably skewed line shapes: \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}. Figure~\ref{fig:CS2FanoLorentzCompare} compares the spectra for these two detunings normalized relative to the slightly larger peak amplitude of the \SI{11}{\giga\hertz} spectra. The line-shape of the \SI{11}{\giga\hertz} spectrum exhibits a sharper rise on the higher-frequency side and a gentler roll-off on the lower-frequency side, indicative of \(q<0\), whereas that of the \SI{13}{\giga\hertz} spectrum is skewed in the opposite way, featuring a sharper low-frequency side and a softer high-frequency slope, suggesting \(q>0\). Clearly, the Fano model captures the asymmetric spectral line-shape better than a simple Lorentzian, especially around the half-maximum slopes.
+To illustrate the strong distinction in line-shape of a spectra resulting from a positive vs. negative \(q\) value, we focus on two particular detunings that yielded notably skewed line shapes: \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}. Figures~\ref{fig:CS2FanoCompare} and \ref{fig:CS2LorentzCompare} compare the spectra for these two detunings normalized relative to the slightly larger peak amplitude of the \SI{11}{\giga\hertz} spectra. The line-shape of the \SI{11}{\giga\hertz} spectrum exhibits a sharper rise on the higher-frequency side and a gentler roll-off on the lower-frequency side, indicative of \(q<0\), whereas that of the \SI{13}{\giga\hertz} spectrum is skewed in the opposite way, featuring a sharper low-frequency side and a softer high-frequency slope, suggesting \(q>0\). Clearly, the Fano model captures the asymmetric spectral line-shape better than a simple Lorentzian, especially around the half-maximum slopes.
 
 Notably, in the negative-\(q\) case (\SI{11}{\giga\hertz}), the line’s peak amplitude appears slightly higher than what would be inferred from a Lorentzian fit—sometimes referred to as a “peak boost.” As discussed in \textit{Fano-Resonant Asymmetries at Small Signals} (Sec.~\ref{Results}), this can be beneficial for detecting weaker signals, provided the background is not too noisy, and in principle, one could choose a phase relationship that maximizes this constructive interference near resonance. Conversely, a positive-\(q\) scenario can suppress or broaden the peak on one side, which may be less desirable for line-shape analysis but could be exploited if one aims to shape the response profile in a particular way.
 
-\begin{figure}[h!]
+\begin{figure}[ht]
   \centering
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{figs/4-CABS/CS2FanoCompare.pdf}
-    \caption{}
-    \label{fig:CS2FanoCompare}
-  \end{subfigure}%
-  \hfill
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{figs/4-CABS/CS2LorentzCompare.pdf}
-    \caption{}
-    \label{fig:CS2LorentzCompareB}
-  \end{subfigure}
-  \caption{Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs.\ negative \(q\) asymmetry in 1\,mm CS\textsubscript{2}. }
-  \label{fig:CS2FanoLorentzCompare}
+  \includegraphics[width=\textwidth]{figs/4-CABS/CS2FanoCompare.pdf}
+  \caption{Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs. negative \(q\) asymmetry in \SI{1}{\milli\meter} \ce{CS2}. A Fano function fit has been applied to each spectra, with \(\chi^{2}\) value for each fit listed in the plot legend.}
+  \label{fig:CS2FanoCompare}
 \end{figure}
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{figs/4-CABS/CS2LorentzCompare.pdf}
+  \caption{Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs.\ negative \(q\) asymmetry in \SI{1}{\milli\meter} \ce{CS2}. Here, a naive Lorentz function fit has been applied to each spectra, with \(\chi^{2}\) value for each fit listed in the plot legend. These spectra show strong Fano-resonant asymmetry and thus the standard Lorentz function offers a poor fit for these spectra, quantified by the \(\chi^{2}\) evaluation metric for goodness of fit as compared to the same evaluation of the Fano function fit.}
+  \label{fig:CS2LorentzCompare}
+\end{figure}
+
+% \begin{figure}[h!]
+%   \centering
+%   \begin{subfigure}{0.45\textwidth}
+%     \centering
+%     \includegraphics[width=\textwidth]{figs/4-CABS/CS2FanoCompare.pdf}
+%     \caption{}
+%     \label{fig:CS2FanoCompare}
+%   \end{subfigure}%
+%   \hfill
+%   \begin{subfigure}{0.45\textwidth}
+%     \centering
+%     \includegraphics[width=\textwidth]{figs/4-CABS/CS2LorentzCompare.pdf}
+%     \caption{}
+%     \label{fig:CS2LorentzCompareB}
+%   \end{subfigure}
+%   \caption{Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs.\ negative \(q\) asymmetry in 1\,mm CS\textsubscript{2}. }
+%   \label{fig:CS2FanoLorentzCompare}
+% \end{figure}
 
 \FloatBarrier
 
@@ -476,7 +492,7 @@ Equation \ref{Eq:Theoretical Framework:Scattered Power} gives the somewhat unint
 
 To test this, we conducted a controlled experiment with a 1 mm carbon disulfide ($CS_{2}$) sample. For each measurement, one of the three source powers (Pump, Stokes, or Probe) was systematically reduced by 75\% while holding the others constant and ensuring consistent experimental conditions across trials. Table \ref{tab:PSPr-Contribute-Equally} shows the respective powers for each source during the three measurements, along with the multiplicative total contribution of the three powers for each measurement towards the generation of scattered power of the Signal.
 
-\begin{table}[h]
+\begin{table}[ht]
   \centering
   \renewcommand{\arraystretch}{1.2}
   \begin{tabular}{|>{\centering\arraybackslash}m{2.5cm}|>{\centering\arraybackslash}m{2.5cm}|>{\centering\arraybackslash}m{2.5cm}|>{\centering\arraybackslash}m{2.5cm}|>{\centering\arraybackslash}m{2.5cm}|}
@@ -498,37 +514,41 @@ To test this, we conducted a controlled experiment with a 1 mm carbon disulfide 
 
 Figure \ref{fig:PSPr-Contribute-Equally} displays the average results from these three measurements, plotted with error bars representing one standard deviation of the mean. For increased certainty, Figure \ref{fig:PSPr-Contribute-Equally-2sigma} presents the same data with error bars extended to two standard deviations, providing additional confidence in the reproducibility of the results. This experiment confirms that the scattered Signal power indeed depends equally on each of the three contributing wave powers, as expected from the theoretical framework. Consequently, boosting the power of any of the three sources affects the Signal power equally, allowing flexibility in pragmatic design across any of the three lines. Ultimately, this result reinforces the reliability of Equation \ref{Eq:Theoretical Framework:Scattered Power} for predicting Signal power across a range of power distributions within practical settings.
 
-% \begin{figure}[h]
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{figs/4-CABS/PSPr-Contribute-Equally.pdf}
+  \caption{Signal power contributions with error bars representing one standard deviation of the mean for each measurement.}
+  \label{fig:PSPr-Contribute-Equally}
+\end{figure}
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf}
+  \caption{Signal power contributions with error bars extended to two standard deviations of the mean for each measurement.}
+  \label{fig:PSPr-Contribute-Equally-2sigma}
+\end{figure}
+
+% \begin{figure}[ht]
 %   \centering
-%   \includegraphics[width=.45\textwidth]{PSPr-Contribute-Equally.pdf}
-%   \caption{Signal power contributions with error bars representing one standard deviation of the mean for each measurement.}
-%   \label{fig:PSPr-Contribute-Equally}
-% \end{figure}
-%
-% \begin{figure}[h]
-%   \centering
-%   \includegraphics[width=.45\textwidth]{PSPr-Contribute-Equally-2sigma.pdf}
-%   \caption{Signal power contributions with error bars extended to two standard deviations of the mean for each measurement.}
-%   \label{fig:PSPr-Contribute-Equally-2sigma}
+%   \begin{subfigure}{0.45\textwidth}
+%     \centering
+%     \includegraphics[width=\textwidth]{figs/4-CABS/PSPr-Contribute-Equally.pdf}
+%     \caption{Signal power contributions with error bars representing one standard deviation of the mean for each measurement.}
+%     \label{fig:PSPr-Contribute-Equally}
+%   \end{subfigure}%
+%   \hfill
+%   \begin{subfigure}{0.45\textwidth}
+%     \centering
+%     \includegraphics[width=\textwidth]{figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf}
+%     \caption{Signal power contributions with error bars extended to two standard deviations of the mean for each measurement.}
+%     \label{fig:PSPr-Contribute-Equally-2sigma}
+%   \end{subfigure}
+%   \caption{Comparison of Signal power contributions with error bars representing one (a) and two (b) standard deviations of the mean for each measurement.}
+%   \label{fig:combined}
 % \end{figure}
 
-\begin{figure}[h]
-  \centering
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{figs/4-CABS/PSPr-Contribute-Equally.pdf}
-    \caption{Signal power contributions with error bars representing one standard deviation of the mean for each measurement.}
-    \label{fig:PSPr-Contribute-Equally}
-  \end{subfigure}%
-  \hfill
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\textwidth]{figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf}
-    \caption{Signal power contributions with error bars extended to two standard deviations of the mean for each measurement.}
-    \label{fig:PSPr-Contribute-Equally-2sigma}
-  \end{subfigure}
-  \caption{Comparison of Signal power contributions with error bars representing one (a) and two (b) standard deviations of the mean for each measurement.}
-  \label{fig:combined}
-\end{figure}
+\FloatBarrier
+
+\newpage
 
 \section{Data}
