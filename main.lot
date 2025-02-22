@@ -2,15 +2,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Measurement parameters for sensitivity measurement and calculation.}}{32}{table.caption.23}%
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Table caption.}}{45}{table.caption.30}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Measurement parameters for sensitivity measurement and calculation.}}{20}{table.caption.23}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {D.1}{\ignorespaces Parameters relevant to the coherently stimulated backward Brillouin scattering process for the example UHNA3 fiber. $G_{B}$ is the effective Brillouin gain, $P_{P}$ is the pump power, $P_{S}$ is the Stokes power, $P_{Pr}$ is the probe power, and $\Delta \lambda $ is the wavelength detuning of the probe from the pump.}}{64}{table.caption.31}%
-\contentsline {table}{\numberline {D.2}{\ignorespaces Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example UHNA3 fiber. $G_{B}$ is the Brillouin gain coefficient, $P_{P}$ is the pump power, $\omega $ is the optical angular frequency, $\Gamma _{B}$ is the acoustic damping rate, $k_{B}$ is Boltzmann's constant, $T$ is the temperature, and $\Omega _{B}$ is the acoustic angular frequency.}}{65}{table.caption.32}%
-\contentsline {table}{\numberline {D.3}{\ignorespaces Power values for each source (Pump, Stokes, Probe) across the three measurements, with the multiplicative total power for each setup.}}{73}{table.caption.37}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {D.1}{\ignorespaces Parameters relevant to the coherently stimulated backward Brillouin scattering process for the example UHNA3 fiber. $G_{B}$ is the effective Brillouin gain, $P_{P}$ is the pump power, $P_{S}$ is the Stokes power, $P_{Pr}$ is the probe power, and $\Delta \lambda $ is the wavelength detuning of the probe from the pump.}}{50}{table.caption.30}%
+\contentsline {table}{\numberline {D.2}{\ignorespaces Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example UHNA3 fiber. $G_{B}$ is the Brillouin gain coefficient, $P_{P}$ is the pump power, $\omega $ is the optical angular frequency, $\Gamma _{B}$ is the acoustic damping rate, $k_{B}$ is Boltzmann's constant, $T$ is the temperature, and $\Omega _{B}$ is the acoustic angular frequency.}}{51}{table.caption.31}%
+\contentsline {table}{\numberline {D.3}{\ignorespaces Power values for each source (Pump, Stokes, Probe) across the three measurements, with the multiplicative total power for each setup.}}{59}{table.caption.36}%
 \addvspace {10\p@ }

@@ -4,75 +4,75 @@
 \contentsline {chapter}{Preface}{xi}{section*.9}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Light Scattering}{4}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Spontaneous Brillouin Scattering}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Spontaneous Brillouin Scattering}{5}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Stimulated Brillouin Scattering}{5}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Phase-matching}{5}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Brillouin Gain of Materials}{6}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Raman Scattering}{6}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Raman-like Brillouin Modes}{7}{section.1.7}%
-\contentsline {chapter}{\numberline {2}Foundational Experimental Techniques and Instrumentation}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Photonic Experimental Techniques}{9}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Control of Light in Photonic Systems}{9}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Photonic Devices and Diagrams}{10}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Selection and Isolation of Signals}{10}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Heterodyne Detection and the Local Oscillator}{10}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Optical Loss in a Photonic Systems}{11}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Free Space Optics and Beam Alignment}{11}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}Specialized Optical Fibers}{11}{subsection.2.1.7}%
-\contentsline {section}{\numberline {2.2}Optical Instrumentation}{12}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Electronic Instrumentation}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Noise and Background Handling}{12}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Custom Software}{13}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Description of Python Script for CABS Data Collection}{13}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Description of Plotting Data in Go Program}{14}{subsection.2.5.2}%
-\contentsline {chapter}{\numberline {3}Manuscript I: Laser cooling of traveling wave phonons in an optical fiber}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Abstract}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Optomechanical Cooling and Heating}{15}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Cooling Platform: $CS_{2}$-Liquid Core Optical Fiber}{16}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Optomechanical Properties}{16}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Fabrication}{16}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Fabrication Iterative Refinement}{17}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Intention of the Pump-Probe Experiment}{17}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Experimental Setup}{17}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Main Experiment}{18}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Pump-Probe Experiment}{18}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Results}{18}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Main Experiment Results}{19}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Pump-Probe Experiment Results}{19}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Discussion}{19}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Application to Ground State Cooling}{20}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Standardized Cooling Metric}{20}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Tapered chalcogenide Photonic Crystal Fiber: Max Plank Results}{20}{subsection.3.7.3}%
-\contentsline {chapter}{\numberline {4}Manuscript II: A coherently stimulated phonon spectrometer}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}abstract}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Introduction}{23}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Theoretical Framework}{25}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Methods}{27}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Results}{30}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Conclusion}{40}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Manuscript III: Brillouin-induced Raman modes}{43}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Abstract}{43}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Introduction}{43}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Methods}{44}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Results}{44}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Discussion}{44}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Discussion \& Future Work}{47}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Acronyms}{49}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Code}{51}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Python Code for CABS Data Collection}{51}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Plotting Data In Go Program}{52}{section.B.2}%
-\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter \ref {ch:Cooling}: Manuscript I}{53}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Data}{53}{section.C.1}%
-\contentsline {chapter}{\numberline {D}Supplementary Information for Chapter \ref {ch:CABS}: Manuscript II}{55}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Coupled-Wave Equations}{55}{section.D.1}%
-\contentsline {subsection}{\numberline {D.1.1}Acoustic Field}{56}{subsection.D.1.1}%
-\contentsline {subsection}{\numberline {D.1.2}Optical Fields}{57}{subsection.D.1.2}%
-\contentsline {section}{\numberline {D.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{62}{section.D.2}%
-\contentsline {section}{\numberline {D.3}Observance of Fano-Resonant Asymmetries at Small Signals}{66}{section.D.3}%
-\contentsline {subsection}{\numberline {D.3.1}Experiment A: Extended 1\,cm UHNA3 Fiber Spectra}{66}{subsection.D.3.1}%
-\contentsline {subsection}{\numberline {D.3.2}Experiment B: 1\,mm \ce {CS2} Spectra and Fano Distortions}{69}{subsection.D.3.2}%
-\contentsline {section}{\numberline {D.4}Equal Contribution of Pump, Stokes, and Probe Optical Fields}{73}{section.D.4}%
-\contentsline {section}{\numberline {D.5}Data}{73}{section.D.5}%
-\contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{75}{appendix.E}%
-\contentsline {section}{\numberline {E.1}Data}{75}{section.E.1}%
-\contentsline {chapter}{References}{76}{section*.39}%
+\contentsline {section}{\numberline {1.5}Brillouin Gain of Materials}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Raman Scattering}{5}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Raman-like Brillouin Modes}{5}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Foundational Experimental Techniques and Instrumentation}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Photonic Experimental Techniques}{8}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Control of Light in Photonic Systems}{8}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Photonic Devices and Diagrams}{8}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Selection and Isolation of Signals}{8}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Heterodyne Detection and the Local Oscillator}{8}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Optical Loss in a Photonic Systems}{8}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Free Space Optics and Beam Alignment}{8}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Specialized Optical Fibers}{8}{subsection.2.1.7}%
+\contentsline {section}{\numberline {2.2}Optical Instrumentation}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Electronic Instrumentation}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Noise and Background Handling}{8}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Custom Software}{8}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Description of Python Script for CABS Data Collection}{8}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Description of Plotting Data in Go Program}{8}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3}Manuscript I: Laser cooling of traveling wave phonons in an optical fiber}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Abstract}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Optomechanical Cooling and Heating}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Cooling Platform: $CS_{2}$-Liquid Core Optical Fiber}{10}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Optomechanical Properties}{10}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Fabrication}{10}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Fabrication Iterative Refinement}{10}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Intention of the Pump-Probe Experiment}{10}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Experimental Setup}{10}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Main Experiment}{10}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Pump-Probe Experiment}{10}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Results}{10}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Main Experiment Results}{10}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Pump-Probe Experiment Results}{10}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Discussion}{10}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Application to Ground State Cooling}{10}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Standardized Cooling Metric}{10}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Tapered chalcogenide Photonic Crystal Fiber: Max Plank Results}{10}{subsection.3.7.3}%
+\contentsline {chapter}{\numberline {4}Manuscript II: A coherently stimulated phonon spectrometer}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}abstract}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Introduction}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Theoretical Framework}{13}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Methods}{15}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Results}{18}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Conclusion}{28}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Manuscript III: Brillouin-induced Raman modes}{31}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Abstract}{31}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Introduction}{31}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Methods}{31}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Results}{31}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Discussion}{31}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Discussion \& Future Work}{33}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Acronyms}{35}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Code}{37}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Python Code for CABS Data Collection}{37}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Plotting Data In Go Program}{38}{section.B.2}%
+\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter \ref {ch:Cooling}: Manuscript I}{39}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Data}{39}{section.C.1}%
+\contentsline {chapter}{\numberline {D}Supplementary Information for Chapter \ref {ch:CABS}: Manuscript II}{41}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Coupled-Wave Equations}{41}{section.D.1}%
+\contentsline {subsection}{\numberline {D.1.1}Acoustic Field}{42}{subsection.D.1.1}%
+\contentsline {subsection}{\numberline {D.1.2}Optical Fields}{43}{subsection.D.1.2}%
+\contentsline {section}{\numberline {D.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{48}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Observance of Fano-Resonant Asymmetries at Small Signals}{52}{section.D.3}%
+\contentsline {subsection}{\numberline {D.3.1}Experiment A: Extended 1\,cm UHNA3 Fiber Spectra}{52}{subsection.D.3.1}%
+\contentsline {subsection}{\numberline {D.3.2}Experiment B: 1\,mm \ce {CS2} Spectra and Fano Distortions}{55}{subsection.D.3.2}%
+\contentsline {section}{\numberline {D.4}Equal Contribution of Pump, Stokes, and Probe Optical Fields}{59}{section.D.4}%
+\contentsline {section}{\numberline {D.5}Data}{59}{section.D.5}%
+\contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{61}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Data}{61}{section.E.1}%
+\contentsline {chapter}{References}{62}{section*.38}%
