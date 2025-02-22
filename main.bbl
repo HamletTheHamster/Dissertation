@@ -1,4 +1,5 @@
-\begin{thebibliography}{7}
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{37}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -26,6 +27,220 @@ Theodore~H Maiman et~al.
 \newblock Stimulated optical radiation in ruby.
 \newblock 1960.
 
+\bibitem[Chiao et~al.(1964)Chiao, Townes, and Stoicheff]{chiao1964stimulated}
+RY~Chiao, Ch~H Townes, and BP~Stoicheff.
+\newblock Stimulated brillouin scattering and coherent generation of intense
+  hypersonic waves.
+\newblock \emph{Physical review letters}, 12\penalty0 (21):\penalty0 592, 1964.
+
+\bibitem[Eggleton et~al.(2013)Eggleton, Poulton, and
+  Pant]{eggleton2013inducing}
+Benjamin~J Eggleton, Christopher~G Poulton, and Ravi Pant.
+\newblock Inducing and harnessing stimulated brillouin scattering in photonic
+  integrated circuits.
+\newblock \emph{Advances in Optics and Photonics}, 5\penalty0 (4):\penalty0
+  536--587, 2013.
+
+\bibitem[Fotiadi et~al.(2023)Fotiadi, Korobko, and
+  Zolotovskii]{fotiadi2023brillouin}
+AA~Fotiadi, DA~Korobko, and IO~Zolotovskii.
+\newblock Brillouin lasers and sensors: Trends and possibilities.
+\newblock \emph{Optoelectronics, Instrumentation and Data Processing},
+  59\penalty0 (1):\penalty0 66--76, 2023.
+
+\bibitem[Kobyakov et~al.(2009)Kobyakov, Sauer, and
+  Chowdhury]{kobyakov2009stimulated}
+Andrey Kobyakov, Michael Sauer, and Dipak Chowdhury.
+\newblock Stimulated brillouin scattering in optical fibers.
+\newblock \emph{Advances in optics and photonics}, 2\penalty0 (1):\penalty0
+  1--59, 2009.
+
+\bibitem[Ippen and Stolen(1972)]{ippen1972stimulated}
+EP~Ippen and RH~Stolen.
+\newblock Stimulated brillouin scattering in optical fibers.
+\newblock \emph{Applied Physics Letters}, 21\penalty0 (11):\penalty0 539--541,
+  1972.
+
+\bibitem[Speziale et~al.(2014)Speziale, Marquardt, and
+  Duffy]{speziale2014brillouin}
+Sergio Speziale, Hauke Marquardt, and Thomas~S Duffy.
+\newblock Brillouin scattering and its application in geosciences.
+\newblock \emph{Reviews in Mineralogy and Geochemistry}, 78\penalty0
+  (1):\penalty0 543--603, 2014.
+
+\bibitem[Palombo and Fioretto(2019)]{palombo2019brillouin}
+Francesca Palombo and Daniele Fioretto.
+\newblock Brillouin light scattering: applications in biomedical sciences.
+\newblock \emph{Chemical reviews}, 119\penalty0 (13):\penalty0 7833--7847,
+  2019.
+
+\bibitem[Dil(1982)]{dil1982brillouin}
+JG~Dil.
+\newblock Brillouin scattering in condensed matter.
+\newblock \emph{Reports on Progress in Physics}, 45\penalty0 (3):\penalty0 285,
+  1982.
+
+\bibitem[Eggleton et~al.(2019)Eggleton, Poulton, Rakich, Steel, and
+  Bahl]{eggleton2019brillouin}
+Benjamin~J Eggleton, Christopher~G Poulton, Peter~T Rakich, Michael~J Steel,
+  and Gaurav Bahl.
+\newblock Brillouin integrated photonics.
+\newblock \emph{Nature Photonics}, 13\penalty0 (10):\penalty0 664--677, 2019.
+
+\bibitem[Prevedel et~al.(2019)Prevedel, Diz-Mu{\~n}oz, Ruocco, and
+  Antonacci]{prevedel2019brillouin}
+Robert Prevedel, Alba Diz-Mu{\~n}oz, Giancarlo Ruocco, and Giuseppe Antonacci.
+\newblock Brillouin microscopy: an emerging tool for mechanobiology.
+\newblock \emph{Nature methods}, 16\penalty0 (10):\penalty0 969--977, 2019.
+
+\bibitem[Conrad et~al.(2019)Conrad, Gray, Stroka, Rizvi, and
+  Scarcelli]{conrad2019mechanical}
+Christina Conrad, Kelsey~M Gray, Kimberly~M Stroka, Imran Rizvi, and Giuliano
+  Scarcelli.
+\newblock Mechanical characterization of 3d ovarian cancer nodules using
+  brillouin confocal microscopy.
+\newblock \emph{Cellular and molecular bioengineering}, 12:\penalty0 215--226,
+  2019.
+
+\bibitem[Rakich et~al.(2012)Rakich, Reinke, Camacho, Davids, and
+  Wang]{rakich2012giant}
+Peter~T Rakich, Charles Reinke, Ryan Camacho, Paul Davids, and Zheng Wang.
+\newblock Giant enhancement of stimulated brillouin scattering in the
+  subwavelength limit.
+\newblock \emph{Physical Review X}, 2\penalty0 (1):\penalty0 011008, 2012.
+
+\bibitem[Gyger et~al.(2020)Gyger, Liu, Yang, He, Raja, Wang, Bhave, Kippenberg,
+  and Th{\'e}venaz]{gyger2020observation}
+Flavien Gyger, Junqiu Liu, Fan Yang, Jijun He, Arslan~S Raja, Rui~Ning Wang,
+  Sunil~A Bhave, Tobias~J Kippenberg, and Luc Th{\'e}venaz.
+\newblock Observation of stimulated brillouin scattering in silicon nitride
+  integrated waveguides.
+\newblock \emph{Physical review letters}, 124\penalty0 (1):\penalty0 013902,
+  2020.
+
+\bibitem[Yu et~al.(2024)Yu, Huang, Cheng, Wang, Shi, Huang, and
+  Sun]{yu2024chip}
+Linfeng Yu, Chukun Huang, Ming Cheng, Kang Wang, Haotian Shi, Qiang Huang, and
+  Junqiang Sun.
+\newblock On-chip stimulated brillouin scattering.
+\newblock \emph{Chinese Optics Letters}, 22\penalty0 (2):\penalty0 020031,
+  2024.
+
+\bibitem[Shin et~al.(2013)Shin, Qiu, Jarecki, Cox, Olsson, Starbuck, Wang, and
+  Rakich]{shin2013tailorable}
+Heedeuk Shin, Wenjun Qiu, Robert Jarecki, Jonathan~A Cox, Roy~H Olsson, Andrew
+  Starbuck, Zheng Wang, and Peter~T Rakich.
+\newblock Tailorable stimulated brillouin scattering in nanoscale silicon
+  waveguides.
+\newblock \emph{Nature communications}, 4\penalty0 (1):\penalty0 1--10, 2013.
+
+\bibitem[Van~Laer et~al.(2015)Van~Laer, Kuyken, Van~Thourhout, and
+  Baets]{van2015interaction}
+Rapha{\"e}l Van~Laer, Bart Kuyken, Dries Van~Thourhout, and Roel Baets.
+\newblock Interaction between light and highly confined hypersound in a silicon
+  photonic nanowire.
+\newblock \emph{Nature Photonics}, 9\penalty0 (3):\penalty0 199--203, 2015.
+
+\bibitem[Kittlaus et~al.(2016)Kittlaus, Shin, and Rakich]{kittlaus2016large}
+Eric~A Kittlaus, Heedeuk Shin, and Peter~T Rakich.
+\newblock Large brillouin amplification in silicon.
+\newblock \emph{Nature Photonics}, 10\penalty0 (7):\penalty0 463--467, 2016.
+
+\bibitem[Djadaojee et~al.(2020)Djadaojee, Douillet, and
+  Grucker]{djadaojee2020stimulated}
+Lionel Djadaojee, Albane Douillet, and Jules Grucker.
+\newblock Stimulated brillouin gain spectroscopy in a confined spatio-temporal
+  domain (30 $\mu$m, 170 ns).
+\newblock \emph{The European Physical Journal Applied Physics}, 89\penalty0
+  (3):\penalty0 30701, 2020.
+
+\bibitem[Gusev and Ruello(2018)]{gusev2018advances}
+Vitalyi~E Gusev and Pascal Ruello.
+\newblock Advances in applications of time-domain brillouin scattering for
+  nanoscale imaging.
+\newblock \emph{Applied Physics Reviews}, 5\penalty0 (3), 2018.
+
+\bibitem[Gerakis et~al.(2011)Gerakis, Shneider, and
+  Barker]{gerakis2011coherent}
+A~Gerakis, MN~Shneider, and PF~Barker.
+\newblock Coherent brillouin scattering.
+\newblock \emph{Optics Express}, 19\penalty0 (24):\penalty0 24046--24054, 2011.
+
+\bibitem[Pant et~al.(2011)Pant, Li, Choi, Poulton, Madden, Luther-Davies, and
+  Eggleton]{pant2011cavity}
+Ravi Pant, Enbang Li, D-Y Choi, CG~Poulton, Stephen~J Madden, Barry
+  Luther-Davies, and Benjamin~J Eggleton.
+\newblock Cavity enhanced stimulated brillouin scattering in an optical chip
+  for multiorder stokes generation.
+\newblock \emph{Optics letters}, 36\penalty0 (18):\penalty0 3687--3689, 2011.
+
+\bibitem[Kittlaus et~al.(2017)Kittlaus, Otterstrom, and
+  Rakich]{kittlaus2017chip}
+Eric~A Kittlaus, Nils~T Otterstrom, and Peter~T Rakich.
+\newblock On-chip inter-modal brillouin scattering.
+\newblock \emph{Nature communications}, 8\penalty0 (1):\penalty0 15819, 2017.
+
+\bibitem[Shlomovits et~al.(2015)Shlomovits, Langer, and
+  Tur]{shlomovits2015effect}
+Omer Shlomovits, Tomi Langer, and Moshe Tur.
+\newblock The effect of source phase noise on stimulated brillouin
+  amplification.
+\newblock \emph{Journal of Lightwave Technology}, 33\penalty0 (12):\penalty0
+  2639--2645, 2015.
+
+\bibitem[Maker et~al.(1962)Maker, Terhune, Nisenoff, and
+  Savage]{maker1962effects}
+PD~Maker, RW~Terhune, M~Nisenoff, and CM~Savage.
+\newblock Effects of dispersion and focusing on the production of optical
+  harmonics.
+\newblock \emph{Physical review letters}, 8\penalty0 (1):\penalty0 21, 1962.
+
+\bibitem[Behunin et~al.(2015)Behunin, Kharel, Renninger, Shin, Carter,
+  Kittlaus, and Rakich]{behunin2015long}
+RO~Behunin, P~Kharel, WH~Renninger, H~Shin, F~Carter, E~Kittlaus, and
+  PT~Rakich.
+\newblock Long-lived guided phonons in fiber by manipulating two-level systems.
+\newblock \emph{arXiv preprint arXiv:1501.04248}, 2015.
+
+\bibitem[Nikles et~al.(1997)Nikles, Thevenaz, and Robert]{nikles1997brillouin}
+Marc Nikles, Luc Thevenaz, and Philippe~A Robert.
+\newblock Brillouin gain spectrum characterization in single-mode optical
+  fibers.
+\newblock \emph{Journal of Lightwave Technology}, 15\penalty0 (10):\penalty0
+  1842--1851, 1997.
+
+\bibitem[Fano(1961)]{fano1961effects}
+Ugo Fano.
+\newblock Effects of configuration interaction on intensities and phase shifts.
+\newblock \emph{Physical review}, 124\penalty0 (6):\penalty0 1866, 1961.
+
+\bibitem[Limonov et~al.(2017)Limonov, Rybin, Poddubny, and
+  Kivshar]{limonov2017fano}
+Mikhail~F Limonov, Mikhail~V Rybin, Alexander~N Poddubny, and Yuri~S Kivshar.
+\newblock Fano resonances in photonics.
+\newblock \emph{Nature photonics}, 11\penalty0 (9):\penalty0 543--554, 2017.
+
+\bibitem[Limonov(2021)]{limonov2021fano}
+Mikhail~F Limonov.
+\newblock Fano resonance for applications.
+\newblock \emph{Advances in optics and photonics}, 13\penalty0 (3):\penalty0
+  703--771, 2021.
+
+\bibitem[Kroner et~al.(2008)Kroner, Govorov, Remi, Biedermann, Seidl, Badolato,
+  Petroff, Zhang, Barbour, Gerardot, et~al.]{kroner2008nonlinear}
+Martin Kroner, Alexander~O Govorov, Sebastian Remi, Benjamin Biedermann, Stefan
+  Seidl, Antonio Badolato, Pierre~M Petroff, Wei Zhang, R~Barbour, BD~Gerardot,
+  et~al.
+\newblock The nonlinear fano effect.
+\newblock \emph{Nature}, 451\penalty0 (7176):\penalty0 311--314, 2008.
+
+\bibitem[Miroshnichenko et~al.(2010)Miroshnichenko, Flach, and
+  Kivshar]{miroshnichenko2010fano}
+Andrey~E Miroshnichenko, Sergej Flach, and Yuri~S Kivshar.
+\newblock Fano resonances in nanoscale structures.
+\newblock \emph{Reviews of Modern Physics}, 82\penalty0 (3):\penalty0
+  2257--2298, 2010.
+
 \bibitem[Boyd et~al.(1990)Boyd, Rzaewski, and Narum]{boyd1990noise}
 Robert~W Boyd, Kazimierz Rzaewski, and Paul Narum.
 \newblock Noise initiation of stimulated brillouin scattering.
@@ -36,11 +251,5 @@ Robert~W Boyd, Kazimierz Rzaewski, and Paul Narum.
 Prashanta Kharel, Ryan~O Behunin, William~H Renninger, and Peter~T Rakich.
 \newblock Noise and dynamics in forward brillouin interactions.
 \newblock \emph{Physical Review A}, 93\penalty0 (6):\penalty0 063806, 2016.
-
-\bibitem[Ippen and Stolen(1972)]{ippen1972stimulated}
-EP~Ippen and RH~Stolen.
-\newblock Stimulated brillouin scattering in optical fibers.
-\newblock \emph{Applied Physics Letters}, 21\penalty0 (11):\penalty0 539--541,
-  1972.
 
 \end{thebibliography}

@@ -329,6 +329,7 @@ OUTPUT main.lot
 INPUT ./main.lof
 INPUT ./main.lof
 INPUT main.lof
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 OUTPUT main.lof
 INPUT ./pre/1-Dedication.tex
 INPUT ./pre/1-Dedication.tex
@@ -368,7 +369,6 @@ OUTPUT Experimental.aux
 INPUT ./Experimental.tex
 INPUT ./Experimental.tex
 INPUT Experimental.tex
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT ./Cooling.tex
 INPUT ./Cooling.tex
 OUTPUT Cooling.aux
@@ -402,12 +402,36 @@ INPUT ./CABS.tex
 INPUT ./CABS.tex
 INPUT CABS.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
-INPUT ./figs/4-CABS/CABS-100um CS2.png
-INPUT ./figs/4-CABS/CABS-100um CS2.png
-INPUT ./figs/4-CABS/CABS-100um CS2.png
-INPUT ./figs/4-CABS/CABS-100um CS2.png
-INPUT ./figs/4-CABS/CABS-100um CS2.png
+INPUT ./figs/4-CABS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/4-CABS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/4-CABS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/4-CABS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/4-CABS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/4-CABS/Instrument-Design-V1.pdf
+INPUT ./figs/4-CABS/Instrument-Design-V1.pdf
+INPUT ./figs/4-CABS/Instrument-Design-V1.pdf
+INPUT ./figs/4-CABS/Instrument-Design-V1.pdf
+INPUT ./figs/4-CABS/Instrument-Design-V1.pdf
+INPUT ./figs/4-CABS/5fWSensitivity.pdf
+INPUT ./figs/4-CABS/5fWSensitivity.pdf
+INPUT ./figs/4-CABS/5fWSensitivity.pdf
+INPUT ./figs/4-CABS/5fWSensitivity.pdf
+INPUT ./figs/4-CABS/5fWSensitivity.pdf
+INPUT ./figs/4-CABS/1cmUHNA3.pdf
+INPUT ./figs/4-CABS/1cmUHNA3.pdf
+INPUT ./figs/4-CABS/1cmUHNA3.pdf
+INPUT ./figs/4-CABS/1cmUHNA3.pdf
+INPUT ./figs/4-CABS/1cmUHNA3.pdf
+INPUT ./figs/4-CABS/100umCS2.pdf
+INPUT ./figs/4-CABS/100umCS2.pdf
+INPUT ./figs/4-CABS/100umCS2.pdf
+INPUT ./figs/4-CABS/100umCS2.pdf
+INPUT ./figs/4-CABS/100umCS2.pdf
+INPUT ./figs/4-CABS/Phase-Match.pdf
+INPUT ./figs/4-CABS/Phase-Match.pdf
+INPUT ./figs/4-CABS/Phase-Match.pdf
+INPUT ./figs/4-CABS/Phase-Match.pdf
+INPUT ./figs/4-CABS/Phase-Match.pdf
 INPUT ./Raman.tex
 INPUT ./Raman.tex
 OUTPUT Raman.aux
@@ -444,18 +468,6 @@ OUTPUT post/A-CABS.aux
 INPUT ./post/A-CABS.tex
 INPUT ./post/A-CABS.tex
 INPUT post/A-CABS.tex
-INPUT ./figs/4-CABS/PSPr-Contribute-Equally.pdf
-INPUT ./figs/4-CABS/PSPr-Contribute-Equally.pdf
-INPUT ./figs/4-CABS/PSPr-Contribute-Equally.pdf
-INPUT ./figs/4-CABS/PSPr-Contribute-Equally.pdf
-INPUT ./figs/4-CABS/PSPr-Contribute-Equally.pdf
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-INPUT ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
-INPUT ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
-INPUT ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
-INPUT ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
-INPUT ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT ./figs/4-CABS/SponBSvsStimBSvsCoBS.pdf
@@ -480,13 +492,26 @@ INPUT ./figs/4-CABS/CS2FanoCompare.pdf
 INPUT ./figs/4-CABS/CS2FanoCompare.pdf
 INPUT ./figs/4-CABS/CS2FanoCompare.pdf
 INPUT ./figs/4-CABS/CS2FanoCompare.pdf
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
 INPUT ./figs/4-CABS/CS2LorentzCompare.pdf
 INPUT ./figs/4-CABS/CS2LorentzCompare.pdf
 INPUT ./figs/4-CABS/CS2LorentzCompare.pdf
 INPUT ./figs/4-CABS/CS2LorentzCompare.pdf
 INPUT ./figs/4-CABS/CS2LorentzCompare.pdf
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
+INPUT ./figs/4-CABS/PSPr-Contribute-Equally.pdf
+INPUT ./figs/4-CABS/PSPr-Contribute-Equally.pdf
+INPUT ./figs/4-CABS/PSPr-Contribute-Equally.pdf
+INPUT ./figs/4-CABS/PSPr-Contribute-Equally.pdf
+INPUT ./figs/4-CABS/PSPr-Contribute-Equally.pdf
+INPUT ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
+INPUT ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
+INPUT ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
+INPUT ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
+INPUT ./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf
 INPUT ./post/A-Raman.tex
 INPUT ./post/A-Raman.tex
 OUTPUT post/A-Raman.aux
@@ -554,6 +579,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
