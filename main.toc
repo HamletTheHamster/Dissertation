@@ -49,30 +49,30 @@
 \contentsline {section}{\numberline {4.3}Theoretical Framework}{25}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Methods}{27}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Results}{30}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Conclusion}{36}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Manuscript III: Brillouin-induced Raman modes}{39}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Abstract}{39}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Introduction}{39}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Methods}{40}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Results}{40}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Discussion}{40}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Discussion \& Future Work}{43}{chapter.6}%
-\contentsline {chapter}{\numberline {A}Acronyms}{45}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Code}{47}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Python Code for CABS Data Collection}{47}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Plotting Data In Go Program}{48}{section.B.2}%
-\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter \ref {ch:Cooling}: Manuscript I}{49}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Data}{49}{section.C.1}%
-\contentsline {chapter}{\numberline {D}Supplementary Information for Chapter \ref {ch:CABS}: Manuscript II}{51}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Coupled-Wave Equations}{51}{section.D.1}%
-\contentsline {subsection}{\numberline {D.1.1}Acoustic Field}{52}{subsection.D.1.1}%
-\contentsline {subsection}{\numberline {D.1.2}Optical Fields}{53}{subsection.D.1.2}%
-\contentsline {section}{\numberline {D.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{58}{section.D.2}%
-\contentsline {section}{\numberline {D.3}Observance of Fano-Resonant Asymmetries at Small Signals}{62}{section.D.3}%
-\contentsline {subsection}{\numberline {D.3.1}Experiment A: Extended 1\,cm UHNA3 Fiber Spectra}{62}{subsection.D.3.1}%
-\contentsline {subsection}{\numberline {D.3.2}Experiment B: 1\,mm \ce {CS2} Spectra and Fano Distortions}{65}{subsection.D.3.2}%
-\contentsline {section}{\numberline {D.4}Equal Contribution of Pump, Stokes, and Probe Optical Fields}{69}{section.D.4}%
-\contentsline {section}{\numberline {D.5}Data}{69}{section.D.5}%
-\contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{71}{appendix.E}%
-\contentsline {section}{\numberline {E.1}Data}{71}{section.E.1}%
-\contentsline {chapter}{References}{72}{section*.39}%
+\contentsline {section}{\numberline {4.6}Conclusion}{40}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Manuscript III: Brillouin-induced Raman modes}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Abstract}{43}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Introduction}{43}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Methods}{44}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Results}{44}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Discussion}{44}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Discussion \& Future Work}{47}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Acronyms}{49}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Code}{51}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Python Code for CABS Data Collection}{51}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Plotting Data In Go Program}{52}{section.B.2}%
+\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter \ref {ch:Cooling}: Manuscript I}{53}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Data}{53}{section.C.1}%
+\contentsline {chapter}{\numberline {D}Supplementary Information for Chapter \ref {ch:CABS}: Manuscript II}{55}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Coupled-Wave Equations}{55}{section.D.1}%
+\contentsline {subsection}{\numberline {D.1.1}Acoustic Field}{56}{subsection.D.1.1}%
+\contentsline {subsection}{\numberline {D.1.2}Optical Fields}{57}{subsection.D.1.2}%
+\contentsline {section}{\numberline {D.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{62}{section.D.2}%
+\contentsline {section}{\numberline {D.3}Observance of Fano-Resonant Asymmetries at Small Signals}{66}{section.D.3}%
+\contentsline {subsection}{\numberline {D.3.1}Experiment A: Extended 1\,cm UHNA3 Fiber Spectra}{66}{subsection.D.3.1}%
+\contentsline {subsection}{\numberline {D.3.2}Experiment B: 1\,mm \ce {CS2} Spectra and Fano Distortions}{69}{subsection.D.3.2}%
+\contentsline {section}{\numberline {D.4}Equal Contribution of Pump, Stokes, and Probe Optical Fields}{73}{section.D.4}%
+\contentsline {section}{\numberline {D.5}Data}{73}{section.D.5}%
+\contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{75}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Data}{75}{section.E.1}%
+\contentsline {chapter}{References}{76}{section*.39}%

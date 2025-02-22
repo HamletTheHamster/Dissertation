@@ -80,7 +80,7 @@ Traditional SBS, illustrated by the schematic in Fig.~\ref{fig:4-Wave-Brillouin-
 
 \begin{figure*}[t]
   \centering
-  \includegraphics[width=.5\textwidth]{figs/4-CABS/4-Wave-Brillouin-Scattering.pdf}
+  \includegraphics[width=\textwidth]{figs/4-CABS/4-Wave-Brillouin-Scattering.pdf}
   \caption{Illustration of 4-Wave Brillouin Scattering.}
   \label{fig:4-Wave-Brillouin-Scattering}
 \end{figure*}
@@ -165,10 +165,12 @@ Further SNR improvements are gained by narrowing the lock-in’s low-pass filter
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=.45\textwidth]{figs/4-CABS/5fWSensitivity.pdf}
+  \includegraphics[width=\textwidth]{figs/4-CABS/5fWSensitivity.pdf}
   \caption{\(\sim\SI{5}{\femto\watt}\) sensitivity measurement}
   \label{fig:5fWSensitivity}
 \end{figure}
+
+\FloatBarrier
 
 We begin by testing the sensitivity of the instrument as a way of defining a performance metric for the instrument which can be used to indicate what material, power, and length combinations might be possible to measure. From Eq.~\ref{Eq:Theoretical Framework:Scattered Power}, the sensitivity of the instrument is the minimum scattered power, \(P_{Sig}\), to produce a statistically significant measurement. To determine this, we target a specific length, \(L\), of a sample of known effective Brillouin gain, \(G_B\). We keep the pump-probe detuning, \(\Delta\lambda\), constant across measurements and record the pump, Stokes, and probe optical powers to calculate the scattered power. Starting with sufficient optical powers to produce a clearly distinguishable measurement, we gradually reduce the optical powers until the sensitivity floor is reached.
 
@@ -197,10 +199,12 @@ We demonstrate the capabilities of the instrument on two common sample classes: 
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=.45\textwidth]{figs/4-CABS/1cmUHNA3.pdf}
+  \includegraphics[width=\textwidth]{figs/4-CABS/1cmUHNA3.pdf}
   \caption{\SI{1}{\centi\meter} UHNA3}
   \label{fig:1cmUHNA3}
 \end{figure}
+
+\FloatBarrier
 
 Fig.~\ref{fig:1cmUHNA3} shows the spectral profile captured for \SI{1}{\centi\meter} of UHNA3 fiber, revealing the expected lorentzian profile consistent with Eq.~\ref{Eq:Effective Brillouin Gain}. The peak amplitude of the spectra occurs at \SI{9.1704}{\giga\hertz}, indicating the Brillouin resonance frequency of the longitudinal traveling-wave mode in the fiber. The FWHM of the measurement is \SI{80}{\mega\hertz} and provides a measure of the phonon dissipation rate. Both values match what is seen in the literature for SBS measurements of UHNA3 fiber.\cite{behunin2015long} The data shown are a background-subtracted average of five successive measurements taken over ten minutes with error bars corresponding to \(1\sigma\) of the mean.
 
@@ -208,10 +212,12 @@ To achieve this measurement of UHNA3 fiber, the instrument design was altered to
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=.45\textwidth]{figs/4-CABS/100umCS2.pdf}
+  \includegraphics[width=\textwidth]{figs/4-CABS/100umCS2.pdf}
   \caption{\SI{100}{\micro\meter} \ce{CS2}}
   \label{fig:100umCS2}
 \end{figure}
+
+\FloatBarrier
 
 For a free-space bulk example we target liquid \ce{CS2} for its exceptionally high Brillouin gain factor of \SI{1.5}{\meter\per\giga\watt}.\cite{boyd2020nonlinear} Figure~\ref{fig:100umCS2} reveals the Brillouin signal of bulk \ce{CS2} liquid contained in a \SI{100}{\micro\meter} path length cell. To our knowledge, measurement of longitudinal Brillouin scattering at this scale has not been reported in the literature. A scattered power comparison would reveal that achieving such a measurement using traditional SBS techniques would require excessively high optical powers or cooling the material to cryogenic temperatures, which, of course, would be prohibitive for carbon disulfide in the liquid state.
 
@@ -240,10 +246,12 @@ To characterize the phase matching tolerance of the instrument for a given lengt
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=.45\textwidth]{figs/4-CABS/Phase-Match.pdf}
+\includegraphics[width=\textwidth]{figs/4-CABS/Phase-Match.pdf}
 \caption{Phase-matching \(\mathrm{sinc^2}\) func}
 \label{fig:Phase-Match}
 \end{figure}
+
+\FloatBarrier
 
 \subsection*{Fano-Resonant Asymmetries at Small Signals}
 \label{Results:Fano-Resonant Asymmetries at Small Signals}
