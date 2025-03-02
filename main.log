@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  2 MAR 2025 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  2 MAR 2025 11:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1430,29 +1430,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 272--276
 [48]
 
 [49]
-Overfull \hbox (17.28511pt too wide) in paragraph at lines 369--378
+Overfull \hbox (17.28511pt too wide) in paragraph at lines 370--379
  [] 
  []
 
 
 
 [50]
-<figs/4-CABS/SponBSvsStimBSvsCoBS.pdf, id=1157, 715.93271pt x 427.14142pt>
+<figs/4-CABS/SponBSvsStimBSvsCoBS.pdf, id=1160, 715.93271pt x 427.14142pt>
 File: figs/4-CABS/SponBSvsStimBSvsCoBS.pdf Graphic file (type pdf)
 <use figs/4-CABS/SponBSvsStimBSvsCoBS.pdf>
 Package pdftex.def Info: figs/4-CABS/SponBSvsStimBSvsCoBS.pdf  used on input li
-ne 386.
+ne 387.
 (pdftex.def)             Requested size: 469.75502pt x 280.27176pt.
 
 
 [51 <./figs/4-CABS/SponBSvsStimBSvsCoBS.pdf>]
 
 [52]
-<figs/4-CABS/JoyDivisionCABSUHNA3.pdf, id=1218, 614.295pt x 1300.86pt>
+<figs/4-CABS/JoyDivisionCABSUHNA3.pdf, id=1221, 614.295pt x 1300.86pt>
 File: figs/4-CABS/JoyDivisionCABSUHNA3.pdf Graphic file (type pdf)
 <use figs/4-CABS/JoyDivisionCABSUHNA3.pdf>
 Package pdftex.def Info: figs/4-CABS/JoyDivisionCABSUHNA3.pdf  used on input li
-ne 409.
+ne 410.
 (pdftex.def)             Requested size: 276.43956pt x 585.38303pt.
 
 
@@ -1463,26 +1463,26 @@ ne 409.
 [55
 
 ]
-<figs/4-CABS/JoyDivisionCABSCS2.pdf, id=1247, 614.295pt x 794.97pt>
+<figs/4-CABS/JoyDivisionCABSCS2.pdf, id=1250, 614.295pt x 794.97pt>
 File: figs/4-CABS/JoyDivisionCABSCS2.pdf Graphic file (type pdf)
 <use figs/4-CABS/JoyDivisionCABSCS2.pdf>
 Package pdftex.def Info: figs/4-CABS/JoyDivisionCABSCS2.pdf  used on input line
- 427.
+ 428.
 (pdftex.def)             Requested size: 328.82707pt x 425.54129pt.
 
 
 [56 <./figs/4-CABS/JoyDivisionCABSCS2.pdf>]
-<figs/4-CABS/CS2FanoCompare.pdf, id=1264, 1084.05pt x 1084.05pt>
+<figs/4-CABS/CS2FanoCompare.pdf, id=1267, 1084.05pt x 1084.05pt>
 File: figs/4-CABS/CS2FanoCompare.pdf Graphic file (type pdf)
 <use figs/4-CABS/CS2FanoCompare.pdf>
-Package pdftex.def Info: figs/4-CABS/CS2FanoCompare.pdf  used on input line 442
+Package pdftex.def Info: figs/4-CABS/CS2FanoCompare.pdf  used on input line 443
 .
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
-<figs/4-CABS/CS2LorentzCompare.pdf, id=1265, 1084.05pt x 1084.05pt>
+<figs/4-CABS/CS2LorentzCompare.pdf, id=1268, 1084.05pt x 1084.05pt>
 File: figs/4-CABS/CS2LorentzCompare.pdf Graphic file (type pdf)
 <use figs/4-CABS/CS2LorentzCompare.pdf>
 Package pdftex.def Info: figs/4-CABS/CS2LorentzCompare.pdf  used on input line 
-449.
+450.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
@@ -1495,18 +1495,18 @@ Package pdftex.def Info: figs/4-CABS/CS2LorentzCompare.pdf  used on input line
 [60
 
 ]
-<figs/4-CABS/PSPr-Contribute-Equally.pdf, id=1308, 1084.05pt x 1084.05pt>
+<figs/4-CABS/PSPr-Contribute-Equally.pdf, id=1311, 1084.05pt x 1084.05pt>
 File: figs/4-CABS/PSPr-Contribute-Equally.pdf Graphic file (type pdf)
 <use figs/4-CABS/PSPr-Contribute-Equally.pdf>
 Package pdftex.def Info: figs/4-CABS/PSPr-Contribute-Equally.pdf  used on input
- line 519.
+ line 520.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
-<figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf, id=1309, 1084.05pt x 1084.05pt
+<figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf, id=1312, 1084.05pt x 1084.05pt
 >
 File: figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf Graphic file (type pdf)
 <use figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf>
 Package pdftex.def Info: figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf  used o
-n input line 526.
+n input line 527.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
@@ -1556,10 +1556,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: DFBF935863EA6436F69F916562397CEA;16910.
  ) 
 Here is how much of TeX's memory you used:
- 23013 strings out of 473201
- 442612 string characters out of 5716120
+ 23015 strings out of 473201
+ 442642 string characters out of 5716120
  1055221 words of memory out of 5000000
- 45527 multiletter control sequences out of 15000+600000
+ 45529 multiletter control sequences out of 15000+600000
  572342 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,83p,2398b,1296s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1599,10 +1599,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf
 dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (81 pages, 4233750 bytes).
+Output written on main.pdf (81 pages, 4234077 bytes).
 PDF statistics:
- 1534 PDF objects out of 1728 (max. 8388607)
- 1281 compressed objects within 13 object streams
+ 1537 PDF objects out of 1728 (max. 8388607)
+ 1284 compressed objects within 13 object streams
  301 named destinations out of 1000 (max. 500000)
  764 words of extra memory for PDF output out of 10000 (max. 10000000)
 
