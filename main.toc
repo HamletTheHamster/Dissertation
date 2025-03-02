@@ -71,7 +71,7 @@
 \contentsline {section}{\numberline {B.2}Plotting Data In Go Program}{38}{section.B.2}%
 \contentsline {chapter}{\numberline {C}Supplementary Information for Chapter \ref {ch:Cooling}: Manuscript I}{39}{appendix.C}%
 \contentsline {section}{\numberline {C.1}Data}{39}{section.C.1}%
-\contentsline {chapter}{\numberline {D}Supplementary Information for Chapter \ref {ch:CABS}: Manuscript II}{41}{appendix.D}%
+\contentsline {chapter}{\numberline {D}Supplementary Information for Chapter~\ref {ch:CABS}: Manuscript II}{41}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Coupled-Wave Equations}{41}{section.D.1}%
 \contentsline {subsection}{\numberline {D.1.1}Acoustic Field}{42}{subsection.D.1.1}%
 \contentsline {subsection}{\numberline {D.1.2}Optical Fields}{43}{subsection.D.1.2}%

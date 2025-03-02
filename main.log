@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  2 MAR 2025 11:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  2 MAR 2025 11:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1178,7 +1178,6 @@ Appendix C.
 
 
 
-
 ]
 Appendix D.
 
@@ -1213,7 +1212,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
 
 
-[41]
+[41
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
@@ -1599,7 +1600,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf
 dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (81 pages, 4234077 bytes).
+Output written on main.pdf (81 pages, 4234050 bytes).
 PDF statistics:
  1537 PDF objects out of 1728 (max. 8388607)
  1284 compressed objects within 13 object streams
