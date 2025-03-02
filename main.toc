@@ -78,9 +78,9 @@
 \contentsline {section}{\numberline {D.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{48}{section.D.2}%
 \contentsline {section}{\numberline {D.3}Observance of Fano-Resonant Asymmetries at Small Signals}{53}{section.D.3}%
 \contentsline {subsection}{\numberline {D.3.1}Experiment A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{53}{subsection.D.3.1}%
-\contentsline {subsection}{\numberline {D.3.2}Experiment B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{55}{subsection.D.3.2}%
-\contentsline {section}{\numberline {D.4}Equal Contribution of Pump, Stokes, and Probe Optical Fields}{61}{section.D.4}%
-\contentsline {section}{\numberline {D.5}Data}{64}{section.D.5}%
-\contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{65}{appendix.E}%
-\contentsline {section}{\numberline {E.1}Data}{65}{section.E.1}%
-\contentsline {chapter}{References}{66}{section*.31}%
+\contentsline {subsection}{\numberline {D.3.2}Experiment B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{56}{subsection.D.3.2}%
+\contentsline {section}{\numberline {D.4}Equal Contribution of Pump, Stokes, and Probe Optical Fields}{62}{section.D.4}%
+\contentsline {section}{\numberline {D.5}Data}{65}{section.D.5}%
+\contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{67}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Data}{67}{section.E.1}%
+\contentsline {chapter}{References}{68}{section*.31}%
