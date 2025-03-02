@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{39}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -267,5 +267,12 @@ Robert~W Boyd, Kazimierz Rzaewski, and Paul Narum.
 Prashanta Kharel, Ryan~O Behunin, William~H Renninger, and Peter~T Rakich.
 \newblock Noise and dynamics in forward brillouin interactions.
 \newblock \emph{Physical Review A}, 93\penalty0 (6):\penalty0 063806, 2016.
+
+\bibitem[Rieger et~al.(2023)Rieger, G{\"u}nzler, Spiecker, Nambisan,
+  Wernsdorfer, and Pop]{rieger2023fano}
+D~Rieger, S~G{\"u}nzler, M~Spiecker, A~Nambisan, W~Wernsdorfer, and IM~Pop.
+\newblock Fano interference in microwave resonator measurements.
+\newblock \emph{Physical Review Applied}, 20\penalty0 (1):\penalty0 014059,
+  2023.
 
 \end{thebibliography}
