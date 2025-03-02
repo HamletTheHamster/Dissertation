@@ -87,13 +87,13 @@ Given the phonon dispersion relations \(\Omega_{B} = |q_{B}|v_{s}\) and \(\Omega
     \label{eq:in terms of Omega_B}
 \end{equation}
 \\
-We take the common assumption that the phonon propagation distance is small compared to the distance over which the source term varies significantly, which allows the spatial derivative term in Equation~\ref{eq:in terms of Omega_B} to be dropped. I further assume steady-state conditions such that the time derivative term also vanishes, leaving
+I take the common assumption that the phonon propagation distance is small compared to the distance over which the source term varies significantly, which allows the spatial derivative term in Equation~\ref{eq:in terms of Omega_B} to be dropped. I further assume steady-state conditions such that the time derivative term also vanishes, leaving
 \\
 \begin{equation}
     (\Omega^{2}_{B} - \Omega^{2} - i\Omega\Gamma_{B})_{\rho} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
 \end{equation}
 \\
-We thus find the acoustic field amplitude to be
+I thus find the acoustic field amplitude to be
 \\
 \begin{equation}
     \rho(z,t) = \epsilon_{0}\gamma_{e}q^{2}\frac{(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}.
@@ -104,7 +104,7 @@ We thus find the acoustic field amplitude to be
 \subsection{Optical Fields}
 \label{Coupled-Wave Equations:Optical Fields}
 
-We now turn to the spatial evolution of the optical fields, described by the wave equation,
+I now turn to the spatial evolution of the optical fields, described by the wave equation,
 \\
 \begin{equation}
     \frac{\partial^{2}\tilde{E}_{i}}{\partial z^{2}} - \frac{n^{2}}{c^{2}}\frac{\partial^{2}\tilde{E}_{i}}{\partial t^{2}} = \frac{1}{\epsilon_{0}c^{2}}\frac{\partial^{2}\tilde{P}_{i}}{\partial t^{2}},
@@ -157,7 +157,7 @@ Inserting the optical fields (Equations~\ref{eq:Pump optical field}-\ref{eq:Sign
     -\frac{\partial A_{Sig}}{\partial z} + \frac{n}{c}\frac{\partial A_{Sig}}{\partial t} = \frac{i\omega_{Sig}\gamma_{e}}{2nc\rho_{0}}\rho^{*}A_{Pr},
 \end{equation}
 \\
-We again assume steady-state conditions, allowing the time derivative term to be dropped. Plugging in the acoustic field amplitude (Equation~\ref{eq:Acoustic field amplitude}), I arrive at the coupled-amplitude wave equations for the optical fields,
+I again assume steady-state conditions, allowing the time derivative term to be dropped. Plugging in the acoustic field amplitude (Equation~\ref{eq:Acoustic field amplitude}), I arrive at the coupled-amplitude wave equations for the optical fields,
 \\
 \begin{equation}
     \frac{\partial A_{P}}{\partial z} = \frac{i\epsilon_{0}\omega_{P} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{(A_{P}|A_{S}|^{2} + A_{Pr}A_{Sig}^{*}A_{S})e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}},
@@ -177,7 +177,7 @@ We again assume steady-state conditions, allowing the time derivative term to be
     \label{eq:Signal coupled-amplitude wave equation}
 \end{equation}
 \\
-We drop the very small signal amplitude terms on the right side of Equations~\ref{eq:Pump coupled-amplitude wave equation}-\ref{eq:Signal coupled-amplitude wave equation} and integrate each along the effective length to get the amplitudes,
+I drop the very small signal amplitude terms on the right side of Equations~\ref{eq:Pump coupled-amplitude wave equation}-\ref{eq:Signal coupled-amplitude wave equation} and integrate each along the effective length to get the amplitudes,
 \\
 \begin{equation}
   A_{P} = \frac{i\epsilon_{0}\omega_{P}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}|A_{S}|^{2}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
@@ -196,7 +196,7 @@ We drop the very small signal amplitude terms on the right side of Equations~\re
   \label{eq:Signal amplitude}
 \end{equation}
 \\
-We focus on the signal amplitude given by Equation~\ref{eq:Signal amplitude}, noting that close to resonance, the denomenator of the middle term containing \(\Omega\) can be approximated as,
+I focus on the signal amplitude given by Equation~\ref{eq:Signal amplitude}, noting that close to resonance, the denomenator of the middle term containing \(\Omega\) can be approximated as,
 \\
 \begin{equation}
 \Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B} \approx \Omega_{B}(\Omega - \Omega_{B} + i\Gamma_{B}),
@@ -277,7 +277,7 @@ where,
   G_{B} = \frac{g_{0}}{A_{eff}}.
 \end{equation}
 \\
-We can also see that off resonance, the \(\Omega\) term from Equation~\ref{eq:resonance} goes to a lorentzian form after taking the squared modulus for intensity.
+It can be seen that off resonance, the \(\Omega\) term from Equation~\ref{eq:resonance} goes to a lorentzian form after taking the squared modulus for intensity.
 
 \newpage
 
@@ -286,7 +286,7 @@ We can also see that off resonance, the \(\Omega\) term from Equation~\ref{eq:re
 \section{Scattered Power Comparison to Traditional Brillouin Scattering Processes}
 \label{appendix:comparison}
 
-This Appendix~provides a comparative analysis of the scattered power produced by our instrument to that of standard Brillouin scattering processes-that is, spontaneous and stimulated Brillouin scattering. The difference in behavior of our instrumdent from the traditional techniques arises due to the coherent stimulation of the acoustic mode by the pump and Stokes fields, producing a 4-wave-coupled-amplitude interaction that yields much higher scattered powers in smaller lengths. While our instrument is particularly well suited to small interaction lengths due to enhanced phase-matching relaxation, it maintains production of a significant amount of scatterd power at greater lengths as well (greater than 1 meter). This is because the reduction in scattered power from the breakdown of phase-matching relaxation at greater lengths is perfectly counter-balanced by the quadradic dependence on length in the overall scatterd power, as seen in Equation~\ref{Eq:Theoretical Framework:Scattered Power}. At very large lengths (greater than 1 km), the instrument is ultimately limited by the coherence length of the lasers employed, as the process relies on the coherent stimulation of the phonon mode and thus the mutual coherence of the pump and Stokes fields over the interaction length. Here I offer an exploration into the respective performance of each technique across the entire meaningful length scale, from nanometers to kilometers.
+This appendix provides a comparative analysis of the scattered power produced by my instrument to that of standard Brillouin scattering processes-that is, spontaneous and stimulated Brillouin scattering. The difference in behavior of my instrumdent from the traditional techniques arises due to the coherent stimulation of the acoustic mode by the pump and Stokes fields, producing a 4-wave-coupled-amplitude interaction that yields much higher scattered powers in smaller lengths. While my instrument is particularly well suited to small interaction lengths due to enhanced phase-matching relaxation, it maintains production of a significant amount of scatterd power at greater lengths as well (greater than 1 meter). This is because the reduction in scattered power from the breakdown of phase-matching relaxation at greater lengths is perfectly counter-balanced by the quadradic dependence on length in the overall scatterd power, as seen in Equation~\ref{Eq:Theoretical Framework:Scattered Power}. At very large lengths (greater than 1 km), the instrument is ultimately limited by the coherence length of the lasers employed, as the process relies on the coherent stimulation of the phonon mode and thus the mutual coherence of the pump and Stokes fields over the interaction length. Here I offer an exploration into the respective performance of each technique across the entire meaningful length scale, from nanometers to kilometers.
 
 Despite shared dependence on basic Brillouin scattering principles, the three techniques compared here (spontaneous-, stimulated-, and coherently stimulated Brillouin scattering) yield significantly different scattered power for identical experimental paramters. At small lengths, the high-gain threshold for optical stimulation of the material fluctuations is often not achievable without the use of extremely large optical powers. This prevents the system from entering a process of exponential growth of the scattered Stokes light indicative of stimulated Brillouin scattering.\cite{boyd2020nonlinear} In this low-gain regime, any scattered Stokes light is spontanously scattered from thermal fluctuations of the material, or from quantum-mechanical fluctuations of materials at the ground state. The low-gain regime is defined by an overall process gain factor, denoted by $G = G_{P}P_{P}L$, which is much less than unity ($G \ll 1$). Here, $G_{B}$ is the effective Brillouin gain in $W^{-1}m^{-1}$ ($G_{B} = \frac{g}{A_{eff}}$), $P_{P}$ is the pump power, and $L$ is the effective length. This spontaneous scattering process follows a linear growth trend described by Boyd et al in 1990\cite{boyd1990noise} as
 
@@ -348,7 +348,7 @@ where $x = P_S(0)/P_P(0)$, or the ratio of the unknown Stokes power at the end o
   P_S(0) = xP_{P}(0).
 \end{equation}
 
-The solution to this numeric approach to scattered power in the high-gain (stimulated) Brillouin scattering regime with pump depletion effects at large $G$ is plotted for varying effective lengths in Figure~\ref{fig:SponBSvsStimBSvsCoBS}, along with the analytical solutions derived previously for the low-gain (spontaneous) regime and our coherently stimulated Brillouin spectrometer given by Equation~\ref{Eq:Theoretical Framework:Scattered Power}. System parameters used to generate the plot for each of the three processes are provided in Tables \ref{tab:CoBS Parameters} and \ref{tab:SBS Parameters}. Wherever possible, the parameters shared by all three Brillouin scattering processes were kept consistent, while quantities unique to each process were assigned their respective values.
+The solution to this numeric approach to scattered power in the high-gain (stimulated) Brillouin scattering regime with pump depletion effects at large $G$ is plotted for varying effective lengths in Figure~\ref{fig:SponBSvsStimBSvsCoBS}, along with the analytical solutions derived previously for the low-gain (spontaneous) regime and my coherently stimulated Brillouin spectrometer given by Equation~\ref{Eq:Theoretical Framework:Scattered Power}. System parameters used to generate the plot for each of the three processes are provided in Tables \ref{tab:CoBS Parameters} and \ref{tab:SBS Parameters}. Wherever possible, the parameters shared by all three Brillouin scattering processes were kept consistent, while quantities unique to each process were assigned their respective values.
 
 \begin{table}[ht]
   \centering
@@ -385,11 +385,11 @@ At lengths beyond a centimeter, the phase-matching relaxation of the coherently 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{figs/4-CABS/SponBSvsStimBSvsCoBS.pdf}
-\caption{Comparison of scattered power from a spontaneous Brillouin scattering process and our coherently stimulated Brillouin spectrometer.}
+\caption{Comparison of scattered power from a spontaneous Brillouin scattering process and my coherently stimulated Brillouin spectrometer.}
 \label{fig:SponBSvsStimBSvsCoBS}
 \end{figure}
 
-Figure~\ref{fig:SponBSvsStimBSvsCoBS} shows the advantage that our coherently stimulated Brillouin spectrometer offers compared to the traditional Brillouin processes for the example medium of UHNA3 fiber. For lengths up to about 50 meters and down to as low as 100 nanometers, the coherently stimulated process employed by our instrument offers superior scattered power, with the relative advantage peaking for a length just under 1 cm. At this length, the gain factor $G$ places the traditional process within the low-gain (spontaneous) regime, and thus the scattered power generated is only on the order of 10s of picoWatts. In contrast, the scattered power for the same system offered by our instrument is on the order of 10s of microWatts, exceeding that of the spontenous process by a factor of a million. This is, of course, the most ideal case for this system, however it can be seen from Figure~\ref{fig:SponBSvsStimBSvsCoBS} that the coherently stimulated process offers orders of magnitude more scattered power than either traditional process through a wide range of lengths.
+Figure~\ref{fig:SponBSvsStimBSvsCoBS} shows the advantage that my coherently stimulated Brillouin spectrometer offers compared to the traditional Brillouin processes for the example medium of UHNA3 fiber. For lengths up to about 50 meters and down to as low as 100 nanometers, the coherently stimulated process employed by my instrument offers superior scattered power, with the relative advantage peaking for a length just under 1 cm. At this length, the gain factor $G$ places the traditional process within the low-gain (spontaneous) regime, and thus the scattered power generated is only on the order of 10s of picoWatts. In contrast, the scattered power for the same system offered by my instrument is on the order of 10s of microWatts, exceeding that of the spontenous process by a factor of a million. This is, of course, the most ideal case for this system, however it can be seen from Figure~\ref{fig:SponBSvsStimBSvsCoBS} that the coherently stimulated process offers orders of magnitude more scattered power than either traditional process through a wide range of lengths.
 
 \newpage
 
@@ -419,7 +419,7 @@ Figure~\ref{fig:Joy Division UHNA3} highlights the progressive shift from Lorent
 \subsection{Experiment B: \SI{1}{\milli\meter} \texorpdfstring{\ce{CS2}}{CS2} Spectra and Fano Distortions}
 \label{Appendix:Fano:Experiment B}
 
-We now turn to measurements on a \SI{1}{\milli\meter}-thick cell of \ce{CS2} in a free-space geometry, complementing the \SI{1}{\centi\meter} UHNA3 fiber results (Experiment~A). Both experiments used comparable sub-Watt optical powers (on the order of \(\sim\)60–\SI{70}{\milli\watt} pump, \(\sim\)25–\SI{30}{\milli\watt} Stokes, and \(\sim\)40–\SI{50}{\milli\watt} probe). However, unlike Experiment~A, which probed a \SI{1}{\centi\meter} fiber with \SI{0.5}{\giga\hertz} detuning increments from \SI{5}{\giga\hertz} to \SI{42}{\giga\hertz}, here the detuning is stepped in \SI{0.25}{\giga\hertz} increments between \SI{10}{\giga\hertz} and \SI{14}{\giga\hertz}. Because the \ce{CS2} sample is an order of magnitude shorter (\SI{1}{\milli\meter} vs.\ \SI{1}{\centi\meter}), its phase-matching bandwidth (\(\mathrm{sinc}^{2}\) profile) is roughly ten times wider, making these \SI{0.25}{\giga\hertz} steps effectively twenty times finer than the \SI{0.5}{\giga\hertz} steps used in the fiber experiment. This reduced range of detunings within a broader \(\mathrm{sinc^2}\) profile produce measured peaks all of similar amplitude to one another, as opposed to the dynamic evolution of peaks in the \SI{1}{\centi\meter} UHNA3 fiber data.
+I now turn to measurements on a \SI{1}{\milli\meter}-thick cell of \ce{CS2} in a free-space geometry, complementing the \SI{1}{\centi\meter} UHNA3 fiber results (Experiment~A). Both experiments used comparable sub-Watt optical powers (on the order of \(\sim\)60–\SI{70}{\milli\watt} pump, \(\sim\)25–\SI{30}{\milli\watt} Stokes, and \(\sim\)40–\SI{50}{\milli\watt} probe). However, unlike Experiment~A, which probed a \SI{1}{\centi\meter} fiber with \SI{0.5}{\giga\hertz} detuning increments from \SI{5}{\giga\hertz} to \SI{42}{\giga\hertz}, here the detuning is stepped in \SI{0.25}{\giga\hertz} increments between \SI{10}{\giga\hertz} and \SI{14}{\giga\hertz}. Because the \ce{CS2} sample is an order of magnitude shorter (\SI{1}{\milli\meter} vs.\ \SI{1}{\centi\meter}), its phase-matching bandwidth (\(\mathrm{sinc}^{2}\) profile) is roughly ten times wider, making these \SI{0.25}{\giga\hertz} steps effectively twenty times finer than the \SI{0.5}{\giga\hertz} steps used in the fiber experiment. This reduced range of detunings within a broader \(\mathrm{sinc^2}\) profile produce measured peaks all of similar amplitude to one another, as opposed to the dynamic evolution of peaks in the \SI{1}{\centi\meter} UHNA3 fiber data.
 
 Figure~\ref{fig:Joy Division CS2} shows all 17 spectra obtained at detuning increments of \SI{0.25}{\giga\hertz}, presented in order of increasing detuning from top spectrum to bottom spectrum. Each trace is offset vertically for clarity, with the topmost spectrum corresponding to \SI{10}{\giga\hertz} and the bottom spectrum corresponding to \SI{14}{\giga\hertz} detuning of the pump and the probe. A change in the detuning of the pump and probe via adjustment of the probe laser wavelength produces a change in phase of the resonant Brillouin signal. This changing resonant Brillouin phase relative to the background continuum produces spectra with different Fano-resonant distortions corresponding to specific values of the Fano parameter, \(q\), as discussed in \textit{Fano-Resonant Asymmetries at Small Signals} in the main text (Section~\ref{Results:Fano-Resonant Asymmetries at Small Signals}). Fano-resonant asymmetries are seen in nearly every spectrum of this liquid experiment, indicating that the background continuum is competing strongly with the Brillouin amplitude in all measurements.
 
@@ -440,7 +440,7 @@ To illustrate the strong distinction in line-shape of a spectra resulting from a
 
 % Notably, in the negative-\(q\) case (\SI{11}{\giga\hertz}), the line’s peak amplitude appears slightly higher than what would be inferred from a Lorentzian fit—sometimes referred to as a “peak boost.” As discussed in \textit{Fano-Resonant Asymmetries at Small Signals} (Section~\ref{Results}), this can be beneficial for detecting weaker signals, provided the background is not too noisy, and in principle, one could choose a phase relationship that maximizes this constructive interference near resonance. Conversely, a positive-\(q\) scenario can suppress or broaden the peak on one side, which may be less desirable for line-shape analysis but could be exploited if one aims to shape the response profile in a particular way.
 
-Notably, in the \(\SI{11}{\giga\hertz}\) case, our Fano fit reveals a local amplitude slightly higher than what the Lorentzian fit suggests, sometimes referred to as a “peak boost.” In essence, partial \emph{constructive} interference between the discrete Brillouin response and the broad continuum locally raises the amplitude, although it does not imply any net energy gain. As mentioned in \textit{Fano-Resonant Asymmetries at Small Signals} (Section~\ref{Results}), this effect can aid in detecting weak resonances if the background is not too noisy. One could, in principle, tune the phase relationship to maximize this interference near the resonance, possibly producing a sharper or taller peak for certain values of \(q\) than would be achieved without interference with the background. This Fano interference-tuning of the discrete mode relative to the background can be done dynamically via adjustment of the probe laser wavelength and, critically, can be adjusted independently from the phase-matching bandwidth tuning (pump-probe detuning). This is ability to dynamically adjust the discrete-continuum interference is an elegant and notable feature, as in typical systems this is adjusted via changes in physical geometry or material doping of the sample.\cite{ko2023full, gu2020fano, rieger2023fano}
+Notably, in the \(\SI{11}{\giga\hertz}\) case, my Fano fit reveals a local amplitude slightly higher than what the Lorentzian fit suggests, sometimes referred to as a “peak boost.” In essence, partial \emph{constructive} interference between the discrete Brillouin response and the broad continuum locally raises the amplitude, although it does not imply any net energy gain. As mentioned in \textit{Fano-Resonant Asymmetries at Small Signals} (Section~\ref{Results}), this effect can aid in detecting weak resonances if the background is not too noisy. One could, in principle, tune the phase relationship to maximize this interference near the resonance, possibly producing a sharper or taller peak for certain values of \(q\) than would be achieved without interference with the background. This Fano interference-tuning of the discrete mode relative to the background can be done dynamically via adjustment of the probe laser wavelength and, critically, can be adjusted independently from the phase-matching bandwidth tuning (pump-probe detuning). This is ability to dynamically adjust the discrete-continuum interference is an elegant and notable feature, as in typical systems this is adjusted via changes in physical geometry or material doping of the sample.\cite{ko2023full, gu2020fano, rieger2023fano}
 
 \begin{figure}[ht]
   \centering
