@@ -74,7 +74,7 @@ The development of this coherently stimulated Brillouin spectrometer opens new a
 \section{Theoretical Framework}
 \label{Theoretical Framework}
 
-\subsection*{Coherently stimulated four-wave Brillouin scattering}
+\subsection{Coherently stimulated four-wave Brillouin scattering}
 \label{Theoretical Framework:Coherently stimulated five-wave Brillouin scattering}
 
 \begin{figure*}[t]
@@ -92,7 +92,7 @@ To describe this interaction and characterize the performance of the instrument,
 \\
 \begin{equation}
   P_{Sig} = \frac{1}{4}(G_{B}L)^{2}P_{P}P_{S}P_{Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right),
-  \label{Eq:Theoretical Framework:Scattered Power} %compress sinc term into Psi here?
+  \label{Eq:Theoretical Framework:Scattered Power}
 \end{equation}
 \\
 where \(P_P\), \(P_S\), and \(P_Pr\) are the powers of the pump, Stokes, and probe lasers, respectively. \(G_B\) is the effective Brillouin gain, given by
@@ -111,7 +111,7 @@ with the on-resonance gain factor of the material given by
 Here, \(\gamma_e\) is the electrostrictive constant, \(\omega\) is the pump frequency, \(n\) is the refractive index of the material, \(v\) is the sound speed of the material, \(c\) is the speed of light, \(\rho_0\) is the mean density of the material, and \(\Gamma_B\) is the Brillouin linewidth, or phonon dissipation rate, of the material. In Eq.~\ref{Eq:Effective Brillouin Gain}, \(\Omega_B\) is the resonant Brillouin frequency of the material, \(A_{Eff}\) is the effective area of the material, \(\Delta k\) is the wavevector mismatch between the optical fields, to be discussed next, and \(L\) is the effective length of the material.
 
 
-\subsection*{Phase matching relaxation}
+\subsection{Phase matching relaxation}
 \label{Theoretical Framework: Phase matching relaxation}
 In all nonlinear optical processes, efficiency is maximized when phase matching conditions are satisfied. A frequency mismatch (energy unconservation) or a wavevector mismatch (momentum unconservation) each result in drastically reduced efficiency of a given process.\cite{maker1962effects} This can be seen by Eq.~\ref{Eq:Theoretical Framework:Scattered Power}, where the wavevector mismatch, \(\Delta k\), is contained within a \(\mathrm{sinc^2}\) function. This \(\mathrm{sinc^2}\) term thereby defines the phase matching bandwidth of the system, notably scaling with effective interaction length \(L\).
 
@@ -133,7 +133,7 @@ Using this expression for \(\Phi\), we see that for an effective length of \SI{1
 Furthermore, for decreasing lengths, Eq.~\ref{Eq:Phi} predicts an increase in the fraction of maximum signal produced, given equivalent pump--probe detuning, as the \(\mathrm{sinc^2}\) function is sampled closer to its peak center. Alternatively, as length decreases, the probe may be further detuned from the pump and still achieve the same fraction of the maximum signal as for longer lengths, perhaps offering a slight advantage in noise reduction. It should be noted that the scattered power, as given by Eq.~\ref{Eq:Theoretical Framework:Scattered Power}, scales with the square of the effective length. Thus, while smaller lengths allow for the ability to capture a larger fraction of this maximum scattered power, the actual amount of scattered power decreases dramatically as length decreases.
 
 \section{Methods}\label{Methods}
-\subsection*{Instrument design}
+\subsection{Instrument design}
 \label{Methods:Instrument Design}
 
 \begin{figure*}[htbp]
@@ -152,7 +152,7 @@ A separate tunable laser is used to supply a probe wave (\(\omega_{\mathrm{Probe
 
 The filtered signal then heterodynes via a 99-1 splitter with the LO which is frequency-upshifted by an acousto-optic modulator (AOM) (\(\omega_{\mathrm{LO}} = \omega_{\mathrm{Probe}} + \omega_{\mathrm{AOM}}\)) and controlled to be copolarized with the signal. Of the resulting frequencies from the heterodyne process, only the difference frequency term is considered, as all others are beyond the range of detection. This heterodyned signal (\(\omega_{\mathrm{Signal}} = \Omega + \omega_{\mathrm{AOM}}\)) is then captured by a photodiode detector and heterodyned again by a radio frequency (RF) mixer with a second AC signal (\(\Omega + \omega_{\mathrm{AOM}} - \omega_{\mathrm{Lock}}\)), where \(\omega_{\mathrm{Lock}}\) is a fixed-frequency to be detected by a lock-in amplifier set to this frequency after being passed through a low-pass filter and amplified by an RF amplifier. Synchronous sweeping of both AC signals, each involving \(\Omega\), allows for \(\omega_{\mathrm{Lock}}\) to remain fixed throughout measurement over a frequency range.
 
-\subsection*{Experimental Techniques}
+\subsection{Experimental Techniques}
 \label{Methods:Experimental Techniques}
 We optimized the signal-to-noise ratio (SNR) of our instrument through specific design choices and device settings. Our setup simultaneously generates pump, Stokes, and probe optical fields for coherently stimulated Brillouin scattering. The pump laser provides \(\sim\!\SI{45}{\milli\watt}\) total output, of which 10\% is split and amplified to \(\sim\!\SI{0.5}{\watt}\) for the pump field; the remaining 90\% is frequency-shifted and amplified to \(\sim\!\SI{1}{\watt}\) for the Stokes field. Likewise, the probe laser also outputs \(\sim\!\SI{45}{\milli\watt}\), with 10\% amplified to \(\sim\!\SI{1}{\watt}\) for the probe field and the remaining 90\% reserved for the local oscillator (LO). To combine the backscattered signal and LO with minimal loss, we use a 99/1 splitter instead of a typical 50/50, preserving 99\% of the signal. The LO is therefore amplified to \(\sim\!\SI{230}{\milli\watt}\) so the total optical power at the detector remains below the \(\SI{2.4}{\milli\watt}\) damage threshold. After detection, the electronic signal is mixed with a \SI{17}{\dBm} AC reference and further amplified by \SI{23}{\dBm} before input to the lock-in amplifier. We find that running both the pump and probe lasers in “whisper” mode (as opposed to “dither”) significantly enhances the measured SNR.
 
@@ -161,7 +161,7 @@ We use a Zurich Instruments HF2LI \SI{50}{\mega\hertz} lock-in amplifier whose d
 Further SNR improvements are gained by narrowing the lock-in’s low-pass filter bandwidth to match both the sub-\si{\hertz} natural linewidth of the heterodyne signal and the thermally-driven frequency drift of the apparatus. After a \(\sim\!\SI{30}{\minute}\) warm-up, we observe less than \SI{100}{\hertz} of drift in the detected signal frequency, so we typically set a \SI{100}{\hertz} low-pass bandwidth for multi-hour measurements. For shorter scans (\(< \SI{15}{\minute}\)), we can reduce this bandwidth to \SI{40}{\hertz} if needed. In addition to linewidth variability, the signal’s center frequency can shift due to thermal changes in the AOM and related electronics. Although \(\Omega\) is nominally controlled to sub-hertz precision by the signal generator, our AOM’s shift \(\omega_{\mathrm{AOM}}\) drifts from \SI{40}{\mega\hertz} up to \(\sim\!\SI{40.00082}{\mega\hertz}\) over roughly \SI{30}{\minute}. Once at thermal equilibrium, the AOM remains stable within \(\pm\SI{50}{\hertz}\), enabling a reliable lock-in frequency reference and minimal filter bandwidth. This stability is crucial for repeatable, high-resolution Brillouin measurements.
 
 \section{Results}\label{Results}
-\subsection*{Instrument sensitivity}
+\subsection{Instrument sensitivity}
 \label{Results:Instrument sensitivity and SBS comparison}
 
 \begin{figure}[t]
@@ -193,7 +193,7 @@ Figure~\ref{fig:5fWSensitivity} presents a measurement in which the instrument�
     \label{tab:sensitivity}
 \end{table}
 
-\subsection*{Measurements}
+\subsection{Measurements}
 \label{Results:Measurements}
 
 We demonstrate the capabilities of the instrument on two common sample classes: fiber and bulk material. For a fiber sample we again choose UHNA3 for its higher nonlinear response and excellent optical and acoustic guidance. In contrast to the sensitivity measurements, we now seek to demonstrate the full measuring capabilities of the instrument and so apply all available optical power (\(\sim\!\SI{1.5}{\watt}\)) to maximize the backscattered signal from the sample. We target the same \SI{1}{\centi\meter} segment of UHNA3 fiber as was used for determining sensitivity.
@@ -238,7 +238,7 @@ Placement of the Stokes filter is critical for measurements of materials that gi
 %
 % These three observations collectively showcase the high sensitivity, broad applicability, and impressive capabilities of our coherent stimulated phonon spectrometer in measuring Brillouin scattering across different sample types, scales, and power levels.
 
-\subsection*{Phase Matching Bandwidth}
+\subsection{Phase Matching Bandwidth}
 \label{Results:Phase Matching Characterization}
 
 To characterize the phase matching tolerance of the instrument for a given length of sample, we performed an additional experiment whereby we took a series of measurements of \SI{1}{\centi\meter} of UHNA3 at constant optical powers while letting the detuning of the pump and probe lasers vary. In the language of Eq.~\ref{Eq:Theoretical Framework:Scattered Power}, this experiment holds \(G_B\), \(L\), \(P_P\), \(P_S\), and \(P_{Pr}\) constant while letting \(\Delta k\) vary. For the experiment to support the validation of Eq.~\ref{Eq:Theoretical Framework:Scattered Power}, we would expect the peak amplitudes of these measurements to trace out a \(\mathrm{sinc^2}\) profile, also given by Eq.~\ref{Eq:Phi}. Fig.~\ref{fig:Phase-Match} shows the results of this experiment, in which 75 measurements performed between \SI{5}{\giga\hertz} and \SI{42}{\giga\hertz} pump--probe frequency separation at \SI{0.5}{\giga\hertz} intervals. We found peak amplitudes by fitting each spectra with a Fano profile (see the proceeding \textit{Fano-Resonant Asymmetries at Small Signals} subsection) and are represented by a point in Fig.~\ref{fig:Phase-Match}. The theoretical \(\mathrm{sinc^2}\) function for the parameters used in the experiment is shown on the plot with a solid red line.
@@ -254,7 +254,7 @@ To characterize the phase matching tolerance of the instrument for a given lengt
 
 \FloatBarrier
 
-\subsection*{Fano-Resonant Asymmetries at Small Signals}
+\subsection{Fano-Resonant Asymmetries at Small Signals}
 \label{Results:Fano-Resonant Asymmetries at Small Signals}
 
 Under certain conditions where the resonant Brillouin amplitude approaches the background continuum level, we observe an asymmetric, Fano‐type line-shape\cite{fano1961effects, limonov2017fano, limonov2021fano, kroner2008nonlinear}. These Fano distortions can shift the apparent peak frequency, complicate simple Lorentzian fitting, and affect the extracted linewidth in small‐signal measurements.\cite{miroshnichenko2010fano} To properly handle these occurances, it is necessary to understand when they are likely to arise with this technique and how they may be corrected for or controlled. Fano resonances arise when a discrete resonance (in our case, the Brillouin mode) interferes with a continuum background (e.g., noise floor or broad, non‐resonant scattering). When the resonance amplitude is no longer much larger than the continuum, the interference leads to an asymmetric line-shape described by the Fano formula \cite{fano1961effects},
@@ -269,9 +269,9 @@ We first noticed this behavior appearing in our small-length \ce{CS2} data, wher
 
 As our instrument is well suited to measuring samples of length \(<\SI{10}{\meter}\) and low Brillouin gain, typical signal amplitudes are often small and may sometimes approach the order of the background continuum amplitude. For this reason, Fano effects may more often be present with this technique and must be handled appropriately, such as fitting data with a Fano profile as opposed to a Lorentzian to ensure accurate capture of relevant parameters such as linewidth and peak amplitude. Beyond fitting and parameter extraction, it is important to be mindful that these effects are likely to occur in ambitious measurements at the limits of equipment sensitivity. Expectation and proper handling of Fano effects in measurements of this nature ensures that they may be more easily recognized and confirmed, as the data is likely to present a spectrum that deviates considerably from the standard Lorentzian. In some cases, and of particular interest for ambitious measurements, Fano interference may even \textit{boost} the measured peak above the naive Lorentzian amplitude—i.e., ‘amplify’ it—when \(q \neq 0\).
 
-In principle, the Fano line-shape can exhibit a higher peak amplitude than a pure Lorentzian if the discrete Brillouin response interferes constructively with the background near resonance. However, this does not represent net energy gain, since it is an interference effect rather than a true amplification mechanism. Depending on the phase relationship and the background noise level, the observed peak may be taller (enhancing local amplitude), but the net SNR may or may not improve globally, since the background continuum also contributes noise. In any case, our technique permits tuning of the probe wavelength to tailor the phase of the Brillouin signal relative to the background continuum for optimal Fano interference for a given system and measurement. Remarkably, this can be done without giving up independent control of the phase matching bandwidth. This can be achieved through simultaneous adjustment of the pump laser wavelength in step with the probe such that the probe wavelength is Fano-optimized and the desired pump--probe detuning is preserved.
+In principle, a Fano‐type lineshape can exhibit a locally higher peak amplitude than a pure Lorentzian if the discrete Brillouin response constructively interferes with the background continuum near the resonance. Crucially, this does not represent net energy gain but rather a redistribution of intensity through interference. Although the resonance peak may appear taller, the continuum also contributes noise and can partially interfere destructively elsewhere, so the global signal‐to‐noise ratio may or may not improve. Nonetheless, our technique can, in principle, tune the phase of the Brillouin response relative to the background by adjusting the probe wavelength. This interference tuning of the continuum and discrete components allows some control over constructive or destructive interference. Moreover, we can achieve this without sacrificing independent control of the pump–probe detuning: by simultaneously shifting the pump laser in step with the probe, we can preserve the desired phase‐matching bandwidth while optimizing the relative phase for Fano interference.
 
-In the phase-matching bandwidth experiment performed on \SI{1}{\centi\meter} UHNA3 (Fig.~\ref{fig:Phase-Match} and described in Phase Matching Bandwidth subsection), several factors contribute to a slight deviation from the simple theory of a pure \(\mathrm{sinc^2}\) function, including noise floor, alignment drifts, fiber dispersion, among possible others. We largely see the \(\mathrm{sinc^2}\) dependence, however near the troughs of the \(\mathrm{sinc^2}\) function and for greater pump-probe detunings, the measured peaks become quite weak, and a slight spectral asymmetry emerges (see Appendix~\ref{Appendix:Fano}). This is consistent with a Fano‐type distortion, wherein the signal amplitude is comparable to the underlying continuum, leading to an interference phenomenon that slightly skews the measured peak. Because of the Fano line shape, the peak amplitude from the spectral trace is not exactly at the Lorentzian center and a naive Lorentzian fit would thus not accurately capture the peak amplitude of these greater pump--probe detunings. We corrected for this by fitting a standard Fano profile, which accurately captures the peak amplitudes. However, even with a good fit, as described earlier, the Fano-resonant effects serve to amplify or diminish the underlying Brillouin response as a function of its phase relative to the background continuum causing constructive or destructive interference.
+In the phase‐matching bandwidth experiment on \SI{1}{\centi\meter} of UHNA3 fiber (Fig.\ref{fig:Phase-Match}), several effects—noise floor, alignment drifts, fiber dispersion, etc.—slightly distort the ideal \(\mathrm{sinc^{2}}\) response. Near the troughs of the \(\mathrm{sinc^{2}}\) function and for larger pump–probe detunings, the measured Brillouin peaks are weaker and exhibit small spectral asymmetries (see Appendix\ref{Appendix:Fano}). This is consistent with a Fano‐type distortion in which the Brillouin amplitude and background continuum are comparable, allowing interference to skew the lineshape and shift the peak away from the naive Lorentzian center. Consequently, a simple Lorentzian fit underestimates the true peak amplitude in these regimes. By fitting a standard Fano profile, we more accurately capture the asymmetric peak and its shifted center frequency. Even then, the relative phase between the discrete Brillouin signal and continuum can lead to “peak boosting” (constructive interference) or partial suppression (destructive interference), rather than any net amplification of the total energy.
 
 \section{Conclusion}
 \label{Conclusion}

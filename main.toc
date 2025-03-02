@@ -1,5 +1,5 @@
-\contentsline {chapter}{List of Tables}{iv}{section*.2}%
-\contentsline {chapter}{List of Figures}{v}{section*.4}%
+\contentsline {chapter}{List of Tables}{v}{section*.2}%
+\contentsline {chapter}{List of Figures}{vi}{section*.4}%
 \contentsline {chapter}{Dedication}{ix}{section*.7}%
 \contentsline {chapter}{Preface}{xi}{section*.9}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
@@ -47,8 +47,16 @@
 \contentsline {section}{\numberline {4.1}abstract}{11}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Introduction}{11}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Theoretical Framework}{13}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Coherently stimulated four-wave Brillouin scattering}{13}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Phase matching relaxation}{14}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Methods}{15}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Instrument design}{15}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Experimental Techniques}{17}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}Results}{18}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Instrument sensitivity}{18}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Measurements}{20}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Phase Matching Bandwidth}{25}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Fano-Resonant Asymmetries at Small Signals}{27}{subsection.4.5.4}%
 \contentsline {section}{\numberline {4.6}Conclusion}{28}{section.4.6}%
 \contentsline {chapter}{\numberline {5}Manuscript III: Brillouin-induced Raman modes}{31}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Abstract}{31}{section.5.1}%
@@ -75,4 +83,4 @@
 \contentsline {section}{\numberline {D.5}Data}{64}{section.D.5}%
 \contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{65}{appendix.E}%
 \contentsline {section}{\numberline {E.1}Data}{65}{section.E.1}%
-\contentsline {chapter}{References}{66}{section*.39}%
+\contentsline {chapter}{References}{66}{section*.31}%
