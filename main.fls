@@ -375,6 +375,8 @@ OUTPUT Cooling.aux
 INPUT ./Cooling.tex
 INPUT ./Cooling.tex
 INPUT Cooling.tex
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -401,7 +403,6 @@ OUTPUT CABS.aux
 INPUT ./CABS.tex
 INPUT ./CABS.tex
 INPUT CABS.tex
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./figs/4-CABS/4-Wave-Brillouin-Scattering.pdf
 INPUT ./figs/4-CABS/4-Wave-Brillouin-Scattering.pdf
 INPUT ./figs/4-CABS/4-Wave-Brillouin-Scattering.pdf
@@ -468,7 +469,6 @@ OUTPUT post/A-CABS.aux
 INPUT ./post/A-CABS.tex
 INPUT ./post/A-CABS.tex
 INPUT post/A-CABS.tex
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT ./figs/4-CABS/SponBSvsStimBSvsCoBS.pdf
 INPUT ./figs/4-CABS/SponBSvsStimBSvsCoBS.pdf

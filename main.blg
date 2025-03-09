@@ -22,45 +22,45 @@ A level-1 auxiliary file: post/A-Raman.aux
 Database file #1: references.bib
 Warning--I didn't find a database entry for ""
 Warning--empty journal in maiman1960stimulated
-You've used 40 entries,
+You've used 42 entries,
             2481 wiz_defined-function locations,
-            824 strings with 11994 characters,
-and the built_in function-call counts, 16710 in all, are:
-= -- 1283
-> -- 1094
+            833 strings with 12348 characters,
+and the built_in function-call counts, 17594 in all, are:
+= -- 1345
+> -- 1160
 < -- 9
-+ -- 408
-- -- 328
-* -- 1512
-:= -- 2780
-add.period$ -- 120
-call.type$ -- 40
-change.case$ -- 79
-chr.to.int$ -- 40
-cite$ -- 41
-duplicate$ -- 756
-empty$ -- 1443
-format.name$ -- 375
-if$ -- 3422
++ -- 432
+- -- 348
+* -- 1598
+:= -- 2930
+add.period$ -- 126
+call.type$ -- 42
+change.case$ -- 83
+chr.to.int$ -- 42
+cite$ -- 43
+duplicate$ -- 794
+empty$ -- 1517
+format.name$ -- 397
+if$ -- 3602
 int.to.chr$ -- 1
-int.to.str$ -- 41
-missing$ -- 41
-newline$ -- 209
-num.names$ -- 120
-pop$ -- 291
+int.to.str$ -- 43
+missing$ -- 43
+newline$ -- 219
+num.names$ -- 126
+pop$ -- 305
 preamble$ -- 2
-purify$ -- 40
+purify$ -- 42
 quote$ -- 0
-skip$ -- 414
+skip$ -- 434
 stack$ -- 0
-substring$ -- 805
-swap$ -- 79
+substring$ -- 845
+swap$ -- 83
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 277
+type$ -- 291
 warning$ -- 1
-while$ -- 135
+while$ -- 141
 width$ -- 0
-write$ -- 524
+write$ -- 550
 (There were 2 warnings)

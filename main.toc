@@ -26,11 +26,11 @@
 \contentsline {subsection}{\numberline {2.5.1}Description of Python Script for CABS Data Collection}{7}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Description of Plotting Data in Go Program}{7}{subsection.2.5.2}%
 \contentsline {chapter}{\numberline {3}Manuscript I: Laser cooling of traveling wave phonons in an optical fiber}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Abstract}{10}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Optomechanical Cooling and Heating}{10}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Cooling Platform: $CS_{2}$-Liquid Core Optical Fiber}{10}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Optomechanical Properties}{10}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Fabrication}{10}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.1}Introduction}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Optomechanical Cooling and Heating}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Cooling Platform: $CS_{2}$-Liquid Core Optical Fiber}{9}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Optomechanical Properties}{9}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Fabrication}{9}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Fabrication Iterative Refinement}{10}{subsection.3.3.3}%
 \contentsline {section}{\numberline {3.4}Intention of the Pump-Probe Experiment}{10}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Experimental Setup}{10}{section.3.5}%
@@ -83,4 +83,4 @@
 \contentsline {section}{\numberline {D.5}Data}{65}{section.D.5}%
 \contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{67}{appendix.E}%
 \contentsline {section}{\numberline {E.1}Data}{67}{section.E.1}%
-\contentsline {chapter}{References}{68}{section*.31}%
+\contentsline {chapter}{References}{68}{section*.32}%
