@@ -377,6 +377,18 @@ INPUT ./Cooling.tex
 INPUT Cooling.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
+INPUT ./figs/3-Cooling/StokesHeatingProcess.png
+INPUT ./figs/3-Cooling/StokesHeatingProcess.png
+INPUT ./figs/3-Cooling/StokesHeatingProcess.png
+INPUT ./figs/3-Cooling/StokesHeatingProcess.png
+INPUT ./figs/3-Cooling/StokesHeatingProcess.png
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT ./figs/3-Cooling/anti-StokesCoolingProcess.png
+INPUT ./figs/3-Cooling/anti-StokesCoolingProcess.png
+INPUT ./figs/3-Cooling/anti-StokesCoolingProcess.png
+INPUT ./figs/3-Cooling/anti-StokesCoolingProcess.png
+INPUT ./figs/3-Cooling/anti-StokesCoolingProcess.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -576,6 +588,7 @@ INPUT ./main.out
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb

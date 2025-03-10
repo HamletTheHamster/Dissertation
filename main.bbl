@@ -6,15 +6,15 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Rayleigh(1871)]{rayleigh1871light}
-Lord Rayleigh.
-\newblock On the light from the sky, its polarization and colour.
-\newblock \emph{Phil Mag}, 41:\penalty0 274, 1871.
-
 \bibitem[Boyd(2020)]{boyd2020nonlinear}
 Robert~W Boyd.
 \newblock \emph{Nonlinear Optics}.
 \newblock Academic Press, 2020.
+
+\bibitem[Rayleigh(1871)]{rayleigh1871light}
+Lord Rayleigh.
+\newblock On the light from the sky, its polarization and colour.
+\newblock \emph{Phil Mag}, 41:\penalty0 274, 1871.
 
 \bibitem[Franken et~al.(1961)Franken, Hill, Peters, and
   Weinreich]{franken1961generation}
