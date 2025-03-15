@@ -1,7 +1,7 @@
-\contentsline {chapter}{List of Tables}{v}{section*.5}%
-\contentsline {chapter}{List of Figures}{vi}{section*.7}%
-\contentsline {chapter}{Dedication}{xi}{section*.21}%
-\contentsline {chapter}{Preface}{xiii}{section*.23}%
+\contentsline {chapter}{List of Tables}{v}{section*.10}%
+\contentsline {chapter}{List of Figures}{vi}{section*.12}%
+\contentsline {chapter}{Dedication}{xi}{section*.29}%
+\contentsline {chapter}{Preface}{xiii}{section*.31}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Light Scattering}{4}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Spontaneous Brillouin Scattering}{5}{section.1.2}%
@@ -28,22 +28,22 @@
 \contentsline {chapter}{\numberline {3}Manuscript I: Laser cooling of traveling wave phonons in an optical fiber}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{9}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Optomechanical Cooling and Heating}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Cooling Platform: $CS_{2}$-Liquid Core Optical Fiber}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Fabrication of $CS_{2}$-Liquid Core Optical Fiber}{11}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Splicing \ac {SMF-28} to \ac {UHNA7}}{12}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Preparing the \ac {UHNA7} Fiber}{12}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.3}Cooling Platform: $CS_{2}$-\acl {LCOF}}{11}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Fabrication of $CS_{2}$-\acl {LCOF}}{11}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Splicing \acs {SMF-28} to \acs {UHNA7}}{12}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Preparing the \acs {UHNA7} Fiber}{12}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Preparing the Hollow-Core Fiber}{14}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Cleaning and Preparing the Microscope Slide}{14}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}Cutting and Preparing the Glass Vial}{15}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Fusion-Splicing the \ac {UHNA7} to the Hollow-Core Fiber}{17}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.6}Fusion-Splicing the \acs {UHNA7} to the Hollow-Core Fiber}{17}{subsection.3.4.6}%
 \contentsline {subsection}{\numberline {3.4.7}Transferring the Spliced Fibers onto the Slide}{17}{subsection.3.4.7}%
 \contentsline {subsection}{\numberline {3.4.8}Enclosing the Splice with the Cut Vial}{18}{subsection.3.4.8}%
 \contentsline {subsection}{\numberline {3.4.9}Final Mounting and Labeling}{19}{subsection.3.4.9}%
-\contentsline {subsection}{\numberline {3.4.10}Filling the \ac {LCOF} with Carbon Disulfide}{20}{subsection.3.4.10}%
+\contentsline {subsection}{\numberline {3.4.10}Filling the \acs {LCOF} with Carbon Disulfide}{20}{subsection.3.4.10}%
 \contentsline {subsection}{\numberline {3.4.11}Filling Procedure}{20}{subsection.3.4.11}%
 \contentsline {subsection}{\numberline {3.4.12}Typical Optical Performance}{21}{subsection.3.4.12}%
 \contentsline {subsection}{\numberline {3.4.13}Maintaining the Filled Sample}{22}{subsection.3.4.13}%
-\contentsline {subsection}{\numberline {3.4.14}Innovations in Yield and Performance of \ac {LCOF} Samples}{22}{subsection.3.4.14}%
+\contentsline {subsection}{\numberline {3.4.14}Innovations in Yield and Performance of \acs {LCOF} Samples}{22}{subsection.3.4.14}%
 \contentsline {section}{\numberline {3.5}Experimental Setup}{24}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Main Experiment}{24}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Pump-Probe Experiment}{24}{subsection.3.5.2}%
@@ -94,4 +94,4 @@
 \contentsline {section}{\numberline {D.5}Data}{81}{section.D.5}%
 \contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{83}{appendix.E}%
 \contentsline {section}{\numberline {E.1}Data}{83}{section.E.1}%
-\contentsline {chapter}{References}{84}{section*.74}%
+\contentsline {chapter}{References}{84}{section*.83}%
