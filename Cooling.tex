@@ -117,8 +117,8 @@ The next step was to form the final angle splice between the \ac{UHNA7} fiber an
 \begin{enumerate}
 	\item Positioning and Auto-Alignment: With both fibers supported and extending naturally from opposite blocks, the splicer’s auto-alignment was initiated. The system brought the fibers within viewing distance so the operator could adjust vertical and horizontal positioning.
 	\item Core Alignment: Using the splicer’s camera interface, the UHNA7 core was lined up with the hollow-core’s central region. Small vertical and horizontal translations ensured good overlap.
-	\item iber Touch-Off: The left fiber (\ac{UHNA7} side) was carefully advanced until the tips touched, then retracted slightly to avoid excessive bending or damage.
-	\item Argon Gas Flow and Arc: An argon flow was introduced to shield the fusion region from contaminants, and the fusion arc was applied. Images were taken at each step to verify the splice quality. If alignment or splicing was inadequate, the fibers were separated, re-cleaved if necessary, and the procedure repeated. After confirming a good splice, the argon was turned off and the splicer was shut down.
+	\item Fiber Touch-Off: The left fiber (\ac{UHNA7} side) was carefully advanced until the tips touched, then retracted two clicks for optimal separation during splicing. Precise final positioning of the fiber ends ensured that a small gap remained in the hollow core to accommodate liquid infiltration during the filling process. Simultaneously, this same fiber end positioning ensured the cladding regions were fused sufficiently to preserve splice integrity under the delicate handling steps that followed.
+	\item Argon Gas Flow and Fusion: An argon flow was introduced to shield the fusion region from contaminants, and the fusion filament heating was applied. Images were taken at each step to verify the splice quality. If alignment or splicing was inadequate, the fibers were separated, re-cleaved if necessary, and the procedure repeated. After confirming a good splice, the argon was turned off and the splicer was shut down.
 \end{enumerate}
 
 \subsection{Transferring the Spliced Fibers onto the Slide}
@@ -126,8 +126,9 @@ The next step was to form the final angle splice between the \ac{UHNA7} fiber an
 Upon completing the angle splice, the fiber assembly needed to be moved gently off the splicer onto the prepared microscope slide:
 
 \begin{enumerate}
-	\item Release and Stabilization: With the splicer’s vacuum pump turned off, the fiber typically lifted out of the groove as the vacuum seal broke. Tweezers were used to remove any fiber “flags,” and wooden craft sticks helped lift the fibers from the block grooves without sharp bends.
-	\item Placement on the Slide: The slide was positioned in front of the splicer head, and the fibers were transferred carefully in a smooth motion. Two small drops of epoxy were placed on each side of the splice region to tack the fiber down. This was allowed to cure for at least five minutes.
+	\item Release and Stabilization: With the splicer’s vacuum pump still on to hold the splice securely, the magnetic latches clamping the fiber on either side of the splice to the translation/rotation stages were carefully lifted. Tweezers were used to remove any fiber “flags,” and wooden craft sticks helped lift the fibers from the block grooves to free the fiber from any stuck position within the grooves.
+  \item Vacuum Shut-Off: The splicer's vacuum pump was switched off and the vacuum seal securing the fibers on either end of the splice was allowed to gradually release as air slowly equilibrated the pressure differential. The splice head and camera assembly remained overtop the splice for monitoring the camera feed on the computer screen. After approximately five minutes the camera feed would show the splice quickly move out of focus, indicating that the entire length of fiber was free and ready to be handled.
+	\item Placement on the Slide: With the splice head lifted, the slide was positioned directly in front of the splice and the fiber was transferred carefully in a smooth motion. Two small drops of epoxy were placed on each side of the splice region to tack the fiber down. This was allowed to cure for at least five minutes.
 \end{enumerate}
 
 \subsection{Enclosing the Splice with the Cut Vial}
@@ -145,14 +146,38 @@ Once the epoxy had set, the slide was labeled with the date, splice reference, a
 
 Finally, this entire procedure must be repeated on the opposite side of the hollow-core fiber to complete the \ac{LCOF} assembly. Each splice should be robust enough to guide light but also “broken” sufficiently to allow \ce{CS2} to enter the hollow core via capillary action in the next step.
 
-
-\subsection{Fabrication Iterative Refinement}
+\subsection{Filling the \ac{LCOF} with Carbon Disulfide}
 \label{subsec:Cooling:Platform:Refinement}
 
-%--------------------------------------------------------------------%
+Once both ends of the hollow-core fiber were successfully spliced to their respective fiber pigtails, the next critical step involved filling the hollow core with carbon disulfide. Because \ce{CS2} is highly volatile and poses health risks if inhaled, all operations were carried out in a fume hood with proper protective equipment.
 
-\section{Intention of the Pump-Probe Experiment}
-\label{sec:Cooling:Intention}
+\subsection{Setup in the Fume Hood}
+
+The prepared \ac{LCOF} sample, securely taped to a poster board, was transferred to the fume hood. A small red laser source was connected to the input pigtail; this red beam served as an in situ indicator of the fluid-filling front. The vial on the input side was uncapped, and the vial on the opposite side was loosened to prevent pressure buildup within the fiber. This arrangement ensured that as \ce{CS2} entered the hollow core, displaced air could escape through the opposite vial, allowing continuous capillary flow.
+
+\subsection{Filling Procedure}
+
+To deliver the \ce{CS2}, a syringe was first used to extract an adequate volume from a sealed supply bottle. The needle tip was then removed and replaced with a micron-level particulate filter, thereby minimizing the introduction of debris that could obstruct the hollow core. By gently angling the syringe, \ce{CS2} was dispensed along the interior wall of the vial rather than dripping directly onto the delicate splice region. This careful approach reduced mechanical shocks, which could otherwise fracture or misalign the newly formed splice. Once the vial was filled, it was recapped promptly to prevent evaporation.
+
+If a given splice was imperfect—fully sealed at the fiber core rather than partially open—it prevented \ce{CS2} from flowing in. Under these circumstances, no visible progression of the fluid meniscus would appear in the red laser beam path, confirming an unsuccessful splice. In contrast, if the splice was partially open, capillary action would begin immediately, typically drawing \ce{CS2} several centimeters into the hollow core within seconds. The interface between the \ce{CS2} and the air still occupying the rest of the fiber showed up as a faintly scattering “dot” in the path of the red beam. By darkening the room, this dot could be easily observed and tracked.
+
+\subsection{Maintaining the Filled Sample}
+
+Once the fiber was fully filled, the second vial was also filled with filtered \ce{CS2}, then capped. Over periods of days, some evaporation was inevitable; replenishing the vials every two to three days extended the operational lifetime of the sample. Despite occasional epoxy degradation at the splice site, which might reduce forward transmission, the backscattering experiments remained unaffected except for a loss of forward transmission monitoring. In most cases, even months-long sample preservation and continued experimentation was feasible with proper maintenance.
+
+\subsection{Typical Optical Performance}
+
+Optical transmission at each splice typically ranged from 15–30\%. However, the final \ac{LCOF} used in the published experimental demonstrations achieved full throughput transmission of about 54\%. This suggests each splice individually could guide on average approximately 75\% of the incident light when accounting for the back-and-forth path of the Brillouin scattering measurements. In the demonstration of optomechanical cooling of traveling-wave phonons in this \ac{LCOF}, the ability to maintain a stable liquid-core environment was crucial, and the patient filling protocol proved instrumental in obtaining reliable backscattering results.
+
+This stepwise filling method, combined with patient observation, thorough cleaning, and meticulous splicing, yielded reproducibly filled fibers that supported the subsequent optical and optomechanical experiments. By overcoming prior misconceptions about the time needed for complete filling, the protocol minimized fiber waste, saved costs, and ensured that each sample was thoroughly filled and ready for precise measurements.
+
+\subsection{Innovations in Yield and Performance of \ac{LCOF} Samples}
+
+A key refinement that greatly improved sample fabrication success rates was the adoption of extremely careful post-splice handling. Previously, standard procedure was to lift the newly spliced fiber assembly without ensuring that each side was completely free of the splicer’s grooves. This led to abrupt bending or sudden “snapping” out of the clamp grooves, which almost invariably broke delicate splices that were only partially fused. The implementation of several measures helped to avoid this failure mode. First, folded-paper “sawhorses” and two small Kimwipe boxes on each side of the splice were placed to support the fibers and reduce vibration or flexing. Before switching off the vacuum seal, the clamp latches were gently lifted and small wooden sticks were used to ease the fibers out of the translation/rotation block grooves, ensuring there was no latent twisting or bending. Throughout these steps, the fibers were kept as close as possible to their natural resting position, minimizing stress that would be transferred to the just-completed splice. This careful approach not only reduced the chance of breakage but also allowed for the feasibility of splices that remained sufficiently “open” for \ce{CS2} to enter the hollow core, substantially increasing the proportion of successfully filled samples.
+
+A key innovation in the filling procedure was performing a long observation of the filling process for one sample. Previous standard procedure was to stop monitoring after 8 or 12 hours, assuming the fill process had ceased or completed but subsequently reversed if the fluid had not reached the far end by that time. Through extended trials, it was discovered that in successful splices, the fill front progresses at a nonlinear, steadily decreasing rate, and that a one-meter fiber segment migh take more than 24 hours to completely fill. In one particularly instructive case, continuous monitoring for 27 straigh hours as a sample filled confirmed that the \ce{CS2} front never reversed; it merely advanced extremely slowly. Having documented this behavior, the standard practice became allowing the sample to sit undisturbed for at least a full day or more, ensuring the fiber was completely saturated before concluding success or failure. This observation effort and resulting insight halted the regular production of significant waste of material and time in the fabrication process of \ac{LCOF} samples.
+
+A final insight that improved the yield of successfully filled samples and mitigation of wasted materials was selecting the “less certain” end of a prepared sample for filling with \ce{CS2}. If that splice was sealed, only that end would need to be re-fabricated. Collectively, these simple method improvements in sample fabrication led to significantly shorter fabrication times and dramatically reduced material waste. Hollow-core fibers, which cost on the order of ten dollar per meter, were previously scrapped in large quantities when deemed “dead.” By implementing patient monitoring, careful handling, and mindful filling procedures each length of fiber was used more efficiently, saving significant time and expense while producing more effective samples.
 
 %--------------------------------------------------------------------%
 

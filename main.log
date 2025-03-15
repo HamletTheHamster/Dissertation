@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  15 MAR 2025 07:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  15 MAR 2025 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,6 +849,10 @@ although it is yet undefined on input line 34.
 
 
 ]
+Package acronym Info: Label `acro:LCOF' newly defined as it shall be overridden
+
+although it is yet undefined on input line 43.
+
 
 [3])
 \tf@toc=\write4
@@ -942,7 +946,7 @@ Chapter 1.
 ]
 
 [2]
-<figs/1-Intro/Boyd scattering frequency shift domains.png, id=711, 730.22812pt 
+<figs/1-Intro/Boyd scattering frequency shift domains.png, id=735, 730.22812pt 
 x 160.34906pt>
 File: figs/1-Intro/Boyd scattering frequency shift domains.png Graphic file (ty
 pe png)
@@ -958,7 +962,7 @@ although it is yet undefined on input line 37.
 Package acronym Info: Label `acro:CoBS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 47.
-<figs/1-Intro/Boyd homogeneous material no scatter.png, id=733, 748.29562pt x 3
+<figs/1-Intro/Boyd homogeneous material no scatter.png, id=757, 748.29562pt x 3
 93.72093pt>
 File: figs/1-Intro/Boyd homogeneous material no scatter.png Graphic file (type 
 png)
@@ -1000,13 +1004,13 @@ Chapter 3.
 
 
 [9]
-<figs/3-Cooling/StokesHeatingProcess.png, id=770, 416.55624pt x 233.87375pt>
+<figs/3-Cooling/StokesHeatingProcess.png, id=794, 416.55624pt x 233.87375pt>
 File: figs/3-Cooling/StokesHeatingProcess.png Graphic file (type png)
 <use figs/3-Cooling/StokesHeatingProcess.png>
 Package pdftex.def Info: figs/3-Cooling/StokesHeatingProcess.png  used on input
  line 28.
 (pdftex.def)             Requested size: 230.18253pt x 129.23404pt.
-<figs/3-Cooling/anti-StokesCoolingProcess.png, id=771, 416.55624pt x 233.87375p
+<figs/3-Cooling/anti-StokesCoolingProcess.png, id=795, 416.55624pt x 233.87375p
 t>
 File: figs/3-Cooling/anti-StokesCoolingProcess.png Graphic file (type png)
 <use figs/3-Cooling/anti-StokesCoolingProcess.png>
@@ -1017,9 +1021,7 @@ input line 35.
 
 [10 <./figs/3-Cooling/StokesHeatingProcess.png> <./figs/3-Cooling/anti-StokesCo
 olingProcess.png>]
-Package acronym Info: Label `acro:LCOF' newly defined as it shall be overridden
-
-although it is yet undefined on input line 61.
+Package acronym Info: Label `acro:LCOF' overridden on input line 61.
 Package acronym Info: Label `acro:SMF-28' overridden on input line 70.
 Package acronym Info: Label `acro:UHNA7' overridden on input line 70.
 
@@ -1054,16 +1056,30 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [14]
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ac' on input line 149.
+
+
+
 [15]
 
-[16])
+[16]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ac' on input line 174.
+
+
 
 [17]
+
+[18])
+
+[19]
 \openout2 = `CABS.aux'.
 
  (./CABS.tex
 
-[18
+[20
 
 
 
@@ -1075,12 +1091,12 @@ n
 although it is yet undefined on input line 56.
 
 
-[19]
+[21]
 Package acronym Info: Label `acro:SBS' overridden on input line 63.
 
 
-[20]
-<figs/4-CABS/4-Wave-Brillouin-Scattering.pdf, id=928, 565.16626pt x 244.14099pt
+[22]
+<figs/4-CABS/4-Wave-Brillouin-Scattering.pdf, id=966, 565.16626pt x 244.14099pt
 >
 File: figs/4-CABS/4-Wave-Brillouin-Scattering.pdf Graphic file (type pdf)
 <use figs/4-CABS/4-Wave-Brillouin-Scattering.pdf>
@@ -1089,7 +1105,7 @@ nput line 82.
 (pdftex.def)             Requested size: 469.75502pt x 202.92752pt.
 
 
-[21 <./figs/4-CABS/4-Wave-Brillouin-Scattering.pdf>]
+[23 <./figs/4-CABS/4-Wave-Brillouin-Scattering.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
@@ -1106,7 +1122,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--107
 
 
 
-[22]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
  []
@@ -1120,7 +1136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
 pdfTeX warning: pdflatex (file ./figs/4-CABS/Instrument-Design-V1.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/4-CABS/Instrument-Design-V1.pdf, id=969, 794.97pt x 674.46577pt>
+<figs/4-CABS/Instrument-Design-V1.pdf, id=1008, 794.97pt x 674.46577pt>
 File: figs/4-CABS/Instrument-Design-V1.pdf Graphic file (type pdf)
 <use figs/4-CABS/Instrument-Design-V1.pdf>
 Package pdftex.def Info: figs/4-CABS/Instrument-Design-V1.pdf  used on input li
@@ -1139,17 +1155,17 @@ Package acronym Info: Label `acro:RF' overridden on input line 145.
 Package acronym Info: Label `acro:AC' overridden on input line 145.
 
 
-[23]
+[25]
 
-[24 <./figs/4-CABS/Instrument-Design-V1.pdf>]
+[26 <./figs/4-CABS/Instrument-Design-V1.pdf>]
 Package acronym Info: Label `acro:SNR' newly defined as it shall be overridden
 although it is yet undefined on input line 157.
 
 
-[25]
+[27]
 Package acronym Info: Label `acro:DC' newly defined as it shall be overridden
 although it is yet undefined on input line 159.
-<figs/4-CABS/5fWSensitivity.pdf, id=1165, 1084.05pt x 1084.05pt>
+<figs/4-CABS/5fWSensitivity.pdf, id=1203, 1084.05pt x 1084.05pt>
 File: figs/4-CABS/5fWSensitivity.pdf Graphic file (type pdf)
 <use figs/4-CABS/5fWSensitivity.pdf>
 Package pdftex.def Info: figs/4-CABS/5fWSensitivity.pdf  used on input line 169
@@ -1157,41 +1173,29 @@ Package pdftex.def Info: figs/4-CABS/5fWSensitivity.pdf  used on input line 169
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
-[26]
+[28]
 
-[27 <./figs/4-CABS/5fWSensitivity.pdf>]
+[29 <./figs/4-CABS/5fWSensitivity.pdf>]
 Package acronym Info: Label `acro:SMF-28' overridden on input line 178.
 
 
-[28
+[30
 
 ]
-<figs/4-CABS/1cmUHNA3.pdf, id=1205, 1084.05pt x 1084.05pt>
+<figs/4-CABS/1cmUHNA3.pdf, id=1243, 1084.05pt x 1084.05pt>
 File: figs/4-CABS/1cmUHNA3.pdf Graphic file (type pdf)
 <use figs/4-CABS/1cmUHNA3.pdf>
 Package pdftex.def Info: figs/4-CABS/1cmUHNA3.pdf  used on input line 203.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
-[29]
+[31]
 
-[30 <./figs/4-CABS/1cmUHNA3.pdf>]
-<figs/4-CABS/100umCS2.pdf, id=1230, 1084.05pt x 1084.05pt>
+[32 <./figs/4-CABS/1cmUHNA3.pdf>]
+<figs/4-CABS/100umCS2.pdf, id=1270, 1084.05pt x 1084.05pt>
 File: figs/4-CABS/100umCS2.pdf Graphic file (type pdf)
 <use figs/4-CABS/100umCS2.pdf>
 Package pdftex.def Info: figs/4-CABS/100umCS2.pdf  used on input line 216.
-(pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
-
-
-[31
-
-]
-
-[32 <./figs/4-CABS/100umCS2.pdf>]
-<figs/4-CABS/Phase-Match.pdf, id=1258, 1084.05pt x 1084.05pt>
-File: figs/4-CABS/Phase-Match.pdf Graphic file (type pdf)
-<use figs/4-CABS/Phase-Match.pdf>
-Package pdftex.def Info: figs/4-CABS/Phase-Match.pdf  used on input line 250.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
@@ -1199,20 +1203,32 @@ Package pdftex.def Info: figs/4-CABS/Phase-Match.pdf  used on input line 250.
 
 ]
 
-[34 <./figs/4-CABS/Phase-Match.pdf>]
+[34 <./figs/4-CABS/100umCS2.pdf>]
+<figs/4-CABS/Phase-Match.pdf, id=1296, 1084.05pt x 1084.05pt>
+File: figs/4-CABS/Phase-Match.pdf Graphic file (type pdf)
+<use figs/4-CABS/Phase-Match.pdf>
+Package pdftex.def Info: figs/4-CABS/Phase-Match.pdf  used on input line 250.
+(pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
+
 
 [35
 
 ]
 
-[36])
+[36 <./figs/4-CABS/Phase-Match.pdf>]
 
-[37]
+[37
+
+]
+
+[38])
+
+[39]
 \openout2 = `Raman.aux'.
 
  (./Raman.tex
 
-[38
+[40
 
 
 
@@ -1221,12 +1237,12 @@ Package pdftex.def Info: figs/4-CABS/Phase-Match.pdf  used on input line 250.
 Chapter 5.
 )
 
-[39]
+[41]
 \openout2 = `Discussion.aux'.
 
  (./Discussion.tex
 
-[40
+[42
 
 
 
@@ -1235,12 +1251,12 @@ Chapter 5.
 Chapter 6.
 )
 
-[41]
+[43]
 \openout2 = `post/A-Acronyms.aux'.
 
  (./post/A-Acronyms.tex
 
-[42
+[44
 
 
 
@@ -1249,23 +1265,23 @@ Chapter 6.
 Appendix A.
 
 
-[43])
+[45])
 
-[44]
+[46]
 \openout2 = `post/A-Code.aux'.
 
  (./post/A-Code.tex
 Appendix B.
 
 
-[45
+[47
 
 
 
 
 ])
 
-[46
+[48
 
 ]
 \openout2 = `post/A-Cooling.aux'.
@@ -1274,7 +1290,7 @@ Appendix B.
 Appendix C.
 )
 
-[47
+[49
 
 
 
@@ -1284,7 +1300,7 @@ Appendix C.
 
  (./post/A-CABS.tex
 
-[48
+[50
 
 
 
@@ -1322,7 +1338,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
 
 
-[49
+[51
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
@@ -1356,7 +1372,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--86
 
 
 
-[50]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
@@ -1388,7 +1404,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
 
 
-[51]
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
@@ -1430,7 +1446,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
 
 
-[52]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
@@ -1472,7 +1488,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--208
 
 
 
-[53]
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 211--215
 
  []
@@ -1509,7 +1525,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--251
 
 
 
-[54]
+[56]
 Underfull \hbox (badness 10000) in paragraph at lines 254--258
 
  []
@@ -1536,19 +1552,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--277
 
 
 
-[55]
-
-[56]
-
 [57]
+
+[58]
+
+[59]
 Overfull \hbox (17.28511pt too wide) in paragraph at lines 371--380
  [] 
  []
 
 
 
-[58]
-<figs/4-CABS/SponBSvsStimBSvsCoBS.pdf, id=1538, 715.93271pt x 427.14142pt>
+[60]
+<figs/4-CABS/SponBSvsStimBSvsCoBS.pdf, id=1577, 715.93271pt x 427.14142pt>
 File: figs/4-CABS/SponBSvsStimBSvsCoBS.pdf Graphic file (type pdf)
 <use figs/4-CABS/SponBSvsStimBSvsCoBS.pdf>
 Package pdftex.def Info: figs/4-CABS/SponBSvsStimBSvsCoBS.pdf  used on input li
@@ -1556,12 +1572,12 @@ ne 388.
 (pdftex.def)             Requested size: 469.75502pt x 280.27176pt.
 
 
-[59 <./figs/4-CABS/SponBSvsStimBSvsCoBS.pdf>]
+[61 <./figs/4-CABS/SponBSvsStimBSvsCoBS.pdf>]
 
-[60]
+[62]
 
-[61]
-<figs/4-CABS/JoyDivisionCABSUHNA3.pdf, id=1608, 614.295pt x 1300.86pt>
+[63]
+<figs/4-CABS/JoyDivisionCABSUHNA3.pdf, id=1646, 614.295pt x 1300.86pt>
 File: figs/4-CABS/JoyDivisionCABSUHNA3.pdf Graphic file (type pdf)
 <use figs/4-CABS/JoyDivisionCABSUHNA3.pdf>
 Package pdftex.def Info: figs/4-CABS/JoyDivisionCABSUHNA3.pdf  used on input li
@@ -1569,14 +1585,14 @@ ne 413.
 (pdftex.def)             Requested size: 276.43956pt x 585.38303pt.
 
 
-[62]
+[64]
 
-[63 <./figs/4-CABS/JoyDivisionCABSUHNA3.pdf>]
+[65 <./figs/4-CABS/JoyDivisionCABSUHNA3.pdf>]
 
-[64
+[66
 
 ]
-<figs/4-CABS/JoyDivisionCABSCS2.pdf, id=1634, 614.295pt x 794.97pt>
+<figs/4-CABS/JoyDivisionCABSCS2.pdf, id=1672, 614.295pt x 794.97pt>
 File: figs/4-CABS/JoyDivisionCABSCS2.pdf Graphic file (type pdf)
 <use figs/4-CABS/JoyDivisionCABSCS2.pdf>
 Package pdftex.def Info: figs/4-CABS/JoyDivisionCABSCS2.pdf  used on input line
@@ -1584,14 +1600,14 @@ Package pdftex.def Info: figs/4-CABS/JoyDivisionCABSCS2.pdf  used on input line
 (pdftex.def)             Requested size: 328.82707pt x 425.54129pt.
 
 
-[65 <./figs/4-CABS/JoyDivisionCABSCS2.pdf>]
-<figs/4-CABS/CS2FanoCompare.pdf, id=1654, 1084.05pt x 1084.05pt>
+[67 <./figs/4-CABS/JoyDivisionCABSCS2.pdf>]
+<figs/4-CABS/CS2FanoCompare.pdf, id=1693, 1084.05pt x 1084.05pt>
 File: figs/4-CABS/CS2FanoCompare.pdf Graphic file (type pdf)
 <use figs/4-CABS/CS2FanoCompare.pdf>
 Package pdftex.def Info: figs/4-CABS/CS2FanoCompare.pdf  used on input line 448
 .
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
-<figs/4-CABS/CS2LorentzCompare.pdf, id=1655, 1084.05pt x 1084.05pt>
+<figs/4-CABS/CS2LorentzCompare.pdf, id=1694, 1084.05pt x 1084.05pt>
 File: figs/4-CABS/CS2LorentzCompare.pdf Graphic file (type pdf)
 <use figs/4-CABS/CS2LorentzCompare.pdf>
 Package pdftex.def Info: figs/4-CABS/CS2LorentzCompare.pdf  used on input line 
@@ -1599,22 +1615,22 @@ Package pdftex.def Info: figs/4-CABS/CS2LorentzCompare.pdf  used on input line
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
-[66]
+[68]
 
-[67 <./figs/4-CABS/CS2FanoCompare.pdf>]
+[69 <./figs/4-CABS/CS2FanoCompare.pdf>]
 
-[68 <./figs/4-CABS/CS2LorentzCompare.pdf>]
+[70 <./figs/4-CABS/CS2LorentzCompare.pdf>]
 
-[69
+[71
 
 ]
-<figs/4-CABS/PSPr-Contribute-Equally.pdf, id=1700, 1084.05pt x 1084.05pt>
+<figs/4-CABS/PSPr-Contribute-Equally.pdf, id=1739, 1084.05pt x 1084.05pt>
 File: figs/4-CABS/PSPr-Contribute-Equally.pdf Graphic file (type pdf)
 <use figs/4-CABS/PSPr-Contribute-Equally.pdf>
 Package pdftex.def Info: figs/4-CABS/PSPr-Contribute-Equally.pdf  used on input
  line 521.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
-<figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf, id=1701, 1084.05pt x 1084.05pt
+<figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf, id=1740, 1084.05pt x 1084.05pt
 >
 File: figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf Graphic file (type pdf)
 <use figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf>
@@ -1623,20 +1639,20 @@ n input line 528.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
-[70]
+[72]
 
-[71 <./figs/4-CABS/PSPr-Contribute-Equally.pdf>]
+[73 <./figs/4-CABS/PSPr-Contribute-Equally.pdf>]
 
-[72 <./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf>])
+[74 <./figs/4-CABS/PSPr-Contribute-Equally-2sigma.pdf>])
 
-[73
+[75
 
 ]
 \openout2 = `post/A-Raman.aux'.
 
  (./post/A-Raman.tex
 
-[74
+[76
 
 
 
@@ -1645,19 +1661,19 @@ n input line 528.
 Appendix E.
 )
 
-[75] (./main.bbl
+[77] (./main.bbl
 
-[76
+[78
 
 
 
 ]
 
-[77]
+[79]
 
-[78])
+[80])
 
-[79] (./main.aux (./pre/0-Title.aux) (./pre/0-Abstract.aux)
+[81] (./main.aux (./pre/0-Title.aux) (./pre/0-Abstract.aux)
 (./pre/0-Copyright.aux) (./pre/0-Acknowledgements.aux) (./pre/1-Dedication.aux)
 (./pre/1-Preface.aux) (./Introduction.aux) (./Experimental.aux) (./Cooling.aux)
 (./CABS.aux) (./Raman.aux) (./Discussion.aux) (./post/A-Acronyms.aux)
@@ -1672,16 +1688,16 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A752623EF077B16103972600BCBA73C1;19379.
+(rerunfilecheck)             Checksum: DF3D5FAC9505C250DADC0DBA49F192DF;20262.
  ) 
 Here is how much of TeX's memory you used:
- 23260 strings out of 473201
- 446275 string characters out of 5716120
+ 23271 strings out of 473201
+ 446440 string characters out of 5716120
  1056221 words of memory out of 5000000
- 45682 multiletter control sequences out of 15000+600000
+ 45685 multiletter control sequences out of 15000+600000
  572949 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,83p,2378b,1280s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,83p,2378b,1296s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
 , replaced by a fixed one
@@ -1719,10 +1735,10 @@ ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/
 fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (91 pages, 4304824 bytes).
+Output written on main.pdf (93 pages, 4313085 bytes).
 PDF statistics:
- 1952 PDF objects out of 2073 (max. 8388607)
- 1654 compressed objects within 17 object streams
- 391 named destinations out of 1000 (max. 500000)
- 846 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1992 PDF objects out of 2073 (max. 8388607)
+ 1692 compressed objects within 17 object streams
+ 399 named destinations out of 1000 (max. 500000)
+ 878 words of extra memory for PDF output out of 10000 (max. 10000000)
 
