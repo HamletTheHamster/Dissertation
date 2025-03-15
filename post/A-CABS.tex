@@ -15,7 +15,7 @@ Here I derive the coupled wave equations that describe coherent stimulated Brill
 \end{equation}
 \\
 \begin{equation}
-    \tilde{E}_{S}(z,t) = A_{S}e^{i(k_{S}z - \omega_{S}t)} + c.c.,
+    \tilde{E}_{S}(z,t) = A_{S}e^{i(-k_{S}z - \omega_{S}t)} + c.c.,
     \label{eq:Stokes optical field}
 \end{equation}
 \\
@@ -25,7 +25,7 @@ Here I derive the coupled wave equations that describe coherent stimulated Brill
 \end{equation}
 \\
 \begin{equation}
-    \tilde{E}_{Sig}(z,t) = A_{Sig}e^{i(k_{Sig}z - \omega_{Sig}t)} + c.c.,
+    \tilde{E}_{Sig}(z,t) = A_{Sig}e^{i(-k_{Sig}z - \omega_{Sig}t)} + c.c.,
     \label{eq:Signal optical field}
 \end{equation}
 \\
@@ -36,7 +36,7 @@ Here I derive the coupled wave equations that describe coherent stimulated Brill
     \label{eq:acoustic field}
 \end{equation}
 \\
-\noindent where \(\Omega = \omega_{P} - \omega_{S}\) and \(q = k_{P} - k_{S} = 2k_{P}\).
+\noindent where \(\Omega = \omega_{P} - \omega_{S}\) and \(q = k_{P} - k_{S} \approx 2k_{P}\).
 
 
 \subsection{Acoustic Field}
@@ -61,13 +61,14 @@ As in the case of SBS\cite{boyd2020nonlinear}, I start by assuming that the mate
     \vec{f} = \nabla p_{st} = \nabla \cdot \Bigg[-\frac{1}{2}\epsilon_{0}\gamma_{e}\Big(\langle\tilde{E}_{P} \cdot \tilde{E}_{S}\rangle + \langle\tilde{E}_{Pr} \cdot \tilde{E}_{Sig}\rangle\Big)\Bigg],
 \end{equation}
 \\
-which yields, after applying the slowly varying amplitude approximation,
+which yields, assuming the acoustic wave varies slowly in time,
 \\
 \begin{equation}
     \nabla\cdot\vec{f} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz},
+    \label{eq:electrostrictive force term}
 \end{equation}
 \\
-Where \(\Delta k = (k_{Pr} - k_{Sig}) - (k_{P} - k_{S})\) is the phase mismatch between the four optical fields. Only two electrostrictive terms survive after accounting for the orthogonal polarization of the pump and Stokes fields with respect to that of the probe and backscattered signal. Inserting this electrostrictive force term and the acoustic field (Equation~\ref{eq:acoustic field}) into Equation~\ref{eq:acoustic wave equation}, and assuming a slowly varying acoustic amplitude, I find
+where \(\Delta k = (k_{Pr} - k_{Sig}) - (k_{P} - k_{S})\) is the phase mismatch between the four optical fields. Only two electrostrictive terms survive after accounting for the orthogonal polarization of the pump and Stokes fields with respect to that of the probe and backscattered signal. Inserting this electrostrictive force term (Equation~\ref{eq:electrostrictive force term}) and the acoustic field (Equation~\ref{eq:acoustic field}) into the acoustic wave equation (Equation~\ref{eq:acoustic wave equation}), I find
 \\
 \begin{equation}
     -2i\Omega\frac{\partial\rho}{\partial t} - \Gamma^{\prime}2iq^{2}\Omega\rho - 2iqv_{s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz},
@@ -80,17 +81,17 @@ which can be restated in terms of the Brillouin linewidth, \(\Gamma_{B} = q^{2}\
     \label{eq:in terms of Brillouin linewidth}
 \end{equation}
 \\
-Given the phonon dispersion relations \(\Omega_{B} = |q_{B}|v_{s}\) and \(\Omega^{2} = q^{2}\left(v^{2} - i\Omega\Gamma^{\prime}\right)\), Equation~\ref{eq:in terms of Brillouin linewidth} can be rewritten as
+Given the phonon dispersion relations \(\Omega_{B} = |q_{B}|v_{s}\) and \(\Omega^{2} = q^{2}\left(v_{s}^{2} - i\Omega\Gamma^{\prime}\right)\), Equation~\ref{eq:in terms of Brillouin linewidth} can be rewritten as
 \\
 \begin{equation}
-    -2i\Omega\frac{\partial\rho}{\partial t} + \left(\Omega^{2} - \Omega^{2} - i\Omega\Gamma_{B}\right)\rho - 2iqv_{s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
+    -2i\Omega\frac{\partial\rho}{\partial t} + \left(\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}\right)\rho - 2iqv_{s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
     \label{eq:in terms of Omega_B}
 \end{equation}
 \\
 I take the common assumption that the phonon propagation distance is small compared to the distance over which the source term varies significantly, which allows the spatial derivative term in Equation~\ref{eq:in terms of Omega_B} to be dropped. I further assume steady-state conditions such that the time derivative term also vanishes, leaving
 \\
 \begin{equation}
-    (\Omega^{2}_{B} - \Omega^{2} - i\Omega\Gamma_{B})_{\rho} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
+    (\Omega^{2}_{B} - \Omega^{2} - i\Omega\Gamma_{B})\rho = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
 \end{equation}
 \\
 I thus find the acoustic field amplitude to be
@@ -224,7 +225,7 @@ Using \(q = 2k_{P} = 2\omega n/c\) and \(q = \Omega_{B}/v_{s}\), I can express t
 where I have dropped the signal designator on \(\omega\). Defining the Brillouin gain factor, \(g_{0}\), as Boyd does,
 \\
 \begin{equation}
-  g_{0} = \frac{\gamma_{e}^{2}\omega^{2}}{nvc^{3}\rho_{0}\Gamma_{B}},
+  g_{0} = \frac{\gamma_{e}^{2}\omega^{2}}{nv_{s}c^{3}\rho_{0}\Gamma_{B}},
 \end{equation}
 reduces this expression to
 \\
@@ -319,7 +320,7 @@ Inserting this reduced quantity into Equation~\ref{eq:SponBSnbar}, I arrive at a
   P_{S, \,\textit{SponBS}} = \frac{G_{B}P_{P}L\omega_{S}\Gamma_{B}k_{b}T}{4\Omega_{B}}.
 \end{equation}
 
-It may be noted that the derived expression for the low-gain spontaneous regime here matches the form reported by Kharel et al. in 2016 \cite{kharel2016noise} for the complementary forward scattering processe. While the two scenarios—our backward scattering geometry versus the forward scattering geometry discussed by Kharel et al.—differ in directionality, the underlying physics of light coupling to thermally excited acoustic modes is the same and reflects the fundamental similarity in how thermal phonons mediate the interaction between optical fields in the low-gain (spontaneous) regime.
+It may be noted that the derived expression for the low-gain spontaneous regime here matches the form reported by Kharel et al. in 2016 \cite{kharel2016noise} for the complementary forward scattering process. While the two scenarios—our backward scattering geometry versus the forward scattering geometry discussed by Kharel et al.—differ in directionality, the underlying physics of light coupling to thermally excited acoustic modes is the same and reflects the fundamental similarity in how thermal phonons mediate the interaction between optical fields in the low-gain (spontaneous) regime.
 
 Next I turn to the high-gain regime leading to a stimulated Brillouin scattering process. This regime is defined by an overall process gain factor, $G = G_{P}P_{P}L$, that is much greater than unity ($G \gg 1$). For organic liquids, this crossover threshold from spontaneous to stimulated regimes occurs in the range of $20 < G < 25,$\cite{boyd1990noise} whereas for typical lengths of single mode fiber it can be lower\cite{ippen1972stimulated} owing to the small effective area compared to longer effective lengths of fiber typically used.
 
