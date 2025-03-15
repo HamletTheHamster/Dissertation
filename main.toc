@@ -33,29 +33,29 @@
 \contentsline {section}{\numberline {3.4}Fabrication of $CS_{2}$-Liquid Core Optical Fiber}{11}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Splicing \ac {SMF-28} to \ac {UHNA7}}{12}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Preparing the \ac {UHNA7} Fiber}{12}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Preparing the Hollow-Core Fiber}{12}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.3}Preparing the Hollow-Core Fiber}{13}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Cleaning and Preparing the Microscope Slide}{13}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Cutting and Preparing the Glass Vial}{13}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.5}Cutting and Preparing the Glass Vial}{14}{subsection.3.4.5}%
 \contentsline {subsection}{\numberline {3.4.6}Angle-Splicing the \ac {UHNA7} to the Hollow-Core Fiber}{14}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Transferring the Spliced Fibers onto the Slide}{14}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.7}Transferring the Spliced Fibers onto the Slide}{15}{subsection.3.4.7}%
 \contentsline {subsection}{\numberline {3.4.8}Enclosing the Splice with the Cut Vial}{15}{subsection.3.4.8}%
-\contentsline {subsection}{\numberline {3.4.9}Final Mounting and Labeling}{15}{subsection.3.4.9}%
+\contentsline {subsection}{\numberline {3.4.9}Final Mounting and Labeling}{16}{subsection.3.4.9}%
 \contentsline {subsection}{\numberline {3.4.10}Filling the \ac {LCOF} with Carbon Disulfide}{16}{subsection.3.4.10}%
 \contentsline {subsection}{\numberline {3.4.11}Setup in the Fume Hood}{16}{subsection.3.4.11}%
 \contentsline {subsection}{\numberline {3.4.12}Filling Procedure}{16}{subsection.3.4.12}%
-\contentsline {subsection}{\numberline {3.4.13}Maintaining the Filled Sample}{16}{subsection.3.4.13}%
+\contentsline {subsection}{\numberline {3.4.13}Maintaining the Filled Sample}{17}{subsection.3.4.13}%
 \contentsline {subsection}{\numberline {3.4.14}Typical Optical Performance}{17}{subsection.3.4.14}%
 \contentsline {subsection}{\numberline {3.4.15}Innovations in Yield and Performance of \ac {LCOF} Samples}{17}{subsection.3.4.15}%
-\contentsline {section}{\numberline {3.5}Experimental Setup}{18}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Main Experiment}{18}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Pump-Probe Experiment}{18}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Results}{18}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Main Experiment Results}{18}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Pump-Probe Experiment Results}{18}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Discussion}{18}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Application to Ground State Cooling}{19}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Standardized Cooling Metric}{19}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Tapered chalcogenide Photonic Crystal Fiber: Max Plank Results}{19}{subsection.3.7.3}%
+\contentsline {section}{\numberline {3.5}Experimental Setup}{19}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Main Experiment}{19}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Pump-Probe Experiment}{19}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Results}{19}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Main Experiment Results}{19}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Pump-Probe Experiment Results}{19}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Discussion}{19}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Application to Ground State Cooling}{20}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Standardized Cooling Metric}{20}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Tapered chalcogenide Photonic Crystal Fiber: Max Plank Results}{20}{subsection.3.7.3}%
 \contentsline {chapter}{\numberline {4}Manuscript II: A coherently stimulated phonon spectrometer}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}abstract}{21}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Introduction}{21}{section.4.2}%
@@ -96,4 +96,4 @@
 \contentsline {section}{\numberline {D.5}Data}{75}{section.D.5}%
 \contentsline {chapter}{\numberline {E}Supplementary Information for Chapter \ref {ch:Raman}: Manuscript III}{77}{appendix.E}%
 \contentsline {section}{\numberline {E.1}Data}{77}{section.E.1}%
-\contentsline {chapter}{References}{78}{section*.65}%
+\contentsline {chapter}{References}{78}{section*.66}%
