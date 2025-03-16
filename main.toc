@@ -27,14 +27,14 @@
 \contentsline {subsection}{\numberline {2.5.2}Description of Plotting Data in Go Program}{7}{subsection.2.5.2}%
 \contentsline {chapter}{\numberline {3}Laser cooling of traveling wave phonons in an optical fiber}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Optomechanical Cooling and Heating}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Optomechanical Cooling and Heating}{10}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Cooling Platform: $CS_{2}$-\acl {LCOF}}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Fabrication of $CS_{2}$-\acl {LCOF}}{11}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Fabrication of $CS_{2}$-\acl {LCOF}}{12}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Splicing \acs {SMF-28} to \acs {UHNA7}}{12}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Preparing the \acs {UHNA7} Fiber}{12}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Preparing the Hollow-Core Fiber}{14}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.2}Preparing the \acs {UHNA7} Fiber}{13}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Preparing the Hollow-Core Fiber}{13}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Cleaning and Preparing the Microscope Slide}{14}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Cutting and Preparing the Glass Vial}{15}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.5}Cutting and Preparing the Glass Vial}{14}{subsection.3.4.5}%
 \contentsline {subsection}{\numberline {3.4.6}Fusion-Splicing the \acs {UHNA7} to the Hollow-Core Fiber}{17}{subsection.3.4.6}%
 \contentsline {subsection}{\numberline {3.4.7}Transferring the Spliced Fibers onto the Slide}{17}{subsection.3.4.7}%
 \contentsline {subsection}{\numberline {3.4.8}Enclosing the Splice with the Cut Vial}{18}{subsection.3.4.8}%
