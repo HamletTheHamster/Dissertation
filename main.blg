@@ -9,7 +9,6 @@ A level-1 auxiliary file: pre/0-Acknowledgements.aux
 A level-1 auxiliary file: pre/1-Dedication.aux
 A level-1 auxiliary file: pre/1-Preface.aux
 A level-1 auxiliary file: Introduction.aux
-A level-1 auxiliary file: Experimental.aux
 A level-1 auxiliary file: Cooling.aux
 A level-1 auxiliary file: CABS.aux
 A level-1 auxiliary file: Raman.aux
@@ -24,7 +23,7 @@ Warning--I didn't find a database entry for ""
 Warning--empty journal in maiman1960stimulated
 You've used 42 entries,
             2481 wiz_defined-function locations,
-            833 strings with 12348 characters,
+            832 strings with 12332 characters,
 and the built_in function-call counts, 17594 in all, are:
 = -- 1345
 > -- 1160
