@@ -20,46 +20,45 @@ A level-1 auxiliary file: post/A-CABS.aux
 A level-1 auxiliary file: post/A-Raman.aux
 Database file #1: references.bib
 Warning--I didn't find a database entry for ""
-Warning--empty journal in maiman1960stimulated
 You've used 42 entries,
             2481 wiz_defined-function locations,
-            832 strings with 12332 characters,
-and the built_in function-call counts, 17594 in all, are:
-= -- 1345
-> -- 1160
+            836 strings with 12342 characters,
+and the built_in function-call counts, 17651 in all, are:
+= -- 1355
+> -- 1152
 < -- 9
-+ -- 432
-- -- 348
-* -- 1598
-:= -- 2930
++ -- 430
+- -- 346
+* -- 1609
+:= -- 2935
 add.period$ -- 126
 call.type$ -- 42
 change.case$ -- 83
 chr.to.int$ -- 42
-cite$ -- 43
-duplicate$ -- 794
-empty$ -- 1517
-format.name$ -- 397
-if$ -- 3602
+cite$ -- 42
+duplicate$ -- 795
+empty$ -- 1527
+format.name$ -- 394
+if$ -- 3614
 int.to.chr$ -- 1
 int.to.str$ -- 43
 missing$ -- 43
 newline$ -- 219
 num.names$ -- 126
-pop$ -- 305
+pop$ -- 301
 preamble$ -- 2
 purify$ -- 42
 quote$ -- 0
-skip$ -- 434
+skip$ -- 433
 stack$ -- 0
-substring$ -- 845
-swap$ -- 83
+substring$ -- 870
+swap$ -- 84
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 291
-warning$ -- 1
-while$ -- 141
+warning$ -- 0
+while$ -- 143
 width$ -- 0
-write$ -- 550
-(There were 2 warnings)
+write$ -- 552
+(There was 1 warning)

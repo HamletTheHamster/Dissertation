@@ -4,22 +4,18 @@
 \acresetall
 
 Joel N. Johnson\footnote{\label{Cooling-NAU}
-Department of Applied Physics and Materials Science, Northern Arizona University, Flagstaff, AZ 86011, USA
-}$^,$\footnote{\label{Cooling-MIRA}
-Center for Materials Interfaces in Research and Applications, Flagstaff, AZ 86011, USA
-},
-Danielle R. Haverkamp$^\mathrm{\ref{Cooling-NAU}}$$^,$$^\mathrm{\ref{Cooling-MIRA}}$,
+Department of Applied Physics and Materials Science, Northern Arizona University, Flagstaff, AZ 86011, USA}%
+\textsuperscript{,}\footnote{\label{Cooling-MIRA}
+Center for Materials Interfaces in Research and Applications, Flagstaff, AZ 86011, USA},
+Danielle R. Haverkamp\textsuperscript{\ref{Cooling-NAU},\ref{Cooling-MIRA}},
 Yi-Hsin Ou\footnote{\label{Cooling-UofA}
-College of Optical Sciences, University of Arizona, Tucson, AZ, USA
-},
-Khanh Kieu$^\mathrm{\ref{Cooling-UofA}}$,
+College of Optical Sciences, University of Arizona, Tucson, AZ, USA},
+Khanh Kieu\textsuperscript{\ref{Cooling-UofA}},
 Nils T. Otterstrom\footnote{\label{Cooling-Sandia}
-Photonic and Phononic Microsystems, Sandia National Laboratories, Albuquerque, New Mexico, USA
-},
+Photonic and Phononic Microsystems, Sandia National Laboratories, Albuquerque, New Mexico, USA},
 Peter T. Rakich\footnote{\label{Cooling-Yale}
-Department of Applied Physics, Yale University, New Haven, CT, USA
-},
-Ryan O. Behunin$^\mathrm{\ref{Cooling-NAU}}$$^,$$^\mathrm{\ref{Cooling-MIRA}}$
+Department of Applied Physics, Yale University, New Haven, CT, USA},
+Ryan O. Behunin\textsuperscript{\ref{Cooling-NAU},\ref{Cooling-MIRA}}
 
 \hfill
 
@@ -62,26 +58,30 @@ Backward Brillouin scattering targets longitudinally traveling acoustic waves (o
 
 The anti-Stokes process is the inverse process, whereby an \textit{approaching} phonon of frequency \(\Omega\) scatters with an incident photon of frequency \(\omega\), annihilating the \textit{phonon} and creating a backscattered photon at the addition energy (\(\omega_{\mathrm{anti-Stokes}} = \omega + \Omega\)). Both energy and momentum are again conserved, however in the anti-Stokes process, the incident light experiences a doppler \textit{up}-shift in frequency as if, to continue the analogy, the photon were reflected from an approaching mirror. For further intuition, one might consider an elastic collision of a ball (the photon) with a moving wall (the phonon) for the cases of the wall moving towards (in the anti-Stokes process) or away (in the Stokes process) from the ball as they collide. This simple analogy helps illustrate how momentum and energy are exchanged in optomechanical heating (Stokes) and cooling (anti-Stokes) processes.
 
-While these processes naturally lead to a change in phonon population and thereby mode temperature, specific challenges arise in practical demonstration and detection of the phenomena. The most significant challenge is that since we are seeking to address the natural thermal phonons of the medium, we are restricted to a spontaneous Brillouin scattering regime as opposed to stimulated. Stimulated Brillouin scattering techniques are often employed to dramatically increase scattered power and aid in detection (see Appendix \ref{appendix:comparison} and specifically Figure \ref{fig:SponBSvsStimBSvsCoBS} for a comparison of scattered power produced by different Brillouin techniques). However, when stimulated conditions are met, the thermal phonons of the medium are actively driven, often by the injection of an additional optical field. Therefore, the stimulated scattering process is no longer a result of spontaneous thermal phonons but rather of optically driven phonon populations. As explained in Appendix \ref{appendix:comparison}, the condition for achieving stimulated Brillouin scattering is an overall process gain factor, \(G = G_{B}P_{P}L\), much greater than unity \((G \gg 1)\), where \(G_{B}\) is the effective Brillouin gain, \(P_{P}\) is the pump power, and \(L\) is the effective length. An ideal testbed for demonstrating optomechanical cooling would therefore feature an overall process gain factor near but not exceeding unity in order to maximize feasibility of measurement while ensuring a spontaneous scattering regime.
+While spontaneous Brillouin scattering processes naturally alter phonon populations (and thus mode temperatures), practical demonstration and detection of these effects pose significant challenges. Foremost among these is the requirement to remain in the spontaneous regime: we wish to probe the natural thermal phonons in a medium, so we cannot rely on artificially driving the mechanical modes to enhance scattered power (see Appendix~\ref{appendix:comparison}, and specifically Figure~\ref{fig:SponBSvsStimBSvsCoBS}, for a comparison of scattered power produced by different Brillouin techniques). Although stimulated Brillouin scattering (SBS) is often employed to boost signal levels, it actively drives phonon populations via injected optical fields, and thus no longer measures the intrinsic thermal phonons. In practical terms, SBS occurs when the overall process gain factor \(G = G_{B}P_{P}L\) (where \(G_{B}\) is the effective Brillouin gain, \(P_{P}\) the pump power, and \(L\) the effective length) far exceeds unity (\(G \gg 1\)).
 
-In addition to this fundamental requirement, rate conditions provide additional criticl constraints. The rate at which the phonons are depleted through the optomechanical cooling process must exceed the replenishment rate by the surrounding thermal bath.
+To demonstrate optomechanical cooling (i.e., an anti-Stokes process that lowers phonon energy), one must detect scattered light from a mode whose phonon population has been reduced. This is intrinsically difficult because a decreased phonon population means fewer scattering events, and hence diminished backscattered light. Consequently, an ideal testbed should provide sufficiently high single-pass gain (overall gain factor near unity) to enable clear detection, yet remain below the threshold that would drive the process into the stimulated regime. Achieving this balance ensures that measurements reflect genuine spontaneous cooling of a thermally populated phonon mode, rather than an artifact of optically driven phonons.
 
-Ideal testbed for demonstrating optomechanical cooling:
+In addition to the requirement that the overall process gain be near but below unity, temporal constraints impose further critical conditions. Specifically, the rate at which phonons are removed from the system must exceed the rate at which they are replenished by the thermal bath to ensure net cooling of the anti-Stokes mode. This condition demands that backscattered photons leave the system rapidly, carrying away the extracted mechanical energy. A mean-field analysis (see Appendix~A of \cite{johnson2023laser}) shows that the relevant depletion rate is \(4v_{g}/L\), where \(v_{g}\) is the group velocity of the anti-Stokes light and \(L\) is the system length. This must exceed the mechanical dissipation rate \(\Gamma_{0}\), which represents the natural return of the phonon mode to thermal equilibrium. Hence, a suitable platform for demonstrating optomechanical cooling of traveling-wave phonons must fulfill the fast escape condition \(4v_{g}/L > \Gamma_{0}\). Meeting this requirement on system length, however, directly conflicts with the desire for a sufficiently high overall gain factor, illustrating the delicate balance needed for effective cooling.
 
-\begin{enumerate}
-\item Large acousto-optic coupling
-\item Tight confinement of light and sound
-\item Sound speed not too fast (too large brillouin frequency shift, expensive fast elecronics for detection) or too slow (too small brillouin frequency shift, making it hard to separate sideband from carrier)
-\item Large single pass gain GPL
-\item Fast escape condition - phonon mode depletion rate must exceed repopulation rate \(4v_{g}/L \gg \Gamma\)
-\end{enumerate}
+% Ideal testbed for demonstrating optomechanical cooling:
+%
+% \begin{enumerate}
+% \item Large acousto-optic coupling
+% \item Tight confinement of light and sound
+% \item Sound speed not too fast (too large brillouin frequency shift, expensive fast elecronics for detection) or too slow (too small brillouin frequency shift, making it hard to separate sideband from carrier)
+% \item Large single pass gain GPL
+% \item Fast escape condition - phonon mode depletion rate must exceed repopulation rate \(4v_{g}/L > \Gamma\)
+% \end{enumerate}
 
 %--------------------------------------------------------------------%
 
 \section{Cooling Platform: \texorpdfstring{$CS_{2}$}{CS2}-\acl{LCOF}}
 \label{sec:Cooling:Platform}
 
-Demonstration of optomechanical cooling and heating of traveling wave phonons requires a device or material host that [can balance all of the requirements I just layed out in the previous section!] features large optomechanical coupling as well as tight optical and acoustic confinement for large acousto-optic overlap. A \ce{CS2}-filled \ac{LCOF} similar to that used by Behunin et al. (2019) was used.\cite{behunin2019spontaneous}
+To demonstrate optomechanical cooling of traveling wave phonons, we utilize \SI{1}{\meter} of \acl{LCOF} filled with carbon disulfide, similar to that used by Behunin et al. (2019). \cite{behunin2019spontaneous} This platform features large optomechanical coupling due to the high electrostritive response of \ce{CS2}, enabling sufficient scattering for the relatively short length required to satisfy the fast-escape condition (\(4v_{g}/L \approx\) \SI{0.82}{\giga\hertz} and \(\Gamma_{0} \approx\) \SI{0.61}{\giga\hertz}). In addition to
+
+%as well optical and acoustic confinement for large acousto-optic overlap.
 
 %--------------------------------------------------------------------%
 
