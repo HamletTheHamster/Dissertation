@@ -24,16 +24,19 @@ Ryan O. Behunin\textsuperscript{\ref{Cooling-NAU},\ref{Cooling-MIRA}}
 %--------------------------------------------------------------------%
 
 \section{Introduction}
-\label{sec:Cooling:Introduction}
+\label{Cooling:sec:Introduction}
 
-Materials above the ground state experience therodynamic variations such as temperature and density. These thermal fluctuations alter the optical properties of a given material, allowing a scattering process to occur (see Section \ref{sec:Introduction:Light-Scattering}). Spontaneous Brillouin scattering is the inelastic scattering of light with these thermal fluctuations within a material, facilitating an energy exchange between the optical and acoustic domains. While a given medium typically supports a multitude of thermally excited acoustic modes (including both transverse and longitudinal modes) we focus here specifically on longitudinally travelling acoustic waves to demonstrate cooling in a continuous (non-resonant) system.
+Materials above the ground state experience therodynamic variations such as temperature and density. These thermal fluctuations alter the optical properties of a given material, allowing a scattering process to occur (see Section \ref{Introduction:sec:LightScattering}). Spontaneous Brillouin scattering is the inelastic scattering of light with these thermal fluctuations within a material, facilitating an energy exchange between the optical and acoustic domains. While a given medium typically supports a multitude of thermally excited acoustic modes (including both transverse and longitudinal modes) we focus here specifically on longitudinally travelling acoustic waves to demonstrate cooling in a continuous (non-resonant) system.
 
 [lit review, state of the art]
 
 %--------------------------------------------------------------------%
 
 \section{Optomechanical Cooling and Heating}
-\label{sec:Cooling:Cooling-Heating}
+\label{Cooling:sec:CoolingandHeating}
+
+\subsection{Physical Mechanism}
+\label{Cooling:subsec:PhysicalMechanism}
 
 Backward Brillouin scattering targets longitudinally traveling acoustic waves (or phonons) through two complementary processes---Stokes and anti-Stokes, illustrated in Figures \ref{fig:Cooling:StokesHeating} and \ref{fig:Cooling:anti-StokesCooling}, respectively. In the Stokes process, an incident photon of frequency \(\omega\) scatters with a \textit{retreating} phonon of frequency \(\Omega\) annihilating the \textit{photon} and creating both an additional phonon of frequency \(\Omega\) and a backscattered photon at the difference energy (\(\omega_{\mathrm{Stokes}} = \omega - \Omega\)). In this way, both energy and momentum are conserved. This can be visualized by an analogy, in which the incident light experiences a doppler \textit{down}-shift in frequeny as though the photon were reflected from a retreating mirror. Since this processes results in an increase in the phonon population within the respective longitudinal mode of the material, this process is referred to as optomechanical heating. The energy lost by the light is gained by the material in the form of mechanical vibrations.
 
@@ -58,62 +61,85 @@ Backward Brillouin scattering targets longitudinally traveling acoustic waves (o
 
 The anti-Stokes process is the inverse process, whereby an \textit{approaching} phonon of frequency \(\Omega\) scatters with an incident photon of frequency \(\omega\), annihilating the \textit{phonon} and creating a backscattered photon at the addition energy (\(\omega_{\mathrm{anti-Stokes}} = \omega + \Omega\)). Both energy and momentum are again conserved, however in the anti-Stokes process, the incident light experiences a doppler \textit{up}-shift in frequency as if, to continue the analogy, the photon were reflected from an approaching mirror. For further intuition, one might consider an elastic collision of a ball (the photon) with a moving wall (the phonon) for the cases of the wall moving towards (in the anti-Stokes process) or away (in the Stokes process) from the ball as they collide. This simple analogy helps illustrate how momentum and energy are exchanged in optomechanical heating (Stokes) and cooling (anti-Stokes) processes.
 
+\subsection{Spectral Signatures of Cooling and Heating}
+\label{Cooling:subsec:SpectralSignaturesofCoolingandHeating}
+
+Spectral amplitude provides a measure of the power of the backscattered light, increasing with both pump power \(P_{P}\) as well as temperature \(T\) of the phonon mode (see Equation~\ref{eq:sponBSscatteredPower} in Appendix~\ref{appendix:comparison}). As a result, both Stokes and anti-Stokes spectral amplitudes increase with increasing pump power, but at inequal rates respective of pump power. With increasing pump power, the anti-Stokes scattering process serves to cool the anti-Stokes phonon mode, partially discounting the scattered power of the anti-Stokes light collected by the detector. The simultaneous Stokes process experiences an inverse effect, whereby increasing pump power serves to heat the Stokes phonon mode, contributing to an increase in scattered power of Stokes light collected by the detector. The overall effect of these processes is a sublinear growth in amplitude of the anti-Stokes spectrum and superlinear growth of the Stokes spectrum.
+
+\section{Experimental Methods and Design}
+\label{Cooling:sec:ExperimentalMethodsandDesign}
+
 While spontaneous Brillouin scattering processes naturally alter phonon populations (and thus mode temperatures), practical demonstration and detection of these effects pose significant challenges. Foremost among these is the requirement to remain in the spontaneous regime: we wish to probe the natural thermal phonons in a medium, so we cannot rely on artificially driving the mechanical modes to enhance scattered power (see Appendix~\ref{appendix:comparison}, and specifically Figure~\ref{fig:SponBSvsStimBSvsCoBS}, for a comparison of scattered power produced by different Brillouin techniques). Although stimulated Brillouin scattering (SBS) is often employed to boost signal levels, it actively drives phonon populations via injected optical fields, and thus no longer measures the intrinsic thermal phonons. In practical terms, SBS occurs when the overall process gain factor \(G = G_{B}P_{P}L\) (where \(G_{B}\) is the effective Brillouin gain, \(P_{P}\) the pump power, and \(L\) the effective length) far exceeds unity (\(G \gg 1\)).
 
 To demonstrate optomechanical cooling (i.e., an anti-Stokes process that lowers phonon energy), one must detect scattered light from a mode whose phonon population has been reduced. This is intrinsically difficult because a decreased phonon population means fewer scattering events, and hence diminished backscattered light. Consequently, an ideal testbed should provide sufficiently high single-pass gain (overall gain factor near unity) to enable clear detection, yet remain below the threshold that would drive the process into the stimulated regime. Achieving this balance ensures that measurements reflect genuine spontaneous cooling of a thermally populated phonon mode, rather than an artifact of optically driven phonons.
 
-In addition to the requirement that the overall process gain be near but below unity, temporal constraints impose further critical conditions. Specifically, the rate at which phonons are removed from the system must exceed the rate at which they are replenished by the thermal bath to ensure net cooling of the anti-Stokes mode. This condition demands that backscattered photons leave the system rapidly, carrying away the extracted mechanical energy. A mean-field analysis (see Appendix~A of \cite{johnson2023laser}) shows that the relevant depletion rate is \(4v_{g}/L\), where \(v_{g}\) is the group velocity of the anti-Stokes light and \(L\) is the system length. This must exceed the mechanical dissipation rate \(\Gamma_{0}\), which represents the natural return of the phonon mode to thermal equilibrium. Hence, a suitable platform for demonstrating optomechanical cooling of traveling-wave phonons must fulfill the fast escape condition \(4v_{g}/L > \Gamma_{0}\). Meeting this requirement on system length, however, directly conflicts with the desire for a sufficiently high overall gain factor, illustrating the delicate balance needed for effective cooling.
-
-% Ideal testbed for demonstrating optomechanical cooling:
-%
-% \begin{enumerate}
-% \item Large acousto-optic coupling
-% \item Tight confinement of light and sound
-% \item Sound speed not too fast (too large brillouin frequency shift, expensive fast elecronics for detection) or too slow (too small brillouin frequency shift, making it hard to separate sideband from carrier)
-% \item Large single pass gain GPL
-% \item Fast escape condition - phonon mode depletion rate must exceed repopulation rate \(4v_{g}/L > \Gamma\)
-% \end{enumerate}
+In addition to the requirement that the overall process gain be near but below unity, temporal constraints impose further critical conditions. Specifically, the rate at which phonons are removed from the system must exceed the rate at which they are replenished by the thermal bath to ensure net cooling of the anti-Stokes mode. This condition demands that backscattered photons leave the system rapidly, carrying away the extracted mechanical energy. A mean-field analysis (see Appendix~A of Johnson et al. (2023) \cite{johnson2023laser}) shows that the relevant depletion rate is \(4v_{g}/L\), where \(v_{g}\) is the group velocity of the anti-Stokes light and \(L\) is the system length. This must exceed the mechanical dissipation rate \(\Gamma_{0}\), which represents the natural return of the phonon mode to thermal equilibrium. Hence, a suitable platform for demonstrating optomechanical cooling of traveling-wave phonons must fulfill the fast escape condition \(4v_{g}/L > \Gamma_{0}\). Meeting this requirement on system length, however, directly conflicts with the desire for a sufficiently high overall gain factor, illustrating the delicate balance needed for effective cooling.
 
 %--------------------------------------------------------------------%
 
-\section{Cooling Platform: \texorpdfstring{$CS_{2}$}{CS2}-\acl{LCOF}}
-\label{sec:Cooling:Platform}
+\subsection{Cooling Platform: \texorpdfstring{$CS_{2}$}{CS2}-\acl{LCOF}}
+\label{Cooling:subsec:CoolingPlatform}
 
-To demonstrate optomechanical cooling of traveling wave phonons, we utilize \SI{1}{\meter} of \acl{LCOF} filled with carbon disulfide, similar to that used by Behunin et al. (2019). \cite{behunin2019spontaneous} This platform features large optomechanical coupling due to the high electrostritive response of \ce{CS2}, enabling sufficient scattering for the relatively short length required to satisfy the fast-escape condition (\(4v_{g}/L \approx\) \SI{0.82}{\giga\hertz} and \(\Gamma_{0} \approx\) \SI{0.61}{\giga\hertz}). In addition to
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figs/3-Cooling/LCOFdiagram.png}
+  \caption{Schematic of \ac{LCOF} design. A length of \ac{SMF-28} is arc-spliced to 5-\SI{10}{\centi\meter} of \ac{UHNA7} fiber, with a post-arc process applied to taper the larger \ac{SMF-28} core down to the smaller \ac{UHNA7} core for better mode matching and coupling efficiency. The \ac{UHNA7} fiber is angle-cleaved and fusion-spliced to a flat-cleaved hollow-core fiber via a heated filament in a Vytran fusion splicer system. The angle cleave results in a splice that only partially fuses the two fibers, leaving a pathway for liquid to enter the hollow core fiber via capillary action once submerged. A mirrored splice configuration on the other end of the length of hollow-core fiber allows air to escape as the fiber fills, and a reverse taper again provides improved mode matching for the light to recouple into \ac{SMF-28}.}
+  \label{fig:LCOF diagram}
+\end{figure}
 
-%as well optical and acoustic confinement for large acousto-optic overlap.
+To demonstrate optomechanical cooling of traveling wave phonons, we utilize \SI{1}{\meter} of \acl{LCOF} filled with carbon disulfide, first developed by Kieu et al. (2012). \cite{kieu2012integrated} This platform features large optomechanical coupling due to the high electrostritive response of \ce{CS2} \cite{boyd2020nonlinear} and the small effective area defining acousto-optic mode overlap offered by the small \SI{0.9}{\micro\meter} core radius of the capillary fiber. These characteristics of the \ac{LCOF} system combine to produce an effective Brillouin gain coefficient \(G_{B} \sim\)\SI{2.3}{\per\watt\per\meter}, enabling sufficient scattering within the relatively short length required to satisfy the fast-escape condition \(4v_{g}/L > \Gamma_{0}\) (\(4v_{g}/L \approx\) \SI{0.82}{\giga\hertz} and \(\Gamma_{0} \approx\) \SI{0.61}{\giga\hertz}). \cite{johnson2023laser} Additionally, this \ce{CS2}-filled \ac{LCOF} system provides excellent acoustic and optical guidance due to the large electromagnetic and acoustic impedance differential between the \ce{CS2} core and surrounding silica. \cite{behunin2019spontaneous}
+
+Figure~\ref{fig:LCOF diagram} shows a schematic of the \ac{LCOF} design. Coupling into and out of the \ac{LCOF} is facilitated by a short length of tapered \ac{UHNA7} for better mode matching between the \SI{4.8}{\micro\meter} core radius \ac{SMF-28} and the \SI{0.84}{\micro\meter} core radius of the capillary fiber. An angled cleave of the \ac{UHNA7} fiber allows for a small wedge gap to remain after fusion splicing to the capillary fiber. This gap allows liquid \ce{CS2} to enter and fill the hollow core of the capillary fiber via capillary action. Appendix~\ref{Cooling:Appendix:sec:Fabrication} describes the fabrication and filling processes of the \ac{LCOF} and details key insights which contributed to significant reductions in failure rate as well as time and material cost of sample preparation.
 
 %--------------------------------------------------------------------%
 
-\section{Experimental Setup}
-\label{sec:Cooling:Setup}
+\subsection{Spontaneous Brillouin Cooling Experiment}
+\label{Cooling:subsec:SpontaneousBrillouinCoolingExperiment}
 
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figs/3-Cooling/pumpOnlyDesign.pdf}
+  \caption{Schematic of spontaneous Brillouin cooling experimental setup.}
+  \label{fig:pumpOnlyDesign}
+\end{figure}
 
-\subsection{Main Experiment}
-\label{subsec:Cooling:Setup:Main}
+We conducted two independent experiments to demonstrate and verify laser cooling of traveling wave phonons in our \ce{CS2}-\ac{LCOF} platform. The first experiment employed a pump laser to inject \SI{1.55}{\micro\meter} light into the \ac{LCOF} and the frequency-shifted backscattered Stokes and anti-Stokes light was filtered and collected by a detector. In this experiment, evidence of cooling is given by symmetry breaking of the amplitudes and widths of the Stokes and anti-Stokes spectra as pump power increases.
 
+\subsection{Pump-Probe Verification Experiment}
+\label{Cooling:subsec:Pump-ProbeVerificationExperiment}
 
-\subsection{Pump-Probe Experiment}
-\label{subsec:Cooling:Setup:Pump-Probe}
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figs/3-Cooling/pumpProbeDesign.pdf}
+  \caption{Schematic of pump-probe experimental setup.}
+  \label{fig:pumpProbeDesign}
+\end{figure}
+
+A second experiment was conducted to provide direct evidence of cooling via a pump-probe technique whereby a separate probe laser is held at constant power while a pump laser is varied to affect cooling in the \ac{LCOF}. In this pump-probe experiment, backscattered light from the probe laser provides direct evidence of cooling through spectral changes in amplitude and width as pump power increases.
 
 %--------------------------------------------------------------------%
 
 \section{Results}
-\label{sec:Cooling:Results}
+\label{Cooling:sec:Results}
 
 
-\subsection{Main Experiment Results}
-\label{subsec:Cooling:Results:Main}
+\subsection{Spontaneous Cooling Results}
+\label{Cooling:subsec:SpontaneousCoolingResults}
 
-need for normalized cooling metric - per pump power, and such that one cannot start a system in a heated state to achieve a greater stated cooling ability. Or maybe room temperature is identical across systems? check. if not, normalize.
 
-\subsection{Pump-Probe Experiment Results}
-\label{subsec:Cooling:Results:Pump-Probe}
+
+% need for normalized cooling metric - per pump power, and such that one cannot start a system in a heated state to achieve a greater stated cooling ability. Or maybe room temperature is identical across systems? check. if not, normalize.
+
+\subsection{Pump-Probe Verification Results}
+\label{Cooling:subsec:Pump-ProbeVerificationResults}
 
 %--------------------------------------------------------------------%
 
-\section{Discussion}
-\label{sec:Cooling:Discussion}
+\section{Future Directions and Broader Implications}
+\label{Cooling:sec:FutureDirectionsandBroaderImplications}
+
+\subsection{Pathways to Net Cooling}
+\label{Cooling:subsec:PathwaystoNetCooling}
 
 Ideas to achieve net cooling, one might design a system where:
 
@@ -150,13 +176,15 @@ Ideas to achieve net cooling, one might design a system where:
 
 Think about a practical device or system for each of these cases (think waveguide playground!)
 
-\subsection{Application to Ground State Cooling}
-\label{subsec:Cooling:Discussion:Ground-State}
+\subsection{Applications to Ground State Cooling}
+\label{Cooling:subsec:ApplicationstoGroundStateCooling}
 
 
 \subsection{Standardized Cooling Metric}
-\label{subsec:Cooling:Discussion:Metric}
+\label{Cooling:subsec:StandardizedCoolingMetric}
 
 
-\subsection{Tapered chalcogenide Photonic Crystal Fiber: Max Plank Results}
-\label{subsec:Cooling:Discussion:Max-Plank}
+\subsection{Alternative Platforms}
+\label{Cooling:subsec:AlternativePlatforms}
+
+Tapered chalcogenide Photonic Crystal Fiber: Max Plank Results

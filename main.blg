@@ -20,45 +20,45 @@ A level-1 auxiliary file: post/A-CABS.aux
 A level-1 auxiliary file: post/A-Raman.aux
 Database file #1: references.bib
 Warning--I didn't find a database entry for ""
-You've used 42 entries,
+You've used 43 entries,
             2481 wiz_defined-function locations,
-            836 strings with 12342 characters,
-and the built_in function-call counts, 17651 in all, are:
-= -- 1355
-> -- 1152
+            841 strings with 12530 characters,
+and the built_in function-call counts, 18107 in all, are:
+= -- 1393
+> -- 1179
 < -- 9
-+ -- 430
-- -- 346
-* -- 1609
-:= -- 2935
-add.period$ -- 126
-call.type$ -- 42
-change.case$ -- 83
-chr.to.int$ -- 42
-cite$ -- 42
-duplicate$ -- 795
-empty$ -- 1527
-format.name$ -- 394
-if$ -- 3614
++ -- 440
+- -- 354
+* -- 1652
+:= -- 3008
+add.period$ -- 129
+call.type$ -- 43
+change.case$ -- 85
+chr.to.int$ -- 43
+cite$ -- 43
+duplicate$ -- 814
+empty$ -- 1567
+format.name$ -- 403
+if$ -- 3708
 int.to.chr$ -- 1
-int.to.str$ -- 43
-missing$ -- 43
-newline$ -- 219
-num.names$ -- 126
-pop$ -- 301
+int.to.str$ -- 44
+missing$ -- 44
+newline$ -- 224
+num.names$ -- 129
+pop$ -- 308
 preamble$ -- 2
-purify$ -- 42
+purify$ -- 43
 quote$ -- 0
-skip$ -- 433
+skip$ -- 443
 stack$ -- 0
-substring$ -- 870
-swap$ -- 84
+substring$ -- 903
+swap$ -- 86
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 291
+type$ -- 298
 warning$ -- 0
-while$ -- 143
+while$ -- 147
 width$ -- 0
-write$ -- 552
+write$ -- 565
 (There was 1 warning)
