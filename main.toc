@@ -15,14 +15,14 @@
 \contentsline {section}{\numberline {2.2}Optomechanical Cooling and Heating}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Physical Mechanism}{8}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Spectral Signatures of Cooling and Heating}{9}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Experimental Methods and Design}{9}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Cooling Platform: $CS_{2}$-\acl {LCOF}}{10}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Spontaneous Brillouin Cooling Experiment}{11}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Pump-Probe Verification Experiment}{12}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.3}Methods}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}$CS_{2}$-\acl {LCOF}}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Experiment A: Spontaneous Brillouin Cooling}{11}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Experiment B: Pump-Probe Verification}{12}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Results}{12}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Spontaneous Cooling Results}{12}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Pump-Probe Verification Results}{12}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Future Directions and Broader Implications}{12}{section.2.5}%
+\contentsline {subsection}{\numberline {2.4.1}Experiment A Results}{12}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Experiment B Results}{12}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Discussion}{12}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Pathways to Net Cooling}{12}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Applications to Ground State Cooling}{13}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Standardized Cooling Metric}{13}{subsection.2.5.3}%
