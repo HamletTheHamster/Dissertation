@@ -1,7 +1,7 @@
-\contentsline {chapter}{List of Tables}{iv}{section*.10}%
-\contentsline {chapter}{List of Figures}{v}{section*.12}%
-\contentsline {chapter}{Dedication}{xi}{section*.29}%
-\contentsline {chapter}{Preface}{xiii}{section*.31}%
+\contentsline {chapter}{List of Tables}{iv}{section*.3}%
+\contentsline {chapter}{List of Figures}{v}{section*.5}%
+\contentsline {chapter}{Dedication}{xi}{section*.22}%
+\contentsline {chapter}{Preface}{xiii}{section*.24}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Light Scattering}{4}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Spontaneous Brillouin Scattering}{5}{section.1.2}%
@@ -10,13 +10,13 @@
 \contentsline {section}{\numberline {1.5}Brillouin Gain of Materials}{5}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Raman Scattering}{5}{section.1.6}%
 \contentsline {section}{\numberline {1.7}Raman-like Brillouin Modes}{5}{section.1.7}%
-\contentsline {chapter}{\numberline {2}Laser cooling of traveling wave phonons in an optical fiber}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Laser Cooling of Traveling-Wave Phonons in an Optical Fiber}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{7}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Optomechanical Cooling and Heating}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Physical Mechanism}{8}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Spectral Signatures of Cooling and Heating}{9}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Methods}{9}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}$CS_{2}$-\acl {LCOF}}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}$CS_{2}$-Filled Liquid-Core Optical Fiber}{10}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Experiment A: Spontaneous Brillouin Cooling}{11}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Experiment B: Pump-Probe Verification}{12}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Results}{12}{section.2.4}%
@@ -27,17 +27,17 @@
 \contentsline {subsection}{\numberline {2.5.2}Applications to Ground State Cooling}{13}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Standardized Cooling Metric}{13}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Alternative Platforms}{13}{subsection.2.5.4}%
-\contentsline {chapter}{\numberline {3}A coherently stimulated phonon spectrometer}{15}{chapter.3}%
+\contentsline {chapter}{\numberline {3}A Coherently Stimulated Phonon Spectrometer}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Abstract}{15}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Introduction}{15}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Theoretical Framework}{17}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Coherently stimulated four-wave Brillouin scattering}{17}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Phase matching relaxation}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.1}Coherently Stimulated Four-Wave Brillouin Scattering}{17}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Phase Matching Relaxation}{18}{subsection.3.3.2}%
 \contentsline {section}{\numberline {3.4}Methods}{19}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Instrument design}{19}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.1}Instrument Design}{19}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Experimental Techniques}{21}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Results}{22}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Instrument sensitivity}{22}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.1}Instrument Sensitivity}{22}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Measurements}{24}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Phase Matching Bandwidth}{29}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}Fano-Resonant Asymmetries at Small Signals}{31}{subsection.3.5.4}%
@@ -50,35 +50,26 @@
 \contentsline {section}{\numberline {4.5}Discussion}{35}{section.4.5}%
 \contentsline {chapter}{\numberline {5}Discussion \& Future Work}{37}{chapter.5}%
 \contentsline {chapter}{\numberline {A}Acronyms}{39}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Code}{41}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Python Code for CABS Data Collection}{41}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Plotting Data In Go Program}{42}{section.B.2}%
-\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter~\ref {ch:Cooling}}{43}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Fabrication of $CS_{2}$-\acl {LCOF}}{43}{section.C.1}%
-\contentsline {subsection}{\numberline {C.1.1}Splicing \acs {SMF-28} to \acs {UHNA7}}{43}{subsection.C.1.1}%
-\contentsline {subsection}{\numberline {C.1.2}Preparing the \acs {UHNA7} Fiber}{44}{subsection.C.1.2}%
-\contentsline {subsection}{\numberline {C.1.3}Preparing the Hollow-Core Fiber}{44}{subsection.C.1.3}%
-\contentsline {subsection}{\numberline {C.1.4}Cleaning and Preparing the Microscope Slide}{45}{subsection.C.1.4}%
-\contentsline {subsection}{\numberline {C.1.5}Cutting and Preparing the Glass Vial}{45}{subsection.C.1.5}%
-\contentsline {subsection}{\numberline {C.1.6}Fusion-Splicing the \acs {UHNA7} to the Hollow-Core Fiber}{48}{subsection.C.1.6}%
-\contentsline {subsection}{\numberline {C.1.7}Transferring the Spliced Fibers onto the Slide}{48}{subsection.C.1.7}%
-\contentsline {subsection}{\numberline {C.1.8}Enclosing the Splice with the Cut Vial}{49}{subsection.C.1.8}%
-\contentsline {subsection}{\numberline {C.1.9}Final Mounting and Labeling}{50}{subsection.C.1.9}%
-\contentsline {subsection}{\numberline {C.1.10}Filling the \acs {LCOF} with Carbon Disulfide}{51}{subsection.C.1.10}%
-\contentsline {subsection}{\numberline {C.1.11}Filling Procedure}{51}{subsection.C.1.11}%
-\contentsline {subsection}{\numberline {C.1.12}Typical Optical Performance}{52}{subsection.C.1.12}%
-\contentsline {subsection}{\numberline {C.1.13}Maintaining the Filled Sample}{53}{subsection.C.1.13}%
-\contentsline {subsection}{\numberline {C.1.14}Improvements in Yield and Efficiency of \acs {LCOF} Samples}{54}{subsection.C.1.14}%
-\contentsline {chapter}{\numberline {D}Supplementary Information for Chapter~\ref {ch:CABS}}{57}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Coupled-Wave Equations}{57}{section.D.1}%
-\contentsline {subsection}{\numberline {D.1.1}Acoustic Field}{58}{subsection.D.1.1}%
-\contentsline {subsection}{\numberline {D.1.2}Optical Fields}{59}{subsection.D.1.2}%
-\contentsline {section}{\numberline {D.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{64}{section.D.2}%
-\contentsline {section}{\numberline {D.3}Observance of Fano-Resonant Asymmetries at Small Signals}{69}{section.D.3}%
-\contentsline {subsection}{\numberline {D.3.1}Experiment A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{69}{subsection.D.3.1}%
-\contentsline {subsection}{\numberline {D.3.2}Experiment B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{72}{subsection.D.3.2}%
-\contentsline {section}{\numberline {D.4}Equal Contribution of Pump, Stokes, and Probe Optical Fields}{78}{section.D.4}%
-\contentsline {section}{\numberline {D.5}Data}{81}{section.D.5}%
-\contentsline {chapter}{\numberline {E}Supplementary Information for Chapter~\ref {ch:Raman}}{83}{appendix.E}%
-\contentsline {section}{\numberline {E.1}Data}{83}{section.E.1}%
-\contentsline {chapter}{References}{84}{section*.89}%
+\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter~\ref {ch:Cooling}}{41}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Fabrication of $CS_{2}$-Filled Liquid-Core Optical Fiber}{41}{section.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}Splicing}{41}{subsection.B.1.1}%
+\contentsline {subsection}{\numberline {B.1.2}Reservoir Assembly}{44}{subsection.B.1.2}%
+\contentsline {subsection}{\numberline {B.1.3}Filling with Carbon Disulfide}{48}{subsection.B.1.3}%
+\contentsline {subsection}{\numberline {B.1.4}Typical Optical Performance}{50}{subsection.B.1.4}%
+\contentsline {section}{\numberline {B.2}Improvements in Yield and Efficiency of \acs {LCOF} Samples}{51}{section.B.2}%
+\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter~\ref {ch:CoBS}}{53}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Coupled-Wave Equations}{53}{section.C.1}%
+\contentsline {subsection}{\numberline {C.1.1}Acoustic Field}{54}{subsection.C.1.1}%
+\contentsline {subsection}{\numberline {C.1.2}Optical Fields}{55}{subsection.C.1.2}%
+\contentsline {section}{\numberline {C.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{60}{section.C.2}%
+\contentsline {section}{\numberline {C.3}Observance of Fano-Resonant Asymmetries at Small Signals}{65}{section.C.3}%
+\contentsline {subsection}{\numberline {C.3.1}Experiment A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{65}{subsection.C.3.1}%
+\contentsline {subsection}{\numberline {C.3.2}Experiment B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{68}{subsection.C.3.2}%
+\contentsline {section}{\numberline {C.4}Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{74}{section.C.4}%
+\contentsline {section}{\numberline {C.5}Data}{77}{section.C.5}%
+\contentsline {chapter}{\numberline {D}Supplementary Information for Chapter~\ref {ch:Raman}}{79}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Data}{79}{section.D.1}%
+\contentsline {chapter}{\numberline {E}Code}{81}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Python Code for CoBS Data Collection}{81}{section.E.1}%
+\contentsline {section}{\numberline {E.2}Plotting Data In Go Program}{82}{section.E.2}%
+\contentsline {chapter}{References}{83}{section*.80}%
