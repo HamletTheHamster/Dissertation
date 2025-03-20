@@ -565,8 +565,6 @@ INPUT ./figs/4-CoBS/CS2LorentzCompare.pdf
 INPUT ./figs/4-CoBS/CS2LorentzCompare.pdf
 INPUT ./figs/4-CoBS/CS2LorentzCompare.pdf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT ./figs/4-CoBS/PSPr-Contribute-Equally.pdf
 INPUT ./figs/4-CoBS/PSPr-Contribute-Equally.pdf
 INPUT ./figs/4-CoBS/PSPr-Contribute-Equally.pdf

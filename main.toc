@@ -17,7 +17,7 @@
 \contentsline {section}{\numberline {2.3}Methods}{9}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}$CS_{2}$-Filled Liquid-Core Optical Fiber}{10}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Experiment A: Spontaneous Brillouin Cooling}{11}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Experiment B: Pump-Probe Verification}{12}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Experiment B: Pump-Probe Verification}{11}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Results}{12}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Experiment A Results}{12}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Experiment B Results}{12}{subsection.2.4.2}%
@@ -68,7 +68,6 @@
 \contentsline {section}{\numberline {C.5}Data}{77}{section.C.5}%
 \contentsline {chapter}{\numberline {D}Supplementary Information for Chapter~\ref {ch:Raman}}{79}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Data}{79}{section.D.1}%
-\contentsline {chapter}{\numberline {E}Code}{81}{appendix.E}%
-\contentsline {section}{\numberline {E.1}Python Code for CoBS Data Collection}{81}{section.E.1}%
-\contentsline {section}{\numberline {E.2}Plotting Data In Go Program}{82}{section.E.2}%
-\contentsline {chapter}{References}{83}{section*.80}%
+\contentsline {chapter}{\numberline {E}Code and Data Availability}{81}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Plotting Data In Go}{81}{section.E.1}%
+\contentsline {chapter}{References}{82}{section*.80}%
