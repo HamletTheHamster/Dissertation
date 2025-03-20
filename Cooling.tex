@@ -96,32 +96,52 @@ Figure~\ref{fig:LCOF diagram} shows a schematic of the \ac{LCOF} design. Couplin
 \subsection{Experiment A: Spontaneous Brillouin Cooling}
 \label{Cooling:subsec:ExperimentASpontaneousBrillouinCooling}
 
-We conducted two independent experiments to demonstrate and verify laser cooling of traveling wave phonons in our \ce{CS2}-\ac{LCOF} platform. The first experiment employed a pump laser to inject \SI{1.55}{\micro\meter} light into the \ac{LCOF} and the frequency-shifted backscattered Stokes and anti-Stokes light was filtered and collected by a detector. In this experiment, evidence of cooling is given by symmetry breaking of the amplitudes and widths of the Stokes and anti-Stokes spectra as pump power increases.
+We conducted two independent experiments to demonstrate and verify laser cooling of traveling wave phonons in our \ce{CS2}-\ac{LCOF} platform. The first experiment (Experiment~A) employs a pump laser to launch \SI{1.55}{\micro\meter} light into the \ac{LCOF}. The backscattered Stokes and anti-Stokes components are filtered and collected by a detector. In this experiment, evidence of cooling is given by symmetry breaking between the amplitudes and widths of the Stokes and anti-Stokes spectra as pump power is varied.
 
 Figure~\ref{fig:Cooling:ExperimentADesign} shows a schematic diagram of the experimental setup for Experiment~A. A \ac{CW} pump laser emitting at \SI{1.55}{\micro\meter} (\(\omega_{P}\)) is amplified by an \ac{EDFA} and its power is controlled by a \ac{VOA}. This light is subsequently routed via a circulator to the \ce{CS2}-\ac{LCOF}, where some of the light backscatters within the length of the \ac{LCOF}. Backscattered light is frequency-shifted, up for anti-Stokes (\(\omega_{\mathrm{aS}} = \omega_{\mathrm{P}} + \Omega_{\mathrm{B}}\)) and down for Stokes
 (\(\omega_{\mathrm{S}} = \omega_{\mathrm{P}} - \Omega_{\mathrm{B}}\)),
-by a frequency band centered around the Brillouin frequency of the \ac{LCOF} (\(\Omega_{\mathrm{B,\,LCOF}} \approx\) \SI{2.25}{\giga\hertz}). Backscattered light is routed by circulators to a \SI{5}{\giga\hertz} \ac{BPF} to allow selection of either the Stokes or anti-Stokes light while also reducing unwanted frequency noise. The filtered signal is then incident on a photodiode detector sensitive to \si{\giga\hertz} frequencies. A \ac{LO} is synthesized from the pump laser, polarization controlled, amplified, and combined with the signal pre-detector for heterodyne detection. Output from the detector is amplified with a \ac{RF} amplifier and sent to a \ac{RFSA} for data collection.
+by a band of frequencies centered around the Brillouin frequency of the \ac{LCOF} (\(\Omega_{\mathrm{B,\,LCOF}} \approx\) \SI{2.25}{\giga\hertz}). Backscattered light is routed by circulators to a \SI{5}{\giga\hertz} \ac{BPF} to allow selection of either the Stokes or anti-Stokes light while also reducing unwanted frequency noise. The filtered signal is then incident on a photodiode detector sensitive to \si{\giga\hertz} frequencies. A \ac{LO} is synthesized from the pump laser, polarization controlled, amplified, and combined with the signal pre-detector for heterodyne detection. Output from the detector is amplified with a \ac{RF} amplifier and sent to a \ac{RFSA} for data collection.
 
 To conduct the experiment, pump power was varied from \SI{10}{\milli\watt} to \SI{290}{\milli\watt} in increments of \SI{10}{\milli\watt}, as measured pre-injection into the \ac{LCOF}, and respective Stokes and anti-Stokes spectra for each pump power were collected sequentially by tuning the placement of the \ac{BPF}. Optical transmission through the entire \ac{LCOF} sample which was used for the published data was measured to be 17\%, giving \(100\sqrt{0.17} \approx 41\%\) transmission through just the first splice assuming equal transmission through both \ac{LCOF} splices. This provides a scaling factor for obtaining intrafiber powers from injected pump power (\(P_{\mathrm{intrafiber}} = \sqrt{0.17}P_{\mathrm{P}}\)) which was used for data processing and analysis.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/pumpOnlyDesign.pdf}
-  \caption{Schematic of experimental setup for Experiment~A. In this experiment, a \ac{CW} pump laser emitting at \SI{1.55}{\micro\meter} is amplified, passed through a circulator, and injected into the \ce{CS2}-\ac{LCOF}. Backscattered light is routed to a \ac{BPF} for selection of Stokes or anti-Stokes frequencies and sent to a detector. A \ac{LO} is synthesized from the pump laser for heterodyne detection, whereby a \acl{PC} is used to align the polarization of the \ac{LO} to that of the backscattered signal. The signal passes through a \acl{RF} amplifier before being sent to a \ac{RFSA} for collection. Pump power is controlled by a \ac{VOA} just after the \ac{EDFA}.}
+  \caption{Schematic of experimental setup for Experiment~A. In this experiment, a \ac{CW} pump laser emitting at \SI{1.55}{\micro\meter} is amplified, passed through a circulator, and injected into the \ce{CS2}-\ac{LCOF}. Backscattered light is routed to a \ac{BPF} for selection of Stokes or anti-Stokes frequencies and sent to a detector. A \ac{LO} is synthesized from the pump laser for heterodyne detection, whereby a \acl{PC} is used to align the polarization of the \ac{LO} to that of the backscattered signal. The signal passes through a \acl{RF} amplifier before being sent to a \ac{RFSA} for collection. Pump power is controlled by a \ac{VOA} placed just after the \ac{EDFA}. Stokes and anti-Stokes spectra are collected sequentially for each pump power by adjusting the placement of the \ac{BPF}.}
   \label{fig:Cooling:ExperimentADesign}
 \end{figure}
 
 \subsection{Experiment B: Pump-Probe Verification}
 \label{Cooling:subsec:ExperimentBPump-ProbeVerification}
 
+A second experiment (Experiment~B) was conducted to provide direct evidence of cooling via a pump-probe spectroscopy technique, whereby a separate probe laser is held at constant power while a pump laser is varied to affect cooling in the \ac{LCOF}. In Experiment~B, backscattered light from the probe laser provides direct evidence of cooling through spectral changes in amplitude and width as pump power is independently varied. To achieve independence of the pump and probe, probe light was controlled to be polarized orthogonal to the pump.
+
+Figure~\ref{fig:Cooling:ExperimentBDesign} shows a schematic of the experimental design for Experiment~B. Starting from a single \ac{CW} laser operating at \SI{1.55}{\micro\meter}, we generate a pump \(omega_{\mathrm{P}}\) and probe \(\omega_{mathrm{Pr}}\), and a \ac{LO}. A \ac{PBS} combines the pump and probe for co-injection into the \ac{LCOF}. The pump light is amplified by an \ac{EDFA}, and its polarization is adjusted so that it reflects at the \ac{PBS} for launching into the \ac{LCOF}. The probe light passes through a circulator and is polarization-adjusted to transmit through the \ac{PBS} for injection into the \ac{LCOF}. A 99-1 splitter directs 1\% of the combined pump and probe light to a second \ac{PBS} for monitoring of respective powers injected into the \ac{LCOF}.
+
 \begin{figure}[t]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/pumpProbeDesign.pdf}
-  \caption{Schematic of experimental setup for Experiment~B.}
+  \caption{Schematic of experimental setup for Experiment~B. A pump, probe, and \ac{LO} are generated from a single \ac{CW} laser operating at \SI{1.55}{\micro\meter}. Pump light is amplified and directed through a \ac{VOA} and \ac{PC}, where its polarization is adjusted to reflect at the \ac{PBS}. Probe light passes through a \ac{VOA} for careful power control across measurement sets before being routed by a circulator to the \ac{PBS}. Polarization of the probe light is adjusted for transmission through the \ac{PBS} for co-injection with the pump into the \ac{LCOF}. A 99-1 splitter directs 1\% of the total pump and probe light to a second \ac{PBS} for monitoring of respective powers injected injected into the \ac{LCOF}. Backscattered Stokes and anti-Stokes components of both the pump and the probe retrace to the first \ac{PBS}, where the respective polarization states of each ensure a re-separation of backscattered pump and probe light. The probe light is filtered by a tunable \ac{BPF} and heterodyned with the \ac{LO} prior to detection. Detector output is amplified by an \ac{RF} amplifier and fed to an \ac{RFSA} for data collection.}
   \label{fig:Cooling:ExperimentBDesign}
 \end{figure}
 
-A second experiment was conducted to provide direct evidence of cooling via a pump-probe technique whereby a separate probe laser is held at constant power while a pump laser is varied to affect cooling in the \ac{LCOF}. In this pump-probe experiment, backscattered light from the probe laser provides direct evidence of cooling through spectral changes in amplitude and width as pump power increases.
+Backscattered light from both pump and probe is shifted in frequency by approximately the Brillouin frequency of the \ac{LCOF} (\(\Omega_{\mathrm{B,\,LCOF}} \approx \SI{2.25}{\giga\hertz}\)). The Stokes components (downshifted) satisfy
+
+\begin{equation}
+\omega_{\mathrm{P,\,S}} = \omega_{\mathrm{P}} - \Omega_{\mathrm{B}},
+\quad
+\omega_{\mathrm{Pr,\,S}} = \omega_{\mathrm{Pr}} - \Omega_{\mathrm{B}},
+\end{equation}
+\\
+while the anti-Stokes components (upshifted) satisfy
+
+\begin{equation}
+\omega_{\mathrm{P,\,aS}} = \omega_{\mathrm{P}} + \Omega_{\mathrm{B}},
+\quad
+\omega_{\mathrm{Pr,\,aS}} = \omega_{\mathrm{Pr}} + \Omega_{\mathrm{B}}.
+\end{equation}
+\\
+These four backscattered signals are centered within a band of frequencies due to the finite phonon lifetime in the \ac{LCOF}. The polarization state of the backscattered pump and probe light is recovered after retracing their paths, permitting only probe light to transmit through the \ac{PBS} for filtration and heterodyne detection. Output from the detector is again amplified by an \ac{RF} amplifier and routed to an \ac{RFSA} for data collection. With the probe power inside the \ac{LCOF} held constant, changes in the amplitude and width of the probe spectra provide direct evidence of laser cooling from varying pump powers within the \ac{LCOF}.
 
 %--------------------------------------------------------------------%
 
