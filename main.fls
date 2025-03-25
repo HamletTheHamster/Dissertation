@@ -422,6 +422,31 @@ INPUT ./figs/3-Cooling/pumpProbeDesign.pdf
 INPUT ./figs/3-Cooling/pumpProbeDesign.pdf
 INPUT ./figs/3-Cooling/pumpProbeDesign.pdf
 INPUT ./figs/3-Cooling/pumpProbeDesign.pdf
+INPUT ./figs/3-Cooling/P-O Stokes.pdf
+INPUT ./figs/3-Cooling/P-O Stokes.pdf
+INPUT ./figs/3-Cooling/P-O Stokes.pdf
+INPUT ./figs/3-Cooling/P-O Stokes.pdf
+INPUT ./figs/3-Cooling/P-O Stokes.pdf
+INPUT ./figs/3-Cooling/P-O anti-Stokes.pdf
+INPUT ./figs/3-Cooling/P-O anti-Stokes.pdf
+INPUT ./figs/3-Cooling/P-O anti-Stokes.pdf
+INPUT ./figs/3-Cooling/P-O anti-Stokes.pdf
+INPUT ./figs/3-Cooling/P-O anti-Stokes.pdf
+INPUT ./figs/3-Cooling/P-O Heights vs Pow.pdf
+INPUT ./figs/3-Cooling/P-O Heights vs Pow.pdf
+INPUT ./figs/3-Cooling/P-O Heights vs Pow.pdf
+INPUT ./figs/3-Cooling/P-O Heights vs Pow.pdf
+INPUT ./figs/3-Cooling/P-O Heights vs Pow.pdf
+INPUT ./figs/3-Cooling/P-O Linewidths.pdf
+INPUT ./figs/3-Cooling/P-O Linewidths.pdf
+INPUT ./figs/3-Cooling/P-O Linewidths.pdf
+INPUT ./figs/3-Cooling/P-O Linewidths.pdf
+INPUT ./figs/3-Cooling/P-O Linewidths.pdf
+INPUT ./figs/3-Cooling/P-O Simulated Gain.pdf
+INPUT ./figs/3-Cooling/P-O Simulated Gain.pdf
+INPUT ./figs/3-Cooling/P-O Simulated Gain.pdf
+INPUT ./figs/3-Cooling/P-O Simulated Gain.pdf
+INPUT ./figs/3-Cooling/P-O Simulated Gain.pdf
 INPUT ./CoBS.tex
 INPUT ./CoBS.tex
 OUTPUT CoBS.aux

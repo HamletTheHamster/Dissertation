@@ -100,7 +100,7 @@ We conducted two independent experiments to demonstrate and verify laser cooling
 
 Figure~\ref{fig:Cooling:ExperimentADesign} shows a schematic diagram of the experimental setup for Experiment~A. A \ac{CW} pump laser emitting at \SI{1.55}{\micro\meter} (\(\omega_{P}\)) is amplified by an \ac{EDFA} and its power is controlled by a \ac{VOA}. This light is subsequently routed via a circulator to the \ce{CS2}-\ac{LCOF}, where some of the light backscatters within the length of the \ac{LCOF}. Backscattered light is frequency-shifted, up for anti-Stokes (\(\omega_{\mathrm{aS}} = \omega_{\mathrm{P}} + \Omega_{\mathrm{B}}\)) and down for Stokes
 (\(\omega_{\mathrm{S}} = \omega_{\mathrm{P}} - \Omega_{\mathrm{B}}\)),
-by a band of frequencies centered around the Brillouin frequency of the \ac{LCOF} (\(\Omega_{\mathrm{B,\,LCOF}} \approx\) \SI{2.25}{\giga\hertz}). Backscattered light is routed by circulators to a \SI{5}{\giga\hertz} \ac{BPF} to allow selection of either the Stokes or anti-Stokes light while also reducing unwanted frequency noise. The filtered signal is then incident on a photodiode detector sensitive to \si{\giga\hertz} frequencies. A \ac{LO} is synthesized from the pump laser, polarization controlled, amplified, and combined with the signal pre-detector for heterodyne detection. Output from the detector is amplified with a \ac{RF} amplifier and sent to a \ac{RFSA} for data collection.
+by a band of frequencies centered around the Brillouin frequency of the \ac{LCOF} (\(\Omega_{\mathrm{B,\,LCOF}} \approx\) \SI{2.27}{\giga\hertz}). Backscattered light is routed by circulators to a \SI{5}{\giga\hertz} \ac{BPF} to allow selection of either the Stokes or anti-Stokes light while also reducing unwanted frequency noise. The filtered signal is then incident on a photodiode detector sensitive to \si{\giga\hertz} frequencies. A \ac{LO} is synthesized from the pump laser, polarization controlled, amplified, and combined with the signal pre-detector for heterodyne detection. Output from the detector is amplified with a \ac{RF} amplifier and sent to a \ac{RFSA} for data collection.
 
 To conduct the experiment, pump power was varied from \SI{10}{\milli\watt} to \SI{290}{\milli\watt} in increments of \SI{10}{\milli\watt}, as measured pre-injection into the \ac{LCOF}, and respective Stokes and anti-Stokes spectra for each pump power were collected sequentially by tuning the placement of the \ac{BPF}. Optical transmission through the entire \ac{LCOF} sample which was used for the published data was measured to be 17\%, giving \(100\sqrt{0.17} \approx 41\%\) transmission through just the first splice assuming equal transmission through both \ac{LCOF} splices. This provides a scaling factor for obtaining intrafiber powers from injected pump power (\(P_{\mathrm{intrafiber}} = \sqrt{0.17}P_{\mathrm{P}}\)) which was used for data processing and analysis.
 
@@ -125,7 +125,7 @@ Figure~\ref{fig:Cooling:ExperimentBDesign} shows a schematic of the experimental
   \label{fig:Cooling:ExperimentBDesign}
 \end{figure}
 
-Backscattered light from both pump and probe is shifted in frequency by approximately the Brillouin frequency of the \ac{LCOF} (\(\Omega_{\mathrm{B,\,LCOF}} \approx \SI{2.25}{\giga\hertz}\)). The Stokes components (downshifted) satisfy
+Backscattered light from both pump and probe is shifted in frequency by approximately the Brillouin frequency of the \ac{LCOF} (\(\Omega_{\mathrm{B,\,LCOF}} \approx \SI{2.27}{\giga\hertz}\)). The Stokes components (downshifted) satisfy
 
 \begin{equation}
 \omega_{\mathrm{P,\,S}} = \omega_{\mathrm{P}} - \Omega_{\mathrm{B}},
@@ -152,9 +152,42 @@ These four backscattered signals are centered within a band of frequencies due t
 \subsection{Experiment A Results}
 \label{Cooling:subsec:ExperimentAResults}
 
+Figure~\ref{}
 
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figs/3-Cooling/P-O Stokes.pdf}
+  \caption{.}
+  \label{fig:Cooling:P-O Stokes}
+\end{figure}
 
-% need for normalized cooling metric - per pump power, and such that one cannot start a system in a heated state to achieve a greater stated cooling ability. Or maybe room temperature is identical across systems? check. if not, normalize.
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figs/3-Cooling/P-O anti-Stokes.pdf}
+  \caption{.}
+  \label{fig:Cooling:P-O anti-Stokes}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figs/3-Cooling/P-O Heights vs Pow.pdf}
+  \caption{.}
+  \label{fig:Cooling:P-O Heights vs Pow}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figs/3-Cooling/P-O Linewidths.pdf}
+  \caption{.}
+  \label{fig:Cooling:P-O Linewidths}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figs/3-Cooling/P-O Simulated Gain.pdf}
+  \caption{.}
+  \label{fig:Cooling:P-O Simulated Gain}
+\end{figure}
 
 \subsection{Experiment B Results}
 \label{Cooling:subsec:ExperimentBResults}
@@ -163,6 +196,16 @@ These four backscattered signals are centered within a band of frequencies due t
 
 \section{Discussion}
 \label{Cooling:sec:Discussion}
+
+\subsection{Standardized Cooling Metric}
+\label{Cooling:subsec:StandardizedCoolingMetric}
+
+% need for normalized cooling metric - per pump power, and such that one cannot start a system in a heated state to achieve a greater stated cooling ability. Or maybe room temperature is identical across systems? check. if not, normalize.
+
+\subsection{Alternative Platforms}
+\label{Cooling:subsec:AlternativePlatforms}
+
+Tapered chalcogenide Photonic Crystal Fiber: Max Plank Results (corroborate our results)
 
 \subsection{Pathways to Net Cooling}
 \label{Cooling:subsec:PathwaystoNetCooling}
@@ -204,13 +247,3 @@ Think about a practical device or system for each of these cases (think waveguid
 
 \subsection{Applications to Ground State Cooling}
 \label{Cooling:subsec:ApplicationstoGroundStateCooling}
-
-
-\subsection{Standardized Cooling Metric}
-\label{Cooling:subsec:StandardizedCoolingMetric}
-
-
-\subsection{Alternative Platforms}
-\label{Cooling:subsec:AlternativePlatforms}
-
-Tapered chalcogenide Photonic Crystal Fiber: Max Plank Results
