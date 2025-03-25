@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {3.5.3}Phase Matching Bandwidth}{33}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}Fano-Resonant Asymmetries at Small Signals}{35}{subsection.3.5.4}%
 \contentsline {section}{\numberline {3.6}Conclusion}{37}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Brillouin-induced Raman modes}{39}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Brillouin-Induced Raman Modes and Device Exploration}{39}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Abstract}{39}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Introduction}{39}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Methods}{39}{section.4.3}%
