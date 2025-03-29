@@ -505,6 +505,8 @@ INPUT ./figs/4-CoBS/5fWSensitivity.pdf
 INPUT ./figs/4-CoBS/5fWSensitivity.pdf
 INPUT ./figs/4-CoBS/5fWSensitivity.pdf
 INPUT ./figs/4-CoBS/5fWSensitivity.pdf
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT ./figs/4-CoBS/1cmUHNA3.pdf
 INPUT ./figs/4-CoBS/1cmUHNA3.pdf
 INPUT ./figs/4-CoBS/1cmUHNA3.pdf
@@ -538,6 +540,8 @@ OUTPUT post/A-Cooling.aux
 INPUT ./post/A-Cooling.tex
 INPUT ./post/A-Cooling.tex
 INPUT post/A-Cooling.tex
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT ./figs/3-Cooling/vytranCameraPreSplice.jpg
 INPUT ./figs/3-Cooling/vytranCameraPreSplice.jpg
 INPUT ./figs/3-Cooling/vytranCameraPreSplice.jpg
@@ -593,8 +597,6 @@ INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
 INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
 INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
 INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT ./post/A-CoBS.tex
 INPUT ./post/A-CoBS.tex
 OUTPUT post/A-CoBS.aux
@@ -607,8 +609,6 @@ INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
 INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
 INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
 INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
 INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
 INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf

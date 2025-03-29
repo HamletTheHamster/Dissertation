@@ -354,8 +354,8 @@ The solution to this numeric approach to scattered power in the high-gain (stimu
 
 \begin{table}[ht]
   \centering
-  \textbf{Coherently Stimulated Brillouin Scattering Process Model System Parameters}
   \caption{Parameters relevant to the coherently stimulated backward Brillouin scattering process for the example UHNA3 fiber. $G_{B}$ is the effective Brillouin gain, $P_{P}$ is the pump power, $P_{S}$ is the Stokes power, $P_{Pr}$ is the probe power, and $\Delta\lambda$ is the wavelength detuning of the probe from the pump.}
+  \textbf{Coherently Stimulated Brillouin Scattering Process Model System Parameters}
   \renewcommand{\arraystretch}{1.2}
   \begin{tabular}{c c c c c}
     \toprule
@@ -371,7 +371,7 @@ The solution to this numeric approach to scattered power in the high-gain (stimu
     \multicolumn{1}{c}{(\si{\pico\meter})} \\
 
     \midrule
-    0.6 & 1 & 1 & 1 & 20 \\
+    \num{0.6} & \num{1} & \num{1} & \num{1} & \num{20} \\
     \bottomrule
   \end{tabular}
   \label{tab:CoBS Parameters}
@@ -379,23 +379,31 @@ The solution to this numeric approach to scattered power in the high-gain (stimu
 
 \begin{table}[ht]
   \centering
-  \textbf{Spontaneous and Stimulated Scattering Process Model System Parameters}
   \caption{Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example UHNA3 fiber. $G_{B}$ is the Brillouin gain coefficient, $P_{P}$ is the pump power, $\omega$ is the optical angular frequency, $\Gamma_{B}$ is the acoustic damping rate, $k_{B}$ is Boltzmann's constant, $T$ is the temperature, and $\Omega_{B}$ is the acoustic angular frequency.}
+  \textbf{Spontaneous and Stimulated Scattering Process Model System Parameters}
   \renewcommand{\arraystretch}{1.2}
   \begin{tabular}{c c c c c c c c c}
     \toprule
-    \(\mathbf{G_{\mathrm{\textbf{B}}}}\) &
-    \(\mathbf{P_{\mathrm{\textbf{P}}}}\) &
-    \(\mathbf{P_{\mathrm{\textbf{S,seed}}}}\) &
-    \(\mathbf{n}\) &
-    \(\mathbf{\lambda_{\mathrm{\textbf{P}}}}\) &
-    \(\mathbf{\Gamma_{\mathrm{\textbf{B}}}}\) &
-    \(\mathbf{k_{\mathrm{\textbf{B}}}}\) &
-    \(\mathbf{T}\) &
-    \(\mathbf{\Omega_{\mathrm{\textbf{B}}}}\) \\
+    \multicolumn{1}{c}{\(\mathbf{G_{\mathrm{\textbf{B}}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{P_{\mathrm{\textbf{P}}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{P_{\mathrm{\textbf{S,seed}}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{n}\)} &
+    \multicolumn{1}{c}{\(\mathbf{\lambda_{\mathrm{\textbf{P}}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{\Gamma_{\mathrm{\textbf{B}}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{k_{\mathrm{\textbf{B}}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{T}\)} &
+    \multicolumn{1}{c}{\(\mathbf{\Omega_{\mathrm{\textbf{B}}}}\)} \\
+    \multicolumn{1}{c}{(\si{\per\watt\per\meter})} &
+    \multicolumn{1}{c}{(\si{\watt})} &
+    \multicolumn{1}{c}{(\si{\pico\watt})} &
+    \multicolumn{1}{c}{} &
+    \multicolumn{1}{c}{(\si{\mega\hertz})} &
+    \multicolumn{1}{c}{(\si{\joule\per\kelvin})} &
+    \multicolumn{1}{c}{(\si{\kelvin})} &
+    \multicolumn{1}{c}{(\si{\giga\hertz})} \\
 
     \midrule
-    0.6 $W^{-1} m^{-1}$ & 1 $W$ & $1$ pW & 1.48 & $1549$ nm & $2\pi \cdot 80$ MHz & $1.38 \times 10^{-23}$ J/K & 295 K & $2\pi \cdot 9.18$ GHz \\
+    \num{0.6} & \num{1} & \num{1} & \num{1.48} & \num{1549} & \(2\pi \cdot 80\) & \num{1.38e-23} & \num{295} & \(2\pi \cdot 9.18\) \\
     \bottomrule
   \end{tabular}
   \label{tab:SBS Parameters}

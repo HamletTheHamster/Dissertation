@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  29 MAR 2025 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  29 MAR 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1306,20 +1306,20 @@ Package acronym Info: Label `acro:SMF-28' overridden on input line 135.
 [36
 
 ]
-<figs/4-CoBS/1cmUHNA3.pdf, id=2260, 1084.05pt x 1084.05pt>
+<figs/4-CoBS/1cmUHNA3.pdf, id=2261, 1084.05pt x 1084.05pt>
 File: figs/4-CoBS/1cmUHNA3.pdf Graphic file (type pdf)
 <use figs/4-CoBS/1cmUHNA3.pdf>
-Package pdftex.def Info: figs/4-CoBS/1cmUHNA3.pdf  used on input line 160.
+Package pdftex.def Info: figs/4-CoBS/1cmUHNA3.pdf  used on input line 170.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
 [37]
 
 [38 <./figs/4-CoBS/1cmUHNA3.pdf>]
-<figs/4-CoBS/100umCS2.pdf, id=2285, 1084.05pt x 1084.05pt>
+<figs/4-CoBS/100umCS2.pdf, id=2286, 1084.05pt x 1084.05pt>
 File: figs/4-CoBS/100umCS2.pdf Graphic file (type pdf)
 <use figs/4-CoBS/100umCS2.pdf>
-Package pdftex.def Info: figs/4-CoBS/100umCS2.pdf  used on input line 173.
+Package pdftex.def Info: figs/4-CoBS/100umCS2.pdf  used on input line 183.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
@@ -1328,10 +1328,10 @@ Package pdftex.def Info: figs/4-CoBS/100umCS2.pdf  used on input line 173.
 ]
 
 [40 <./figs/4-CoBS/100umCS2.pdf>]
-<figs/4-CoBS/Phase-Match.pdf, id=2313, 1084.05pt x 1084.05pt>
+<figs/4-CoBS/Phase-Match.pdf, id=2314, 1084.05pt x 1084.05pt>
 File: figs/4-CoBS/Phase-Match.pdf Graphic file (type pdf)
 <use figs/4-CoBS/Phase-Match.pdf>
-Package pdftex.def Info: figs/4-CoBS/Phase-Match.pdf  used on input line 207.
+Package pdftex.def Info: figs/4-CoBS/Phase-Match.pdf  used on input line 217.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
@@ -1393,7 +1393,7 @@ Package acronym Info: Label `acro:UHNA7' overridden on input line 9.
 
 
 [51]
-<figs/3-Cooling/vytranCameraPreSplice.jpg, id=2426, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/vytranCameraPreSplice.jpg, id=2427, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/vytranCameraPreSplice.jpg Graphic file (type jpg)
 <use figs/3-Cooling/vytranCameraPreSplice.jpg>
 Package pdftex.def Info: figs/3-Cooling/vytranCameraPreSplice.jpg  used on inpu
@@ -1402,7 +1402,7 @@ t line 29.
 
 
 [52 <./figs/3-Cooling/vytranCameraPreSplice.jpg>]
-<figs/3-Cooling/doubleBoxBracedSplice.jpg, id=2442, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/doubleBoxBracedSplice.jpg, id=2443, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/doubleBoxBracedSplice.jpg Graphic file (type jpg)
 <use figs/3-Cooling/doubleBoxBracedSplice.jpg>
 Package pdftex.def Info: figs/3-Cooling/doubleBoxBracedSplice.jpg  used on inpu
@@ -1411,7 +1411,7 @@ t line 44.
 
 
 [53 <./figs/3-Cooling/doubleBoxBracedSplice.jpg>]
-<figs/3-Cooling/tackedSpliceWithArrow.jpg, id=2456, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/tackedSpliceWithArrow.jpg, id=2457, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/tackedSpliceWithArrow.jpg Graphic file (type jpg)
 <use figs/3-Cooling/tackedSpliceWithArrow.jpg>
 Package pdftex.def Info: figs/3-Cooling/tackedSpliceWithArrow.jpg  used on inpu
@@ -1420,13 +1420,13 @@ t line 60.
 
 
 [54 <./figs/3-Cooling/tackedSpliceWithArrow.jpg>]
-<figs/3-Cooling/bigGapSplice.jpg, id=2467, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/bigGapSplice.jpg, id=2468, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/bigGapSplice.jpg Graphic file (type jpg)
 <use figs/3-Cooling/bigGapSplice.jpg>
 Package pdftex.def Info: figs/3-Cooling/bigGapSplice.jpg  used on input line 82
 .
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
-<figs/3-Cooling/finalSampleVytranSplice.jpeg, id=2468, 4544.98pt x 1112.155pt>
+<figs/3-Cooling/finalSampleVytranSplice.jpeg, id=2469, 4544.98pt x 1112.155pt>
 File: figs/3-Cooling/finalSampleVytranSplice.jpeg Graphic file (type jpg)
 <use figs/3-Cooling/finalSampleVytranSplice.jpeg>
 Package pdftex.def Info: figs/3-Cooling/finalSampleVytranSplice.jpeg  used on i
@@ -1438,13 +1438,13 @@ nput line 89.
 
 [56 <./figs/3-Cooling/bigGapSplice.jpg> <./figs/3-Cooling/finalSampleVytranSpli
 ce.jpeg>]
-<figs/3-Cooling/successfullyBuiltSplice.jpg, id=2485, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/successfullyBuiltSplice.jpg, id=2486, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/successfullyBuiltSplice.jpg Graphic file (type jpg)
 <use figs/3-Cooling/successfullyBuiltSplice.jpg>
 Package pdftex.def Info: figs/3-Cooling/successfullyBuiltSplice.jpg  used on in
 put line 109.
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
-<figs/3-Cooling/redLightWithThumbTackWholeSample.jpg, id=2488, 2951.025pt x 135
+<figs/3-Cooling/redLightWithThumbTackWholeSample.jpg, id=2489, 2951.025pt x 135
 3.055pt>
 File: figs/3-Cooling/redLightWithThumbTackWholeSample.jpg Graphic file (type jp
 g)
@@ -1457,13 +1457,13 @@ sed on input line 123.
 [57
 
 ]
-<figs/3-Cooling/CS2NearlyReached.jpg, id=2504, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/CS2NearlyReached.jpg, id=2505, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/CS2NearlyReached.jpg Graphic file (type jpg)
 <use figs/3-Cooling/CS2NearlyReached.jpg>
 Package pdftex.def Info: figs/3-Cooling/CS2NearlyReached.jpg  used on input lin
 e 136.
 (pdftex.def)             Requested size: 230.18253pt x 105.52135pt.
-<figs/3-Cooling/CS2Reached.jpg, id=2505, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/CS2Reached.jpg, id=2506, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/CS2Reached.jpg Graphic file (type jpg)
 <use figs/3-Cooling/CS2Reached.jpg>
 Package pdftex.def Info: figs/3-Cooling/CS2Reached.jpg  used on input line 143.
@@ -1474,14 +1474,14 @@ Package pdftex.def Info: figs/3-Cooling/CS2Reached.jpg  used on input line 143.
 [58 <./figs/3-Cooling/successfullyBuiltSplice.jpg>]
 
 [59 <./figs/3-Cooling/redLightWithThumbTackWholeSample.jpg>]
-<figs/3-Cooling/fullSampleTapedToOpticalTable.jpg, id=2526, 2951.025pt x 1353.0
+<figs/3-Cooling/fullSampleTapedToOpticalTable.jpg, id=2527, 2951.025pt x 1353.0
 55pt>
 File: figs/3-Cooling/fullSampleTapedToOpticalTable.jpg Graphic file (type jpg)
 <use figs/3-Cooling/fullSampleTapedToOpticalTable.jpg>
 Package pdftex.def Info: figs/3-Cooling/fullSampleTapedToOpticalTable.jpg  used
  on input line 168.
 (pdftex.def)             Requested size: 230.18253pt x 105.52135pt.
-<figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg, id=2527, 2951.025pt x 13
+<figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg, id=2528, 2951.025pt x 13
 53.055pt>
 File: figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg Graphic file (type j
 pg)
@@ -1760,18 +1760,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--277
 [72]
 
 [73]
-Overfull \hbox (16.43922pt too wide) in paragraph at lines 385--402
- [][] 
- []
-
-
 
 [74]
 <figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf, id=2699, 715.93271pt x 427.14142pt>
 File: figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf Graphic file (type pdf)
 <use figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf>
 Package pdftex.def Info: figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf  used on input li
-ne 408.
+ne 416.
 (pdftex.def)             Requested size: 469.75502pt x 280.27176pt.
 
 
@@ -1784,7 +1779,7 @@ ne 408.
 File: figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf Graphic file (type pdf)
 <use figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf>
 Package pdftex.def Info: figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf  used on input li
-ne 433.
+ne 441.
 (pdftex.def)             Requested size: 276.43956pt x 585.38303pt.
 
 
@@ -1799,7 +1794,7 @@ ne 433.
 File: figs/4-CoBS/JoyDivisionCoBSCS2.pdf Graphic file (type pdf)
 <use figs/4-CoBS/JoyDivisionCoBSCS2.pdf>
 Package pdftex.def Info: figs/4-CoBS/JoyDivisionCoBSCS2.pdf  used on input line
- 453.
+ 461.
 (pdftex.def)             Requested size: 328.82707pt x 425.54129pt.
 
 
@@ -1807,14 +1802,14 @@ Package pdftex.def Info: figs/4-CoBS/JoyDivisionCoBSCS2.pdf  used on input line
 <figs/4-CoBS/CS2FanoCompare.pdf, id=2815, 1084.05pt x 1084.05pt>
 File: figs/4-CoBS/CS2FanoCompare.pdf Graphic file (type pdf)
 <use figs/4-CoBS/CS2FanoCompare.pdf>
-Package pdftex.def Info: figs/4-CoBS/CS2FanoCompare.pdf  used on input line 468
+Package pdftex.def Info: figs/4-CoBS/CS2FanoCompare.pdf  used on input line 476
 .
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 <figs/4-CoBS/CS2LorentzCompare.pdf, id=2816, 1084.05pt x 1084.05pt>
 File: figs/4-CoBS/CS2LorentzCompare.pdf Graphic file (type pdf)
 <use figs/4-CoBS/CS2LorentzCompare.pdf>
 Package pdftex.def Info: figs/4-CoBS/CS2LorentzCompare.pdf  used on input line 
-475.
+483.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
@@ -1831,14 +1826,14 @@ Package pdftex.def Info: figs/4-CoBS/CS2LorentzCompare.pdf  used on input line
 File: figs/4-CoBS/PSPr-Contribute-Equally.pdf Graphic file (type pdf)
 <use figs/4-CoBS/PSPr-Contribute-Equally.pdf>
 Package pdftex.def Info: figs/4-CoBS/PSPr-Contribute-Equally.pdf  used on input
- line 528.
+ line 536.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 <figs/4-CoBS/PSPr-Contribute-Equally-2sigma.pdf, id=2860, 1084.05pt x 1084.05pt
 >
 File: figs/4-CoBS/PSPr-Contribute-Equally-2sigma.pdf Graphic file (type pdf)
 <use figs/4-CoBS/PSPr-Contribute-Equally-2sigma.pdf>
 Package pdftex.def Info: figs/4-CoBS/PSPr-Contribute-Equally-2sigma.pdf  used o
-n input line 535.
+n input line 543.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
@@ -1952,7 +1947,7 @@ t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fo
 nts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (113 pages, 8543512 bytes).
+Output written on main.pdf (113 pages, 8543422 bytes).
 PDF statistics:
  3138 PDF objects out of 3580 (max. 8388607)
  2085 compressed objects within 21 object streams
