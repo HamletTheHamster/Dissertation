@@ -200,21 +200,21 @@ A key innovation in the filling procedure was performing a long observation of t
 
 A final insight that improved the yield of successfully filled samples and mitigation of wasted materials was selecting the “less certain” end of a prepared sample for filling with \ce{CS2}. If that splice was sealed, only that end would need to be re-fabricated. Collectively, these simple method improvements in sample fabrication led to significantly shorter fabrication times and dramatically reduced material waste. Hollow-core fibers, which cost on the order of ten dollar per meter, were previously scrapped in large quantities when deemed “dead.” By implementing patient monitoring, careful handling, and mindful filling procedures each length of fiber was used more efficiently, saving significant time and expense while producing more effective samples.
 
+\newpage
+
 \section{Tabulated Fit and Uncertainty Values Derived from the Experimental Data}
 \label{Cooling:Appendix:sec:Tabulated Fit and Uncertainty Values Derived From the Experimental Data}
 
 \subsection{Experiment~A Tabulated Values}
 \label{Cooling:Appendix:subsec:Experiment A Tabulated Values}
 
-\vspace{1cm}
-
 %======================================================================
 % Anti-Stokes Table
 %======================================================================
-\begin{table}[h]
+\begin{table}[h!]
   \centering
-  \caption{Measured anti-Stokes parameters. Here \(P_{\mathrm{P}}\) is the nominal pump power, measured via a 1\% tap just prior to launching into the LCOF, and \(P_{\mathrm{Intra}}\) is the power actually guided within the fiber. Amplitude, Linewidth, Center, and Offset are the peak spectral density, FWHM linewidth, center frequency, and vertical baseline offset, respectively, obtained from a Lorentzian fit of the data. Uncertainties are 1\(\sigma\).}
-  \label{tab:Cooling:anti-Stokes}
+  \caption{Measured anti-Stokes parameters for Experiment~A. Here \(P_{\mathrm{P}}\) is the nominal pump power, measured via a 1\% tap just prior to launching into the LCOF, and \(P_{\mathrm{Intra}}\) is the power actually guided within the fiber. Amplitude, Linewidth, Center, and Offset are the peak spectral density, FWHM linewidth, center frequency, and vertical baseline offset, respectively, obtained from a Lorentzian fit of the data. Uncertainties are 1\(\sigma\).}
+  \label{tab:Cooling:Experiment A anti-Stokes}
   \begin{tabular}{
       S[table-align-uncertainty]   % Pump Power
       S[table-align-uncertainty]   % Intrafiber
@@ -238,7 +238,6 @@ A final insight that improved the yield of successfully filled samples and mitig
     \multicolumn{1}{c}{(\si{\micro\volt})} \\
     \midrule
 
-    % Each cell uses \num{... +- ...} so that siunitx formats it as “value ± uncertainty”
 		\num{10.00} & \num{4.12} & \num{3.015(0.0043)} & \num{97.315(0.119)} & \num{2.2690(0.0001)} & \num{-0.006(0.0017)} \\
     \num{30.00} & \num{12.37} & \num{8.747(0.0061)} & \num{99.097(0.0547)} & \num{2.2690(0.0000)} & \num{0.015(0.0019)} \\
     \num{50.00} & \num{20.62} & \num{14.224(0.0097)} & \num{99.793(0.0449)} & \num{2.2690(0.0000)} & \num{0.032(0.0021)} \\
@@ -262,17 +261,17 @@ A final insight that improved the yield of successfully filled samples and mitig
 %======================================================================
 % Stokes Table
 %======================================================================
-\begin{table}[h]
+\begin{table}[h!]
   \centering
-  \caption{Measured Stokes parameters, in the same format as Table~\ref{tab:Cooling:anti-Stokes}.}
-  \label{tab:Cooling:Stokes}
+  \caption{Measured Stokes parameters for Experiment~A, in the same format as Table~\ref{tab:Cooling:Experiment A anti-Stokes}.}
+  \label{tab:Cooling:Experiment A Stokes}
   \begin{tabular}{
 			S   % Pump Power
 			S   % Intrafiber
-			S[table-align-uncertainty, separate-uncertainty]   % Amplitude
-			S[table-align-uncertainty, separate-uncertainty]   % Linewidth
-			S[table-align-uncertainty, separate-uncertainty]   % Center
-			S[table-align-uncertainty, separate-uncertainty]   % Offset
+			S[table-align-uncertainty]   % Amplitude
+			S[table-align-uncertainty]   % Linewidth
+			S[table-align-uncertainty]   % Center
+			S[table-align-uncertainty]   % Offset
     }
     \toprule
 		\multicolumn{1}{c}{\(\mathbf{P}_{\mathrm{\textbf{P}}}\)} &
@@ -290,7 +289,7 @@ A final insight that improved the yield of successfully filled samples and mitig
     \midrule
 
     \num{10.00} & \num{4.12} & \num{3.203(0.0046)} & \num{97.252(0.1140)} & \num{2.2690(0.0001)} & \num{0.020(0.0017)} \\
-    \num{30.00} & \num{12.34} & \num{9.686(0.0063)} & \num{96.817(0.0491)} & \num{2.2680(0.0000)} & \num{0.046(0.0020)} \\
+    \num{30.00} & \num{12.37} & \num{9.686(0.0063)} & \num{96.817(0.0491)} & \num{2.2680(0.0000)} & \num{0.046(0.0020)} \\
     \num{50.00} & \num{20.62} & \num{15.874(0.0093)} & \num{96.837(0.0383)} & \num{2.2680(0.0000)} & \num{0.073(0.0021)} \\
     \num{70.00} & \num{28.86} & \num{21.872(0.0136)} & \num{96.943(0.0375)} & \num{2.2680(0.0000)} & \num{0.066(0.0024)} \\
     \num{90.00 } & \num{37.11} & \num{28.466(0.0141)} & \num{96.396(0.0292)} & \num{2.2680(0.0000)} & \num{0.102(0.0024)} \\
@@ -303,12 +302,56 @@ A final insight that improved the yield of successfully filled samples and mitig
     \num{230.00} & \num{94.83} & \num{81.561(0.0431)} & \num{94.099(0.0245)} & \num{2.2680(0.0000)} & \num{0.170(0.0040)} \\
     \num{250.00} & \num{103.08} & \num{90.642(0.0559)} & \num{92.982(0.0290)} & \num{2.2680(0.0000)} & \num{0.272(0.0050)} \\
     \num{270.00} & \num{111.32} & \num{98.221(0.0433)} & \num{92.670(0.0212)} & \num{2.2680(0.0000)} & \num{0.316(0.0042)} \\
-    \num{290.00} & \num{119.57} & \num{107.040(0.0543)} & \num{91.035(0.0242)} & \num{2.2680(0.0000)} \\ \num{0.557(0.0057)} \\
+    \num{290.00} & \num{119.57} & \num{107.040(0.0543)} & \num{91.035(0.0242)} & \num{2.2680(0.0000)} & \num{0.557(0.0057)} \\
 
     \bottomrule
   \end{tabular}
 \end{table}
 
+\newpage
 
 \subsection{Experiment~B Tabulated Values}
 \label{Cooling:Appendix:subsec:Experiment B Tabulated Values}
+
+%======================================================================
+% Experiment B Table
+%======================================================================
+\begin{table}[h!]
+  \centering
+  \caption{Measured anti-Stokes parameters for Experiment~B. Here \(P_{\mathrm{P}}\) is the nominal pump power, measured via a 1\% tap just prior to launching into the LCOF, \(P_{\mathrm{Intra}}\) is the power actually guided within the fiber, and \(P_{\mathrm{Pr}}\) is the probe power, also measured just prior to launching into the \ac{LCOF}. Amplitude, Linewidth, Center, and Offset are the peak spectral density, FWHM linewidth, center frequency, and vertical baseline offset, respectively, obtained from a Lorentzian fit of the data. Uncertainties are 1\(\sigma\).}
+  \label{tab:Cooling:Experiment B}
+  \begin{tabular}{
+      S[table-align-uncertainty]   % Pump Power
+      S[table-align-uncertainty]   % Intrafiber
+			S[table-align-uncertainty]	 % Probe Power
+      S[table-align-uncertainty]   % Amplitude
+      S[table-align-uncertainty]   % Linewidth
+      S[table-align-uncertainty]   % Center
+      S[table-align-uncertainty]   % Offset
+    }
+    \toprule
+		\multicolumn{1}{c}{\(\mathbf{P}_{\mathrm{\textbf{P}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{P}_{\mathrm{\textbf{Intra}}}\)} &
+		\multicolumn{1}{c}{\(\mathbf{P}_{\mathrm{\textbf{Pr}}}\)} &
+    \multicolumn{1}{c}{\textbf{Amplitude}} &
+    \multicolumn{1}{c}{\textbf{Linewidth}} &
+    \multicolumn{1}{c}{\textbf{Center}} &
+    \multicolumn{1}{c}{\textbf{Offset}} \\
+    \multicolumn{1}{c}{(\si{\milli\watt})} &
+    \multicolumn{1}{c}{(\si{\milli\watt})} &
+		\multicolumn{1}{c}{(\si{\milli\watt})} &
+    \multicolumn{1}{c}{(\si{\micro\volt})} &
+    \multicolumn{1}{c}{(\si{\mega\hertz})} &
+    \multicolumn{1}{c}{(\si{\giga\hertz})} &
+    \multicolumn{1}{c}{(\si{\micro\volt})} \\
+    \midrule
+
+		\num{0.00} & \num{0.00} & \num{10.00} & \num{1.849(0.0021)} & \num{96.599(0.1912)} & \num{2.270(0.0000)} & \num{0.023(0.0009)} \\
+    \num{55.00} & \num{22.68} & \num{10.00} & \num{1.640(0.0068)} & \num{104.001(0.5147)} & \num{2.271(0.0001)} & \num{0.019(0.0012)} \\
+    \num{110.00} & \num{45.35} & \num{10.00} & \num{1.526(0.0100)} & \num{106.850(0.7711)} & \num{2.271(0.0002)} & \num{0.020(0.0015)} \\
+
+    \num{165.00} & \num{68.03} & \num{10.00} & \num{1.426(0.0111)} & \num{109.967(0.9950)} & \num{2.270(0.0003)} & \num{0.028(0.0017)} \\
+
+    \bottomrule
+  \end{tabular}
+\end{table}
