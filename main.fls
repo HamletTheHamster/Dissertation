@@ -194,6 +194,8 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/makecell/makecell.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/makecell/makecell.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
@@ -591,6 +593,8 @@ INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
 INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
 INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
 INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 INPUT ./post/A-CoBS.tex
 INPUT ./post/A-CoBS.tex
 OUTPUT post/A-CoBS.aux
@@ -603,13 +607,13 @@ INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
 INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
 INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
 INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
+INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
+INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
+INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
+INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
 INPUT ./figs/4-CoBS/JoyDivisionCoBSCS2.pdf
 INPUT ./figs/4-CoBS/JoyDivisionCoBSCS2.pdf
 INPUT ./figs/4-CoBS/JoyDivisionCoBSCS2.pdf
@@ -701,6 +705,7 @@ INPUT ./main.out
 INPUT ./main.out
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

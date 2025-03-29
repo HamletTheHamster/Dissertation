@@ -15,6 +15,12 @@
 
 \usepackage[nointegrals]{wasysym}
 \usepackage{siunitx}
+\sisetup{
+  separate-uncertainty = true,   % allows “±” style uncertainties
+  round-mode = uncertainty,
+  round-precision = 1,
+  %table-align-uncertainty = true,
+}
 \usepackage[version=4]{mhchem}
 \usepackage{mathtools} % loads amsmath also
 
@@ -115,6 +121,7 @@
 \usepackage{enumitem}
 \usepackage{makecell} % 12/27/2017 COC for multi-lined entries in tables
 \usepackage{longtable} % spanning pages
+\usepackage{booktabs}
 \usepackage{multirow} % CJTU 12/15/22
 
 % Wrapped figures and caption shenanigans 11/07/2022 CTU for inline figures

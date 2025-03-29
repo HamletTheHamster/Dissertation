@@ -355,30 +355,49 @@ The solution to this numeric approach to scattered power in the high-gain (stimu
 \begin{table}[ht]
   \centering
   \textbf{Coherently Stimulated Brillouin Scattering Process Model System Parameters}
-  \renewcommand{\arraystretch}{1.2}
-  \begin{tabular}{|c|c|c|c|c|}
-    \hline
-    $G_{B}$ & $P_{P}$ & $P_{S}$ & $P_{Pr}$ & $\Delta\lambda$ \\
-    \hline
-    0.6 $W^{-1} m^{-1}$ & 1 $W$ & 1 $W$ & 1 $W$ & 20 pm \\
-    \hline
-  \end{tabular}
   \caption{Parameters relevant to the coherently stimulated backward Brillouin scattering process for the example UHNA3 fiber. $G_{B}$ is the effective Brillouin gain, $P_{P}$ is the pump power, $P_{S}$ is the Stokes power, $P_{Pr}$ is the probe power, and $\Delta\lambda$ is the wavelength detuning of the probe from the pump.}
+  \renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{c c c c c}
+    \toprule
+    \multicolumn{1}{c}{\(\mathbf{G_{\mathrm{\textbf{B}}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{P_{\mathrm{\textbf{P}}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{P_{\mathrm{\textbf{S}}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{P_{\mathrm{\textbf{Pr}}}}\)} &
+    \multicolumn{1}{c}{\(\mathbf{\Delta\lambda}\)} \\
+    \multicolumn{1}{c}{(\si{\per\watt\per\meter})} &
+    \multicolumn{1}{c}{(\si{\watt})} &
+    \multicolumn{1}{c}{(\si{\watt})} &
+    \multicolumn{1}{c}{(\si{\watt})} &
+    \multicolumn{1}{c}{(\si{\pico\meter})} \\
+
+    \midrule
+    0.6 & 1 & 1 & 1 & 20 \\
+    \bottomrule
+  \end{tabular}
   \label{tab:CoBS Parameters}
 \end{table}
 
 \begin{table}[ht]
   \centering
   \textbf{Spontaneous and Stimulated Scattering Process Model System Parameters}
-  \renewcommand{\arraystretch}{1.2}
-  \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
-    \hline
-    $G_{B}$ & $P_{P}$ & $P_{S,seed}$ & $n$ & $\lambda_P$ & $\Gamma_{B}$ & $k_{B}$ & $T$ & $\Omega_{B}$ \\
-    \hline
-    0.6 $W^{-1} m^{-1}$ & 1 $W$ & $1$ pW & 1.48 & $1549$ nm & $2\pi \cdot 80$ MHz & $1.38 \times 10^{-23}$ J/K & 295 K & $2\pi \cdot 9.18$ GHz \\
-    \hline
-  \end{tabular}
   \caption{Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example UHNA3 fiber. $G_{B}$ is the Brillouin gain coefficient, $P_{P}$ is the pump power, $\omega$ is the optical angular frequency, $\Gamma_{B}$ is the acoustic damping rate, $k_{B}$ is Boltzmann's constant, $T$ is the temperature, and $\Omega_{B}$ is the acoustic angular frequency.}
+  \renewcommand{\arraystretch}{1.2}
+  \begin{tabular}{c c c c c c c c c}
+    \toprule
+    \(\mathbf{G_{\mathrm{\textbf{B}}}}\) &
+    \(\mathbf{P_{\mathrm{\textbf{P}}}}\) &
+    \(\mathbf{P_{\mathrm{\textbf{S,seed}}}}\) &
+    \(\mathbf{n}\) &
+    \(\mathbf{\lambda_{\mathrm{\textbf{P}}}}\) &
+    \(\mathbf{\Gamma_{\mathrm{\textbf{B}}}}\) &
+    \(\mathbf{k_{\mathrm{\textbf{B}}}}\) &
+    \(\mathbf{T}\) &
+    \(\mathbf{\Omega_{\mathrm{\textbf{B}}}}\) \\
+    
+    \midrule
+    0.6 $W^{-1} m^{-1}$ & 1 $W$ & $1$ pW & 1.48 & $1549$ nm & $2\pi \cdot 80$ MHz & $1.38 \times 10^{-23}$ J/K & 295 K & $2\pi \cdot 9.18$ GHz \\
+    \bottomrule
+  \end{tabular}
   \label{tab:SBS Parameters}
 \end{table}
 
