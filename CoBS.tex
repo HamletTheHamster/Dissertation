@@ -41,9 +41,9 @@ The development of this coherently stimulated Brillouin spectrometer opens new a
   \label{fig:4-Wave-Brillouin-Scattering}
 \end{figure*}
 
-Traditional \ac{SBS}, illustrated by the schematic in Figure~\ref{fig:4-Wave-Brillouin-Scattering}(a) for the Stokes process, is a three-wave mixing process in which incident pump laser light of frequency \(\omega_{\mathrm{Pump}}\) inelastically scatters from a traveling-wave phonon of frequency \(\Omega\) to produce light that is frequency-shifted by the phonon frequency. In the Stokes process the phonon is retreating from the incident laser light and the scattered light is shifted down in frequency (\(\omega_{\mathrm{Stokes}} = \omega_{\mathrm{Pump}} - \Omega\)). Spatial overlap of the backscattered light with the incident laser light allows for interference of the two optical fields to produce a frequency at the difference of the two (\(\omega_{\mathrm{Pump}} - \omega_{\mathrm{Stokes}}\)). Since this difference frequency is exactly equal to the frequency of the acoustic field \(\Omega\), the beating of the incident pump light with the backscattered Stokes light produces an electrostrictive reinforcement of the acoustic wave. This driving of the acoustic wave in turn increases the scattering rate of the incident pump light, producing a positive feedback process and an exponential increase of the amplitude of the backscattered Stokes wave.
+Traditional \ac{SBS} is a three-wave mixing process in which incident pump laser light of frequency \(\omega_{\mathrm{Pump}}\) inelastically scatters from a traveling-wave phonon of frequency \(\Omega\) to produce light that is frequency-shifted by the phonon frequency. In the Stokes process the phonon is retreating from the incident laser light and the scattered light is shifted down in frequency (\(\omega_{\mathrm{Stokes}} = \omega_{\mathrm{Pump}} - \Omega\)). Spatial overlap of the backscattered light with the incident laser light allows for interference of the two optical fields to produce a frequency at the difference of the two (\(\omega_{\mathrm{Pump}} - \omega_{\mathrm{Stokes}}\)). Since this difference frequency is exactly equal to the frequency of the acoustic field \(\Omega\), the beating of the incident pump light with the backscattered Stokes light produces an electrostrictive reinforcement of the acoustic wave. This driving of the acoustic wave in turn increases the scattering rate of the incident pump light, producing a positive feedback process and an exponential increase of the amplitude of the backscattered Stokes wave.
 
-Figure~\ref{fig:4-Wave-Brillouin-Scattering}(b) illustrates coherently stimulated four-wave Brillouin scattering for the Stokes process. We introduce a strong, controlled external Stokes wave of frequency \(\omega_{\mathrm{Stokes}}\) that drives electrostrictive reinforcement of the acoustic field in the medium. The backscattered Stokes light is normally collected in an \ac{SBS} process, but the external Stokes laser overwhelms it. To resolve this, weinject light of a distinct frequency \(\omega_{\mathrm{Probe}}\) from an additional external laser which copropagates with the Pump and backscatters in the medium from the strongly driven acoustic field. This produces backscattered Signal light to be collected (\(\omega_{\mathrm{Signal}} = \omega_{\mathrm{Probe}} - \Omega\)) which is spectrally distinct from the high-powered Stokes laser light.
+Figure~\ref{fig:4-Wave-Brillouin-Scattering} illustrates coherently stimulated four-wave Brillouin scattering for the Stokes process. We introduce a strong, controlled external Stokes wave of frequency \(\omega_{\mathrm{Stokes}}\) that drives electrostrictive reinforcement of the acoustic field in the medium. The backscattered Stokes light is normally collected in an \ac{SBS} process, but the external Stokes laser overwhelms it. To resolve this, weinject light of a distinct frequency \(\omega_{\mathrm{Probe}}\) from an additional external laser which copropagates with the Pump and backscatters in the medium from the strongly driven acoustic field. This produces backscattered Signal light to be collected (\(\omega_{\mathrm{Signal}} = \omega_{\mathrm{Probe}} - \Omega\)) which is spectrally distinct from the high-powered Stokes laser light.
 
 To describe this interaction and characterize the performance of the instrument, wederive the coupled-wave equations for the four-wave mixing process in Appendix~\ref{Appendix:Coupled-Wave Equations}. These equations describe the relationship between the optical fields and the acoustic field in the material and result in the following expression for the scattered power of the backscattered signal,
 \\
@@ -121,18 +121,16 @@ Further \ac{SNR} improvements are gained by narrowing the lock-in’s low-pass f
 \subsection{Instrument Sensitivity}
 \label{Results:Instrument sensitivity and SBS comparison}
 
-\begin{figure}[t]
+We begin by testing the sensitivity of the instrument as a way of defining a performance metric for the instrument which can be used to indicate what material, power, and length combinations might be possible to measure. From Equation~\ref{Eq:Theoretical Framework:Scattered Power}, the sensitivity of the instrument is the minimum scattered power, \(P_{Sig}\), to produce a statistically significant measurement. To determine this, we target a specific length, \(L\), of a sample of known effective Brillouin gain, \(G_B\). We keep the pump-probe detuning, \(\Delta\lambda\), constant across measurements and record the pump, Stokes, and probe optical powers to calculate the scattered power. Starting with sufficient optical powers to produce a clearly distinguishable measurement, we gradually reduce the optical powers until the sensitivity floor is reached.
+
+To serve as our sensitivity testbed, we prepared \SI{1}{\centi\meter} of Nufern's \ac{UHNA3} fiber, a well-studied fiber with known effective Brillouin gain\cite{behunin2015long}. Additionally, \ac{UHNA3} fiber offers several properties that make it ideal for this task of unambiguous detection of the Brillouin signal as it diminishes with each subsequent reduction in optical powers. First, it offers a Brillouin shift that is spectrally far from that of the \ac{SMF-28} which constitutes much of the instrument. This ensures that the Brillouin response of the sample is not conflated with the Brillouin response of the instrument itself. Additionally, the core of \ac{UHNA3} fiber features a high concentration of germanium which improves the optical and acoustic guidance in the fiber as a result of the large refractive index difference between core and cladding. Finally, \ac{UHNA3} fiber offers a high optomechanical nonlinear response, with an effective Brillouin gain of \SI{0.6}{\per\watt\per\meter} measured at room temperature\cite{behunin2015long}. This gain factor is larger than that of \ac{SMF-28} by an order of magnitude\cite{nikles1997brillouin}.
+
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/4-CoBS/5fWSensitivity.pdf}
   \caption{\(\sim\SI{5}{\femto\watt}\) sensitivity measurement}
   \label{fig:5fWSensitivity}
 \end{figure}
-
-\FloatBarrier
-
-We begin by testing the sensitivity of the instrument as a way of defining a performance metric for the instrument which can be used to indicate what material, power, and length combinations might be possible to measure. From Equation~\ref{Eq:Theoretical Framework:Scattered Power}, the sensitivity of the instrument is the minimum scattered power, \(P_{Sig}\), to produce a statistically significant measurement. To determine this, we target a specific length, \(L\), of a sample of known effective Brillouin gain, \(G_B\). We keep the pump-probe detuning, \(\Delta\lambda\), constant across measurements and record the pump, Stokes, and probe optical powers to calculate the scattered power. Starting with sufficient optical powers to produce a clearly distinguishable measurement, we gradually reduce the optical powers until the sensitivity floor is reached.
-
-To serve as our sensitivity testbed, we prepared \SI{1}{\centi\meter} of Nufern's \ac{UHNA3} fiber, a well-studied fiber with known effective Brillouin gain\cite{behunin2015long}. Additionally, \ac{UHNA3} fiber offers several properties that make it ideal for this task of unambiguous detection of the Brillouin signal as it diminishes with each subsequent reduction in optical powers. First, it offers a Brillouin shift that is spectrally far from that of the \ac{SMF-28} which constitutes much of the instrument. This ensures that the Brillouin response of the sample is not conflated with the Brillouin response of the instrument itself. Additionally, the core of \ac{UHNA3} fiber features a high concentration of germanium which improves the optical and acoustic guidance in the fiber as a result of the large refractive index difference between core and cladding. Finally, \ac{UHNA3} fiber offers a high optomechanical nonlinear response, with an effective Brillouin gain of \SI{0.6}{\per\watt\per\meter} measured at room temperature\cite{behunin2015long}. This gain factor is larger than that of \ac{SMF-28} by an order of magnitude\cite{nikles1997brillouin}.
 
 Figure~\ref{fig:5fWSensitivity} presents a measurement in which the instrument’s sensitivity reaches \(P_{Sig}\!= \SI{5}{\femto\watt}\). Each trace is the average of five consecutive scans, and an average of five background scans has been subtracted to isolate the signal. Error bars represent the standard error (\(1\sigma\) of the mean). By comparing the peak amplitude at resonance to the off-resonance baseline, we estimate an \ac{SNR} greater than 5. Under a normal-noise assumption, an \ac{SNR} of 5 corresponds to a \(5\sigma\) significance level (99.7\% confidence). Achieving this \SI{5}{\femto\watt} threshold demonstrates the feasibility of measuring weaker signals in materials with lower Brillouin gain or smaller effective lengths.
 
@@ -165,27 +163,23 @@ Figure~\ref{fig:5fWSensitivity} presents a measurement in which the instrument�
 
 We demonstrate the capabilities of the instrument on two common sample classes: fiber and bulk material. For a fiber sample we again choose UHNA3 for its higher nonlinear response and excellent optical and acoustic guidance. In contrast to the sensitivity measurements, we now seek to demonstrate the full measuring capabilities of the instrument and so apply all available optical power (\(\sim\!\SI{1.5}{\watt}\)) to maximize the backscattered signal from the sample. We target the same \SI{1}{\centi\meter} segment of \ac{UHNA3} fiber as was used for determining sensitivity.
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/4-CoBS/1cmUHNA3.pdf}
   \caption{\SI{1}{\centi\meter} UHNA3}
   \label{fig:1cmUHNA3}
 \end{figure}
 
-\FloatBarrier
-
 Figure~\ref{fig:1cmUHNA3} shows the spectral profile captured for \SI{1}{\centi\meter} of \ac{UHNA3} fiber, revealing the expected lorentzian profile consistent with Equation~\ref{Eq:Effective Brillouin Gain}. The peak amplitude of the spectra occurs at \SI{9.1704}{\giga\hertz}, indicating the Brillouin resonance frequency of the longitudinal traveling-wave mode in the fiber. The FWHM of the measurement is \SI{80}{\mega\hertz} and provides a measure of the phonon dissipation rate. Both values match what is seen in the literature for \ac{SBS} measurements of \ac{UHNA3} fiber.\cite{behunin2015long} The data shown are a background-subtracted average of five successive measurements taken over ten minutes with error bars corresponding to \(1\sigma\) of the mean.
 
 To achieve this measurement of \ac{UHNA3} fiber, the instrument design was altered to include only fiber-coupled segments connecting the fiber ports between the two \ac{PBS}s. We set the pump laser wavelength to \SI{1549.000}{\nano\meter} and the probe laser wavelength to \SI{1549.020}{\nano\meter}, giving a frequency mismatch of approximately \SI{2.5}{\giga\hertz}. The pump--probe mismatch is chosen to be only as large as needed to allow the edge of the pass-band of the probe filter to split the backscattered pump and probe light, thus rejecting any backscattered light from the pump laser and accepting only the backscattered signal from the probe laser. We placed the Stokes filter at \SI{1549.073}{\nano\meter}, an offet of approximately \SI{9.18}{\giga\hertz} from the pump laser to capture the Stokes sideband from the intensity modulator. This corresponds to the center of the measured frequency range and was chosen to allow the Stokes sideband output from the intensity modulator to remain within the pass band of the Stokes filter as the RF signal fed to the intensity modulator is swept through the full measurement range. The probe filter was set to \SI{1549.109}{\nano\meter}, an offset of approximately \SI{11.18}{\giga\hertz} from the probe laser, to capture the Stokes-shifted backscattered signal from the probe. The center frequency of the backscattered signal is of course shifted \SI{9.18}{\giga\hertz} from the probe laser, however an extra offset of \SI{2}{\giga\hertz} is chosen for improved rejection of any pump light as the pass band of our filter extends approximately \SI{2.5}{\giga\hertz} on either side of center.
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/4-CoBS/100umCS2.pdf}
   \caption{\SI{100}{\micro\meter} \ce{CS2}}
   \label{fig:100umCS2}
 \end{figure}
-
-\FloatBarrier
 
 For a free-space bulk example we target liquid \ce{CS2} for its exceptionally high Brillouin gain factor of \SI{1.5}{\meter\per\giga\watt}.\cite{boyd2020nonlinear} Figure~\ref{fig:100umCS2} reveals the Brillouin signal of bulk \ce{CS2} liquid contained in a \SI{100}{\micro\meter} path length cell. To our knowledge, measurement of longitudinal Brillouin scattering at this scale has not been reported in the literature. A scattered power comparison would reveal that achieving such a measurement using traditional \ac{SBS} techniques would require excessively high optical powers or cooling the material to cryogenic temperatures, which, of course, would be prohibitive for carbon disulfide in the liquid state.
 
@@ -212,14 +206,12 @@ To characterize the phase matching tolerance of the instrument for a given lengt
 
 %Describe adjustments and/or explain deviations from pure sinc^2 (noise floor, Fano effects, L uncertainty, etc.), or reference Fano section
 
-\begin{figure}[t]
+\begin{figure}[t!]
 \centering
 \includegraphics[width=\textwidth]{figs/4-CoBS/Phase-Match.pdf}
 \caption{Phase-matching \(\mathrm{sinc^2}\) func}
 \label{fig:Phase-Match}
 \end{figure}
-
-\FloatBarrier
 
 \subsection{Fano-Resonant Asymmetries at Small Signals}
 \label{Results:Fano-Resonant Asymmetries at Small Signals}
