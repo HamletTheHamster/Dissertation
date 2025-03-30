@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{43}
+\begin{thebibliography}{57}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -34,6 +34,100 @@ Joel~N Johnson, Danielle~R Haverkamp, Yi-Hsin Ou, Khanh Kieu, Nils~T
 \newblock Laser cooling of traveling-wave phonons in an optical fiber.
 \newblock \emph{Physical Review Applied}, 20\penalty0 (3):\penalty0 034047,
   2023.
+
+\bibitem[H{\"a}nsch and Schawlow(1975)]{hansch1975cooling}
+Theodor~W H{\"a}nsch and Arthur~L Schawlow.
+\newblock Cooling of gases by laser radiation.
+\newblock \emph{Optics Communications}, 13\penalty0 (1):\penalty0 68--69, 1975.
+
+\bibitem[Anderson et~al.(1995)Anderson, Ensher, Matthews, Wieman, and
+  Cornell]{anderson1995observation}
+Mike~H Anderson, Jason~R Ensher, Michael~R Matthews, Carl~E Wieman, and Eric~A
+  Cornell.
+\newblock Observation of bose-einstein condensation in a dilute atomic vapor.
+\newblock \emph{science}, 269\penalty0 (5221):\penalty0 198--201, 1995.
+
+\bibitem[Ludlow et~al.(2015)Ludlow, Boyd, Ye, Peik, and
+  Schmidt]{ludlow2015optical}
+Andrew~D Ludlow, Martin~M Boyd, Jun Ye, Ekkehard Peik, and Piet~O Schmidt.
+\newblock Optical atomic clocks.
+\newblock \emph{Reviews of Modern Physics}, 87\penalty0 (2):\penalty0 637,
+  2015.
+
+\bibitem[Meng et~al.(2018)Meng, Albrecht, Gragossian, Lee, Volpi, Ghasemkhani,
+  Hehlen, Epstein, and Sheik-Bahae]{meng2018realization}
+Junwei Meng, Alexander~R Albrecht, Aram Gragossian, Eric Lee, Azzurra Volpi,
+  Mohammadreza Ghasemkhani, Markus~P Hehlen, Richard~I Epstein, and Mansoor
+  Sheik-Bahae.
+\newblock Realization of an all-solid-state cryocooler using optical
+  refrigeration.
+\newblock In \emph{Tri-Technology Device Refrigeration (TTDR) III}, volume
+  10626, pages 64--72. SPIE, 2018.
+
+\bibitem[Epstein et~al.(1995)Epstein, Buchwald, Edwards, Gosnell, and
+  Mungan]{epstein1995observation}
+Richard~I Epstein, Melvin~I Buchwald, Bradley~C Edwards, Timothy~R Gosnell, and
+  Carl~E Mungan.
+\newblock Observation of laser-induced fluorescent cooling of a solid.
+\newblock \emph{Nature}, 377\penalty0 (6549):\penalty0 500--503, 1995.
+
+\bibitem[Chan et~al.(2011)Chan, Alegre, Safavi-Naeini, Hill, Krause,
+  Gr{\"o}blacher, Aspelmeyer, and Painter]{chan2011laser}
+Jasper Chan, TP~Alegre, Amir~H Safavi-Naeini, Jeff~T Hill, Alex Krause, Simon
+  Gr{\"o}blacher, Markus Aspelmeyer, and Oskar Painter.
+\newblock Laser cooling of a nanomechanical oscillator into its quantum ground
+  state.
+\newblock \emph{Nature}, 478\penalty0 (7367):\penalty0 89--92, 2011.
+
+\bibitem[Aspelmeyer et~al.(2014)Aspelmeyer, Kippenberg, and
+  Marquardt]{aspelmeyer2014cavity}
+Markus Aspelmeyer, Tobias~J Kippenberg, and Florian Marquardt.
+\newblock Cavity optomechanics.
+\newblock \emph{Reviews of Modern Physics}, 86\penalty0 (4):\penalty0 1391,
+  2014.
+
+\bibitem[Bahl et~al.(2012)Bahl, Tomes, Marquardt, and
+  Carmon]{bahl2012observation}
+Gaurav Bahl, Matthew Tomes, Florian Marquardt, and Tal Carmon.
+\newblock Observation of spontaneous brillouin cooling.
+\newblock \emph{Nature Physics}, 8\penalty0 (3):\penalty0 203--207, 2012.
+
+\bibitem[Otterstrom et~al.(2018)Otterstrom, Behunin, Kittlaus, and
+  Rakich]{otterstrom2018optomechanical}
+Nils~T Otterstrom, Ryan~O Behunin, Eric~A Kittlaus, and Peter~T Rakich.
+\newblock Optomechanical cooling in a continuous system.
+\newblock \emph{Physical Review X}, 8\penalty0 (4):\penalty0 041034, 2018.
+
+\bibitem[Zhu and Stiller(2023)]{zhu2023dynamic}
+Changlong Zhu and Birgit Stiller.
+\newblock Dynamic brillouin cooling for continuous optomechanical systems.
+\newblock \emph{Materials for Quantum Technology}, 3\penalty0 (1):\penalty0
+  015003, 2023.
+
+\bibitem[Shin et~al.(2015)Shin, Cox, Jarecki, Starbuck, Wang, and
+  Rakich]{shin2015control}
+Heedeuk Shin, Jonathan~A Cox, Robert Jarecki, Andrew Starbuck, Zheng Wang, and
+  Peter~T Rakich.
+\newblock Control of coherent information via on-chip photonic--phononic
+  emitter--receivers.
+\newblock \emph{Nature communications}, 6\penalty0 (1):\penalty0 6427, 2015.
+
+\bibitem[Abedin(2005)]{abedin2005observation}
+Kazi~S Abedin.
+\newblock Observation of strong stimulated brillouin scattering in single-mode
+  as 2 se 3 chalcogenide fiber.
+\newblock \emph{Optics Express}, 13\penalty0 (25):\penalty0 10266--10271, 2005.
+
+\bibitem[Vysloukh et~al.(1990)]{vysloukh1990nonlinear}
+Victor~A Vysloukh et~al.
+\newblock Nonlinear fiber optics.
+\newblock \emph{Phys. Usp}, 33:\penalty0 400--400, 1990.
+
+\bibitem[Endo et~al.(2021)Endo, Kimura, Tani, and Kobayashi]{endo2021coherent}
+Mamoru Endo, Shota Kimura, Shuntaro Tani, and Yohei Kobayashi.
+\newblock Coherent control of acoustic phonons in a silica fiber using a
+  multi-ghz optical frequency comb.
+\newblock \emph{Communications Physics}, 4\penalty0 (1):\penalty0 73, 2021.
 
 \bibitem[Kieu et~al.(2012)Kieu, Schneebeli, Norwood, and
   Peyghambarian]{kieu2012integrated}
