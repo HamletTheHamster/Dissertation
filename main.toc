@@ -22,13 +22,13 @@
 \contentsline {subsection}{\numberline {2.3.3}Experiment B: Pump-Probe Verification}{15}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Results}{17}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Experiment A Results}{17}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Experiment B Results}{17}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Evidence of Transmission Degradation}{17}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Discussion}{21}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Standardized Cooling Metric}{21}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Alternative Platforms}{21}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Pathways to Net Cooling}{22}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Applications to Ground State Cooling}{24}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.4.2}Experiment B Results}{19}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Evidence of Transmission Degradation}{19}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Discussion}{23}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Standardized Cooling Metric}{23}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Alternative Platforms}{23}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Pathways to Net Cooling}{23}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Applications to Ground State Cooling}{25}{subsection.2.5.4}%
 \contentsline {chapter}{\numberline {3}A Coherently Stimulated Phonon Spectrometer}{31}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Abstract}{31}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Introduction}{31}{section.3.2}%
