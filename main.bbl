@@ -11,6 +11,14 @@ Robert~W Boyd.
 \newblock \emph{Nonlinear Optics}.
 \newblock Academic Press, 2020.
 
+\bibitem[Johnson et~al.(2023)Johnson, Haverkamp, Ou, Kieu, Otterstrom, Rakich,
+  and Behunin]{johnson2023laser}
+Joel~N Johnson, Danielle~R Haverkamp, Yi-Hsin Ou, Khanh Kieu, Nils~T
+  Otterstrom, Peter~T Rakich, and Ryan~O Behunin.
+\newblock Laser cooling of traveling-wave phonons in an optical fiber.
+\newblock \emph{Physical Review Applied}, 20\penalty0 (3):\penalty0 034047,
+  2023.
+
 \bibitem[Rayleigh(1871)]{rayleigh1871light}
 Lord Rayleigh.
 \newblock On the light from the sky, its polarization and colour.
@@ -26,14 +34,6 @@ eg~PA Franken, Alan~E Hill, CW~el Peters, and Gabriel Weinreich.
 Theodore~H Maiman.
 \newblock Stimulated optical radiation in ruby.
 \newblock \emph{nature}, 187\penalty0 (4736):\penalty0 493--494, 1960.
-
-\bibitem[Johnson et~al.(2023)Johnson, Haverkamp, Ou, Kieu, Otterstrom, Rakich,
-  and Behunin]{johnson2023laser}
-Joel~N Johnson, Danielle~R Haverkamp, Yi-Hsin Ou, Khanh Kieu, Nils~T
-  Otterstrom, Peter~T Rakich, and Ryan~O Behunin.
-\newblock Laser cooling of traveling-wave phonons in an optical fiber.
-\newblock \emph{Physical Review Applied}, 20\penalty0 (3):\penalty0 034047,
-  2023.
 
 \bibitem[H{\"a}nsch and Schawlow(1975)]{hansch1975cooling}
 Theodor~W H{\"a}nsch and Arthur~L Schawlow.
