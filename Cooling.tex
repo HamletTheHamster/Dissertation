@@ -90,7 +90,7 @@ where \(\omega_{\mathrm{aS}}\) and \(k_{\mathrm{aS}}\) are the respective angula
         \caption{}
         \label{fig:Cooling:anti-StokesCooling}
     \end{subfigure}
-    \caption{Illustration of optomechanical heating and cooling processes. Figure \ref{fig:Cooling:StokesHeating} shows an incident photon of frequency \(\omega\) scattering with a retreating phonon of frequency \(\Omega\), resulting in the annihilation of the incident photon and the creation of both an additional retreating phonon of frequency \(\Omega\) and a backwards propagating photon of reduced frequency and thereby energy (\(\omega_{\mathrm{Stokes}} = \omega - \Omega\)). Figure \ref{fig:Cooling:anti-StokesCooling} shows the inverse process, whereby an incident photon, \(\omega\), scatters with an approaching phonon, \(\Omega\), annihilating the incident photon and the phonon to produce a backwards propagating photon of increased frequency and thereby energy (\(\omega_{\mathrm{anti-Stokes}} = \omega + \Omega\)).}
+    \caption{Illustration of optomechanical heating and cooling processes. Figure \ref{fig:Cooling:StokesHeating} shows an incident photon of frequency \(\omega\) scattering with a retreating phonon of frequency \(\Omega\), resulting in the annihilation of the incident photon and the creation of both an additional retreating phonon of frequency \(\Omega\) and a backwards propagating photon down-shifted in frequency (\(\omega_{\mathrm{Stokes}} = \omega - \Omega\)). Figure \ref{fig:Cooling:anti-StokesCooling} shows the inverse process, whereby an incident photon, \(\omega\), scatters with an approaching phonon, \(\Omega\), annihilating the incident photon and the phonon to produce a backwards propagating photon up-shifted in frequency (\(\omega_{\mathrm{anti-Stokes}} = \omega + \Omega\)).}
     \label{fig:Cooling:StokesProcesses}
 \end{figure}
 
@@ -141,7 +141,7 @@ Figure~\ref{fig:Cooling:ExperimentADesign} shows a schematic diagram of the expe
 (\(\omega_{\mathrm{S}} = \omega_{\mathrm{P}} - \Omega_{\mathrm{B}}\)),
 by a band of frequencies centered around the Brillouin frequency of the \ac{LCOF} (\(\Omega_{\mathrm{B,\,LCOF}} \approx\) \SI{2.27}{\giga\hertz}). Backscattered light is routed by circulators to a \SI{5}{\giga\hertz} \ac{BPF} to allow selection of either the Stokes or anti-Stokes light while also reducing unwanted frequency noise. The filtered signal is then incident on a photodiode detector sensitive to \si{\giga\hertz} frequencies. A \ac{LO} is synthesized from the pump laser, polarization controlled, amplified, and combined with the signal pre-detector for heterodyne detection. Output from the detector is amplified with a \ac{RF} amplifier and sent to a \ac{RFSA} for data collection.
 
-To conduct the experiment, pump power was varied from \SI{10}{\milli\watt} to \SI{290}{\milli\watt} in increments of \SI{10}{\milli\watt}, as measured pre-injection into the \ac{LCOF}, and respective Stokes and anti-Stokes spectra for each pump power were collected sequentially by tuning the placement of the \ac{BPF}. Optical transmission through the entire \ac{LCOF} sample which was used for the published data was measured to be 17\%, giving \(100\sqrt{0.17} \approx 41\%\) transmission through just the first splice assuming equal transmission through both \ac{LCOF} splices. This provided a scaling factor for obtaining intrafiber powers from injected pump power (\(P_{\mathrm{intrafiber}} = \sqrt{0.17}P_{\mathrm{P}}\)) which was used for data processing and analysis for the publication.
+To conduct the experiment, pump power was varied from \SI{10}{\milli\watt} to \SI{290}{\milli\watt} in increments of \SI{10}{\milli\watt}, as measured pre-injection into the \ac{LCOF}, and respective Stokes and anti-Stokes spectra for each pump power were collected sequentially by tuning the placement of the \ac{BPF}. For both the Stokes and anti-Stokes modes, five repeated measurements of each spectra and the background (pump off) were collected for each pump power, with each measurement comprising an average over 100 \SI{250}{\milli\second} sweeps at a \ac{RBW} of \SI{1}{\mega\hertz}. Optical transmission through the entire \ac{LCOF} sample which was used for the published data was measured to be 17\%, giving \(100\sqrt{0.17} \approx 41\%\) transmission through just the first splice assuming equal transmission through both \ac{LCOF} splices. This provided a scaling factor for obtaining intrafiber powers from injected pump power (\(P_{\mathrm{intrafiber}} = \sqrt{0.17}P_{\mathrm{P}}\)) which was used for data processing and analysis for the publication.
 
 \begin{figure}[t]
   \centering
@@ -164,7 +164,7 @@ Figure~\ref{fig:Cooling:ExperimentBDesign} shows a schematic of the experimental
   \label{fig:Cooling:ExperimentBDesign}
 \end{figure}
 
-Backscattered light from both the pump and the probe is shifted in frequency by approximately the Brillouin frequency of the \ac{LCOF} (\(\Omega_{\mathrm{B,\,LCOF}} \approx \SI{2.27}{\giga\hertz}\)). The frequencies and wavevectors involved in both the pump and the probe scattering processes satisfy similar phase matching conditions given by Equation~\ref{eq:Cooling:anti-Stokes Phase Matching}. Because this pump-probe technique provides a direct measure of laser cooling, only the anti-Stokes spectra need to be collected.
+Backscattered light from both the pump and the probe is shifted in frequency by approximately the Brillouin frequency of the \ac{LCOF} (\(\Omega_{\mathrm{B,\,LCOF}} \approx \SI{2.27}{\giga\hertz}\)). The frequencies and wavevectors involved in both the pump and the probe scattering processes satisfy similar phase matching conditions given by Equation~\ref{eq:Cooling:anti-Stokes Phase Matching}. Because this pump-probe technique provides a direct measure of laser cooling, only the anti-Stokes spectra need to be collected. In conducting the experiment, five repeated measurements of both the anti-Stokes spectra and the background (pump off) were collected for each pump power, with each measurement comprising an average over 100 \SI{250}{\milli\second} sweeps at a \ac{RBW} of \SI{1}{\mega\hertz}.
 
 Notably, this experiment relies on careful control of the polarization states of the pump and the probe. Upon backscattering within the \ac{LCOF}, their respective polarization states are recovered after retracing their paths to the \ac{PBS}, which ensures only probe light transmits through the \ac{PBS} for filtration and heterodyne detection. Output from the detector is amplified by an \ac{RF} amplifier and routed to an \ac{RFSA} for data collection. In this way, by holding the probe power inside the \ac{LCOF} constant, changes in the amplitude and width of the backscattered probe spectra provide direct and independent evidence of laser cooling from varying pump powers within the \ac{LCOF}.
 
@@ -177,25 +177,25 @@ Notably, this experiment relies on careful control of the polarization states of
 \subsection{Experiment A Results}
 \label{Cooling:subsec:ExperimentAResults}
 
-Figures~\ref{fig:Cooling:P-O Stokes} and \ref{fig:Cooling:P-O anti-Stokes} show the respective Stokes and anti-Stokes spectra gathered across a range of intra-fiber pump power from \SI{4.12}{\milli\watt} to \SI{119.57}{\milli\watt}. Both Stokes and anti-Stokes spectra sets are centered at approximately \(f_{B} = \) \SI{2.27}{\giga\hertz}, representing a respective up- and downshift from the pump frequency by the Brillouin frequency of the \ce{CS2}-\ac{LCOF} at \SI{1.55}{\micro\meter}. For increasing pump power, we see an asymmetry in evolution of peak spectral densities and linewidths of the Stokes and anti-Stokes spectra, key fingerprints of optomechanical cooling. The peak amplitudes of the anti-Stokes spectra increase sublinearly while that of the Stokes increase superlinearly (Figure~\ref{fig:Cooling:P-O Heights vs Pow}). As phonon occupation decreases (cooling) in the anti-Stokes phonon mode, the rate of scattering also decreases due to the diminished population of phonons able to participate in scattering. A lesser rate of scattering produces less backscattered light incident on the detector, causing the peak spectral density to be less than if no cooling had occured. The opposite effect occurs in the Stokes process; as phonon occupation increases (heating) in the Stokes phonon mode, the rate of scattering also increases owing to a bolstered number of phonons available to participate in scattering. This increased rate of scattering results in more backscattered light collected by the detector and causing the peak spectral density to be greater than if no heating had occured. Critically, since scattered power is also dependent on pump power (see Equation~\ref{eq:sponBSscatteredPower}), the peak amplitude of both processes increases with increasing pump power. However, the sublinear (superlinear) growth rate in peak amplitude of the anti-Stokes (Stokes) spectra as pump power increases provides key evidence of optomechanical cooling (heating) of the respective \ac{LCOF} phonon modes.
+Figures~\ref{fig:Cooling:P-O Stokes} and \ref{fig:Cooling:P-O anti-Stokes} show the respective Stokes and anti-Stokes spectra gathered across a range of intra-fiber pump powers, from \SI{4.12}{\milli\watt} to \SI{119.57}{\milli\watt}. Both Stokes and anti-Stokes spectra sets are centered at approximately \(f_{B} = \) \SI{2.27}{\giga\hertz}, representing a respective up- and downshift from the pump frequency by the Brillouin frequency of the \ce{CS2}-\ac{LCOF} at \SI{1.55}{\micro\meter}. For increasing pump power, we see an asymmetry in evolution of peak spectral densities and of the Stokes and anti-Stokes spectra, a key fingerprint of optomechanical cooling. Figure~\ref{fig:Cooling:P-O Heights vs Pow} plots the fitted Stokes and anti-Stokes peak amplitudes for each pump power. A dashed line showing a linear trend was obtained by applying a linear fit of all data points. Solid lines show the theoretical super- and sublinear scattered power for the Stokes and anti-Stokes processes, respectively, and were calculated using Equations~A27 and A28 in Appendix~A of Johnson et al. (2023)\cite{johnson2023laser}. It can be seen that peak amplitudes of both processes are in good alignment of the theoretical trend, with anti-Stokes peaks increasing sublinearly and Stokes peaks increasing superlinearly.
 
-\begin{figure}[t]
+This is consistent with one of the key signatures of laser cooling: as higher pump powers further reduce the phonon occupation within the anti-Stokes mode (cooling), scattered power falls farther short of the otherwise linear relationship with pump power (Equation~\ref{eq:sponBSscatteredPower}). This sublinear trend in scattered power produces the same trend in backscattered light incident on the detector and reveals itself in the data as a sublinear trend in peak spectral density with increasing pump power. The opposite effect occurs in the Stokes process; as higher pump powers further increase the phonon occupation within the Stokes mode (heating), scattered power rises further above the otherwise linear relationship with pump power (again given by Equation~\ref{eq:sponBSscatteredPower}). This superlinear trend in scattered power produces the same trend in backscattered light incident on the detector and reveals itself in the data as a superlinear trend in peak spectral density with increasing pump power. These respective super- and sublinear growth trends in peak amplitudes of the Stokes and anti-Stokes spectra as pump power increases provide a spectral fingerprint of optomechanical cooling of the anti-Stokes phonon mode within the \ac{LCOF}.
+
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-O Stokes.pdf}
-  \caption{.}
+  \caption{Stokes spectra for a range of pump powers obtained for Experiment~A via spontaneous backwards Brillouin scattering. Intrafiber pump powers are displayed and were calculated from a measurement of 17\% total through-fiber transmission and assuming equal losses through each of the two splices bookending the \ac{LCOF}. To obtain each spectra, five repeated measurements of both the Stokes spectra and the background (pump off) were collected for each pump power, with each measurement comprising an average over 100 \SI{250}{\milli\second} sweeps at a \ac{RBW} of \SI{1}{\mega\hertz}. Plotted are the resulting background-subtracted spectra, with uncertainties smaller than the points used to represent the data.}
   \label{fig:Cooling:P-O Stokes}
 \end{figure}
 
-%Table Stokes
-
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-O anti-Stokes.pdf}
-  \caption{.}
+  \caption{Anti-Stokes spectra for a range of pump powers obtained for Experiment~A via spontaneous backwards Brillouin scattering. Intrafiber pump powers are displayed and were calculated from a measurement of 17\% total through-fiber transmission and assuming equal losses through each of the two splices bookending the \ac{LCOF}. To obtain each spectra, five repeated measurements of both the anti-Stokes spectra and the background (pump off) were collected for each pump power, with each measurement comprising an average over 100 \SI{250}{\milli\second} sweeps at a \ac{RBW} of \SI{1}{\mega\hertz}. Plotted are the resulting background-subtracted spectra, with uncertainties smaller than the points used to represent the data.}
   \label{fig:Cooling:P-O anti-Stokes}
 \end{figure}
 
-%Table anti-Stokes
+
 
 \begin{figure}[t]
   \centering
@@ -210,6 +210,8 @@ Figures~\ref{fig:Cooling:P-O Stokes} and \ref{fig:Cooling:P-O anti-Stokes} show 
   \caption{.}
   \label{fig:Cooling:P-O Linewidths}
 \end{figure}
+
+%Table Stokes, anti-Stokes
 
 \begin{figure}[t]
   \centering

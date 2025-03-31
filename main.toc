@@ -2,7 +2,7 @@
 \contentsline {chapter}{Dedication}{iii}{section*.3}%
 \contentsline {chapter}{List of Tables}{vii}{section*.8}%
 \contentsline {chapter}{List of Figures}{viii}{section*.11}%
-\contentsline {chapter}{List of Acronyms}{xv}{chapter*.31}%
+\contentsline {chapter}{List of Acronyms}{xv}{chapter*.32}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Light Scattering}{4}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Spontaneous Brillouin Scattering}{5}{section.1.2}%
@@ -22,13 +22,13 @@
 \contentsline {subsection}{\numberline {2.3.3}Experiment B: Pump-Probe Verification}{17}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Results}{19}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Experiment A Results}{19}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Experiment B Results}{19}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Evidence of Transmission Degradation}{19}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}Discussion}{23}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Standardized Cooling Metric}{23}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Alternative Platforms}{23}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Pathways to Net Cooling}{24}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Applications to Ground State Cooling}{26}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.4.2}Experiment B Results}{20}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Evidence of Transmission Degradation}{20}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Discussion}{25}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Standardized Cooling Metric}{25}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Alternative Platforms}{25}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Pathways to Net Cooling}{25}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Applications to Ground State Cooling}{27}{subsection.2.5.4}%
 \contentsline {chapter}{\numberline {3}A Coherently Stimulated Phonon Spectrometer}{33}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Abstract}{33}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Introduction}{33}{section.3.2}%
@@ -75,4 +75,4 @@
 \contentsline {section}{\numberline {C.1}Fiber-Chip-Fiber Butt-Coupling Alignment}{95}{section.C.1}%
 \contentsline {chapter}{\numberline {D}Code and Data Availability}{97}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Plotting Data In Go}{97}{section.D.1}%
-\contentsline {chapter}{References}{98}{section*.115}%
+\contentsline {chapter}{References}{98}{section*.117}%
