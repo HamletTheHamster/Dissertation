@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  30 MAR 2025 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  30 MAR 2025 22:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1414,43 +1414,43 @@ File: figs/3-Cooling/vytranCameraPreSplice.jpg Graphic file (type jpg)
 Package pdftex.def Info: figs/3-Cooling/vytranCameraPreSplice.jpg  used on inpu
 t line 29.
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
-
-
-[56 <./figs/3-Cooling/vytranCameraPreSplice.jpg>]
-<figs/3-Cooling/doubleBoxBracedSplice.jpg, id=2578, 2951.025pt x 1353.055pt>
-File: figs/3-Cooling/doubleBoxBracedSplice.jpg Graphic file (type jpg)
-<use figs/3-Cooling/doubleBoxBracedSplice.jpg>
-Package pdftex.def Info: figs/3-Cooling/doubleBoxBracedSplice.jpg  used on inpu
-t line 44.
-(pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
-
-
-[57 <./figs/3-Cooling/doubleBoxBracedSplice.jpg>]
-<figs/3-Cooling/tackedSpliceWithArrow.jpg, id=2593, 2951.025pt x 1353.055pt>
-File: figs/3-Cooling/tackedSpliceWithArrow.jpg Graphic file (type jpg)
-<use figs/3-Cooling/tackedSpliceWithArrow.jpg>
-Package pdftex.def Info: figs/3-Cooling/tackedSpliceWithArrow.jpg  used on inpu
-t line 60.
-(pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
-<figs/3-Cooling/bigGapSplice.jpg, id=2598, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/bigGapSplice.jpg, id=2567, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/bigGapSplice.jpg Graphic file (type jpg)
 <use figs/3-Cooling/bigGapSplice.jpg>
-Package pdftex.def Info: figs/3-Cooling/bigGapSplice.jpg  used on input line 74
+Package pdftex.def Info: figs/3-Cooling/bigGapSplice.jpg  used on input line 38
 .
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
-<figs/3-Cooling/finalSampleVytranSplice.jpeg, id=2599, 4544.98pt x 1112.155pt>
+<figs/3-Cooling/finalSampleVytranSplice.jpeg, id=2568, 4544.98pt x 1112.155pt>
 File: figs/3-Cooling/finalSampleVytranSplice.jpeg Graphic file (type jpg)
 <use figs/3-Cooling/finalSampleVytranSplice.jpeg>
 Package pdftex.def Info: figs/3-Cooling/finalSampleVytranSplice.jpeg  used on i
-nput line 81.
+nput line 45.
 (pdftex.def)             Requested size: 469.75502pt x 114.93846pt.
 
 
-[58 <./figs/3-Cooling/tackedSpliceWithArrow.jpg>]
+[56 <./figs/3-Cooling/vytranCameraPreSplice.jpg>]
 
-[59 <./figs/3-Cooling/bigGapSplice.jpg> <./figs/3-Cooling/finalSampleVytranSpli
+[57 <./figs/3-Cooling/bigGapSplice.jpg> <./figs/3-Cooling/finalSampleVytranSpli
 ce.jpeg>]
-<figs/3-Cooling/successfullyBuiltSplice.jpg, id=2618, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/doubleBoxBracedSplice.jpg, id=2591, 2951.025pt x 1353.055pt>
+File: figs/3-Cooling/doubleBoxBracedSplice.jpg Graphic file (type jpg)
+<use figs/3-Cooling/doubleBoxBracedSplice.jpg>
+Package pdftex.def Info: figs/3-Cooling/doubleBoxBracedSplice.jpg  used on inpu
+t line 63.
+(pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
+
+
+[58 <./figs/3-Cooling/doubleBoxBracedSplice.jpg>]
+<figs/3-Cooling/tackedSpliceWithArrow.jpg, id=2606, 2951.025pt x 1353.055pt>
+File: figs/3-Cooling/tackedSpliceWithArrow.jpg Graphic file (type jpg)
+<use figs/3-Cooling/tackedSpliceWithArrow.jpg>
+Package pdftex.def Info: figs/3-Cooling/tackedSpliceWithArrow.jpg  used on inpu
+t line 79.
+(pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
+
+
+[59 <./figs/3-Cooling/tackedSpliceWithArrow.jpg>]
+<figs/3-Cooling/successfullyBuiltSplice.jpg, id=2617, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/successfullyBuiltSplice.jpg Graphic file (type jpg)
 <use figs/3-Cooling/successfullyBuiltSplice.jpg>
 Package pdftex.def Info: figs/3-Cooling/successfullyBuiltSplice.jpg  used on in
@@ -1465,40 +1465,39 @@ File: figs/3-Cooling/redLightWithThumbTackWholeSample.jpg Graphic file (type jp
 g)
 <use figs/3-Cooling/redLightWithThumbTackWholeSample.jpg>
 Package pdftex.def Info: figs/3-Cooling/redLightWithThumbTackWholeSample.jpg  u
-sed on input line 121.
+sed on input line 114.
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
-
-
-[61 <./figs/3-Cooling/redLightWithThumbTackWholeSample.jpg>]
-<figs/3-Cooling/CS2NearlyReached.jpg, id=2640, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/CS2NearlyReached.jpg, id=2631, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/CS2NearlyReached.jpg Graphic file (type jpg)
 <use figs/3-Cooling/CS2NearlyReached.jpg>
 Package pdftex.def Info: figs/3-Cooling/CS2NearlyReached.jpg  used on input lin
-e 134.
+e 130.
 (pdftex.def)             Requested size: 230.18253pt x 105.52135pt.
-<figs/3-Cooling/CS2Reached.jpg, id=2641, 2951.025pt x 1353.055pt>
+<figs/3-Cooling/CS2Reached.jpg, id=2632, 2951.025pt x 1353.055pt>
 File: figs/3-Cooling/CS2Reached.jpg Graphic file (type jpg)
 <use figs/3-Cooling/CS2Reached.jpg>
-Package pdftex.def Info: figs/3-Cooling/CS2Reached.jpg  used on input line 141.
+Package pdftex.def Info: figs/3-Cooling/CS2Reached.jpg  used on input line 137.
 
 (pdftex.def)             Requested size: 230.18253pt x 105.52135pt.
 
 
+[61 <./figs/3-Cooling/redLightWithThumbTackWholeSample.jpg>]
+
 [62 <./figs/3-Cooling/CS2NearlyReached.jpg> <./figs/3-Cooling/CS2Reached.jpg>]
-<figs/3-Cooling/fullSampleTapedToOpticalTable.jpg, id=2658, 2951.025pt x 1353.0
+<figs/3-Cooling/fullSampleTapedToOpticalTable.jpg, id=2654, 2951.025pt x 1353.0
 55pt>
 File: figs/3-Cooling/fullSampleTapedToOpticalTable.jpg Graphic file (type jpg)
 <use figs/3-Cooling/fullSampleTapedToOpticalTable.jpg>
 Package pdftex.def Info: figs/3-Cooling/fullSampleTapedToOpticalTable.jpg  used
- on input line 166.
+ on input line 164.
 (pdftex.def)             Requested size: 230.18253pt x 105.52135pt.
-<figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg, id=2659, 2951.025pt x 13
+<figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg, id=2655, 2951.025pt x 13
 53.055pt>
 File: figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg Graphic file (type j
 pg)
 <use figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg>
 Package pdftex.def Info: figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg  
-used on input line 173.
+used on input line 171.
 (pdftex.def)             Requested size: 230.18253pt x 105.52135pt.
 
 
@@ -1966,7 +1965,7 @@ t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fo
 nts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (118 pages, 8573570 bytes).
+Output written on main.pdf (118 pages, 8573567 bytes).
 PDF statistics:
  3284 PDF objects out of 3580 (max. 8388607)
  2216 compressed objects within 23 object streams
