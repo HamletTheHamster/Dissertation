@@ -75,4 +75,4 @@
 \contentsline {section}{\numberline {C.1}Fiber-Chip-Fiber Butt-Coupling Alignment}{95}{section.C.1}%
 \contentsline {chapter}{\numberline {D}Code and Data Availability}{97}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Plotting Data In Go}{97}{section.D.1}%
-\contentsline {chapter}{References}{98}{section*.117}%
+\contentsline {chapter}{References}{98}{section*.118}%
