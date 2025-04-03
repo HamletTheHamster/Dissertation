@@ -61,7 +61,7 @@ While anti-Stokes scattering provides the mechanism for laser cooling, the compl
 \quad
 -k_{\mathrm{S}} = k_{\mathrm{P}} + q,
 \end{equation}
-
+\\
 where \(\omega_{\mathrm{S}}\), \(\omega_{\mathrm{P}}\), and \(\Omega\) are the angular frequencies of the Stokes, pump, and phonon waves, respectively, and \(k_{\mathrm{S}}\), \(k_{\mathrm{P}}\), and \(q\) are their corresponding wavevectors. This can be understood by analogy of the incident light experiencing a doppler \textit{down}-shift in frequeny as though the photon were reflected from a \emph{retreating} mirror (phonon). The Stokes processes results in increased phonon occupancy of the respective longitudinal mode of the material, and thus this process results in optomechanical heating. Optical energy is donated to the material in the form of mechanical (thermal) energy.
 
 The anti-Stokes process is the inverse process (Figure~\ref{fig:Cooling:anti-StokesCooling}), whereby an \textit{approaching} phonon scatters with a pump photon, annihilating the \textit{phonon} and creating a backscattered photon at the additive energy. In the anti-Stokes process, the incident light experiences a doppler \textit{up}-shift in frequency as if, to continue the analogy, the photon were reflected from an \emph{approaching} mirror (phonon). Phase matching requirements demand the anti-Stokes components satisfy
@@ -72,7 +72,7 @@ The anti-Stokes process is the inverse process (Figure~\ref{fig:Cooling:anti-Sto
   -k_{\mathrm{aS}} = k_{\mathrm{P}} - q,
   \label{eq:Cooling:anti-Stokes Phase Matching}
 \end{equation}
-
+\\
 where \(\omega_{\mathrm{aS}}\) and \(k_{\mathrm{aS}}\) are the respective angular frequency and wavevector of the backscattered anti-Stokes light.
 
 \begin{figure}[t]
@@ -97,7 +97,62 @@ where \(\omega_{\mathrm{aS}}\) and \(k_{\mathrm{aS}}\) are the respective angula
 \subsection{Spectral Signatures of Cooling and Heating}
 \label{Cooling:subsec:SpectralSignaturesofCoolingandHeating}
 
-Optomechanical cooling reduces the phonon occupation of a given mechanical mode. Evidence of this phenomenon is offered by changes in two key spectral features of the backscattered light: linewidth and amplitude. Spectral linewidth is a measure of the mechanical dissipation rate of the phonon mode. A broader linewidth corresponds with a higher mechanical dissipation rate of a given mode. Thereby, a reduction in phonon occupancy causes broadening of spectral linewidth while an increase in phonon occupancy causes linewidth narrowing. Spectral amplitude provides additional evidence of optomechanical cooling. Spectral amplitude is a measure of the scattered power produced from scattering of pump light with phonons occupying a given mechanical mode. Higher phonon occupancy within a given mode provides a higher rate of scattering and thus a higher measured spectral amplitude of the backscattered light. Increasing pump power reduces the phonon population occupying the anti-Stokes mode and thereby lessens the otherwise scattered power, measured as spectral amplitude. The inverse process occurs for the Stokes process; increasing pump power increases the phonon population occupying the Stokes mode and thereby increases the otherwise scattered power, measured by spectral amplitude.
+Optomechanical cooling reduces the phonon occupation of a given mechanical mode. Evidence of this phenomenon is offered by changes in two key spectral features of the backscattered light: linewidth and amplitude. Spectral linewidth is a measure of the mechanical dissipation rate of the phonon mode. A broader linewidth corresponds with a higher mechanical dissipation rate of a given mode as per the time-energy uncertainty principle: greater dissipation means smaller phonon lifetime, which introduces an uncertainty in the phonon frequency. Thereby, increasing the dissipation rate (cooling) broadens the spectral linewidth; conversely, decreasing the dissipation rate (heating) narrows the spectral linewidth. For spontaneous Brillouin scattering this is given by \cite{otterstrom2018optomechanical}
+
+\begin{equation}
+  \Gamma_{\pm} \approx \Gamma_{0}\left(1 \pm \frac{G}{4}\right),
+  \label{eq:Cooling:effective linewidth}
+\end{equation}
+\\
+where \(\Gamma_{0}\) is the mechanical dissipation rate at thermal equilibrium, \(\Gamma_{\pm}\) is the effectively broadened (\(+\)) or narrowed (\(-\)) dissipation rate due to an anti-Stokes or Stokes process, respectively. Here \(G\) is the Brilouin scattering process gain factor \(G = G_{\mathrm{B}}P_{\mathrm{P}}L\), where \(G_{\mathrm{B}}\) is the effective Brillouin gain (\si{\per\watt\per\meter}), \(P_{\mathrm{P}}\) is the pump power, and \(L\) is the effective length (see Section~\ref{appendix:comparison} in Appendix~\ref{appendix: CoBS}). Equation~\ref{eq:Cooling:effective linewidth} is related to the effective temperature change of the mechanical mode via the quantized phonon dissipation rate (phonons dissipated per second) at equilibrium, given by
+
+\begin{equation}
+  Q = n_{\mathrm{th}}\Gamma_{0},
+  \label{eq:Cooling:Q}
+\end{equation}
+\\
+where \(\Gamma_{0}\) is the mechanical dissipation rate at thermal equilibrium and \(n_{\mathrm{th}}\) is the mean thermal occupancy (phonon count) of the mode at equilibrium given by the Bose distribution,
+
+\begin{equation}
+  n_{\mathrm{th}} = \frac{1}{e^\frac{\hbar\Omega_{\mathrm{B}}}{k_{\mathrm{B}}T_{0}} - 1}.
+  \label{eq:Cooling:nth}
+\end{equation}
+\\
+Here, \(\hbar = h/2\pi\) is the reduced Planck constant, \(\Omega_{\mathrm{B}}\) is the angular phonon frequency, \(k_{\mathrm{B}}\) is the Boltzmann constant, and \(T_{0}\) is equilibrium (room) temperature in kelvin. Laser cooling of the phonon mode increases the effective dissipation rate of the mode by offering a new escape channel by which phonons may exit the mode (converting to the optical domain). This altered dissipation rate gives the effective temperature via Equation~\ref{eq:Cooling:Q},
+
+\begin{equation}
+  n_{\mathrm{eff}}\Gamma_{\mathrm{\pm}} \approx n_{\mathrm{th}}\Gamma_{0},
+  \label{eq:Cooling:nGamma}
+\end{equation}
+\\
+where \(n_{\mathrm{eff}}\) is the effective phonon mode occupancy of the cooled (\(+)\), widened dissipation rate) or heated (\(-\), narrowed dissipation rate). For \si{\giga\hertz} phonon frequencies near room temperature, \(k_{\mathrm{B}T \gg \hbar\Omega_{\mathrm{B}}}\), allowing the first order approximation
+
+\begin{equation}
+  e^{\frac{\hbar\Omega_{\mathrm{B}}}{k_{\mathrm{B}}T}} \approx 1 + \frac{\hbar\Omega_{\mathrm{B}}}{k_{\mathrm{B}}T},
+\end{equation}
+\\
+which gives, for Equation~\ref{eq:Cooling:nth},
+
+\begin{equation}
+  n_{\mathrm{th}} \approx \frac{k_{\mathrm{B}}T_{0}}{\hbar\Omega_{\mathrm{B}}}.
+\end{equation}
+\\
+Employing this approximation in Equation~\ref{eq:Cooling:nGamma} in combination with Equation~\ref{eq:Cooling:effective linewidth}, we find two independent approximations for the ratio of effective to equilibrium temperatures of the cooled phonon mode,
+
+\begin{equation}
+  \frac{\Gamma_{+}}{\Gamma_{0}} \approx \frac{T_{0}}{T_{eff}} \approx 1 + \frac{G}{4}.
+\end{equation}
+\\
+Rearanging for fractional degrees cooled (\(\Delta T/T_{0}\)), we find (to first order approximation)
+
+\begin{equation}
+  \frac{\Gamma_{+}}{\Gamma_{0}} - 1 \approx \frac{\Delta T}{T_{0}} \approx \frac{G}{G + 4},
+  \label{eq:Cooliong:two methods of getting temperature}
+\end{equation}
+\\
+where \(\Delta T = T_{eff} - T_{0}\) is degrees cooled from equilibrium.
+
+Spectral amplitude provides additional evidence of optomechanical cooling. Spectral amplitude is a measure of the scattered power produced from scattering of pump light with phonons occupying a given mechanical mode. Higher phonon occupancy within a given mode provides a higher rate of scattering and thus a higher measured spectral amplitude of the backscattered light. Increasing pump power reduces the phonon population occupying the anti-Stokes mode and thereby lessens the otherwise scattered power, measured as spectral amplitude. The inverse process occurs for the Stokes process; increasing pump power increases the phonon population occupying the Stokes mode and thereby increases the otherwise scattered power, measured by spectral amplitude.
 
 In the spontaneous Brillouin scattering process, however, scattered power increases not only with phonon population (linked to temperature), but also with pump power \(P_{\mathrm{P}}\) (see Equation~\ref{eq:sponBSscatteredPower} in Appendix~\ref{appendix:comparison}). As a result, both the Stokes and anti-Stokes spectral amplitudes increase with increasing pump power. Despite this, however, spectral amplitudes still provide evidence of laser cooling. Asymmetric growth rates of the relative Stokes and anti-Stokes spectral amplitudes with increasing pump power indicate underlying cooling of the anti-Stokes phonon mode relative to the Stokes. The anti-Stokes scattering process (phonon annihilation) leads to a sublinear growth trend in peak spectral amplitude even as increasing pump power raises the overall peak amplitude. Conversely, the Stokes scattering process (phonon creating) leads to a superlinear growth trend in peak spectral amplitudes as pump power raises. These divergent trends in peak spectral amplitudes are a direct result of the optomechanically-induced altering of the thermal state of the respective modes and provide key evidence of laser cooling.
 
@@ -195,28 +250,30 @@ This is consistent with one of the key signatures of laser cooling: as higher pu
   \label{fig:Cooling:P-O anti-Stokes}
 \end{figure}
 
-Linewidths of the spectra shown in Figures~\ref{fig:Cooling:P-O Stokes} and \ref{fig:Cooling:P-O fig:Cooling:P-O anti-Stokes} also exhibit key spectral signatures of laser cooling (and heating for the Stokes mode). With increasing pump power, the linewidths of the anti-Stokes spectra broaden, indicating a higher dissipation rate of phonons into the “optical bath” (cooling). The inverse trend is seen for the Stokes mode: with increasing pump power, the linewidths of the Stokes spectra narrow, indicating a reduced phonon dissipation rate (heating). Figure~\ref{fig:Cooling:P-O Linewidths} plots the Stokes and anti-Stokes linewidths for each pump power, obtained from a lorentzian fit. Solid lines provide a linear fit to the respective Stokes and anti-Stokes measured linewidths. The secondary y-axis provides a temperature scale in degrees \si{\kelvin}, with room temperature (taken to be \SI{293}{\kelvin}) centered at the equilibrium linewidth of the \ac{LCOF}. Section~\ref{Cooling:Appendix:subsec:Experiment A Tabulated Values} provides a tabulation of the extracted fit parameters and their associated uncertainties for each of the Stokes and anti-Stokes spectra for all pump powers.
+Linewidths of the spectra shown in Figures~\ref{fig:Cooling:P-O Stokes} and \ref{fig:Cooling:P-O anti-Stokes} also exhibit key spectral signatures of laser cooling (and heating for the Stokes mode). With increasing pump power, the linewidths of the anti-Stokes spectra broaden, indicating a higher dissipation rate of phonons into the “optical bath” (cooling). The inverse trend is seen for the Stokes mode: with increasing pump power, the linewidths of the Stokes spectra narrow, indicating a reduced phonon dissipation rate (heating). Figure~\ref{fig:Cooling:P-O Linewidths} plots the Stokes and anti-Stokes linewidths for each pump power, obtained from a lorentzian fit. Solid lines provide a linear fit to the respective Stokes and anti-Stokes measured linewidths. The secondary y-axis provides a temperature scale in degrees \si{\kelvin}, with room temperature (taken to be \SI{293}{\kelvin}) centered at the equilibrium linewidth of the \ac{LCOF}. Section~\ref{Cooling:Appendix:subsec:Experiment A Tabulated Values} provides a tabulation of the extracted fit parameters and their associated uncertainties for each of the Stokes and anti-Stokes spectra for all pump powers.
 
-\begin{figure}[t]
+Using Equation~\ref{eq:Cooling:effective linewidth} and the respective broadened and equilibrium anti-Stokes linewidths at the highest intrafiber pump power (\(\Gamma_{\text{\(P_{\mathrm{P}} = \SI{119.57}{\milli\watt}\)}} = \SI{106.32}{\mega\hertz}\)) as compared to the lowest (\(\Gamma_{\text{\(P_{\mathrm{P}} = \SI{4.12}{\milli\watt}\)}} = \SI{97.3}{\mega\hertz}\)), we find an effective Brillouin gain \(G_{\mathrm{B}} \approx\ \SI{3.1}{\per\watt\per\meter}\). Using this gain factor, we find  (right side of Equation~\ref{eq:Cooliong:two methods of getting temperature}) the temperature of the band of traveling wave phonons in the \ac{LCOF} to reduced by \(\Delta T \approx \SI{25(2)}{\kelvin}\) from room temperature. Using instead the phonon occupancy method (left side of Equation~\ref{eq:Cooliong:two methods of getting temperature}) with the same respective linewidths, we find \(\Delta T \approx \SI{27(2)}{\kelvin}\), which agrees with the prior calculation and is independent of estimated Brillouin gain and intrafiber pump powers.
+
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-O Heights vs Pow.pdf}
   \caption{Lorentzian-fitted peak amplitudes of the observed Stokes and anti-Stokes spectra. The dashed line showing a linear trend was obtained by applying a linear fit of all data points. The solid lines show the theoretical super- and sublinear scattered power for the Stokes and anti-Stokes processes, respectively, and were calculated using Equations~A27 and A28 in Appendix~A of Johnson et al. (2023)\cite{johnson2023laser}. Section~\ref{Cooling:Appendix:subsec:Experiment A Tabulated Values} provides a tabulation of the extracted fit parameters and their associated uncertainties for each of the Stokes and anti-Stokes spectra for all pump powers.}
   \label{fig:Cooling:P-O Heights vs Pow}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-O Linewidths.pdf}
   \caption{Stokes and anti-Stokes linewidths for each pump power, obtained from a lorentzian fit. Solid lines provide a linear fit to the respective Stokes and anti-Stokes measured linewidths. The secondary y-axis provides a temperature scale in degrees \si{\kelvin}, with room temperature (taken to be \SI{293}{\kelvin}) centered at the equilibrium linewidth of the \ac{LCOF}. Section~\ref{Cooling:Appendix:subsec:Experiment A Tabulated Values} provides a tabulation of the extracted fit parameters and their associated uncertainties for each of the Stokes and anti-Stokes spectra for all pump powers.}
   \label{fig:Cooling:P-O Linewidths}
 \end{figure}
 
-Figure~\ref{fig:Cooling:P-O Simulated Gain} plots a simulated Brillouin gain spectrum \(G_{\mathrm{B}}\) (\si{\per\watt\per\meter}), obtained from finite element simulations\cite{johnson2023laser} of the optical and acoustic modes of the \ac{LCOF}, overtop an example anti-Stokes spectrum (the \SI{4.12}{\milli\watt} pump power spectrum). While the y-scaling between the two spectra is arbitrary, the lorentzian lineshape of the gain spectrum is predictive of scattered power across the frequency distribution. An uncertainty-weighted reduced \(\chi^{2}\) test for goodness of fit of the simulated gain spectrum to the observed anti-Stokes spectrum yields a value of 2.57. Reduced \(\chi^{2}\) values close to unity indicate a good fit.
+Figure~\ref{fig:Cooling:P-O Simulated Gain} plots a simulated Brillouin gain spectrum \(G_{\mathrm{B}}\) (\si{\per\watt\per\meter}), obtained from finite element simulations\cite{johnson2023laser} of the optical and acoustic modes of the \ac{LCOF}, overtop the \SI{4.12}{\milli\watt} pump power (nearest to natural equilibrium) anti-Stokes spectrum. While the y-scaling between the two spectra is arbitrary, the lorentzian profile of the gain spectrum, and specifically the center frequency and natural-equilibrium linewidth, is predictive of scattered power expected from the \ac{LCOF} across the frequency range. An uncertainty-weighted reduced \(\chi^{2}\) test for goodness of fit of the simulated gain spectrum to the observed anti-Stokes spectrum yields a value of 2.57. Reduced \(\chi^{2}\) values close to unity indicate a good fit.
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-O Simulated Gain.pdf}
-  \caption{.}
+  \caption{A simulated Brillouin gain spectrum \(G_{\mathrm{B}}\) (\si{\per\watt\per\meter}), obtained from finite element simulations\cite{johnson2023laser} of the optical and acoustic modes of the \ac{LCOF}, overtop the lowest power (nearest to natural equilibrium) anti-Stokes spectrum (the \SI{4.12}{\milli\watt} pump power spectrum). While the y-scaling between the two spectra is arbitrary, the lorentzian profile of the gain spectrum, and specifically the center frequency and natural-equilibrium linewidth, is predictive of scattered power expected from the \ac{LCOF} across the frequency range. An uncertainty-weighted reduced \(\chi^{2}\) test for goodness of fit of the simulated gain spectrum to the observed anti-Stokes spectrum yields a value of 2.57. Reduced \(\chi^{2}\) values close to unity indicate a good fit.}
   \label{fig:Cooling:P-O Simulated Gain}
 \end{figure}
 
@@ -224,49 +281,49 @@ Figure~\ref{fig:Cooling:P-O Simulated Gain} plots a simulated Brillouin gain spe
 \subsection{Experiment B Results}
 \label{Cooling:subsec:ExperimentBResults}
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-P anti-Stokes Fit - 0mW.pdf}
   \caption{.}
   \label{fig:Cooling:P-P anti-Stokes Fit - 0mW}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-P anti-Stokes Fit - 55mW.pdf}
   \caption{.}
   \label{fig:Cooling:P-P anti-Stokes Fit - 55mW}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-P anti-Stokes Fit - 110mW.pdf}
   \caption{.}
   \label{fig:Cooling:P-P anti-Stokes Fit - 110mW}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-P anti-Stokes Fit - 165mW.pdf}
   \caption{.}
   \label{fig:Cooling:P-P anti-Stokes Fit - 165mW}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-P anti-Stokes Fits.pdf}
   \caption{.}
   \label{fig:Cooling:P-P anti-Stokes Fits}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf}
   \caption{.}
   \label{fig:Cooling:P-P anti-Stokes Wid v Pow}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[t!]
   \centering
   \includegraphics[width=\textwidth]{figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf}
   \caption{.}
@@ -276,21 +333,17 @@ Figure~\ref{fig:Cooling:P-O Simulated Gain} plots a simulated Brillouin gain spe
 \subsection{Evidence of Transmission Degradation}
 \label{Cooling:subsec:Evidence of Transmission Degradation}
 
-After comparing the anti‐Stokes linewidths measured in Experiments~A and B, we conclude that significant splice transmission degradation occurred in the interim. Experiment~B was performed first (with a through‐fiber transmission of 17\%), followed by Experiment~A the next day. If the experimental conditions were unchanged between the two experiments, the slopes of the anti‐Stokes linewidth versus pump power would be identical (Figures~\ref{fig:Cooling:P-O Linewidths} and \ref{fig:Cooling:P-P anti-Stokes Wid v Pow}). Instead, Experiment~B exhibits a noticeably steeper slope than Experiment~A. A reanalysis shows that reducing the assumed transmission for Experiment~A so the two slopes match would require the total fiber transmission to have dropped from 17\% down to approximately 3\%. While large, this degradation is plausible and is supported by several further observations.
+After comparing the anti‐Stokes linewidths measured in Experiments~A and B, we conclude that significant splice transmission degradation occurred in the interim. Experiment~B was performed first (with a through‐fiber transmission of 17\%), followed by Experiment~A the next day. If the experimental conditions were unchanged between the two experiments, the slopes of the anti‐Stokes linewidth versus pump power would be identical (Figures~\ref{fig:Cooling:P-O Linewidths} and \ref{fig:Cooling:P-P anti-Stokes Wid v Pow}). Instead, Experiment~B exhibits a noticeably steeper slope than Experiment~A. A reanalysis shows that reducing the assumed transmission for Experiment~A so the two slopes match would require the total fiber transmission to have dropped from 17\% down to approximately 3\%. While large, degradation of this level is plausible and is supported by several further points of analysis.
 
-First, the fiber immediately following the exit splice of the \ac{LCOF} broke off after initially measuring the transmission and before performing Experiment~B, making it no longer possible to remeasure the full through‐fiber transmission during Experiment~A. If that transmission had declined in the meantime, we had no direct means to detect it. Additionally, during both experiments, the pump power was recorded via a 1\% tap prior to launching into the \ac{LCOF}. Hence, any losses incurred at the damaged splice were not accounted for. As a result, if the splice transmission had indeed worstened, we overestimated the actual intracore power in Experiment~A.
+First, the optical performance of the splices bookending the \ac{LCOF}, already very delicate and suseptible to damage from nominal handling, are vulnerable to any particulates becoming lodged between the cores of the \ac{UHNA7} and \ac{LCOF}. While epoxy is among the more chemically resistant adhesives, any particulate contamination adhered to the surface of the epoxy or reservoire walls introduced from the environent during fabrication could easily become dislodged and settle into the splice opening. Some chemical dissolution of the epoxy within the reservoire by the \ce{CS2} after the prolonged soaking period (\SI{24}{\hour}) is also possible. Additionally, any unfortunate mechanical stress incurred during normal handling of the \ac{LCOF} is liable to cause damage to the splice and incur significant optical loss through one of the splices. Optical losses of this rate and magnitude, while not common, have been observed in several prior \ac{LCOF} samples.
 
-Further quantitative analysis supports this hypothesis as well. As we reported in Johnson et al. (2023)\cite{johnson2023laser}, Experiment~A yields a Brillouin gain of approximately \SI{2.3}{\per\watt\per\meter}, calculated using\cite{johnson2023laser}
+Standard experimental procedure would catch this degradation in performance, however for this particular \ac{LCOF} sample the exit fiber immediately following the end splice broke off irrepairable after testing its transmission, making it no longer possible to remeasure the full through‐fiber transmission during Experiment~A. Another words, if transmission declined between experiments we had no direct means to detect it. As seen in Figures~\ref{fig:Cooling:ExperimentADesign} and \ref{fig:Cooling:ExperimentBDesign}, the pump power was recorded prior to launch into the \ac{LCOF} for both experiments, providing no indication of any change in performance of the splice. Hence, applying the same optical loss estimate to a splice that had experienced transmission degradation in the interim would have resulted in an overestimation of the actual power inside the \ac{LCOF} during Experiment~A (conducted after Experiment~B).
 
-\begin{equation}
-  \Gamma \approx \Gamma_{0}\left(1 - \frac{1}{4}G\right),
-\end{equation}
+Further quantitative analysis supports this hypothesis as well. As we reported in Johnson et al. (2023)\cite{johnson2023laser}, Experiment~A yields a Brillouin gain of approximately \SI{2.3}{\per\watt\per\meter}, calculated using Equation~\ref{eq:Cooling:effective linewidth}. This value is smaller than the \SI{6(1)}{\per\watt\per\meter} reported by Behunin et al. in 2019\cite{behunin2019spontaneous} for a near‐identical \ac{LCOF} geometry and fabrication method. If instead we calculate the Brillouin gain based on the linewidths and corresponding intrafiber pump powers seen in the earlier Experiment~B, we find the Brillouin gain to be approximately \SI{8(2)}{\per\watt\per\meter}, which is in good agreement with the prior published value from the literature. In estimating the uncertainty here, we have taken the \(2\sigma\) confidence level in linewidths and allowed a 10\% uncertainty in intracore pump powers. The natural conclusion is that for Experiment~A we overestimated the intrafiber pump power due to the undetected splice transmission degradation between experiments. This produced an apparent smaller dependence of linewidth on pump power in Experiment~A and a consequent underestimation of the true gain of the \ac{LCOF}.
 
-where \(\Gamma\) is the optically-altered phonon dissipation rate, \(\Gamma_{0}\) is the equilibrium phonon dissipation rate, and \(G\) is the overall process gain factor \(G = G_{B}P_{P}L\) (see Section~\ref{appendix:comparison}). This value is smaller than the \SI{6(1)}{\per\watt\per\meter} reported by Behunin et al. in 2019\cite{behunin2019spontaneous} for a near‐identical \ac{LCOF} geometry and fabrication method. If instead we calculate the Brillouin gain based on the linewidths and corresponding intrafiber pump powers seen in Experiment~B, we find the Brillouin gain to be approximately \SI{8(2)}{\per\watt\per\meter}, which is in excellent agreement with the prior published value from the literature. In estimating the uncertainty here, we have taken the \(2\sigma\) confidence level in linewidths and allowed a 10\% uncertainty in intracore pump powers. The natural conclusion is that for Experiment~A we overstated the intrafiber pump power due to previously unknown and significant splice transmission degradation between experiments. This produced an apparent smaller dependence of linewidth on pump power in Experiment~A, thereby producing an under-reporting of the true gain of the \ac{LCOF} in the published paper.
+Finally, the linewidths of Experiment~B appear to exhibit a slight sublinear trend with power (Figure~\ref{fig:Cooling:P-P anti-Stokes Wid v Pow}), indicating the possibility of a saturation effect occuring at higher pump power. However any saturation effect or similar which could cause this trend should then also be activated at the higher pump powers used in Experiment~A, if the optical transmission were the same across experiments. If instead the transmission of the \ac{LCOF} splice at entrance had been significantly greater for the earlier-run Experiment~B than for Experiment~A, the powers inside the \ac{LCOF} in Experiment~B could have been similar to or even greater than those in Experiment~A. This might explain why Experiment~B linewidths appear to exhibit slightly sublinear growth with pump power despite the lower pump powers launched into the \ac{LCOF} while Experiment~A does not seem to exhibit this same trend, despite the use of higher nominal pump powers. This is consistent with an estimated factor of 5 drop in transmission through the \ac{LCOF} splice between experiments, as indicated by the discrepancy in linewidth vs power slopes of each experiment.
 
-Finally, the linewidth vs power plots appear to exhibit a slight sublinear trend (especially that of Experiment B), but any saturation effect or similar which could cause a sublinear trend in linewidths with pump power should activate at the same intracore optical power. However, with our two data sets, a slight sublinear trend invoked by the much higher pump powers used in Experiment~A should then not cause the same saturation effect for the much lower pump powers used in Experiment~B, if the optical transmission were the same across experiments. If instead the transmission of the \ac{LCOF} splice at entrance had been significantly greater for the earlier-run Experiment~B than for Experiment~A, the intracore powers for Experiment~B could have been similar or far greater than the those for Experiment~A. This might explain why Experiment~B linewidths appear to exhibit slightly sublinear growth with pump power despite the lower pump powers launched into the \ac{LCOF}. Experiment~A in fact does not seem to exhibit as apparent of a sublinear growth trend in linewidths as is seen for Experiment~B. This is consistent with an approximate factor of 5 drop in transmission through the \ac{LCOF} splice at the time Experiment~A was performed, as indicated by the discrepancy in linewidth growth rates between experiments.
-
-In summary, all these lines of evidence indicate that the \ac{LCOF} splice transmission fell substantially between Experiments~B and A, on the order of a factor of five. This fully reconciles the differing slopes in the anti‐Stokes linewidth data and explains the otherwise surprising discrepancy in inferred Brillouin gain compared to values published in the literature for identical \ce{CS2}-filled \ac{LCOF}s.
+In summary, all these lines of evidence strongly indicate that the \ac{LCOF} splice transmission fell substantially in the time between Experiments~B and A, by an approximate factor of five. This fully reconciles the differing slopes in the anti‐Stokes linewidth data and explains the otherwise surprising discrepancy in inferred Brillouin gain compared to values published in the literature for identical \ce{CS2}-filled \ac{LCOF}s. This conclusion implies even higher performance of our \ac{LCOF} example than was previously understood and reported in Johnson et al. (2023)\cite{johnson2023laser}: the amount of cooling achieved (unaffected by this reanalysis) was accomplished with far less pump power.
 
 %--------------------------------------------------------------------%
 
