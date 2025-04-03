@@ -474,16 +474,16 @@ INPUT ./figs/3-Cooling/P-P anti-Stokes Fits.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Fits.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Fits.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Fits.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf
+INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
+INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
+INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
+INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
+INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
 INPUT ./CoBS.tex
 INPUT ./CoBS.tex
 OUTPUT CoBS.aux
