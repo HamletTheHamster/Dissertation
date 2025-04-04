@@ -484,6 +484,7 @@ INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
 INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT ./CoBS.tex
 INPUT ./CoBS.tex
 OUTPUT CoBS.aux
@@ -708,6 +709,7 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb

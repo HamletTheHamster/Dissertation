@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{57}
+\begin{thebibliography}{65}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -140,6 +140,63 @@ K~Kieu, L~Schneebeli, RA~Norwood, and N~Peyghambarian.
 Ryan~O Behunin, Yi-Hsin Ou, and Khanh Kieu.
 \newblock Spontaneous forward brillouin scattering in carbon disulfide.
 \newblock \emph{Physical Review A}, 99\penalty0 (6):\penalty0 063826, 2019.
+
+\bibitem[Zhang et~al.(2024)Zhang, Ding, Pauzauskie, Sheik-Bahae, Seletskiy, and
+  Kuno]{zhang2024experimental}
+Zhuoming Zhang, Yang Ding, Peter~J Pauzauskie, Mansoor Sheik-Bahae, Denis~V
+  Seletskiy, and Masaru Kuno.
+\newblock Experimental minimum of condensed-phase optical refrigeration.
+\newblock \emph{arXiv preprint arXiv:2408.02977}, 2024.
+
+\bibitem[Bl{\'a}zquez~Mart{\'\i}nez et~al.(2024)Bl{\'a}zquez~Mart{\'\i}nez,
+  Wiedemann, Zhu, Geilen, and Stiller]{blazquez2024optoacoustic}
+Laura Bl{\'a}zquez~Mart{\'\i}nez, Philipp Wiedemann, Changlong Zhu, Andreas
+  Geilen, and Birgit Stiller.
+\newblock Optoacoustic cooling of traveling hypersound waves.
+\newblock \emph{Physical Review Letters}, 132\penalty0 (2):\penalty0 023603,
+  2024.
+
+\bibitem[Kim and Bahl(2017)]{kim2017role}
+Seunghwi Kim and Gaurav Bahl.
+\newblock Role of optical density of states in brillouin optomechanical
+  cooling.
+\newblock \emph{Optics Express}, 25\penalty0 (2):\penalty0 776--784, 2017.
+
+\bibitem[Merklein et~al.(2017)Merklein, Stiller, Vu, Madden, and
+  Eggleton]{merklein2017chip}
+Moritz Merklein, Birgit Stiller, Khu Vu, Stephen~J Madden, and Benjamin~J
+  Eggleton.
+\newblock A chip-integrated coherent photonic-phononic memory.
+\newblock \emph{nature Communications}, 8\penalty0 (1):\penalty0 574, 2017.
+
+\bibitem[Zhu et~al.(2024)Zhu, Genes, and Stiller]{zhu2024optoacoustic}
+Changlong Zhu, Claudiu Genes, and Birgit Stiller.
+\newblock Optoacoustic entanglement in a continuous brillouin-active solid
+  state system.
+\newblock \emph{Physical Review Letters}, 133\penalty0 (20):\penalty0 203602,
+  2024.
+
+\bibitem[Hu and Nori(1996)]{hu1996squeezed}
+Xuedong Hu and Franco Nori.
+\newblock Squeezed phonon states: modulating quantum fluctuations of atomic
+  displacements.
+\newblock \emph{Physical review letters}, 76\penalty0 (13):\penalty0 2294,
+  1996.
+
+\bibitem[Manenti et~al.(2017)Manenti, Kockum, Patterson, Behrle, Rahamim,
+  Tancredi, Nori, and Leek]{manenti2017circuit}
+Riccardo Manenti, Anton~F Kockum, Andrew Patterson, Tanja Behrle, Joseph
+  Rahamim, Giovanna Tancredi, Franco Nori, and Peter~J Leek.
+\newblock Circuit quantum acoustodynamics with surface acoustic waves.
+\newblock \emph{Nature communications}, 8\penalty0 (1):\penalty0 975, 2017.
+
+\bibitem[Doeleman et~al.(2023)Doeleman, Schatteburg, Benevides, Vollenweider,
+  Macri, and Chu]{doeleman2023brillouin}
+Hugo~Michiel Doeleman, Tom Schatteburg, R~Benevides, S~Vollenweider, Dorotea
+  Macri, and Yiwen Chu.
+\newblock Brillouin optomechanics in the quantum ground state.
+\newblock \emph{Physical Review Research}, 5\penalty0 (4):\penalty0 043140,
+  2023.
 
 \bibitem[Chiao et~al.(1964)Chiao, Townes, and Stoicheff]{chiao1964stimulated}
 RY~Chiao, Ch~H Townes, and BP~Stoicheff.
