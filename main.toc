@@ -62,7 +62,7 @@
 \contentsline {section}{\numberline {4.5}Discussion}{61}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Pathways to Brillouin-Induced Raman Modes}{61}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Conclusion}{61}{subsection.4.5.2}%
-\contentsline {chapter}{\numberline {5}Discussion \& Future Work}{65}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Conclusion}{65}{chapter.5}%
 \contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{67}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Fabrication of $CS_{2}$-Filled Liquid-Core Optical Fiber}{67}{section.A.1}%
 \contentsline {subsection}{\numberline {A.1.1}Splicing}{67}{subsection.A.1.1}%

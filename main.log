@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  5 APR 2025 13:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  5 APR 2025 13:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -706,7 +706,7 @@ h' as default language. on input line 206.
 
 LaTeX Warning: Label `fig:GainOfRelevantMaterials' multiply defined.
 
-) (./Discussion.aux) (./post/A-Cooling.aux) (./post/A-CoBS.aux)
+) (./Conclusion.aux) (./post/A-Cooling.aux) (./post/A-CoBS.aux)
 (./post/A-Raman.aux) (./post/A-Code.aux))
 \openout1 = `main.aux'.
 
@@ -1450,9 +1450,9 @@ esAppear.png>]
 [64
 
 ])
-\openout2 = `Discussion.aux'.
+\openout2 = `Conclusion.aux'.
 
- (./Discussion.tex
+ (./Conclusion.tex
 Chapter 5.
 
 
@@ -1974,7 +1974,7 @@ Appendix D.
 
 [114] (./main.aux (./pre/0-Title.aux) (./pre/0-Abstract.aux)
 (./pre/0-Epigraph.aux) (./pre/1-Acronyms.aux) (./Introduction.aux)
-(./Cooling.aux) (./CoBS.aux) (./Raman.aux) (./Discussion.aux)
+(./Cooling.aux) (./CoBS.aux) (./Raman.aux) (./Conclusion.aux)
 (./post/A-Cooling.aux) (./post/A-CoBS.aux) (./post/A-Raman.aux)
 (./post/A-Code.aux))
  ***********
@@ -1986,11 +1986,11 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AF82EA4B3260823EAB33904AEACECEAD;19915.
+(rerunfilecheck)             Checksum: 8D74F59C5FDB7AC98FA04B6C12806B62;19833.
  ) 
 Here is how much of TeX's memory you used:
  23782 strings out of 473201
- 461926 string characters out of 5716120
+ 461924 string characters out of 5716120
  1103286 words of memory out of 5000000
  46075 multiletter control sequences out of 15000+600000
  573591 words of font info for 87 fonts, out of 8000000 for 9000
@@ -2039,7 +2039,7 @@ st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/f
 onts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (132 pages, 11513153 bytes).
+Output written on main.pdf (132 pages, 11512460 bytes).
 PDF statistics:
  3699 PDF objects out of 4296 (max. 8388607)
  2576 compressed objects within 26 object streams
