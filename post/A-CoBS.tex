@@ -512,18 +512,18 @@ To test this, we conducted a controlled experiment with a 1 mm carbon disulfide 
 \begin{table}[ht]
   \centering
   \renewcommand{\arraystretch}{1.2}
-  \begin{tabular}{|>{\centering\arraybackslash}m{2.5cm}|>{\centering\arraybackslash}m{2.5cm}|>{\centering\arraybackslash}m{2.5cm}|>{\centering\arraybackslash}m{2.5cm}|>{\centering\arraybackslash}m{2.5cm}|}
-    \hline
+  \begin{tabular}{>{\centering\arraybackslash}m{2.5cm}>{\centering\arraybackslash}m{2.5cm}>{\centering\arraybackslash}m{2.5cm}>{\centering\arraybackslash}m{2.5cm}>{\centering\arraybackslash}m{2.5cm}}
+    \toprule
     \shortstack{\rule{0pt}{2.5mm} \\ \textbf{Measurement} \\ \rule{0pt}{2.5mm}} &
     \shortstack{\textbf{Pump Power} \\ \textbf{(mW)}} &
     \shortstack{\textbf{Stokes Power} \\ \textbf{(mW)}} &
     \shortstack{\textbf{Probe Power} \\ \textbf{(mW)}} &
     \shortstack{\textbf{Total} \\ \textbf{(mW$^{3}$)}} \\
-    \hline
+    \midrule
     Pump Lower & 19.190 & 32.210 & 54.560 & 3.372 $\times 10^{4}$ \\
     Stokes Lower & 76.600 & 8.020 & 54.650 & 3.359 $\times 10^{4}$ \\
     Probe Lower & 76.600 & 32.530 & 13.480 & 3.359 $\times 10^{4}$ \\
-    \hline
+    \bottomrule
   \end{tabular}
     \caption{Power values for each source (Pump, Stokes, Probe) across the three measurements, with the multiplicative total power for each setup.}
     \label{tab:PSPr-Contribute-Equally}
