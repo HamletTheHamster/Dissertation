@@ -1,8 +1,8 @@
 \contentsline {chapter}{Abstract}{ii}{section*.1}%
 \contentsline {chapter}{Dedication}{iii}{section*.3}%
-\contentsline {chapter}{List of Tables}{vii}{section*.8}%
-\contentsline {chapter}{List of Figures}{viii}{section*.11}%
-\contentsline {chapter}{List of Acronyms}{xvii}{chapter*.33}%
+\contentsline {chapter}{List of Tables}{viii}{section*.8}%
+\contentsline {chapter}{List of Figures}{ix}{section*.11}%
+\contentsline {chapter}{List of Acronyms}{xix}{chapter*.33}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Light Scattering}{4}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Spontaneous Brillouin Scattering}{5}{section.1.2}%
@@ -46,34 +46,45 @@
 \contentsline {subsection}{\numberline {3.5.4}Fano-Resonant Asymmetries at Small Signals}{53}{subsection.3.5.4}%
 \contentsline {section}{\numberline {3.6}Conclusion}{57}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Brillouin-Induced Raman Modes and Device Exploration}{59}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Abstract}{59}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Introduction}{59}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Methods}{59}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Results}{59}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Discussion}{59}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion \& Future Work}{61}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{63}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Fabrication of $CS_{2}$-Filled Liquid-Core Optical Fiber}{63}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Splicing}{63}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Reservoir Assembly}{67}{subsection.A.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}Filling with Carbon Disulfide}{70}{subsection.A.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}Typical Optical Performance}{71}{subsection.A.1.4}%
-\contentsline {section}{\numberline {A.2}Improvements in Yield and Efficiency of \acs {LCOF} Samples}{72}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Tabulated Fit and Uncertainty Values Derived from the Experimental Data}{74}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Experiment~A Tabulated Values}{74}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Experiment~B Tabulated Values}{75}{subsection.A.3.2}%
-\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter~\ref {ch:CoBS}}{77}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Coupled-Wave Equations}{77}{section.B.1}%
-\contentsline {subsection}{\numberline {B.1.1}Acoustic Field}{78}{subsection.B.1.1}%
-\contentsline {subsection}{\numberline {B.1.2}Optical Fields}{79}{subsection.B.1.2}%
-\contentsline {section}{\numberline {B.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{84}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Observance of Fano-Resonant Asymmetries at Small Signals}{89}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Experiment A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{89}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Experiment B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{92}{subsection.B.3.2}%
-\contentsline {section}{\numberline {B.4}Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{98}{section.B.4}%
-\contentsline {section}{\numberline {B.5}Data}{101}{section.B.5}%
-\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter~\ref {ch:Raman}}{103}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Fiber-Chip-Fiber Butt-Coupling Alignment}{103}{section.C.1}%
-\contentsline {chapter}{\numberline {D}Code and Data Availability}{105}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Plotting Data In Go}{105}{section.D.1}%
-\contentsline {chapter}{References}{106}{section*.122}%
+\contentsline {section}{\numberline {4.1}Introduction}{59}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Brillouin-Induced Raman Modes}{59}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Physical Mechanism}{59}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Acoustic Reflection}{59}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Phonon Mean Travel Distance}{59}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Target Platforms and Collaborative Fabrication}{59}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Germanium-Doped Optical Fiber}{59}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Liquid Carbon Disulfide}{59}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Tellurium Thin Film}{59}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}TeO2}{60}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Suspended Silica Rib Waveguide}{60}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Elastically-Suspended Photonic-Phononic Waveguide}{60}{subsection.4.3.6}%
+\contentsline {section}{\numberline {4.4}Results}{60}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Discussion}{60}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Future Work}{60}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Conclusion}{60}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {5}Discussion \& Future Work}{63}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{65}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Fabrication of $CS_{2}$-Filled Liquid-Core Optical Fiber}{65}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Splicing}{65}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Reservoir Assembly}{69}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Filling with Carbon Disulfide}{72}{subsection.A.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Typical Optical Performance}{73}{subsection.A.1.4}%
+\contentsline {section}{\numberline {A.2}Improvements in Yield and Efficiency of \acs {LCOF} Samples}{74}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Tabulated Fit and Uncertainty Values Derived from the Experimental Data}{76}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Experiment~A Tabulated Values}{76}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Experiment~B Tabulated Values}{77}{subsection.A.3.2}%
+\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter~\ref {ch:CoBS}}{79}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Coupled-Wave Equations}{79}{section.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}Acoustic Field}{80}{subsection.B.1.1}%
+\contentsline {subsection}{\numberline {B.1.2}Optical Fields}{81}{subsection.B.1.2}%
+\contentsline {section}{\numberline {B.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{86}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Observance of Fano-Resonant Asymmetries at Small Signals}{91}{section.B.3}%
+\contentsline {subsection}{\numberline {B.3.1}Experiment A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{91}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Experiment B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{94}{subsection.B.3.2}%
+\contentsline {section}{\numberline {B.4}Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{100}{section.B.4}%
+\contentsline {section}{\numberline {B.5}Data}{103}{section.B.5}%
+\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter~\ref {ch:Raman}}{105}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Fiber-Chip-Fiber Butt-Coupling Alignment}{105}{section.C.1}%
+\contentsline {chapter}{\numberline {D}Code and Data Availability}{107}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Plotting Data In Go}{107}{section.D.1}%
+\contentsline {chapter}{References}{108}{section*.122}%
