@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  5 APR 2025 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  5 APR 2025 16:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1459,45 +1459,45 @@ Package pdftex.def Info: figs/4-Raman/4mmCS2.jpg  used on input line 110.
 <figs/4-Raman/1mmCS2.jpg, id=2971, 473.77pt x 1029.8475pt>
 File: figs/4-Raman/1mmCS2.jpg Graphic file (type jpg)
 <use figs/4-Raman/1mmCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/1mmCS2.jpg  used on input line 139.
+Package pdftex.def Info: figs/4-Raman/1mmCS2.jpg  used on input line 143.
 (pdftex.def)             Requested size: 469.75502pt x 1021.15504pt.
-Package acronym Info: Label `acro:CoBS' overridden on input line 140.
-Package acronym Info: Label `acro:CoBS' overridden on input line 140.
+Package acronym Info: Label `acro:CoBS' overridden on input line 144.
+Package acronym Info: Label `acro:CoBS' overridden on input line 144.
 
 
-LaTeX Warning: Float too large for page by 390.12498pt on input line 142.
+LaTeX Warning: Float too large for page by 390.12498pt on input line 146.
 
 <figs/4-Raman/100umCS2.jpg, id=2972, 487.8225pt x 1065.9825pt>
 File: figs/4-Raman/100umCS2.jpg Graphic file (type jpg)
 <use figs/4-Raman/100umCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/100umCS2.jpg  used on input line 146.
+Package pdftex.def Info: figs/4-Raman/100umCS2.jpg  used on input line 150.
 (pdftex.def)             Requested size: 469.75502pt x 1026.51964pt.
-Package acronym Info: Label `acro:CoBS' overridden on input line 147.
-Package acronym Info: Label `acro:CoBS' overridden on input line 147.
+Package acronym Info: Label `acro:CoBS' overridden on input line 151.
+Package acronym Info: Label `acro:CoBS' overridden on input line 151.
 
-LaTeX Warning: Float too large for page by 395.48958pt on input line 149.
+LaTeX Warning: Float too large for page by 395.48958pt on input line 153.
 
 <figs/4-Raman/10umCS2.jpg, id=2973, 487.8225pt x 1063.975pt>
 File: figs/4-Raman/10umCS2.jpg Graphic file (type jpg)
 <use figs/4-Raman/10umCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/10umCS2.jpg  used on input line 153.
+Package pdftex.def Info: figs/4-Raman/10umCS2.jpg  used on input line 157.
 (pdftex.def)             Requested size: 469.75502pt x 1024.58646pt.
-Package acronym Info: Label `acro:CoBS' overridden on input line 154.
-Package acronym Info: Label `acro:CoBS' overridden on input line 154.
+Package acronym Info: Label `acro:CoBS' overridden on input line 158.
+Package acronym Info: Label `acro:CoBS' overridden on input line 158.
 
-LaTeX Warning: Float too large for page by 393.5564pt on input line 156.
+LaTeX Warning: Float too large for page by 393.5564pt on input line 160.
 
 <figs/4-Raman/StartBigApproachSmall.png, id=2974, 1438.37375pt x 728.7225pt>
 File: figs/4-Raman/StartBigApproachSmall.png Graphic file (type png)
 <use figs/4-Raman/StartBigApproachSmall.png>
 Package pdftex.def Info: figs/4-Raman/StartBigApproachSmall.png  used on input 
-line 181.
+line 189.
 (pdftex.def)             Requested size: 469.75502pt x 237.98842pt.
 <figs/4-Raman/HowWouldRamanModesAppear.png, id=2975, 1272.755pt x 645.41125pt>
 File: figs/4-Raman/HowWouldRamanModesAppear.png Graphic file (type png)
 <use figs/4-Raman/HowWouldRamanModesAppear.png>
 Package pdftex.def Info: figs/4-Raman/HowWouldRamanModesAppear.png  used on inp
-ut line 188.
+ut line 196.
 (pdftex.def)             Requested size: 469.75502pt x 238.20753pt.
 
 
@@ -2154,7 +2154,7 @@ st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/f
 onts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (138 pages, 25228294 bytes).
+Output written on main.pdf (138 pages, 25228472 bytes).
 PDF statistics:
  3835 PDF objects out of 4296 (max. 8388607)
  2674 compressed objects within 27 object streams
