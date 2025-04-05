@@ -1,8 +1,7 @@
 \contentsline {chapter}{Abstract}{ii}{section*.1}%
-\contentsline {chapter}{Acknowledgements}{v}{section*.7}%
-\contentsline {chapter}{List of Tables}{ix}{section*.10}%
-\contentsline {chapter}{List of Figures}{x}{section*.13}%
-\contentsline {chapter}{List of Acronyms}{xix}{chapter*.35}%
+\contentsline {chapter}{List of Tables}{vii}{section*.6}%
+\contentsline {chapter}{List of Figures}{viii}{section*.9}%
+\contentsline {chapter}{List of Acronyms}{xvii}{chapter*.31}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Light Scattering}{4}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Spontaneous Brillouin Scattering}{5}{section.1.2}%
@@ -89,4 +88,4 @@
 \contentsline {section}{\numberline {C.3}Case Study: Suspended Silica Rib Waveguide}{105}{section.C.3}%
 \contentsline {chapter}{\numberline {D}Code and Data Availability}{107}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Plotting Data In Go}{107}{section.D.1}%
-\contentsline {chapter}{References}{108}{section*.124}%
+\contentsline {chapter}{References}{108}{section*.120}%
