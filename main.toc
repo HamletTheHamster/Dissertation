@@ -17,11 +17,11 @@
 \contentsline {subsection}{\numberline {2.2.2}Spectral Signatures of Cooling and Heating}{12}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Methods}{15}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}$CS_{2}$-Filled Liquid-Core Optical Fiber}{16}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Experiment A: Spontaneous Brillouin Cooling}{17}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Experiment B: Pump-Probe Verification}{19}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.2}Cooling Experiment~A: Spontaneous Brillouin Cooling}{17}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Cooling Experiment~B: Pump-Probe Verification}{19}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Results}{21}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Experiment A Results}{21}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Experiment B Results}{25}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.1}Cooling Experiment~A Results}{21}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Cooling Experiment~B Results}{25}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Evidence of Transmission Degradation}{28}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Discussion}{34}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}The \textit {C}-Value: A Standardized Cooling Metric}{34}{subsection.2.5.1}%
@@ -71,22 +71,23 @@
 \contentsline {subsection}{\numberline {A.1.4}Typical Optical Performance}{75}{subsection.A.1.4}%
 \contentsline {section}{\numberline {A.2}Improvements in Yield and Efficiency of \acs {LCOF} Samples}{76}{section.A.2}%
 \contentsline {section}{\numberline {A.3}Tabulated Fit and Uncertainty Values Derived from the Experimental Data}{78}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Experiment~A Tabulated Values}{78}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Experiment~B Tabulated Values}{79}{subsection.A.3.2}%
+\contentsline {subsection}{\numberline {A.3.1}Cooling Experiment~A Tabulated Values}{78}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Cooling Experiment~B Tabulated Values}{79}{subsection.A.3.2}%
 \contentsline {chapter}{\numberline {B}Supplementary Information for Chapter~\ref {ch:CoBS}}{81}{appendix.B}%
 \contentsline {section}{\numberline {B.1}Coupled-Wave Equations}{81}{section.B.1}%
 \contentsline {subsection}{\numberline {B.1.1}Acoustic Field}{82}{subsection.B.1.1}%
 \contentsline {subsection}{\numberline {B.1.2}Optical Fields}{83}{subsection.B.1.2}%
 \contentsline {section}{\numberline {B.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{88}{section.B.2}%
 \contentsline {section}{\numberline {B.3}Observance of Fano-Resonant Asymmetries at Small Signals}{93}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Experiment A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{93}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Experiment B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{96}{subsection.B.3.2}%
-\contentsline {section}{\numberline {B.4}Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{102}{section.B.4}%
+\contentsline {subsection}{\numberline {B.3.1}Fano Experiment~A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{93}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Fano Experiment~B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{96}{subsection.B.3.2}%
+\contentsline {section}{\numberline {B.4}CoBS Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{102}{section.B.4}%
 \contentsline {section}{\numberline {B.5}Data}{105}{section.B.5}%
 \contentsline {chapter}{\numberline {C}Supplementary Information for Chapter~\ref {ch:Raman}}{107}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Fiber-Chip-Fiber Butt-Coupling Alignment}{107}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Case Study: Tellurium Dioxide}{107}{section.C.2}%
-\contentsline {section}{\numberline {C.3}Case Study: Suspended Silica Rib Waveguide}{107}{section.C.3}%
+\contentsline {section}{\numberline {C.1}Fiber-Chip-Fiber Waveguide Optical Alignment}{107}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Tellurium Thin Film Fabrication via Physical Vapor Deposition}{107}{section.C.2}%
+\contentsline {section}{\numberline {C.3}Chip Waveguide Mini Experiment~A: Thermal Effect on Brillouin Frequency Shift}{107}{section.C.3}%
+\contentsline {section}{\numberline {C.4}Chip Waveguide Mini Experiment~B: Pump-Probe Detuning Effect on Scattered Power}{107}{section.C.4}%
 \contentsline {chapter}{\numberline {D}Code and Data Availability}{109}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Plotting Data In Go}{109}{section.D.1}%
 \contentsline {chapter}{References}{110}{section*.126}%
