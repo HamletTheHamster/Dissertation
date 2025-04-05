@@ -85,6 +85,8 @@
 \contentsline {section}{\numberline {B.5}Data}{103}{section.B.5}%
 \contentsline {chapter}{\numberline {C}Supplementary Information for Chapter~\ref {ch:Raman}}{105}{appendix.C}%
 \contentsline {section}{\numberline {C.1}Fiber-Chip-Fiber Butt-Coupling Alignment}{105}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Case Study: Tellurium Dioxide}{105}{section.C.2}%
+\contentsline {section}{\numberline {C.3}Case Study: Suspended Silica Rib Waveguide}{105}{section.C.3}%
 \contentsline {chapter}{\numberline {D}Code and Data Availability}{107}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Plotting Data In Go}{107}{section.D.1}%
 \contentsline {chapter}{References}{108}{section*.122}%
