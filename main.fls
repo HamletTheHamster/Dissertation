@@ -378,99 +378,99 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm7.t
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
-INPUT ./figs/3-Cooling/StokesHeatingProcess.png
-INPUT ./figs/3-Cooling/StokesHeatingProcess.png
-INPUT ./figs/3-Cooling/StokesHeatingProcess.png
-INPUT ./figs/3-Cooling/StokesHeatingProcess.png
-INPUT ./figs/3-Cooling/StokesHeatingProcess.png
+INPUT ./figs/2-Cooling/StokesHeatingProcess.png
+INPUT ./figs/2-Cooling/StokesHeatingProcess.png
+INPUT ./figs/2-Cooling/StokesHeatingProcess.png
+INPUT ./figs/2-Cooling/StokesHeatingProcess.png
+INPUT ./figs/2-Cooling/StokesHeatingProcess.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-INPUT ./figs/3-Cooling/anti-StokesCoolingProcess.png
-INPUT ./figs/3-Cooling/anti-StokesCoolingProcess.png
-INPUT ./figs/3-Cooling/anti-StokesCoolingProcess.png
-INPUT ./figs/3-Cooling/anti-StokesCoolingProcess.png
-INPUT ./figs/3-Cooling/anti-StokesCoolingProcess.png
+INPUT ./figs/2-Cooling/anti-StokesCoolingProcess.png
+INPUT ./figs/2-Cooling/anti-StokesCoolingProcess.png
+INPUT ./figs/2-Cooling/anti-StokesCoolingProcess.png
+INPUT ./figs/2-Cooling/anti-StokesCoolingProcess.png
+INPUT ./figs/2-Cooling/anti-StokesCoolingProcess.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT ./figs/3-Cooling/LCOFdiagram.png
-INPUT ./figs/3-Cooling/LCOFdiagram.png
-INPUT ./figs/3-Cooling/LCOFdiagram.png
-INPUT ./figs/3-Cooling/LCOFdiagram.png
-INPUT ./figs/3-Cooling/LCOFdiagram.png
-INPUT ./figs/3-Cooling/pumpOnlyDesign.pdf
-INPUT ./figs/3-Cooling/pumpOnlyDesign.pdf
-INPUT ./figs/3-Cooling/pumpOnlyDesign.pdf
-INPUT ./figs/3-Cooling/pumpOnlyDesign.pdf
-INPUT ./figs/3-Cooling/pumpOnlyDesign.pdf
-INPUT ./figs/3-Cooling/pumpProbeDesign.pdf
-INPUT ./figs/3-Cooling/pumpProbeDesign.pdf
-INPUT ./figs/3-Cooling/pumpProbeDesign.pdf
-INPUT ./figs/3-Cooling/pumpProbeDesign.pdf
-INPUT ./figs/3-Cooling/pumpProbeDesign.pdf
-INPUT ./figs/3-Cooling/P-O Stokes.pdf
-INPUT ./figs/3-Cooling/P-O Stokes.pdf
-INPUT ./figs/3-Cooling/P-O Stokes.pdf
-INPUT ./figs/3-Cooling/P-O Stokes.pdf
-INPUT ./figs/3-Cooling/P-O Stokes.pdf
-INPUT ./figs/3-Cooling/P-O anti-Stokes.pdf
-INPUT ./figs/3-Cooling/P-O anti-Stokes.pdf
-INPUT ./figs/3-Cooling/P-O anti-Stokes.pdf
-INPUT ./figs/3-Cooling/P-O anti-Stokes.pdf
-INPUT ./figs/3-Cooling/P-O anti-Stokes.pdf
-INPUT ./figs/3-Cooling/P-O Heights vs Pow.pdf
-INPUT ./figs/3-Cooling/P-O Heights vs Pow.pdf
-INPUT ./figs/3-Cooling/P-O Heights vs Pow.pdf
-INPUT ./figs/3-Cooling/P-O Heights vs Pow.pdf
-INPUT ./figs/3-Cooling/P-O Heights vs Pow.pdf
-INPUT ./figs/3-Cooling/P-O Linewidths.pdf
-INPUT ./figs/3-Cooling/P-O Linewidths.pdf
-INPUT ./figs/3-Cooling/P-O Linewidths.pdf
-INPUT ./figs/3-Cooling/P-O Linewidths.pdf
-INPUT ./figs/3-Cooling/P-O Linewidths.pdf
-INPUT ./figs/3-Cooling/P-O Simulated Gain.pdf
-INPUT ./figs/3-Cooling/P-O Simulated Gain.pdf
-INPUT ./figs/3-Cooling/P-O Simulated Gain.pdf
-INPUT ./figs/3-Cooling/P-O Simulated Gain.pdf
-INPUT ./figs/3-Cooling/P-O Simulated Gain.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 0mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 0mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 0mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 0mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 0mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 55mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 55mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 55mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 55mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 55mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 110mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 110mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 110mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 110mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 110mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 165mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 165mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 165mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 165mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fit - 165mW.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fits.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fits.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fits.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fits.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Fits.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Height v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
-INPUT ./figs/3-Cooling/P-P anti-Stokes Wid v Pow.pdf
+INPUT ./figs/2-Cooling/LCOFdiagram.png
+INPUT ./figs/2-Cooling/LCOFdiagram.png
+INPUT ./figs/2-Cooling/LCOFdiagram.png
+INPUT ./figs/2-Cooling/LCOFdiagram.png
+INPUT ./figs/2-Cooling/LCOFdiagram.png
+INPUT ./figs/2-Cooling/pumpOnlyDesign.pdf
+INPUT ./figs/2-Cooling/pumpOnlyDesign.pdf
+INPUT ./figs/2-Cooling/pumpOnlyDesign.pdf
+INPUT ./figs/2-Cooling/pumpOnlyDesign.pdf
+INPUT ./figs/2-Cooling/pumpOnlyDesign.pdf
+INPUT ./figs/2-Cooling/pumpProbeDesign.pdf
+INPUT ./figs/2-Cooling/pumpProbeDesign.pdf
+INPUT ./figs/2-Cooling/pumpProbeDesign.pdf
+INPUT ./figs/2-Cooling/pumpProbeDesign.pdf
+INPUT ./figs/2-Cooling/pumpProbeDesign.pdf
+INPUT ./figs/2-Cooling/P-O Stokes.pdf
+INPUT ./figs/2-Cooling/P-O Stokes.pdf
+INPUT ./figs/2-Cooling/P-O Stokes.pdf
+INPUT ./figs/2-Cooling/P-O Stokes.pdf
+INPUT ./figs/2-Cooling/P-O Stokes.pdf
+INPUT ./figs/2-Cooling/P-O anti-Stokes.pdf
+INPUT ./figs/2-Cooling/P-O anti-Stokes.pdf
+INPUT ./figs/2-Cooling/P-O anti-Stokes.pdf
+INPUT ./figs/2-Cooling/P-O anti-Stokes.pdf
+INPUT ./figs/2-Cooling/P-O anti-Stokes.pdf
+INPUT ./figs/2-Cooling/P-O Heights vs Pow.pdf
+INPUT ./figs/2-Cooling/P-O Heights vs Pow.pdf
+INPUT ./figs/2-Cooling/P-O Heights vs Pow.pdf
+INPUT ./figs/2-Cooling/P-O Heights vs Pow.pdf
+INPUT ./figs/2-Cooling/P-O Heights vs Pow.pdf
+INPUT ./figs/2-Cooling/P-O Linewidths.pdf
+INPUT ./figs/2-Cooling/P-O Linewidths.pdf
+INPUT ./figs/2-Cooling/P-O Linewidths.pdf
+INPUT ./figs/2-Cooling/P-O Linewidths.pdf
+INPUT ./figs/2-Cooling/P-O Linewidths.pdf
+INPUT ./figs/2-Cooling/P-O Simulated Gain.pdf
+INPUT ./figs/2-Cooling/P-O Simulated Gain.pdf
+INPUT ./figs/2-Cooling/P-O Simulated Gain.pdf
+INPUT ./figs/2-Cooling/P-O Simulated Gain.pdf
+INPUT ./figs/2-Cooling/P-O Simulated Gain.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 110mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 110mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 110mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 110mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 110mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 165mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 165mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 165mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 165mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fit - 165mW.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fits.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fits.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fits.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fits.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Fits.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Height v Pow.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Height v Pow.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Height v Pow.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Height v Pow.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Height v Pow.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf
+INPUT ./figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT ./CoBS.tex
 INPUT ./CoBS.tex
@@ -478,38 +478,38 @@ OUTPUT CoBS.aux
 INPUT ./CoBS.tex
 INPUT ./CoBS.tex
 INPUT CoBS.tex
-INPUT ./figs/4-CoBS/4-Wave-Brillouin-Scattering.pdf
-INPUT ./figs/4-CoBS/4-Wave-Brillouin-Scattering.pdf
-INPUT ./figs/4-CoBS/4-Wave-Brillouin-Scattering.pdf
-INPUT ./figs/4-CoBS/4-Wave-Brillouin-Scattering.pdf
-INPUT ./figs/4-CoBS/4-Wave-Brillouin-Scattering.pdf
-INPUT ./figs/4-CoBS/Instrument-Design-V1_compat.pdf
-INPUT ./figs/4-CoBS/Instrument-Design-V1_compat.pdf
-INPUT ./figs/4-CoBS/Instrument-Design-V1_compat.pdf
-INPUT ./figs/4-CoBS/Instrument-Design-V1_compat.pdf
-INPUT ./figs/4-CoBS/Instrument-Design-V1_compat.pdf
-INPUT ./figs/4-CoBS/5fWSensitivity.pdf
-INPUT ./figs/4-CoBS/5fWSensitivity.pdf
-INPUT ./figs/4-CoBS/5fWSensitivity.pdf
-INPUT ./figs/4-CoBS/5fWSensitivity.pdf
-INPUT ./figs/4-CoBS/5fWSensitivity.pdf
+INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
+INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
+INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
+INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
+INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
+INPUT ./figs/3-CoBS/5fWSensitivity.pdf
+INPUT ./figs/3-CoBS/5fWSensitivity.pdf
+INPUT ./figs/3-CoBS/5fWSensitivity.pdf
+INPUT ./figs/3-CoBS/5fWSensitivity.pdf
+INPUT ./figs/3-CoBS/5fWSensitivity.pdf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT ./figs/4-CoBS/1cmUHNA3.pdf
-INPUT ./figs/4-CoBS/1cmUHNA3.pdf
-INPUT ./figs/4-CoBS/1cmUHNA3.pdf
-INPUT ./figs/4-CoBS/1cmUHNA3.pdf
-INPUT ./figs/4-CoBS/1cmUHNA3.pdf
-INPUT ./figs/4-CoBS/100umCS2.pdf
-INPUT ./figs/4-CoBS/100umCS2.pdf
-INPUT ./figs/4-CoBS/100umCS2.pdf
-INPUT ./figs/4-CoBS/100umCS2.pdf
-INPUT ./figs/4-CoBS/100umCS2.pdf
-INPUT ./figs/4-CoBS/Phase-Match.pdf
-INPUT ./figs/4-CoBS/Phase-Match.pdf
-INPUT ./figs/4-CoBS/Phase-Match.pdf
-INPUT ./figs/4-CoBS/Phase-Match.pdf
-INPUT ./figs/4-CoBS/Phase-Match.pdf
+INPUT ./figs/3-CoBS/1cmUHNA3.pdf
+INPUT ./figs/3-CoBS/1cmUHNA3.pdf
+INPUT ./figs/3-CoBS/1cmUHNA3.pdf
+INPUT ./figs/3-CoBS/1cmUHNA3.pdf
+INPUT ./figs/3-CoBS/1cmUHNA3.pdf
+INPUT ./figs/3-CoBS/100umCS2.pdf
+INPUT ./figs/3-CoBS/100umCS2.pdf
+INPUT ./figs/3-CoBS/100umCS2.pdf
+INPUT ./figs/3-CoBS/100umCS2.pdf
+INPUT ./figs/3-CoBS/100umCS2.pdf
+INPUT ./figs/3-CoBS/Phase-Match.pdf
+INPUT ./figs/3-CoBS/Phase-Match.pdf
+INPUT ./figs/3-CoBS/Phase-Match.pdf
+INPUT ./figs/3-CoBS/Phase-Match.pdf
+INPUT ./figs/3-CoBS/Phase-Match.pdf
 INPUT ./Raman.tex
 INPUT ./Raman.tex
 OUTPUT Raman.aux
@@ -530,61 +530,61 @@ INPUT ./post/A-Cooling.tex
 INPUT post/A-Cooling.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
-INPUT ./figs/3-Cooling/vytranCameraPreSplice.jpg
-INPUT ./figs/3-Cooling/vytranCameraPreSplice.jpg
-INPUT ./figs/3-Cooling/vytranCameraPreSplice.jpg
-INPUT ./figs/3-Cooling/vytranCameraPreSplice.jpg
-INPUT ./figs/3-Cooling/vytranCameraPreSplice.jpg
-INPUT ./figs/3-Cooling/bigGapSplice.jpg
-INPUT ./figs/3-Cooling/bigGapSplice.jpg
-INPUT ./figs/3-Cooling/bigGapSplice.jpg
-INPUT ./figs/3-Cooling/bigGapSplice.jpg
-INPUT ./figs/3-Cooling/bigGapSplice.jpg
-INPUT ./figs/3-Cooling/finalSampleVytranSplice.jpeg
-INPUT ./figs/3-Cooling/finalSampleVytranSplice.jpeg
-INPUT ./figs/3-Cooling/finalSampleVytranSplice.jpeg
-INPUT ./figs/3-Cooling/finalSampleVytranSplice.jpeg
-INPUT ./figs/3-Cooling/finalSampleVytranSplice.jpeg
-INPUT ./figs/3-Cooling/doubleBoxBracedSplice.jpg
-INPUT ./figs/3-Cooling/doubleBoxBracedSplice.jpg
-INPUT ./figs/3-Cooling/doubleBoxBracedSplice.jpg
-INPUT ./figs/3-Cooling/doubleBoxBracedSplice.jpg
-INPUT ./figs/3-Cooling/doubleBoxBracedSplice.jpg
-INPUT ./figs/3-Cooling/tackedSpliceWithArrow.jpg
-INPUT ./figs/3-Cooling/tackedSpliceWithArrow.jpg
-INPUT ./figs/3-Cooling/tackedSpliceWithArrow.jpg
-INPUT ./figs/3-Cooling/tackedSpliceWithArrow.jpg
-INPUT ./figs/3-Cooling/tackedSpliceWithArrow.jpg
-INPUT ./figs/3-Cooling/successfullyBuiltSplice.jpg
-INPUT ./figs/3-Cooling/successfullyBuiltSplice.jpg
-INPUT ./figs/3-Cooling/successfullyBuiltSplice.jpg
-INPUT ./figs/3-Cooling/successfullyBuiltSplice.jpg
-INPUT ./figs/3-Cooling/successfullyBuiltSplice.jpg
-INPUT ./figs/3-Cooling/redLightWithThumbTackWholeSample.jpg
-INPUT ./figs/3-Cooling/redLightWithThumbTackWholeSample.jpg
-INPUT ./figs/3-Cooling/redLightWithThumbTackWholeSample.jpg
-INPUT ./figs/3-Cooling/redLightWithThumbTackWholeSample.jpg
-INPUT ./figs/3-Cooling/redLightWithThumbTackWholeSample.jpg
-INPUT ./figs/3-Cooling/CS2NearlyReached.jpg
-INPUT ./figs/3-Cooling/CS2NearlyReached.jpg
-INPUT ./figs/3-Cooling/CS2NearlyReached.jpg
-INPUT ./figs/3-Cooling/CS2NearlyReached.jpg
-INPUT ./figs/3-Cooling/CS2NearlyReached.jpg
-INPUT ./figs/3-Cooling/CS2Reached.jpg
-INPUT ./figs/3-Cooling/CS2Reached.jpg
-INPUT ./figs/3-Cooling/CS2Reached.jpg
-INPUT ./figs/3-Cooling/CS2Reached.jpg
-INPUT ./figs/3-Cooling/CS2Reached.jpg
-INPUT ./figs/3-Cooling/fullSampleTapedToOpticalTable.jpg
-INPUT ./figs/3-Cooling/fullSampleTapedToOpticalTable.jpg
-INPUT ./figs/3-Cooling/fullSampleTapedToOpticalTable.jpg
-INPUT ./figs/3-Cooling/fullSampleTapedToOpticalTable.jpg
-INPUT ./figs/3-Cooling/fullSampleTapedToOpticalTable.jpg
-INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
-INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
-INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
-INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
-INPUT ./figs/3-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
+INPUT ./figs/2-Cooling/vytranCameraPreSplice.jpg
+INPUT ./figs/2-Cooling/vytranCameraPreSplice.jpg
+INPUT ./figs/2-Cooling/vytranCameraPreSplice.jpg
+INPUT ./figs/2-Cooling/vytranCameraPreSplice.jpg
+INPUT ./figs/2-Cooling/vytranCameraPreSplice.jpg
+INPUT ./figs/2-Cooling/bigGapSplice.jpg
+INPUT ./figs/2-Cooling/bigGapSplice.jpg
+INPUT ./figs/2-Cooling/bigGapSplice.jpg
+INPUT ./figs/2-Cooling/bigGapSplice.jpg
+INPUT ./figs/2-Cooling/bigGapSplice.jpg
+INPUT ./figs/2-Cooling/finalSampleVytranSplice.jpeg
+INPUT ./figs/2-Cooling/finalSampleVytranSplice.jpeg
+INPUT ./figs/2-Cooling/finalSampleVytranSplice.jpeg
+INPUT ./figs/2-Cooling/finalSampleVytranSplice.jpeg
+INPUT ./figs/2-Cooling/finalSampleVytranSplice.jpeg
+INPUT ./figs/2-Cooling/doubleBoxBracedSplice.jpg
+INPUT ./figs/2-Cooling/doubleBoxBracedSplice.jpg
+INPUT ./figs/2-Cooling/doubleBoxBracedSplice.jpg
+INPUT ./figs/2-Cooling/doubleBoxBracedSplice.jpg
+INPUT ./figs/2-Cooling/doubleBoxBracedSplice.jpg
+INPUT ./figs/2-Cooling/tackedSpliceWithArrow.jpg
+INPUT ./figs/2-Cooling/tackedSpliceWithArrow.jpg
+INPUT ./figs/2-Cooling/tackedSpliceWithArrow.jpg
+INPUT ./figs/2-Cooling/tackedSpliceWithArrow.jpg
+INPUT ./figs/2-Cooling/tackedSpliceWithArrow.jpg
+INPUT ./figs/2-Cooling/successfullyBuiltSplice.jpg
+INPUT ./figs/2-Cooling/successfullyBuiltSplice.jpg
+INPUT ./figs/2-Cooling/successfullyBuiltSplice.jpg
+INPUT ./figs/2-Cooling/successfullyBuiltSplice.jpg
+INPUT ./figs/2-Cooling/successfullyBuiltSplice.jpg
+INPUT ./figs/2-Cooling/redLightWithThumbTackWholeSample.jpg
+INPUT ./figs/2-Cooling/redLightWithThumbTackWholeSample.jpg
+INPUT ./figs/2-Cooling/redLightWithThumbTackWholeSample.jpg
+INPUT ./figs/2-Cooling/redLightWithThumbTackWholeSample.jpg
+INPUT ./figs/2-Cooling/redLightWithThumbTackWholeSample.jpg
+INPUT ./figs/2-Cooling/CS2NearlyReached.jpg
+INPUT ./figs/2-Cooling/CS2NearlyReached.jpg
+INPUT ./figs/2-Cooling/CS2NearlyReached.jpg
+INPUT ./figs/2-Cooling/CS2NearlyReached.jpg
+INPUT ./figs/2-Cooling/CS2NearlyReached.jpg
+INPUT ./figs/2-Cooling/CS2Reached.jpg
+INPUT ./figs/2-Cooling/CS2Reached.jpg
+INPUT ./figs/2-Cooling/CS2Reached.jpg
+INPUT ./figs/2-Cooling/CS2Reached.jpg
+INPUT ./figs/2-Cooling/CS2Reached.jpg
+INPUT ./figs/2-Cooling/fullSampleTapedToOpticalTable.jpg
+INPUT ./figs/2-Cooling/fullSampleTapedToOpticalTable.jpg
+INPUT ./figs/2-Cooling/fullSampleTapedToOpticalTable.jpg
+INPUT ./figs/2-Cooling/fullSampleTapedToOpticalTable.jpg
+INPUT ./figs/2-Cooling/fullSampleTapedToOpticalTable.jpg
+INPUT ./figs/2-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
+INPUT ./figs/2-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
+INPUT ./figs/2-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
+INPUT ./figs/2-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
+INPUT ./figs/2-Cooling/spliceTapedDirectlyOnOpticalTable.jpg
 INPUT ./post/A-CoBS.tex
 INPUT ./post/A-CoBS.tex
 OUTPUT post/A-CoBS.aux
@@ -592,42 +592,42 @@ INPUT ./post/A-CoBS.tex
 INPUT ./post/A-CoBS.tex
 INPUT post/A-CoBS.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
-INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
-INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
-INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
-INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
-INPUT ./figs/4-CoBS/SponBSvsStimBSvsCoBS.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSUHNA3.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSCS2.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSCS2.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSCS2.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSCS2.pdf
-INPUT ./figs/4-CoBS/JoyDivisionCoBSCS2.pdf
-INPUT ./figs/4-CoBS/CS2FanoCompare.pdf
-INPUT ./figs/4-CoBS/CS2FanoCompare.pdf
-INPUT ./figs/4-CoBS/CS2FanoCompare.pdf
-INPUT ./figs/4-CoBS/CS2FanoCompare.pdf
-INPUT ./figs/4-CoBS/CS2FanoCompare.pdf
-INPUT ./figs/4-CoBS/CS2LorentzCompare.pdf
-INPUT ./figs/4-CoBS/CS2LorentzCompare.pdf
-INPUT ./figs/4-CoBS/CS2LorentzCompare.pdf
-INPUT ./figs/4-CoBS/CS2LorentzCompare.pdf
-INPUT ./figs/4-CoBS/CS2LorentzCompare.pdf
+INPUT ./figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf
+INPUT ./figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf
+INPUT ./figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf
+INPUT ./figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf
+INPUT ./figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf
+INPUT ./figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf
+INPUT ./figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf
+INPUT ./figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf
+INPUT ./figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf
+INPUT ./figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf
+INPUT ./figs/3-CoBS/JoyDivisionCoBSCS2.pdf
+INPUT ./figs/3-CoBS/JoyDivisionCoBSCS2.pdf
+INPUT ./figs/3-CoBS/JoyDivisionCoBSCS2.pdf
+INPUT ./figs/3-CoBS/JoyDivisionCoBSCS2.pdf
+INPUT ./figs/3-CoBS/JoyDivisionCoBSCS2.pdf
+INPUT ./figs/3-CoBS/CS2FanoCompare.pdf
+INPUT ./figs/3-CoBS/CS2FanoCompare.pdf
+INPUT ./figs/3-CoBS/CS2FanoCompare.pdf
+INPUT ./figs/3-CoBS/CS2FanoCompare.pdf
+INPUT ./figs/3-CoBS/CS2FanoCompare.pdf
+INPUT ./figs/3-CoBS/CS2LorentzCompare.pdf
+INPUT ./figs/3-CoBS/CS2LorentzCompare.pdf
+INPUT ./figs/3-CoBS/CS2LorentzCompare.pdf
+INPUT ./figs/3-CoBS/CS2LorentzCompare.pdf
+INPUT ./figs/3-CoBS/CS2LorentzCompare.pdf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
-INPUT ./figs/4-CoBS/PSPr-Contribute-Equally.pdf
-INPUT ./figs/4-CoBS/PSPr-Contribute-Equally.pdf
-INPUT ./figs/4-CoBS/PSPr-Contribute-Equally.pdf
-INPUT ./figs/4-CoBS/PSPr-Contribute-Equally.pdf
-INPUT ./figs/4-CoBS/PSPr-Contribute-Equally.pdf
-INPUT ./figs/4-CoBS/PSPr-Contribute-Equally-2sigma.pdf
-INPUT ./figs/4-CoBS/PSPr-Contribute-Equally-2sigma.pdf
-INPUT ./figs/4-CoBS/PSPr-Contribute-Equally-2sigma.pdf
-INPUT ./figs/4-CoBS/PSPr-Contribute-Equally-2sigma.pdf
-INPUT ./figs/4-CoBS/PSPr-Contribute-Equally-2sigma.pdf
+INPUT ./figs/3-CoBS/PSPr-Contribute-Equally.pdf
+INPUT ./figs/3-CoBS/PSPr-Contribute-Equally.pdf
+INPUT ./figs/3-CoBS/PSPr-Contribute-Equally.pdf
+INPUT ./figs/3-CoBS/PSPr-Contribute-Equally.pdf
+INPUT ./figs/3-CoBS/PSPr-Contribute-Equally.pdf
+INPUT ./figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf
+INPUT ./figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf
+INPUT ./figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf
+INPUT ./figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf
+INPUT ./figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf
 INPUT ./post/A-Raman.tex
 INPUT ./post/A-Raman.tex
 OUTPUT post/A-Raman.aux
