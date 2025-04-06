@@ -1,6 +1,6 @@
 \contentsline {chapter}{Abstract}{ii}{section*.1}%
 \contentsline {chapter}{List of Tables}{vii}{section*.6}%
-\contentsline {chapter}{List of Figures}{viii}{section*.9}%
+\contentsline {chapter}{List of Figures}{viii}{section*.10}%
 \contentsline {chapter}{List of Acronyms}{xvii}{chapter*.38}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Light Scattering}{4}{section.1.1}%
@@ -91,4 +91,4 @@
 \contentsline {section}{\numberline {C.4}Chip Waveguide Mini Experiment~B: Pump-Probe Detuning Effect on Scattered Power}{111}{section.C.4}%
 \contentsline {chapter}{\numberline {D}Code and Data Availability}{115}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Plotting Data In Go}{115}{section.D.1}%
-\contentsline {chapter}{References}{116}{section*.155}%
+\contentsline {chapter}{References}{116}{section*.156}%
