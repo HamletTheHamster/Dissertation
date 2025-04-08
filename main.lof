@@ -28,16 +28,16 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Phase-matching \(\mathrm {sinc^2}\) func}}{54}{figure.caption.102}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Transition from Brillouin domain to Raman-like modes.}}{60}{figure.caption.103}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Geometry determines fundamental frequency.}}{61}{figure.caption.104}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Gain of relevant materials.}}{62}{figure.caption.105}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Geometry determines fundamental frequency.}}{60}{figure.caption.104}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Gain of relevant materials.}}{61}{figure.caption.105}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Acoustic impedance.}}{62}{figure.caption.106}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces \SI {1}{\centi \meter } (\ref {fig:Raman:1cmUHNA3pic}) and \SI {1}{\milli \meter } (\ref {fig:Raman:1mmUHNA3pic}) \ac {UHNA3}.}}{62}{figure.caption.107}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces \SI {1}{\centi \meter } (\ref {fig:Raman:1cmCS2}) and \SI {4}{\milli \meter } (\ref {fig:Raman:4mmCS2}) liquid \ce {CS2}.}}{63}{figure.caption.109}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces \SI {1}{\milli \meter } \ce {CS2} cell secured in beam path of \acl {CoBS}.}}{64}{figure.caption.110}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces \SI {100}{\micro \meter } \ce {CS2} cell secured in beam path of \acl {CoBS}.}}{65}{figure.caption.113}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces \SI {10}{\micro \meter } \ce {CS2} cell secured in beam path of \acl {CoBS}.}}{66}{figure.caption.116}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Start big, approach small.}}{67}{figure.caption.119}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces How would Raman modes appear.}}{67}{figure.caption.120}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \SI {1}{\centi \meter } (\ref {fig:Raman:1cmCS2}) and \SI {4}{\milli \meter } (\ref {fig:Raman:4mmCS2}) liquid \ce {CS2}.}}{62}{figure.caption.109}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \SI {1}{\milli \meter } \ce {CS2} cell secured in beam path of \acl {CoBS}.}}{63}{figure.caption.110}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \SI {100}{\micro \meter } \ce {CS2} cell secured in beam path of \acl {CoBS}.}}{64}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \SI {10}{\micro \meter } \ce {CS2} cell secured in beam path of \acl {CoBS}.}}{65}{figure.caption.116}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Start big, approach small.}}{66}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces How would Raman modes appear.}}{66}{figure.caption.120}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Picture of Vytran software interface camera imaging system showing a microscope view of the two fiber ends pre-splice (Section~\ref {Cooling:Appendix:subsec:Splicing}). The left angle-cleaved fiber is the \ac {UHNA7} fiber. The right flat-cleaved fiber is the hollow-core fiber. Subsequent alignment processes, first automatic then manual fine-tuning, align the fibers in xy space for optimal fusion-splicing and optical transmission once filled.}}{72}{figure.caption.124}%

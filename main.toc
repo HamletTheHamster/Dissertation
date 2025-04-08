@@ -57,9 +57,9 @@
 \contentsline {subsection}{\numberline {4.3.3}Tellurium Dioxide Thin Film}{59}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}Tellurium Thin Film}{60}{subsection.4.3.4}%
 \contentsline {subsection}{\numberline {4.3.5}Carbon Disulfide Micrometer Cell}{60}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Suspended Silica Rib Waveguide}{60}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}Elastically-Suspended Photonic-Phononic Waveguide}{60}{subsection.4.3.7}%
-\contentsline {section}{\numberline {4.4}Results}{60}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.6}Suspended Silica Rib Waveguide}{61}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Elastically-Suspended Photonic-Phononic Waveguide}{61}{subsection.4.3.7}%
+\contentsline {section}{\numberline {4.4}Results}{61}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Discussion}{61}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Pathways to Brillouin-Induced Raman Modes}{61}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Conclusion}{61}{subsection.4.5.2}%
