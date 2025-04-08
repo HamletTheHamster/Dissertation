@@ -729,6 +729,11 @@ INPUT ./figs/4-Raman/TeCINTinFoam.png
 INPUT ./figs/4-Raman/TeCINTinFoam.png
 INPUT ./figs/4-Raman/TeCINTinFoam.png
 INPUT ./figs/4-Raman/TeCINTinFoam.png
+INPUT ./figs/4-Raman/WaveguideAlignmentCameraFringePattern.png
+INPUT ./figs/4-Raman/WaveguideAlignmentCameraFringePattern.png
+INPUT ./figs/4-Raman/WaveguideAlignmentCameraFringePattern.png
+INPUT ./figs/4-Raman/WaveguideAlignmentCameraFringePattern.png
+INPUT ./figs/4-Raman/WaveguideAlignmentCameraFringePattern.png
 INPUT ./post/A-Code.tex
 INPUT ./post/A-Code.tex
 OUTPUT post/A-Code.aux

@@ -85,10 +85,10 @@
 \contentsline {section}{\numberline {B.4}CoBS Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{106}{section.B.4}%
 \contentsline {section}{\numberline {B.5}Data}{109}{section.B.5}%
 \contentsline {chapter}{\numberline {C}Supplementary Information for Chapter~\ref {ch:Raman}}{111}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Fiber-Chip-Fiber Waveguide Optical Alignment}{111}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Thin Film Fabrication via Physical Vapor Deposition}{111}{section.C.2}%
+\contentsline {section}{\numberline {C.1}Thin Film Fabrication via Physical Vapor Deposition}{111}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Fiber-Chip-Fiber Waveguide Optical Alignment}{111}{section.C.2}%
 \contentsline {section}{\numberline {C.3}Chip Waveguide Case Study~A: Thermal Effect on Brillouin Frequency Shift}{111}{section.C.3}%
 \contentsline {section}{\numberline {C.4}Chip Waveguide Case Study~B: Pump-Probe Detuning Effect on Scattered Power}{111}{section.C.4}%
-\contentsline {chapter}{\numberline {D}Code and Data Availability}{115}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Plotting Data In Go}{115}{section.D.1}%
-\contentsline {chapter}{References}{116}{section*.156}%
+\contentsline {chapter}{\numberline {D}Code and Data Availability}{117}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Plotting Data In Go}{117}{section.D.1}%
+\contentsline {chapter}{References}{118}{section*.157}%
