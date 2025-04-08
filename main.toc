@@ -71,7 +71,7 @@
 \contentsline {subsection}{\numberline {A.1.3}Filling with Carbon Disulfide}{78}{subsection.A.1.3}%
 \contentsline {subsection}{\numberline {A.1.4}Typical Optical Performance}{79}{subsection.A.1.4}%
 \contentsline {section}{\numberline {A.2}Improvements in Yield and Efficiency of \acs {LCOF} Samples}{80}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Tabulated Fit and Uncertainty Values Derived from the Experimental Data}{82}{section.A.3}%
+\contentsline {section}{\numberline {A.3}Tabulated Fit and Uncertainty Values Derived from the Observed Data}{82}{section.A.3}%
 \contentsline {subsection}{\numberline {A.3.1}Cooling Experiment~A Tabulated Values}{82}{subsection.A.3.1}%
 \contentsline {subsection}{\numberline {A.3.2}Cooling Experiment~B Tabulated Values}{83}{subsection.A.3.2}%
 \contentsline {chapter}{\numberline {B}Supplementary Information for Chapter~\ref {ch:CoBS}}{85}{appendix.B}%
