@@ -12,6 +12,25 @@
      final=true,
  ]{hyperref}
 
+%for clickable footnote marks in author list to link to footnote affiliations
+\usepackage{hyperref}
+\newcounter{affilctr}
+\newcommand{\affil}[1]{%
+  \refstepcounter{affilctr}%
+  % Place footnote text with an internal anchor
+  \footnotetext[\value{affilctr}]{%
+    % Move the anchor up slightly so clicks land right on the text
+    \vspace*{-0.5\baselineskip}%
+    \hypertarget{affil:\theaffilctr}{}%
+    #1
+  }%
+  % The superscript in text is a link to that anchor
+  \textsuperscript{\hyperlink{affil:\theaffilctr}{\theaffilctr}}%
+}
+\newcommand{\affilmark}[1]{%
+  % For reusing the same affiliation number:
+  \textsuperscript{\hyperlink{affil:#1}{#1}}%
+}
 
 \usepackage[nointegrals]{wasysym}
 \usepackage{siunitx}

@@ -11,17 +11,35 @@
 \section{Introduction}
 \label{sec:Raman:Introduction}
 
-motivation, context, Brillouin->Raman transition
+\begin{itemize}
+  \item \textbf{Motivation and Context}
+  \begin{itemize}
+    \item Summarize the overarching goal: demonstrating Brillouin-induced Raman modes at room temperature and exploring the transition from traveling-wave (Brillouin) to standing-wave (Raman-like) phonons.
+    \item Place this research in the broader context of optomechanics and light--matter interactions, referencing how earlier chapters (especially the laser cooling chapter) set the stage for advanced phonon manipulation.
+    \item Note that, unlike your two ``wins'' in prior chapters, this work did not yield a final demonstration but yielded significant progress toward that goal.
+  \end{itemize}
+\end{itemize}
 
 %--------------------------------------------------------------------%
 
-\section{Brillouin-Induced Raman Modes}
-\label{sec:Raman:Brillouin-Induced}
+\section{From Traveling-Wave to Raman-Like Standing-Wave Modes}
+\label{sec:Raman:FromTraveling-WavetoRaman-LikeStanding-WaveModes}
 
-\subsection{Brillouin-Raman Transition}
-\label{subsec:Raman:Brillouin-RamanTransition}
+\subsection{Review of Brillouin and Raman Scattering}
+\label{subsec:Raman:ReviewofBrillouinandRamanScattering}
 
-autointerfering traveling-wave phonons
+\begin{itemize}
+  \item Recap key concepts: Brillouin scattering (traveling acoustic waves) and Raman scattering (molecular/lattice vibrational modes).
+  \item Emphasize how confined geometries can turn traveling phonons into standing waves, potentially shifting the Brillouin regime to a Raman-like regime.
+\end{itemize}
+
+\subsection{Brillouin-Induced Raman Modes}
+\label{subsec:Raman:Brillouin-InducedRamanModes}
+
+\begin{itemize}
+  \item Present the theoretical argument that traveling-wave phonons (driven by stimulated Brillouin scattering) can reflect off boundaries to form standing waves, creating Raman-like discrete modes.
+  \item Outline expected spectral signatures: mode spacing tied to path length and sound speed, resembling a harmonic ladder of vibrational modes.
+\end{itemize}
 
 \begin{figure}[t]
   \centering
@@ -32,13 +50,26 @@ autointerfering traveling-wave phonons
 
 \begin{figure}[t]
   \centering
+  \includegraphics[width=\textwidth]{figs/4-Raman/StartBigApproachSmall.png}
+  \caption{Start big, approach small.}
+  \label{fig:StartBigApproachSmall}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
   \includegraphics[width=.85\textwidth]{figs/4-Raman/GeometryDeterminesFundamentalFreq.png}
   \caption{Geometry determines fundamental frequency.}
   \label{fig:Raman:GeometryDeterminesFundamentalFreq}
 \end{figure}
 
-\subsection{Acousto-Optic Response of Materials}
-\label{subsec:Raman:Acousto-OpticResponse}
+\subsection{Key Parameters and Feasibility}
+\label{subsec:Raman:KeyParametersandFeasibility}
+
+\begin{itemize}
+  \item Describe optoacoustic response of materials (Brilluin gain coefficient \(g_{0}\), effective Brillouin gain factor \(G_{B}\) for free-space beam waist).
+  \item Highlight acoustic reflection requirements: high impedance mismatch at interfaces.
+  \item Summarize length-scale calculations for traveling-wave phonons to become standing waves, factoring in acoustic attenuation length and boundary conditions. (Mean phonon travel distance based on sound speed and dissipation rate)
+\end{itemize}
 
 \begin{figure}[t]
   \centering
@@ -46,14 +77,6 @@ autointerfering traveling-wave phonons
   \caption{Gain of relevant materials.}
   \label{fig:Raman:GainOfRelevantMaterials}
 \end{figure}
-
-\subsection{Phonon Mean Travel Distance}
-\label{subsec:Raman:PhononMeanTravelDistance}
-
-phonon mean travel distance
-
-\subsection{Acoustic Impedance and Reflection}
-\label{subsec:Raman:AcousticImpedanceAndReflection}
 
 \begin{figure}[t]
   \centering
@@ -64,8 +87,8 @@ phonon mean travel distance
 
 %--------------------------------------------------------------------%
 
-\section{Target Platform Evolution and Collaborative Fabrication}
-\label{sec:Raman:TargetPlatforms}
+\section{Experimental Platforms and Collaborative Fabrication}
+\label{sec:Raman:ExperimentalPlatformsandCollaborativeFabrication}
 
 \subsection{Germanium-Doped Optical Fiber}
 \label{subsec:Raman:Target:UHNA3}
@@ -175,6 +198,38 @@ proof of fabrication: holes and trampoline
 
 %--------------------------------------------------------------------%
 
+\section{Methods}
+\label{sec:Raman:Methods}
+
+\subsection{Instrument Overview}
+\label{subsec:Raman:InstrumentOverview}
+
+\begin{itemize}
+  \item Recap the Coherently Stimulated Brillouin Spectrometer from Chapter 3, emphasizing its high sensitivity and relaxed phase-matching.
+  \item Note additional improvements or calibration steps performed for these particular experiments.
+\end{itemize}
+
+\subsection{Measurement Protocol}
+\label{subsec:Raman:MeasurementProtocol}
+
+\begin{itemize}
+  \item Walk through how pump and probe fields are injected into the samples (liquid cells, waveguides, films).
+  \item How you monitor and collect scattered light at/near the expected Brillouin frequency, watching for discrete or multi-peak features.
+  \item Typical data-acquisition settings (power ranges, frequency scans, detection bandwidth, etc.).
+\end{itemize}
+
+\subsection{Data Analysis Steps}
+\label{subsec:Raman:DataAnalysisSteps}
+
+\begin{itemize}
+  \item Call back to Lorentzian versus Fano-shape fitting for small signals
+  \item Mention Lorentzian versus multi-peak fitting to identify discrete modes.
+  \item Emphasize strategies to distinguish genuine signals from instrument background, referencing instrument artifacts discovered previously.
+  \item Summarize how you accounted for temperature effects, boundary reflections, or chemical transformations (like Te to TeO\textsubscript{2}).
+\end{itemize}
+
+%--------------------------------------------------------------------%
+
 \section{Results}
 \label{sec:Raman:Results}
 
@@ -184,12 +239,29 @@ TeO2 films - 1um, 500nm
 CS2 - 1mm, 100um, (10um not quite)
 chip waveguide - chip/nochip, holes
 
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=\textwidth]{figs/4-Raman/StartBigApproachSmall.png}
-  \caption{Start big, approach small.}
-  \label{fig:StartBigApproachSmall}
-\end{figure}
+\subsection{Initial Findings}
+\label{subsec:Raman:InitialFindings}
+
+\begin{itemize}
+  \item Display earliest data (e.g., on Te thin films) and how a strong feature turned out to be electronic background.
+  \item Show subsequent measurements (CS\textsubscript{2}, chip waveguides) and partial successes, such as spectral distortions suggesting mode splitting.
+\end{itemize}
+
+\subsection{Challenges and Partial Outcomes}
+\label{subsec:Raman:ChallengesandPartialOutcomes}
+
+\begin{itemize}
+  \item Explain complexity of proving Raman-like modes: acoustic mismatch, unexpected phonon damping, oxidation/ablation of thin films, or sample delays.
+  \item Highlight any improvements you achieved (e.g., 11\(\times\) scattered-signal boost) and how close you were to threshold detection.
+\end{itemize}
+
+\subsection{Interpretation in Light of Theory}
+\label{subsec:Raman:InterpretationinLightofTheory}
+
+\begin{itemize}
+  \item Note which observations align with the traveling-wave to standing-wave hypothesis.
+  \item Speculate on why a clear discrete Raman ladder was not definitively observed (path length, reflectivity, line broadening, etc.).
+\end{itemize}
 
 \begin{figure}[t]
   \centering
@@ -214,6 +286,12 @@ Ideal platforms by category
 \subsection{Conclusion}
 \label{subsec:Raman:Conclusion}
 
+\begin{itemize}
+\item \textbf{Connection to Dissertation Theme}
+  \begin{itemize}
+    \item Relate back to the broader aims of controlling phonons at room temperature, highlighting how these efforts extend your dissertation’s exploration of optomechanical interactions.
+  \end{itemize}
+\end{itemize}
 
 \clearpage
 \thispagestyle{empty}
