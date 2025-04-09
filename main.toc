@@ -50,24 +50,24 @@
 \contentsline {subsection}{\numberline {4.2.1}Review of Brillouin and Raman Scattering}{60}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Brillouin-Induced Raman Modes}{61}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Key Parameters and Feasibility}{64}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Experimental Platforms and Collaborative Fabrication}{66}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Germanium-Doped Optical Fiber}{66}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Free-Space Optics with Liquid Carbon Disulfide}{66}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Tellurium Dioxide Thin Film}{66}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Tellurium Thin Film}{67}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Carbon Disulfide Micrometer Cell}{67}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Suspended Silica Rib Waveguide}{67}{subsection.4.3.6}%
+\contentsline {section}{\numberline {4.3}Experimental Platforms and Collaborative Fabrication}{65}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Germanium-Doped Optical Fiber}{65}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Free-Space Optics with Liquid Carbon Disulfide}{65}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Tellurium Dioxide Thin Film}{65}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Tellurium Thin Film}{66}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Carbon Disulfide Micrometer Cell}{66}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Suspended Silica Rib Waveguide}{66}{subsection.4.3.6}%
 \contentsline {subsection}{\numberline {4.3.7}Elastically-Suspended Photonic-Phononic Waveguide}{67}{subsection.4.3.7}%
 \contentsline {section}{\numberline {4.4}Methods}{67}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Instrument Overview}{67}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Measurement Protocol}{68}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Data Analysis Steps}{68}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.2}Measurement Protocol}{67}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Data Analysis Steps}{67}{subsection.4.4.3}%
 \contentsline {section}{\numberline {4.5}Results}{68}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Initial Findings}{68}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Challenges and Partial Outcomes}{68}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Interpretation in Light of Theory}{69}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Discussion}{69}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Pathways to Brillouin-Induced Raman Modes}{69}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.5.3}Interpretation in Light of Theory}{68}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Discussion}{68}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Pathways to Brillouin-Induced Raman Modes}{68}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}Conclusion}{69}{subsection.4.6.2}%
 \contentsline {chapter}{\numberline {5}Conclusion}{75}{chapter.5}%
 \contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{77}{appendix.A}%

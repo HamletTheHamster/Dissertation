@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  9 APR 2025 00:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  9 APR 2025 00:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -970,9 +970,9 @@ although it is yet undefined on input line 25.
 
 
 [13]
+Package acronym Info: Label `acro:CoBS' overridden on input line 36.
 Package acronym Info: Label `acro:CoBS' overridden on input line 37.
 Package acronym Info: Label `acro:CoBS' overridden on input line 38.
-Package acronym Info: Label `acro:CoBS' overridden on input line 39.
 
 
 [14]
@@ -1459,94 +1459,93 @@ File: figs/4-Raman/ExploreBrillouinRamanTransition.png Graphic file (type png)
 Package pdftex.def Info: figs/4-Raman/ExploreBrillouinRamanTransition.png  used
  on input line 55.
 (pdftex.def)             Requested size: 469.75502pt x 131.0995pt.
-<figs/4-Raman/StartBigApproachSmall.png, id=3094, 1438.37375pt x 728.7225pt>
-File: figs/4-Raman/StartBigApproachSmall.png Graphic file (type png)
-<use figs/4-Raman/StartBigApproachSmall.png>
-Package pdftex.def Info: figs/4-Raman/StartBigApproachSmall.png  used on input 
-line 62.
-(pdftex.def)             Requested size: 469.75502pt x 237.98842pt.
-<figs/4-Raman/GeometryDeterminesFundamentalFreq.png, id=3095, 732.7375pt x 463.
+<figs/4-Raman/GeometryDeterminesFundamentalFreq.png, id=3094, 732.7375pt x 463.
 7325pt>
 File: figs/4-Raman/GeometryDeterminesFundamentalFreq.png Graphic file (type png
 )
 <use figs/4-Raman/GeometryDeterminesFundamentalFreq.png>
 Package pdftex.def Info: figs/4-Raman/GeometryDeterminesFundamentalFreq.png  us
-ed on input line 69.
+ed on input line 62.
 (pdftex.def)             Requested size: 399.29463pt x 252.70442pt.
 
 
-[63 <./figs/4-Raman/ExploreBrillouinRamanTransition.png> <./figs/4-Raman/StartB
-igApproachSmall.png>]
+[63 <./figs/4-Raman/ExploreBrillouinRamanTransition.png> <./figs/4-Raman/Geomet
+ryDeterminesFundamentalFreq.png>]
 
-[64 <./figs/4-Raman/GeometryDeterminesFundamentalFreq.png>]
+[64]
 <figs/4-Raman/GainOfRelevantMaterials.png, id=3129, 1169.36874pt x 523.9575pt>
 File: figs/4-Raman/GainOfRelevantMaterials.png Graphic file (type png)
 <use figs/4-Raman/GainOfRelevantMaterials.png>
 Package pdftex.def Info: figs/4-Raman/GainOfRelevantMaterials.png  used on inpu
-t line 85.
+t line 78.
 (pdftex.def)             Requested size: 469.75502pt x 210.48271pt.
 <figs/4-Raman/AcousticImpedance.png, id=3130, 757.83125pt x 318.18875pt>
 File: figs/4-Raman/AcousticImpedance.png Graphic file (type png)
 <use figs/4-Raman/AcousticImpedance.png>
 Package pdftex.def Info: figs/4-Raman/AcousticImpedance.png  used on input line
- 92.
+ 85.
 (pdftex.def)             Requested size: 469.75502pt x 197.23613pt.
 <figs/4-Raman/1cm UHNA3.jpeg, id=3131, 4625.28pt x 2119.92pt>
 File: figs/4-Raman/1cm UHNA3.jpeg Graphic file (type jpg)
 <use figs/4-Raman/1cm UHNA3.jpeg>
-Package pdftex.def Info: figs/4-Raman/1cm UHNA3.jpeg  used on input line 111.
+Package pdftex.def Info: figs/4-Raman/1cm UHNA3.jpeg  used on input line 104.
 (pdftex.def)             Requested size: 230.18253pt x 105.48465pt.
 <figs/4-Raman/1mm UHNA3 in apparatus.jpeg, id=3132, 4625.28pt x 2119.92pt>
 File: figs/4-Raman/1mm UHNA3 in apparatus.jpeg Graphic file (type jpg)
 <use figs/4-Raman/1mm UHNA3 in apparatus.jpeg>
 Package pdftex.def Info: figs/4-Raman/1mm UHNA3 in apparatus.jpeg  used on inpu
-t line 118.
+t line 111.
 (pdftex.def)             Requested size: 230.18253pt x 105.48465pt.
-Package acronym Info: Label `acro:UHNA3' overridden on input line 122.
+Package acronym Info: Label `acro:UHNA3' overridden on input line 115.
+<figs/4-Raman/1cmCS2.jpeg, id=3139, 4625.28pt x 2119.92pt>
+File: figs/4-Raman/1cmCS2.jpeg Graphic file (type jpg)
+<use figs/4-Raman/1cmCS2.jpeg>
+Package pdftex.def Info: figs/4-Raman/1cmCS2.jpeg  used on input line 128.
+(pdftex.def)             Requested size: 230.18253pt x 105.48465pt.
+<figs/4-Raman/4mmCS2.jpg, id=3140, 1770.615pt x 813.0375pt>
+File: figs/4-Raman/4mmCS2.jpg Graphic file (type jpg)
+<use figs/4-Raman/4mmCS2.jpg>
+Package pdftex.def Info: figs/4-Raman/4mmCS2.jpg  used on input line 135.
+(pdftex.def)             Requested size: 230.18253pt x 105.68617pt.
 
 
 [65 <./figs/4-Raman/GainOfRelevantMaterials.png>]
-<figs/4-Raman/1cmCS2.jpeg, id=3147, 4625.28pt x 2119.92pt>
-File: figs/4-Raman/1cmCS2.jpeg Graphic file (type jpg)
-<use figs/4-Raman/1cmCS2.jpeg>
-Package pdftex.def Info: figs/4-Raman/1cmCS2.jpeg  used on input line 135.
-(pdftex.def)             Requested size: 230.18253pt x 105.48465pt.
-<figs/4-Raman/4mmCS2.jpg, id=3148, 1770.615pt x 813.0375pt>
-File: figs/4-Raman/4mmCS2.jpg Graphic file (type jpg)
-<use figs/4-Raman/4mmCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/4mmCS2.jpg  used on input line 142.
-(pdftex.def)             Requested size: 230.18253pt x 105.68617pt.
+<figs/4-Raman/1mmCS2.jpg, id=3152, 473.77pt x 1029.8475pt>
+File: figs/4-Raman/1mmCS2.jpg Graphic file (type jpg)
+<use figs/4-Raman/1mmCS2.jpg>
+Package pdftex.def Info: figs/4-Raman/1mmCS2.jpg  used on input line 168.
+(pdftex.def)             Requested size: 239.3857pt x 520.34598pt.
+<figs/4-Raman/100umCS2.jpg, id=3153, 487.8225pt x 1065.9825pt>
+File: figs/4-Raman/100umCS2.jpg Graphic file (type jpg)
+<use figs/4-Raman/100umCS2.jpg>
+Package pdftex.def Info: figs/4-Raman/100umCS2.jpg  used on input line 175.
+(pdftex.def)             Requested size: 238.127pt x 520.34598pt.
+<figs/4-Raman/10umCS2.jpg, id=3154, 487.8225pt x 1063.975pt>
+File: figs/4-Raman/10umCS2.jpg Graphic file (type jpg)
+<use figs/4-Raman/10umCS2.jpg>
+Package pdftex.def Info: figs/4-Raman/10umCS2.jpg  used on input line 182.
+(pdftex.def)             Requested size: 238.58105pt x 520.34598pt.
 
 
 [66 <./figs/4-Raman/AcousticImpedance.png> <./figs/4-Raman/1cm UHNA3.jpeg> <./f
 igs/4-Raman/1mm UHNA3 in apparatus.jpeg>]
-<figs/4-Raman/1mmCS2.jpg, id=3160, 473.77pt x 1029.8475pt>
-File: figs/4-Raman/1mmCS2.jpg Graphic file (type jpg)
-<use figs/4-Raman/1mmCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/1mmCS2.jpg  used on input line 175.
-(pdftex.def)             Requested size: 239.3857pt x 520.34598pt.
-<figs/4-Raman/100umCS2.jpg, id=3161, 487.8225pt x 1065.9825pt>
-File: figs/4-Raman/100umCS2.jpg Graphic file (type jpg)
-<use figs/4-Raman/100umCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/100umCS2.jpg  used on input line 182.
-(pdftex.def)             Requested size: 238.127pt x 520.34598pt.
-<figs/4-Raman/10umCS2.jpg, id=3162, 487.8225pt x 1063.975pt>
-File: figs/4-Raman/10umCS2.jpg Graphic file (type jpg)
-<use figs/4-Raman/10umCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/10umCS2.jpg  used on input line 189.
-(pdftex.def)             Requested size: 238.58105pt x 520.34598pt.
-
 
 [67 <./figs/4-Raman/1cmCS2.jpeg> <./figs/4-Raman/4mmCS2.jpg>]
-
-[68]
-<figs/4-Raman/HowWouldRamanModesAppear.png, id=3171, 1272.755pt x 645.41125pt>
+<figs/4-Raman/StartBigApproachSmall.png, id=3165, 1438.37375pt x 728.7225pt>
+File: figs/4-Raman/StartBigApproachSmall.png Graphic file (type png)
+<use figs/4-Raman/StartBigApproachSmall.png>
+Package pdftex.def Info: figs/4-Raman/StartBigApproachSmall.png  used on input 
+line 270.
+(pdftex.def)             Requested size: 469.75502pt x 237.98842pt.
+<figs/4-Raman/HowWouldRamanModesAppear.png, id=3166, 1272.755pt x 645.41125pt>
 File: figs/4-Raman/HowWouldRamanModesAppear.png Graphic file (type png)
 <use figs/4-Raman/HowWouldRamanModesAppear.png>
 Package pdftex.def Info: figs/4-Raman/HowWouldRamanModesAppear.png  used on inp
 ut line 277.
 (pdftex.def)             Requested size: 469.75502pt x 238.20753pt.
 
+
+[68]
 
 [69]
 
@@ -1556,7 +1555,8 @@ ut line 277.
 
 [72 <./figs/4-Raman/10umCS2.jpg>]
 
-[73 <./figs/4-Raman/HowWouldRamanModesAppear.png>]
+[73 <./figs/4-Raman/StartBigApproachSmall.png> <./figs/4-Raman/HowWouldRamanMod
+esAppear.png>]
 
 [74
 
@@ -2199,7 +2199,7 @@ dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (149 pages, 29980983 bytes).
+Output written on main.pdf (149 pages, 29980879 bytes).
 PDF statistics:
  4057 PDF objects out of 4296 (max. 8388607)
  2874 compressed objects within 29 object streams
