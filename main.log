@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  8 APR 2025 10:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  8 APR 2025 23:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -701,7 +701,7 @@ F (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 225.
+h' as default language. on input line 223.
  (./main.aux (./pre/0-Title.aux) (./pre/0-Abstract.aux)
 (./pre/0-Epigraph.aux) (./pre/1-Acronyms.aux) (./Introduction.aux)
 (./Cooling.aux) (./CoBS.aux) (./Raman.aux) (./Conclusion.aux)
@@ -709,25 +709,25 @@ h' as default language. on input line 225.
 (./post/A-Code.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-Package hyperref Info: Link coloring ON on input line 225.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 223.
+LaTeX Font Info:    ... okay on input line 223.
+Package hyperref Info: Link coloring ON on input line 223.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -739,9 +739,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 225.
+or `english'. on input line 223.
 
-Package chemgreek Info: Activating mapping `upgreek' on line 225.
+Package chemgreek Info: Activating mapping `upgreek' on line 223.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -819,16 +819,16 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 225.
-Package gensymb Info: Math companion symbols declared on input line 225.
-LaTeX Info: Redefining \degree on input line 225.
-LaTeX Info: Redefining \celsius on input line 225.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 223.
+Package gensymb Info: Math companion symbols declared on input line 223.
+LaTeX Info: Redefining \degree on input line 223.
+LaTeX Info: Redefining \celsius on input line 223.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 225.
-LaTeX Info: Redefining \ohm on input line 225.
-Package gensymb Info: Using \textohm for \ohm on input line 225.
-LaTeX Info: Redefining \micro on input line 225.
-Package gensymb Info: Using \textmu for \micro on input line 225.
+erthousand on input line 223.
+LaTeX Info: Redefining \ohm on input line 223.
+Package gensymb Info: Using \textohm for \ohm on input line 223.
+LaTeX Info: Redefining \micro on input line 223.
+Package gensymb Info: Using \textmu for \micro on input line 223.
 \openout2 = `pre/0-Title.aux'.
 
 
@@ -882,6 +882,10 @@ although it is yet undefined on input line 79.
 
 
 [6] (./main.lot
+
+LaTeX Warning: Reference `fig:CoBS:5fwSensitivity' on page vii undefined on inp
+ut line 5.
+
 Package acronym Info: Label `acro:LCOF' overridden on input line 11.
 Package acronym Info: Label `acro:UHNA3' newly defined as it shall be overridde
 n
@@ -943,6 +947,11 @@ although it is yet undefined on input line 10.
 Package acronym Info: Label `acro:FWHM' newly defined as it shall be overridden
 
 although it is yet undefined on input line 21.
+Package acronym Info: Label `acro:SBS' newly defined as it shall be overridden
+although it is yet undefined on input line 23.
+Package acronym Info: Label `acro:CoBS' newly defined as it shall be overridden
+
+although it is yet undefined on input line 23.
 
 
 [12]
@@ -956,12 +965,12 @@ Package acronym Info: Label `acro:AOM' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
 Package acronym Info: Label `acro:AC' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
+Package acronym Info: Label `acro:SNR' newly defined as it shall be overridden
+although it is yet undefined on input line 25.
 
 
 [13]
-Package acronym Info: Label `acro:CoBS' newly defined as it shall be overridden
-
-although it is yet undefined on input line 37.
+Package acronym Info: Label `acro:CoBS' overridden on input line 37.
 Package acronym Info: Label `acro:CoBS' overridden on input line 38.
 Package acronym Info: Label `acro:CoBS' overridden on input line 39.
 
@@ -974,6 +983,9 @@ although it is yet undefined on input line 60.
 Package acronym Info: Label `acro:GLAD' newly defined as it shall be overridden
 
 although it is yet undefined on input line 61.
+
+
+[16]
 Package acronym Info: Label `acro:CoBS' overridden on input line 64.
 )
 \tf@lof=\write6
@@ -981,17 +993,19 @@ Package acronym Info: Label `acro:CoBS' overridden on input line 64.
 
 
 
-[16]
+[17]
 \openout2 = `pre/1-Acronyms.aux'.
 
  (./pre/1-Acronyms.tex
 
-[17
+[18
 
 
-])
+]
 
-[18]
+[19])
+
+[20]
 \openout2 = `Introduction.aux'.
 
  (./Introduction.tex
@@ -1007,7 +1021,7 @@ Chapter 1.
 ]
 
 [2]
-<figs/1-Intro/Boyd scattering frequency shift domains.png, id=1236, 730.22812pt
+<figs/1-Intro/Boyd scattering frequency shift domains.png, id=1268, 730.22812pt
  x 160.34906pt>
 File: figs/1-Intro/Boyd scattering frequency shift domains.png Graphic file (ty
 pe png)
@@ -1015,13 +1029,12 @@ pe png)
 Package pdftex.def Info: figs/1-Intro/Boyd scattering frequency shift domains.p
 ng  used on input line 28.
 (pdftex.def)             Requested size: 469.75502pt x 103.15154pt.
-Package acronym Info: Label `acro:SBS' newly defined as it shall be overridden
-although it is yet undefined on input line 37.
+Package acronym Info: Label `acro:SBS' overridden on input line 37.
 
 
 [3 <./figs/1-Intro/Boyd scattering frequency shift domains.png>]
 Package acronym Info: Label `acro:CoBS' overridden on input line 47.
-<figs/1-Intro/Boyd homogeneous material no scatter.png, id=1258, 748.29562pt x 
+<figs/1-Intro/Boyd homogeneous material no scatter.png, id=1289, 748.29562pt x 
 393.72093pt>
 File: figs/1-Intro/Boyd homogeneous material no scatter.png Graphic file (type 
 png)
@@ -1043,7 +1056,7 @@ Package pdftex.def Info: figs/1-Intro/Boyd homogeneous material no scatter.png
  (./Cooling.tex
 Chapter 2.
 Package acronym Info: Label `acro:AMO' newly defined as it shall be overridden
-although it is yet undefined on input line 65.
+although it is yet undefined on input line 24.
 
 
 [7
@@ -1053,7 +1066,7 @@ although it is yet undefined on input line 65.
 
 ]
 Package acronym Info: Label `acro:WGM' newly defined as it shall be overridden
-although it is yet undefined on input line 69.
+although it is yet undefined on input line 28.
 
 
 [8]
@@ -1063,18 +1076,18 @@ although it is yet undefined on input line 69.
 [10]
 
 [11]
-<figs/2-Cooling/StokesHeatingProcess.png, id=1359, 416.55624pt x 233.87375pt>
+<figs/2-Cooling/StokesHeatingProcess.png, id=1392, 416.55624pt x 233.87375pt>
 File: figs/2-Cooling/StokesHeatingProcess.png Graphic file (type png)
 <use figs/2-Cooling/StokesHeatingProcess.png>
 Package pdftex.def Info: figs/2-Cooling/StokesHeatingProcess.png  used on input
- line 118.
+ line 77.
 (pdftex.def)             Requested size: 230.18253pt x 129.23404pt.
-<figs/2-Cooling/anti-StokesCoolingProcess.png, id=1360, 416.55624pt x 233.87375
+<figs/2-Cooling/anti-StokesCoolingProcess.png, id=1393, 416.55624pt x 233.87375
 pt>
 File: figs/2-Cooling/anti-StokesCoolingProcess.png Graphic file (type png)
 <use figs/2-Cooling/anti-StokesCoolingProcess.png>
 Package pdftex.def Info: figs/2-Cooling/anti-StokesCoolingProcess.png  used on 
-input line 125.
+input line 84.
 (pdftex.def)             Requested size: 230.18253pt x 129.23404pt.
 
 
@@ -1086,99 +1099,98 @@ olingProcess.png>]
 [14]
 
 [15]
-<figs/2-Cooling/LCOFdiagram.png, id=1411, 1264.725pt x 345.29pt>
+<figs/2-Cooling/LCOFdiagram.png, id=1442, 1264.725pt x 345.29pt>
 File: figs/2-Cooling/LCOFdiagram.png Graphic file (type png)
 <use figs/2-Cooling/LCOFdiagram.png>
-Package pdftex.def Info: figs/2-Cooling/LCOFdiagram.png  used on input line 211
+Package pdftex.def Info: figs/2-Cooling/LCOFdiagram.png  used on input line 170
 .
 (pdftex.def)             Requested size: 469.75502pt x 128.25055pt.
-Package acronym Info: Label `acro:LCOF' overridden on input line 212.
-Package acronym Info: Label `acro:SMF-28' overridden on input line 212.
-Package acronym Info: Label `acro:UHNA7' overridden on input line 212.
+Package acronym Info: Label `acro:LCOF' overridden on input line 171.
+Package acronym Info: Label `acro:SMF-28' overridden on input line 171.
+Package acronym Info: Label `acro:UHNA7' overridden on input line 171.
 
 
 [16]
 
 [17 <./figs/2-Cooling/LCOFdiagram.png>]
-Package acronym Info: Label `acro:PBS' overridden on input line 227.
-Package acronym Info: Label `acro:RF' overridden on input line 227.
-Package acronym Info: Label `acro:RFSA' overridden on input line 227.
-Package acronym Info: Label `acro:CW' overridden on input line 229.
-Package acronym Info: Label `acro:EDFA' overridden on input line 229.
-Package acronym Info: Label `acro:VOA' overridden on input line 229.
-Package acronym Info: Label `acro:BPF' overridden on input line 231.
-Package acronym Info: Label `acro:LO' overridden on input line 231.
-Package acronym Info: Label `acro:RBW' overridden on input line 233.
-<figs/2-Cooling/pumpOnlyDesign.pdf, id=1479, 401.5pt x 195.73125pt>
+Package acronym Info: Label `acro:PBS' overridden on input line 186.
+Package acronym Info: Label `acro:RF' overridden on input line 186.
+Package acronym Info: Label `acro:RFSA' overridden on input line 186.
+Package acronym Info: Label `acro:CW' overridden on input line 188.
+Package acronym Info: Label `acro:EDFA' overridden on input line 188.
+Package acronym Info: Label `acro:VOA' overridden on input line 188.
+Package acronym Info: Label `acro:BPF' overridden on input line 190.
+Package acronym Info: Label `acro:LO' overridden on input line 190.
+Package acronym Info: Label `acro:RBW' overridden on input line 192.
+<figs/2-Cooling/pumpOnlyDesign.pdf, id=1512, 401.5pt x 195.73125pt>
 File: figs/2-Cooling/pumpOnlyDesign.pdf Graphic file (type pdf)
 <use figs/2-Cooling/pumpOnlyDesign.pdf>
 Package pdftex.def Info: figs/2-Cooling/pumpOnlyDesign.pdf  used on input line 
-237.
+196.
 (pdftex.def)             Requested size: 469.75502pt x 229.02254pt.
-Package acronym Info: Label `acro:PC' overridden on input line 238.
-Package acronym Info: Label `acro:PC' overridden on input line 238.
+Package acronym Info: Label `acro:PC' overridden on input line 197.
+Package acronym Info: Label `acro:PC' overridden on input line 197.
 
 
 [18]
-<figs/2-Cooling/pumpProbeDesign.pdf, id=1522, 449.68pt x 195.73125pt>
+
+[19 <./figs/2-Cooling/pumpOnlyDesign.pdf>]
+<figs/2-Cooling/pumpProbeDesign.pdf, id=1574, 449.68pt x 195.73125pt>
 File: figs/2-Cooling/pumpProbeDesign.pdf Graphic file (type pdf)
 <use figs/2-Cooling/pumpProbeDesign.pdf>
 Package pdftex.def Info: figs/2-Cooling/pumpProbeDesign.pdf  used on input line
- 251.
+ 210.
 (pdftex.def)             Requested size: 469.75502pt x 204.47855pt.
-Package acronym Info: Label `acro:PC' overridden on input line 252.
+Package acronym Info: Label `acro:PC' overridden on input line 211.
 
-
-[19 <./figs/2-Cooling/pumpOnlyDesign.pdf>]
 
 [20 <./figs/2-Cooling/pumpProbeDesign.pdf>]
-<figs/2-Cooling/P-O Stokes.pdf, id=1614, 462.52798pt x 346.89601pt>
+<figs/2-Cooling/P-O Stokes.pdf, id=1646, 462.52798pt x 346.89601pt>
 File: figs/2-Cooling/P-O Stokes.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-O Stokes.pdf>
-Package pdftex.def Info: figs/2-Cooling/P-O Stokes.pdf  used on input line 275.
+Package pdftex.def Info: figs/2-Cooling/P-O Stokes.pdf  used on input line 234.
 
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
-<figs/2-Cooling/P-O anti-Stokes.pdf, id=1619, 462.52798pt x 346.89601pt>
+<figs/2-Cooling/P-O anti-Stokes.pdf, id=1651, 462.52798pt x 346.89601pt>
 File: figs/2-Cooling/P-O anti-Stokes.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-O anti-Stokes.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-O anti-Stokes.pdf  used on input line
- 282.
+ 241.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
 
 
 [21]
 
 [22 <./figs/2-Cooling/P-O Stokes.pdf>]
-<figs/2-Cooling/P-O Heights vs Pow.pdf, id=1722, 462.52798pt x 346.89601pt>
+
+[23 <./figs/2-Cooling/P-O anti-Stokes.pdf>]
+<figs/2-Cooling/P-O Heights vs Pow.pdf, id=1832, 462.52798pt x 346.89601pt>
 File: figs/2-Cooling/P-O Heights vs Pow.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-O Heights vs Pow.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-O Heights vs Pow.pdf  used on input l
-ine 293.
+ine 252.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
-
-
-[23 <./figs/2-Cooling/P-O anti-Stokes.pdf>]
-<figs/2-Cooling/P-O Linewidths.pdf, id=1805, 462.52798pt x 346.89601pt>
+<figs/2-Cooling/P-O Linewidths.pdf, id=1837, 462.52798pt x 346.89601pt>
 File: figs/2-Cooling/P-O Linewidths.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-O Linewidths.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-O Linewidths.pdf  used on input line 
-300.
+259.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
-<figs/2-Cooling/P-O Simulated Gain.pdf, id=1814, 462.52798pt x 346.89601pt>
+<figs/2-Cooling/P-O Simulated Gain.pdf, id=1846, 462.52798pt x 346.89601pt>
 File: figs/2-Cooling/P-O Simulated Gain.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-O Simulated Gain.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-O Simulated Gain.pdf  used on input l
-ine 309.
+ine 268.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
 
 
 [24 <./figs/2-Cooling/P-O Heights vs Pow.pdf>]
-<figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf, id=1881, 462.52798pt x 346.89601
+<figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf, id=1913, 462.52798pt x 346.89601
 pt>
 File: figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf  used on 
-input line 322.
+input line 281.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
 
 
@@ -1187,48 +1199,48 @@ input line 322.
 [26 <./figs/2-Cooling/P-O Simulated Gain.pdf>]
 
 [27 <./figs/2-Cooling/P-P anti-Stokes Fit - 0mW.pdf>]
-<figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf, id=2101, 462.52798pt x 346.8960
+<figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf, id=2132, 462.52798pt x 346.8960
 1pt>
 File: figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf  used on
- input line 333.
+ input line 292.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
-<figs/2-Cooling/P-P anti-Stokes Fit - 110mW.pdf, id=2104, 462.52798pt x 346.896
+<figs/2-Cooling/P-P anti-Stokes Fit - 110mW.pdf, id=2135, 462.52798pt x 346.896
 01pt>
 File: figs/2-Cooling/P-P anti-Stokes Fit - 110mW.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-P anti-Stokes Fit - 110mW.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-P anti-Stokes Fit - 110mW.pdf  used o
-n input line 340.
+n input line 299.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
-<figs/2-Cooling/P-P anti-Stokes Fit - 165mW.pdf, id=2107, 462.52798pt x 346.896
+<figs/2-Cooling/P-P anti-Stokes Fit - 165mW.pdf, id=2138, 462.52798pt x 346.896
 01pt>
 File: figs/2-Cooling/P-P anti-Stokes Fit - 165mW.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-P anti-Stokes Fit - 165mW.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-P anti-Stokes Fit - 165mW.pdf  used o
-n input line 347.
+n input line 306.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
-<figs/2-Cooling/P-P anti-Stokes Fits.pdf, id=2110, 462.52798pt x 346.89601pt>
+<figs/2-Cooling/P-P anti-Stokes Fits.pdf, id=2141, 462.52798pt x 346.89601pt>
 File: figs/2-Cooling/P-P anti-Stokes Fits.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-P anti-Stokes Fits.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-P anti-Stokes Fits.pdf  used on input
- line 354.
+ line 313.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
-<figs/2-Cooling/P-P anti-Stokes Height v Pow.pdf, id=2121, 462.52798pt x 346.89
+<figs/2-Cooling/P-P anti-Stokes Height v Pow.pdf, id=2152, 462.52798pt x 346.89
 601pt>
 File: figs/2-Cooling/P-P anti-Stokes Height v Pow.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-P anti-Stokes Height v Pow.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-P anti-Stokes Height v Pow.pdf  used 
-on input line 361.
+on input line 320.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
-<figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf, id=2134, 462.52798pt x 346.89601
+<figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf, id=2165, 462.52798pt x 346.89601
 pt>
 File: figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf Graphic file (type pdf)
 <use figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf>
 Package pdftex.def Info: figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf  used on 
-input line 368.
+input line 327.
 (pdftex.def)             Requested size: 469.75502pt x 352.33656pt.
-Package acronym Info: Label `acro:FWHM' overridden on input line 369.
+Package acronym Info: Label `acro:FWHM' overridden on input line 328.
 
 
 [28 <./figs/2-Cooling/P-P anti-Stokes Fit - 55mW.pdf>]
@@ -1243,12 +1255,12 @@ Package acronym Info: Label `acro:FWHM' overridden on input line 369.
 
 [33 <./figs/2-Cooling/P-P anti-Stokes Wid v Pow.pdf>]
 Package acronym Info: Label `acro:C' newly defined as it shall be overridden
-although it is yet undefined on input line 396.
+although it is yet undefined on input line 355.
 
 
 [34]
 Package acronym Info: Label `acro:PCF' newly defined as it shall be overridden
-although it is yet undefined on input line 409.
+although it is yet undefined on input line 368.
 
 
 [35]
@@ -1259,132 +1271,148 @@ although it is yet undefined on input line 409.
 
 [38]
 
-[39
+[39]
+
+[40
 
 ])
 \openout2 = `CoBS.aux'.
 
  (./CoBS.tex
-
-[40
-
-
-
-
-]
 Chapter 3.
 Package acronym Info: Label `acro:UHNA3' overridden on input line 13.
 Package acronym Info: Label `acro:SBS' overridden on input line 20.
 
 
-[41]
-<figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf, id=2650, 565.16626pt x 244.14099p
-t>
-File: figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf Graphic file (type pdf)
-<use figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf>
-Package pdftex.def Info: figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf  used on i
-nput line 39.
-(pdftex.def)             Requested size: 469.75502pt x 202.92752pt.
+[41
+
+
+
+
+]
+<figs/3-CoBS/SBS Illustrator Diagram.png, id=2683, 904.37875pt x 435.6275pt>
+File: figs/3-CoBS/SBS Illustrator Diagram.png Graphic file (type png)
+<use figs/3-CoBS/SBS Illustrator Diagram.png>
+Package pdftex.def Info: figs/3-CoBS/SBS Illustrator Diagram.png  used on input
+ line 41.
+(pdftex.def)             Requested size: 173.80705pt x 83.72061pt.
+<figs/3-CoBS/4-Wave-Brillouin-Scattering.png, id=2684, 1133.23375pt x 362.35374
+pt>
+File: figs/3-CoBS/4-Wave-Brillouin-Scattering.png Graphic file (type png)
+<use figs/3-CoBS/4-Wave-Brillouin-Scattering.png>
+Package pdftex.def Info: figs/3-CoBS/4-Wave-Brillouin-Scattering.png  used on i
+nput line 48.
+(pdftex.def)             Requested size: 253.66455pt x 81.10587pt.
+Package acronym Info: Label `acro:CoBS' overridden on input line 52.
+Package acronym Info: Label `acro:CoBS' overridden on input line 52.
 
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
 
 
 
-[43 <./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
+[43 <./figs/3-CoBS/SBS Illustrator Diagram.png> <./figs/3-CoBS/4-Wave-Brillouin
+-Scattering.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--64
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
 
 
 [44]
-Underfull \hbox (badness 10000) in paragraph at lines 79--83
+Underfull \hbox (badness 10000) in paragraph at lines 91--95
 
  []
 
-<figs/3-CoBS/Instrument-Design-V1_compat.pdf, id=2703, 794.97pt x 674.46577pt>
+<figs/3-CoBS/Instrument-Design-V1_compat.pdf, id=2733, 794.97pt x 674.46577pt>
 File: figs/3-CoBS/Instrument-Design-V1_compat.pdf Graphic file (type pdf)
 <use figs/3-CoBS/Instrument-Design-V1_compat.pdf>
 Package pdftex.def Info: figs/3-CoBS/Instrument-Design-V1_compat.pdf  used on i
-nput line 99.
+nput line 111.
 (pdftex.def)             Requested size: 469.75502pt x 398.55914pt.
-Package acronym Info: Label `acro:CW' overridden on input line 102.
-Package acronym Info: Label `acro:EDFA' overridden on input line 102.
-Package acronym Info: Label `acro:VOA' overridden on input line 102.
-Package acronym Info: Label `acro:PBS' overridden on input line 102.
-Package acronym Info: Label `acro:FP' overridden on input line 102.
-Package acronym Info: Label `acro:IM' overridden on input line 102.
-Package acronym Info: Label `acro:FBG' overridden on input line 102.
-Package acronym Info: Label `acro:AOM' overridden on input line 102.
-Package acronym Info: Label `acro:LO' overridden on input line 102.
-Package acronym Info: Label `acro:RF' overridden on input line 102.
-Package acronym Info: Label `acro:AC' overridden on input line 102.
+Package acronym Info: Label `acro:CW' overridden on input line 114.
+Package acronym Info: Label `acro:EDFA' overridden on input line 114.
+Package acronym Info: Label `acro:VOA' overridden on input line 114.
+Package acronym Info: Label `acro:PBS' overridden on input line 114.
+Package acronym Info: Label `acro:FP' overridden on input line 114.
+Package acronym Info: Label `acro:IM' overridden on input line 114.
+Package acronym Info: Label `acro:FBG' overridden on input line 114.
+Package acronym Info: Label `acro:AOM' overridden on input line 114.
+Package acronym Info: Label `acro:LO' overridden on input line 114.
+Package acronym Info: Label `acro:RF' overridden on input line 114.
+Package acronym Info: Label `acro:AC' overridden on input line 114.
 
 
 [45]
 
 [46 <./figs/3-CoBS/Instrument-Design-V1_compat.pdf>]
-Package acronym Info: Label `acro:SNR' newly defined as it shall be overridden
-although it is yet undefined on input line 114.
+Package acronym Info: Label `acro:SNR' overridden on input line 126.
 Package acronym Info: Label `acro:DC' newly defined as it shall be overridden
-although it is yet undefined on input line 116.
+although it is yet undefined on input line 128.
 
 
 [47]
-Package acronym Info: Label `acro:SMF-28' overridden on input line 126.
+Package acronym Info: Label `acro:SMF-28' overridden on input line 138.
 
 
 [48]
-<figs/3-CoBS/5fWSensitivity.pdf, id=2853, 1084.05pt x 1084.05pt>
+<figs/3-CoBS/5fWSensitivity.pdf, id=2884, 1084.05pt x 1084.05pt>
 File: figs/3-CoBS/5fWSensitivity.pdf Graphic file (type pdf)
 <use figs/3-CoBS/5fWSensitivity.pdf>
-Package pdftex.def Info: figs/3-CoBS/5fWSensitivity.pdf  used on input line 130
+Package pdftex.def Info: figs/3-CoBS/5fWSensitivity.pdf  used on input line 142
 .
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
-[49 <./figs/3-CoBS/5fWSensitivity.pdf>]
-<figs/3-CoBS/1cmUHNA3.pdf, id=2873, 1084.05pt x 1084.05pt>
+LaTeX Warning: Reference `fig:CoBS:5fwSensitivity' on page 49 undefined on inpu
+t line 169.
+
+
+LaTeX Warning: Reference `fig:CoBS:5fwSensitivity' on page 49 undefined on inpu
+t line 169.
+
+<figs/3-CoBS/1cmUHNA3.pdf, id=2894, 1084.05pt x 1084.05pt>
 File: figs/3-CoBS/1cmUHNA3.pdf Graphic file (type pdf)
 <use figs/3-CoBS/1cmUHNA3.pdf>
-Package pdftex.def Info: figs/3-CoBS/1cmUHNA3.pdf  used on input line 168.
+Package pdftex.def Info: figs/3-CoBS/1cmUHNA3.pdf  used on input line 180.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
-Package acronym Info: Label `acro:FWHM' overridden on input line 173.
+Package acronym Info: Label `acro:FWHM' overridden on input line 185.
 
 
-[50]
+[49]
+
+[50 <./figs/3-CoBS/5fWSensitivity.pdf>]
 
 [51 <./figs/3-CoBS/1cmUHNA3.pdf>]
-<figs/3-CoBS/100umCS2.pdf, id=2901, 1084.05pt x 1084.05pt>
+<figs/3-CoBS/100umCS2.pdf, id=2936, 1084.05pt x 1084.05pt>
 File: figs/3-CoBS/100umCS2.pdf Graphic file (type pdf)
 <use figs/3-CoBS/100umCS2.pdf>
-Package pdftex.def Info: figs/3-CoBS/100umCS2.pdf  used on input line 179.
+Package pdftex.def Info: figs/3-CoBS/100umCS2.pdf  used on input line 191.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
-[52 <./figs/3-CoBS/100umCS2.pdf>]
-<figs/3-CoBS/Phase-Match.pdf, id=2924, 1084.05pt x 1084.05pt>
+[52]
+<figs/3-CoBS/Phase-Match.pdf, id=2951, 1084.05pt x 1084.05pt>
 File: figs/3-CoBS/Phase-Match.pdf Graphic file (type pdf)
 <use figs/3-CoBS/Phase-Match.pdf>
-Package pdftex.def Info: figs/3-CoBS/Phase-Match.pdf  used on input line 211.
+Package pdftex.def Info: figs/3-CoBS/Phase-Match.pdf  used on input line 223.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
-[53]
+[53 <./figs/3-CoBS/100umCS2.pdf>]
 
 [54 <./figs/3-CoBS/Phase-Match.pdf>]
 
@@ -1401,6 +1429,13 @@ Package pdftex.def Info: figs/3-CoBS/Phase-Match.pdf  used on input line 211.
 
  (./Raman.tex
 Chapter 4.
+Package acronym Info: Label `acro:SBS' overridden on input line 16.
+
+Overfull \hbox (2.98206pt too wide) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 High-coherence phonons are gar-ner-ing in-ter-est for pre-ci-si
+on metrol-ogy and quan-tum in-for-ma-tion,$[]$ spurring
+ []
+
 
 
 [59
@@ -1409,126 +1444,131 @@ Chapter 4.
 
 
 ]
-<figs/4-Raman/ExploreBrillouinRamanTransition.png, id=2994, 1190.4475pt x 332.2
+
+[60]
+
+[61]
+Package acronym Info: Label `acro:CoBS' overridden on input line 51.
+
+
+[62]
+<figs/4-Raman/ExploreBrillouinRamanTransition.png, id=3093, 1190.4475pt x 332.2
 4126pt>
 File: figs/4-Raman/ExploreBrillouinRamanTransition.png Graphic file (type png)
 <use figs/4-Raman/ExploreBrillouinRamanTransition.png>
 Package pdftex.def Info: figs/4-Raman/ExploreBrillouinRamanTransition.png  used
- on input line 46.
+ on input line 55.
 (pdftex.def)             Requested size: 469.75502pt x 131.0995pt.
-<figs/4-Raman/StartBigApproachSmall.png, id=2995, 1438.37375pt x 728.7225pt>
+<figs/4-Raman/StartBigApproachSmall.png, id=3094, 1438.37375pt x 728.7225pt>
 File: figs/4-Raman/StartBigApproachSmall.png Graphic file (type png)
 <use figs/4-Raman/StartBigApproachSmall.png>
 Package pdftex.def Info: figs/4-Raman/StartBigApproachSmall.png  used on input 
-line 53.
+line 62.
 (pdftex.def)             Requested size: 469.75502pt x 237.98842pt.
-<figs/4-Raman/GeometryDeterminesFundamentalFreq.png, id=2996, 732.7375pt x 463.
+<figs/4-Raman/GeometryDeterminesFundamentalFreq.png, id=3095, 732.7375pt x 463.
 7325pt>
 File: figs/4-Raman/GeometryDeterminesFundamentalFreq.png Graphic file (type png
 )
 <use figs/4-Raman/GeometryDeterminesFundamentalFreq.png>
 Package pdftex.def Info: figs/4-Raman/GeometryDeterminesFundamentalFreq.png  us
-ed on input line 60.
+ed on input line 69.
 (pdftex.def)             Requested size: 399.29463pt x 252.70442pt.
-<figs/4-Raman/GainOfRelevantMaterials.png, id=2997, 1169.36874pt x 523.9575pt>
+
+
+[63 <./figs/4-Raman/ExploreBrillouinRamanTransition.png> <./figs/4-Raman/StartB
+igApproachSmall.png>]
+
+[64 <./figs/4-Raman/GeometryDeterminesFundamentalFreq.png>]
+<figs/4-Raman/GainOfRelevantMaterials.png, id=3129, 1169.36874pt x 523.9575pt>
 File: figs/4-Raman/GainOfRelevantMaterials.png Graphic file (type png)
 <use figs/4-Raman/GainOfRelevantMaterials.png>
 Package pdftex.def Info: figs/4-Raman/GainOfRelevantMaterials.png  used on inpu
-t line 76.
+t line 85.
 (pdftex.def)             Requested size: 469.75502pt x 210.48271pt.
-
-
-[60 <./figs/4-Raman/ExploreBrillouinRamanTransition.png> <./figs/4-Raman/StartB
-igApproachSmall.png>]
-<figs/4-Raman/AcousticImpedance.png, id=3004, 757.83125pt x 318.18875pt>
+<figs/4-Raman/AcousticImpedance.png, id=3130, 757.83125pt x 318.18875pt>
 File: figs/4-Raman/AcousticImpedance.png Graphic file (type png)
 <use figs/4-Raman/AcousticImpedance.png>
 Package pdftex.def Info: figs/4-Raman/AcousticImpedance.png  used on input line
- 83.
+ 92.
 (pdftex.def)             Requested size: 469.75502pt x 197.23613pt.
-<figs/4-Raman/1cm UHNA3.jpeg, id=3005, 4625.28pt x 2119.92pt>
+<figs/4-Raman/1cm UHNA3.jpeg, id=3131, 4625.28pt x 2119.92pt>
 File: figs/4-Raman/1cm UHNA3.jpeg Graphic file (type jpg)
 <use figs/4-Raman/1cm UHNA3.jpeg>
-Package pdftex.def Info: figs/4-Raman/1cm UHNA3.jpeg  used on input line 102.
+Package pdftex.def Info: figs/4-Raman/1cm UHNA3.jpeg  used on input line 111.
 (pdftex.def)             Requested size: 230.18253pt x 105.48465pt.
-<figs/4-Raman/1mm UHNA3 in apparatus.jpeg, id=3006, 4625.28pt x 2119.92pt>
+<figs/4-Raman/1mm UHNA3 in apparatus.jpeg, id=3132, 4625.28pt x 2119.92pt>
 File: figs/4-Raman/1mm UHNA3 in apparatus.jpeg Graphic file (type jpg)
 <use figs/4-Raman/1mm UHNA3 in apparatus.jpeg>
 Package pdftex.def Info: figs/4-Raman/1mm UHNA3 in apparatus.jpeg  used on inpu
-t line 109.
+t line 118.
 (pdftex.def)             Requested size: 230.18253pt x 105.48465pt.
-Package acronym Info: Label `acro:UHNA3' overridden on input line 113.
-<figs/4-Raman/1cmCS2.jpeg, id=3013, 4625.28pt x 2119.92pt>
+Package acronym Info: Label `acro:UHNA3' overridden on input line 122.
+
+
+[65 <./figs/4-Raman/GainOfRelevantMaterials.png>]
+<figs/4-Raman/1cmCS2.jpeg, id=3147, 4625.28pt x 2119.92pt>
 File: figs/4-Raman/1cmCS2.jpeg Graphic file (type jpg)
 <use figs/4-Raman/1cmCS2.jpeg>
-Package pdftex.def Info: figs/4-Raman/1cmCS2.jpeg  used on input line 126.
+Package pdftex.def Info: figs/4-Raman/1cmCS2.jpeg  used on input line 135.
 (pdftex.def)             Requested size: 230.18253pt x 105.48465pt.
-<figs/4-Raman/4mmCS2.jpg, id=3014, 1770.615pt x 813.0375pt>
+<figs/4-Raman/4mmCS2.jpg, id=3148, 1770.615pt x 813.0375pt>
 File: figs/4-Raman/4mmCS2.jpg Graphic file (type jpg)
 <use figs/4-Raman/4mmCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/4mmCS2.jpg  used on input line 133.
+Package pdftex.def Info: figs/4-Raman/4mmCS2.jpg  used on input line 142.
 (pdftex.def)             Requested size: 230.18253pt x 105.68617pt.
 
 
-[61 <./figs/4-Raman/GeometryDeterminesFundamentalFreq.png>]
-<figs/4-Raman/1mmCS2.jpg, id=3026, 473.77pt x 1029.8475pt>
+[66 <./figs/4-Raman/AcousticImpedance.png> <./figs/4-Raman/1cm UHNA3.jpeg> <./f
+igs/4-Raman/1mm UHNA3 in apparatus.jpeg>]
+<figs/4-Raman/1mmCS2.jpg, id=3160, 473.77pt x 1029.8475pt>
 File: figs/4-Raman/1mmCS2.jpg Graphic file (type jpg)
 <use figs/4-Raman/1mmCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/1mmCS2.jpg  used on input line 166.
+Package pdftex.def Info: figs/4-Raman/1mmCS2.jpg  used on input line 175.
 (pdftex.def)             Requested size: 469.75502pt x 1021.15504pt.
-Package acronym Info: Label `acro:CoBS' overridden on input line 167.
-Package acronym Info: Label `acro:CoBS' overridden on input line 167.
 
 
-LaTeX Warning: Float too large for page by 390.12498pt on input line 169.
+LaTeX Warning: Float too large for page by 390.12498pt on input line 178.
 
-<figs/4-Raman/100umCS2.jpg, id=3027, 487.8225pt x 1065.9825pt>
+<figs/4-Raman/100umCS2.jpg, id=3161, 487.8225pt x 1065.9825pt>
 File: figs/4-Raman/100umCS2.jpg Graphic file (type jpg)
 <use figs/4-Raman/100umCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/100umCS2.jpg  used on input line 173.
+Package pdftex.def Info: figs/4-Raman/100umCS2.jpg  used on input line 182.
 (pdftex.def)             Requested size: 469.75502pt x 1026.51964pt.
-Package acronym Info: Label `acro:CoBS' overridden on input line 174.
-Package acronym Info: Label `acro:CoBS' overridden on input line 174.
 
-LaTeX Warning: Float too large for page by 395.48958pt on input line 176.
+LaTeX Warning: Float too large for page by 395.48958pt on input line 185.
 
-<figs/4-Raman/10umCS2.jpg, id=3028, 487.8225pt x 1063.975pt>
+<figs/4-Raman/10umCS2.jpg, id=3162, 487.8225pt x 1063.975pt>
 File: figs/4-Raman/10umCS2.jpg Graphic file (type jpg)
 <use figs/4-Raman/10umCS2.jpg>
-Package pdftex.def Info: figs/4-Raman/10umCS2.jpg  used on input line 180.
+Package pdftex.def Info: figs/4-Raman/10umCS2.jpg  used on input line 189.
 (pdftex.def)             Requested size: 469.75502pt x 1024.58646pt.
-Package acronym Info: Label `acro:CoBS' overridden on input line 181.
-Package acronym Info: Label `acro:CoBS' overridden on input line 181.
 
-LaTeX Warning: Float too large for page by 393.5564pt on input line 183.
+LaTeX Warning: Float too large for page by 393.5564pt on input line 192.
 
 
 
-[62 <./figs/4-Raman/GainOfRelevantMaterials.png>]
+[67 <./figs/4-Raman/1cmCS2.jpeg> <./figs/4-Raman/4mmCS2.jpg>]
 
-[63 <./figs/4-Raman/AcousticImpedance.png> <./figs/4-Raman/1cm UHNA3.jpeg> <./f
-igs/4-Raman/1mm UHNA3 in apparatus.jpeg>]
-<figs/4-Raman/HowWouldRamanModesAppear.png, id=3040, 1272.755pt x 645.41125pt>
+[68]
+<figs/4-Raman/HowWouldRamanModesAppear.png, id=3171, 1272.755pt x 645.41125pt>
 File: figs/4-Raman/HowWouldRamanModesAppear.png Graphic file (type png)
 <use figs/4-Raman/HowWouldRamanModesAppear.png>
 Package pdftex.def Info: figs/4-Raman/HowWouldRamanModesAppear.png  used on inp
-ut line 268.
+ut line 277.
 (pdftex.def)             Requested size: 469.75502pt x 238.20753pt.
 
 
-[64 <./figs/4-Raman/1cmCS2.jpeg> <./figs/4-Raman/4mmCS2.jpg>]
+[69]
 
-[65]
+[70 <./figs/4-Raman/1mmCS2.jpg>]
 
-[66 <./figs/4-Raman/1mmCS2.jpg>]
+[71 <./figs/4-Raman/100umCS2.jpg>]
 
-[67 <./figs/4-Raman/100umCS2.jpg>]
+[72 <./figs/4-Raman/10umCS2.jpg>]
 
-[68 <./figs/4-Raman/10umCS2.jpg>]
+[73 <./figs/4-Raman/HowWouldRamanModesAppear.png>]
 
-[69 <./figs/4-Raman/HowWouldRamanModesAppear.png>]
-
-[70
+[74
 
 ])
 \openout2 = `Conclusion.aux'.
@@ -1537,14 +1577,14 @@ ut line 268.
 Chapter 5.
 
 
-[71
+[75
 
 
 
 
 ]
 
-[72
+[76
 
 ])
 \openout2 = `post/A-Cooling.aux'.
@@ -1556,25 +1596,25 @@ Package acronym Info: Label `acro:SMF-28' overridden on input line 9.
 Package acronym Info: Label `acro:UHNA7' overridden on input line 9.
 
 
-[73
+[77
 
 
 
 
 ]
-<figs/2-Cooling/vytranCameraPreSplice.jpg, id=3113, 2951.025pt x 1353.055pt>
+<figs/2-Cooling/vytranCameraPreSplice.jpg, id=3236, 2951.025pt x 1353.055pt>
 File: figs/2-Cooling/vytranCameraPreSplice.jpg Graphic file (type jpg)
 <use figs/2-Cooling/vytranCameraPreSplice.jpg>
 Package pdftex.def Info: figs/2-Cooling/vytranCameraPreSplice.jpg  used on inpu
 t line 29.
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
-<figs/2-Cooling/bigGapSplice.jpg, id=3118, 2951.025pt x 1353.055pt>
+<figs/2-Cooling/bigGapSplice.jpg, id=3241, 2951.025pt x 1353.055pt>
 File: figs/2-Cooling/bigGapSplice.jpg Graphic file (type jpg)
 <use figs/2-Cooling/bigGapSplice.jpg>
 Package pdftex.def Info: figs/2-Cooling/bigGapSplice.jpg  used on input line 38
 .
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
-<figs/2-Cooling/finalSampleVytranSplice.jpeg, id=3119, 4544.98pt x 1112.155pt>
+<figs/2-Cooling/finalSampleVytranSplice.jpeg, id=3242, 4544.98pt x 1112.155pt>
 File: figs/2-Cooling/finalSampleVytranSplice.jpeg Graphic file (type jpg)
 <use figs/2-Cooling/finalSampleVytranSplice.jpeg>
 Package pdftex.def Info: figs/2-Cooling/finalSampleVytranSplice.jpeg  used on i
@@ -1582,11 +1622,11 @@ nput line 45.
 (pdftex.def)             Requested size: 469.75502pt x 114.93846pt.
 
 
-[74 <./figs/2-Cooling/vytranCameraPreSplice.jpg>]
+[78 <./figs/2-Cooling/vytranCameraPreSplice.jpg>]
 
-[75 <./figs/2-Cooling/bigGapSplice.jpg> <./figs/2-Cooling/finalSampleVytranSpli
+[79 <./figs/2-Cooling/bigGapSplice.jpg> <./figs/2-Cooling/finalSampleVytranSpli
 ce.jpeg>]
-<figs/2-Cooling/doubleBoxBracedSplice.jpg, id=3141, 2951.025pt x 1353.055pt>
+<figs/2-Cooling/doubleBoxBracedSplice.jpg, id=3265, 2951.025pt x 1353.055pt>
 File: figs/2-Cooling/doubleBoxBracedSplice.jpg Graphic file (type jpg)
 <use figs/2-Cooling/doubleBoxBracedSplice.jpg>
 Package pdftex.def Info: figs/2-Cooling/doubleBoxBracedSplice.jpg  used on inpu
@@ -1594,8 +1634,8 @@ t line 63.
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
 
 
-[76 <./figs/2-Cooling/doubleBoxBracedSplice.jpg>]
-<figs/2-Cooling/tackedSpliceWithArrow.jpg, id=3156, 2951.025pt x 1353.055pt>
+[80 <./figs/2-Cooling/doubleBoxBracedSplice.jpg>]
+<figs/2-Cooling/tackedSpliceWithArrow.jpg, id=3280, 2951.025pt x 1353.055pt>
 File: figs/2-Cooling/tackedSpliceWithArrow.jpg Graphic file (type jpg)
 <use figs/2-Cooling/tackedSpliceWithArrow.jpg>
 Package pdftex.def Info: figs/2-Cooling/tackedSpliceWithArrow.jpg  used on inpu
@@ -1603,8 +1643,8 @@ t line 79.
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
 
 
-[77 <./figs/2-Cooling/tackedSpliceWithArrow.jpg>]
-<figs/2-Cooling/successfullyBuiltSplice.jpg, id=3167, 2951.025pt x 1353.055pt>
+[81 <./figs/2-Cooling/tackedSpliceWithArrow.jpg>]
+<figs/2-Cooling/successfullyBuiltSplice.jpg, id=3291, 2951.025pt x 1353.055pt>
 File: figs/2-Cooling/successfullyBuiltSplice.jpg Graphic file (type jpg)
 <use figs/2-Cooling/successfullyBuiltSplice.jpg>
 Package pdftex.def Info: figs/2-Cooling/successfullyBuiltSplice.jpg  used on in
@@ -1612,8 +1652,8 @@ put line 99.
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
 
 
-[78 <./figs/2-Cooling/successfullyBuiltSplice.jpg>]
-<figs/2-Cooling/redLightWithThumbTackWholeSample.jpg, id=3178, 2951.025pt x 135
+[82 <./figs/2-Cooling/successfullyBuiltSplice.jpg>]
+<figs/2-Cooling/redLightWithThumbTackWholeSample.jpg, id=3302, 2951.025pt x 135
 3.055pt>
 File: figs/2-Cooling/redLightWithThumbTackWholeSample.jpg Graphic file (type jp
 g)
@@ -1621,13 +1661,13 @@ g)
 Package pdftex.def Info: figs/2-Cooling/redLightWithThumbTackWholeSample.jpg  u
 sed on input line 114.
 (pdftex.def)             Requested size: 469.75502pt x 215.37834pt.
-<figs/2-Cooling/CS2NearlyReached.jpg, id=3181, 2951.025pt x 1353.055pt>
+<figs/2-Cooling/CS2NearlyReached.jpg, id=3305, 2951.025pt x 1353.055pt>
 File: figs/2-Cooling/CS2NearlyReached.jpg Graphic file (type jpg)
 <use figs/2-Cooling/CS2NearlyReached.jpg>
 Package pdftex.def Info: figs/2-Cooling/CS2NearlyReached.jpg  used on input lin
 e 130.
 (pdftex.def)             Requested size: 230.18253pt x 105.52135pt.
-<figs/2-Cooling/CS2Reached.jpg, id=3182, 2951.025pt x 1353.055pt>
+<figs/2-Cooling/CS2Reached.jpg, id=3306, 2951.025pt x 1353.055pt>
 File: figs/2-Cooling/CS2Reached.jpg Graphic file (type jpg)
 <use figs/2-Cooling/CS2Reached.jpg>
 Package pdftex.def Info: figs/2-Cooling/CS2Reached.jpg  used on input line 137.
@@ -1635,17 +1675,17 @@ Package pdftex.def Info: figs/2-Cooling/CS2Reached.jpg  used on input line 137.
 (pdftex.def)             Requested size: 230.18253pt x 105.52135pt.
 
 
-[79 <./figs/2-Cooling/redLightWithThumbTackWholeSample.jpg>]
+[83 <./figs/2-Cooling/redLightWithThumbTackWholeSample.jpg>]
 
-[80 <./figs/2-Cooling/CS2NearlyReached.jpg> <./figs/2-Cooling/CS2Reached.jpg>]
-<figs/2-Cooling/fullSampleTapedToOpticalTable.jpg, id=3205, 2951.025pt x 1353.0
+[84 <./figs/2-Cooling/CS2NearlyReached.jpg> <./figs/2-Cooling/CS2Reached.jpg>]
+<figs/2-Cooling/fullSampleTapedToOpticalTable.jpg, id=3329, 2951.025pt x 1353.0
 55pt>
 File: figs/2-Cooling/fullSampleTapedToOpticalTable.jpg Graphic file (type jpg)
 <use figs/2-Cooling/fullSampleTapedToOpticalTable.jpg>
 Package pdftex.def Info: figs/2-Cooling/fullSampleTapedToOpticalTable.jpg  used
  on input line 164.
 (pdftex.def)             Requested size: 230.18253pt x 105.52135pt.
-<figs/2-Cooling/spliceTapedDirectlyOnOpticalTable.jpg, id=3206, 2951.025pt x 13
+<figs/2-Cooling/spliceTapedDirectlyOnOpticalTable.jpg, id=3330, 2951.025pt x 13
 53.055pt>
 File: figs/2-Cooling/spliceTapedDirectlyOnOpticalTable.jpg Graphic file (type j
 pg)
@@ -1655,21 +1695,21 @@ used on input line 171.
 (pdftex.def)             Requested size: 230.18253pt x 105.52135pt.
 
 
-[81 <./figs/2-Cooling/fullSampleTapedToOpticalTable.jpg> <./figs/2-Cooling/spli
+[85 <./figs/2-Cooling/fullSampleTapedToOpticalTable.jpg> <./figs/2-Cooling/spli
 ceTapedDirectlyOnOpticalTable.jpg>]
 
-[82]
+[86]
 
-[83]
+[87]
 
-[84])
+[88])
 
-[85]
+[89]
 \openout2 = `post/A-CoBS.aux'.
 
  (./post/A-CoBS.tex
 
-[86
+[90
 
 
 
@@ -1708,7 +1748,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
 
 
-[87]
+[91]
 Underfull \hbox (badness 10000) in paragraph at lines 50--54
 
  []
@@ -1740,7 +1780,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--86
 
 
 
-[88]
+[92]
 Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
@@ -1772,7 +1812,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
 
 
-[89]
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
@@ -1814,7 +1854,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
 
 
-[90]
+[94]
 Underfull \hbox (badness 10000) in paragraph at lines 170--172
 
  []
@@ -1856,7 +1896,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--208
 
 
 
-[91]
+[95]
 Underfull \hbox (badness 10000) in paragraph at lines 211--215
 
  []
@@ -1893,7 +1933,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--251
 
 
 
-[92]
+[96]
 Underfull \hbox (badness 10000) in paragraph at lines 254--258
 
  []
@@ -1920,16 +1960,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--277
 
 
 
-[93]
+[97]
 
-[94]
+[98]
 
-[95]
+[99]
 Package acronym Info: Label `acro:UHNA3' overridden on input line 382.
 
 
-[96]
-<figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf, id=3388, 715.93271pt x 427.14142pt>
+[100]
+<figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf, id=3512, 715.93271pt x 427.14142pt>
 File: figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf Graphic file (type pdf)
 <use figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf>
 Package pdftex.def Info: figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf  used on input li
@@ -1937,12 +1977,12 @@ ne 416.
 (pdftex.def)             Requested size: 469.75502pt x 280.27176pt.
 
 
-[97 <./figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf>]
+[101 <./figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf>]
 
-[98]
+[102]
 
-[99]
-<figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf, id=3460, 614.295pt x 1300.86pt>
+[103]
+<figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf, id=3584, 614.295pt x 1300.86pt>
 File: figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf Graphic file (type pdf)
 <use figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf>
 Package pdftex.def Info: figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf  used on input li
@@ -1950,14 +1990,14 @@ ne 441.
 (pdftex.def)             Requested size: 276.43956pt x 585.38303pt.
 
 
-[100]
+[104]
 
-[101 <./figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf>]
+[105 <./figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf>]
 
-[102
+[106
 
 ]
-<figs/3-CoBS/JoyDivisionCoBSCS2.pdf, id=3494, 614.295pt x 794.97pt>
+<figs/3-CoBS/JoyDivisionCoBSCS2.pdf, id=3617, 614.295pt x 794.97pt>
 File: figs/3-CoBS/JoyDivisionCoBSCS2.pdf Graphic file (type pdf)
 <use figs/3-CoBS/JoyDivisionCoBSCS2.pdf>
 Package pdftex.def Info: figs/3-CoBS/JoyDivisionCoBSCS2.pdf  used on input line
@@ -1965,14 +2005,14 @@ Package pdftex.def Info: figs/3-CoBS/JoyDivisionCoBSCS2.pdf  used on input line
 (pdftex.def)             Requested size: 328.82707pt x 425.54129pt.
 
 
-[103 <./figs/3-CoBS/JoyDivisionCoBSCS2.pdf>]
-<figs/3-CoBS/CS2FanoCompare.pdf, id=3515, 1084.05pt x 1084.05pt>
+[107 <./figs/3-CoBS/JoyDivisionCoBSCS2.pdf>]
+<figs/3-CoBS/CS2FanoCompare.pdf, id=3639, 1084.05pt x 1084.05pt>
 File: figs/3-CoBS/CS2FanoCompare.pdf Graphic file (type pdf)
 <use figs/3-CoBS/CS2FanoCompare.pdf>
 Package pdftex.def Info: figs/3-CoBS/CS2FanoCompare.pdf  used on input line 476
 .
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
-<figs/3-CoBS/CS2LorentzCompare.pdf, id=3516, 1084.05pt x 1084.05pt>
+<figs/3-CoBS/CS2LorentzCompare.pdf, id=3640, 1084.05pt x 1084.05pt>
 File: figs/3-CoBS/CS2LorentzCompare.pdf Graphic file (type pdf)
 <use figs/3-CoBS/CS2LorentzCompare.pdf>
 Package pdftex.def Info: figs/3-CoBS/CS2LorentzCompare.pdf  used on input line 
@@ -1980,22 +2020,22 @@ Package pdftex.def Info: figs/3-CoBS/CS2LorentzCompare.pdf  used on input line
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
-[104]
+[108]
 
-[105 <./figs/3-CoBS/CS2FanoCompare.pdf>]
+[109 <./figs/3-CoBS/CS2FanoCompare.pdf>]
 
-[106 <./figs/3-CoBS/CS2LorentzCompare.pdf>]
+[110 <./figs/3-CoBS/CS2LorentzCompare.pdf>]
 
-[107
+[111
 
 ]
-<figs/3-CoBS/PSPr-Contribute-Equally.pdf, id=3558, 1084.05pt x 1084.05pt>
+<figs/3-CoBS/PSPr-Contribute-Equally.pdf, id=3682, 1084.05pt x 1084.05pt>
 File: figs/3-CoBS/PSPr-Contribute-Equally.pdf Graphic file (type pdf)
 <use figs/3-CoBS/PSPr-Contribute-Equally.pdf>
 Package pdftex.def Info: figs/3-CoBS/PSPr-Contribute-Equally.pdf  used on input
  line 536.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
-<figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf, id=3559, 1084.05pt x 1084.05pt
+<figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf, id=3683, 1084.05pt x 1084.05pt
 >
 File: figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf Graphic file (type pdf)
 <use figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf>
@@ -2004,41 +2044,41 @@ n input line 543.
 (pdftex.def)             Requested size: 469.75502pt x 469.75496pt.
 
 
-[108]
+[112]
 
-[109 <./figs/3-CoBS/PSPr-Contribute-Equally.pdf>]
+[113 <./figs/3-CoBS/PSPr-Contribute-Equally.pdf>]
 
-[110 <./figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf>])
+[114 <./figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf>])
 
-[111
+[115
 
 ]
 \openout2 = `post/A-Raman.aux'.
 
  (./post/A-Raman.tex
 
-[112
+[116
 
 
 
 
 ]
 Appendix C.
-<figs/4-Raman/DepositionChamber.png, id=3598, 428.60126pt x 416.55624pt>
+<figs/4-Raman/DepositionChamber.png, id=3722, 428.60126pt x 416.55624pt>
 File: figs/4-Raman/DepositionChamber.png Graphic file (type png)
 <use figs/4-Raman/DepositionChamber.png>
 Package pdftex.def Info: figs/4-Raman/DepositionChamber.png  used on input line
  14.
 (pdftex.def)             Requested size: 469.75502pt x 456.55434pt.
 Package acronym Info: Label `acro:PVD' overridden on input line 15.
-<figs/4-Raman/GLAD.png, id=3601, 408.52625pt x 404.51125pt>
+<figs/4-Raman/GLAD.png, id=3725, 408.52625pt x 404.51125pt>
 File: figs/4-Raman/GLAD.png Graphic file (type png)
 <use figs/4-Raman/GLAD.png>
 Package pdftex.def Info: figs/4-Raman/GLAD.png  used on input line 21.
 (pdftex.def)             Requested size: 375.80544pt x 372.13017pt.
 Package acronym Info: Label `acro:GLAD' overridden on input line 22.
 Package acronym Info: Label `acro:GLAD' overridden on input line 22.
-<figs/4-Raman/slide-with-TeO2-film-on-substrate.jpeg, id=3604, 4625.28pt x 2119
+<figs/4-Raman/slide-with-TeO2-film-on-substrate.jpeg, id=3728, 4625.28pt x 2119
 .92pt>
 File: figs/4-Raman/slide-with-TeO2-film-on-substrate.jpeg Graphic file (type jp
 g)
@@ -2046,25 +2086,25 @@ g)
 Package pdftex.def Info: figs/4-Raman/slide-with-TeO2-film-on-substrate.jpeg  u
 sed on input line 28.
 (pdftex.def)             Requested size: 469.75502pt x 215.30385pt.
-<figs/4-Raman/3TeO2SamplesIn1.png, id=3607, 1380.15625pt x 506.89375pt>
+<figs/4-Raman/3TeO2SamplesIn1.png, id=3731, 1380.15625pt x 506.89375pt>
 File: figs/4-Raman/3TeO2SamplesIn1.png Graphic file (type png)
 <use figs/4-Raman/3TeO2SamplesIn1.png>
 Package pdftex.def Info: figs/4-Raman/3TeO2SamplesIn1.png  used on input line 3
 5.
 (pdftex.def)             Requested size: 469.75502pt x 172.52722pt.
-<figs/4-Raman/CINTSamples.png, id=3610, 774.64406pt x 355.3275pt>
+<figs/4-Raman/CINTSamples.png, id=3734, 774.64406pt x 355.3275pt>
 File: figs/4-Raman/CINTSamples.png Graphic file (type png)
 <use figs/4-Raman/CINTSamples.png>
 Package pdftex.def Info: figs/4-Raman/CINTSamples.png  used on input line 44.
 (pdftex.def)             Requested size: 230.18253pt x 105.57976pt.
-<figs/4-Raman/TeCINTinFoam.png, id=3611, 766.36313pt x 350.81062pt>
+<figs/4-Raman/TeCINTinFoam.png, id=3735, 766.36313pt x 350.81062pt>
 File: figs/4-Raman/TeCINTinFoam.png Graphic file (type png)
 <use figs/4-Raman/TeCINTinFoam.png>
 Package pdftex.def Info: figs/4-Raman/TeCINTinFoam.png  used on input line 51.
 (pdftex.def)             Requested size: 230.18253pt x 105.36711pt.
 Package acronym Info: Label `acro:CoBS' overridden on input line 55.
 Package acronym Info: Label `acro:CoBS' overridden on input line 55.
-<figs/4-Raman/WaveguideAlignmentCameraFringePattern.png, id=3616, 1416.29124pt 
+<figs/4-Raman/WaveguideAlignmentCameraFringePattern.png, id=3740, 1416.29124pt 
 x 685.56125pt>
 File: figs/4-Raman/WaveguideAlignmentCameraFringePattern.png Graphic file (type
  png)
@@ -2074,23 +2114,23 @@ Package pdftex.def Info: figs/4-Raman/WaveguideAlignmentCameraFringePattern.png
 (pdftex.def)             Requested size: 469.75502pt x 227.3866pt.
 )
 
-[113]
+[117]
 
-[114 <./figs/4-Raman/DepositionChamber.png>]
+[118 <./figs/4-Raman/DepositionChamber.png>]
 
-[115 <./figs/4-Raman/GLAD.png>]
+[119 <./figs/4-Raman/GLAD.png>]
 
-[116 <./figs/4-Raman/slide-with-TeO2-film-on-substrate.jpeg> <./figs/4-Raman/3T
+[120 <./figs/4-Raman/slide-with-TeO2-film-on-substrate.jpeg> <./figs/4-Raman/3T
 eO2SamplesIn1.png> <./figs/4-Raman/CINTSamples.png> <./figs/4-Raman/TeCINTinFoa
 m.png>]
 
-[117 <./figs/4-Raman/WaveguideAlignmentCameraFringePattern.png>]
+[121 <./figs/4-Raman/WaveguideAlignmentCameraFringePattern.png>]
 \openout2 = `post/A-Code.aux'.
 
 
 (./post/A-Code.tex
 
-[118
+[122
 
 
 
@@ -2099,22 +2139,30 @@ m.png>]
 Appendix D.
 )
 
-[119] (./main.bbl
+[123] (./main.bbl
 
-[120
+[124
 
 
 
 
 ]
 
-[121]
+[125]
 
-[122]
+[126]
 
-[123])
+[127]
+Underfull \hbox (badness 2134) in paragraph at lines 439--443
+[]\OT1/cmr/m/n/10 Kerry Va-hala, Max-i-m-il-ian Her-rmann, Se-bas-tian Kn^^?unz
+, Valentin Bat-teiger, Guido Saathoff,
+ []
 
-[124] (./main.aux (./pre/0-Title.aux) (./pre/0-Abstract.aux)
+
+
+[128])
+
+[129] (./main.aux (./pre/0-Title.aux) (./pre/0-Abstract.aux)
 (./pre/0-Epigraph.aux) (./pre/1-Acronyms.aux) (./Introduction.aux)
 (./Cooling.aux) (./CoBS.aux) (./Raman.aux) (./Conclusion.aux)
 (./post/A-Cooling.aux) (./post/A-CoBS.aux) (./post/A-Raman.aux)
@@ -2123,17 +2171,21 @@ Appendix D.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3892E4E0AE58C671842F7153F6CBA25F;21151.
+(rerunfilecheck)             Checksum: 38E9402037070B79A8CCA102D52E346F;21151.
  ) 
 Here is how much of TeX's memory you used:
- 23993 strings out of 473201
- 467821 string characters out of 5716120
- 1104403 words of memory out of 5000000
- 46236 multiletter control sequences out of 15000+600000
+ 24122 strings out of 473201
+ 471025 string characters out of 5716120
+ 1107409 words of memory out of 5000000
+ 46328 multiletter control sequences out of 15000+600000
  573591 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,83p,2378b,1318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,16n,83p,2378b,1354s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
@@ -2157,10 +2209,10 @@ dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (142 pages, 29836849 bytes).
+Output written on main.pdf (149 pages, 29980963 bytes).
 PDF statistics:
- 3915 PDF objects out of 4296 (max. 8388607)
- 2745 compressed objects within 28 object streams
- 586 named destinations out of 1000 (max. 500000)
- 1116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4057 PDF objects out of 4296 (max. 8388607)
+ 2874 compressed objects within 29 object streams
+ 623 named destinations out of 1000 (max. 500000)
+ 1121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

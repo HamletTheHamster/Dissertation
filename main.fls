@@ -477,11 +477,16 @@ OUTPUT CoBS.aux
 INPUT ./CoBS.tex
 INPUT ./CoBS.tex
 INPUT CoBS.tex
-INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf
-INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf
-INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf
-INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf
-INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.pdf
+INPUT ./figs/3-CoBS/SBS Illustrator Diagram.png
+INPUT ./figs/3-CoBS/SBS Illustrator Diagram.png
+INPUT ./figs/3-CoBS/SBS Illustrator Diagram.png
+INPUT ./figs/3-CoBS/SBS Illustrator Diagram.png
+INPUT ./figs/3-CoBS/SBS Illustrator Diagram.png
+INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.png
+INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.png
+INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.png
+INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.png
+INPUT ./figs/3-CoBS/4-Wave-Brillouin-Scattering.png
 INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
 INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
 INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf

@@ -1,7 +1,7 @@
 \contentsline {chapter}{Abstract}{ii}{section*.1}%
 \contentsline {chapter}{List of Tables}{vii}{section*.6}%
 \contentsline {chapter}{List of Figures}{viii}{section*.10}%
-\contentsline {chapter}{List of Acronyms}{xvii}{chapter*.38}%
+\contentsline {chapter}{List of Acronyms}{xix}{chapter*.41}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Light Scattering}{4}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Spontaneous Brillouin Scattering}{5}{section.1.2}%
@@ -22,7 +22,7 @@
 \contentsline {section}{\numberline {2.4}Results}{21}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Cooling Experiment~A Results}{21}{subsection.2.4.1}%
 \contentsline {subsection}{\numberline {2.4.2}Cooling Experiment~B Results}{25}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Evidence of Transmission Degradation}{28}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.3}Evidence of Transmission Degradation}{29}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Discussion}{34}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}The \textit {C}-Value: A Standardized Cooling Metric}{34}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Parallel Achievement: Max Planck Institute}{35}{subsection.2.5.2}%
@@ -40,61 +40,61 @@
 \contentsline {subsection}{\numberline {3.4.2}Experimental Techniques}{47}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Results}{48}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Instrument Sensitivity}{48}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Measurements}{50}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Phase Matching Bandwidth}{53}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Fano-Resonant Asymmetries at Small Signals}{53}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.2}Measurements}{49}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Phase Matching Bandwidth}{52}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Fano-Resonant Asymmetries at Small Signals}{54}{subsection.3.5.4}%
 \contentsline {section}{\numberline {3.6}Conclusion}{57}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Brillouin-Induced Raman Modes and Device Exploration}{59}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{59}{section.4.1}%
-\contentsline {section}{\numberline {4.2}From Traveling-Wave to Raman-Like Standing-Wave Modes}{59}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Review of Brillouin and Raman Scattering}{59}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Brillouin-Induced Raman Modes}{59}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Key Parameters and Feasibility}{60}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Experimental Platforms and Collaborative Fabrication}{61}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Germanium-Doped Optical Fiber}{61}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Free-Space Optics with Liquid Carbon Disulfide}{61}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Tellurium Dioxide Thin Film}{61}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Tellurium Thin Film}{61}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Carbon Disulfide Micrometer Cell}{62}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Suspended Silica Rib Waveguide}{62}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}Elastically-Suspended Photonic-Phononic Waveguide}{62}{subsection.4.3.7}%
-\contentsline {section}{\numberline {4.4}Methods}{62}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Instrument Overview}{62}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Measurement Protocol}{63}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Data Analysis Steps}{63}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Results}{64}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Initial Findings}{64}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Challenges and Partial Outcomes}{64}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Interpretation in Light of Theory}{64}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Discussion}{65}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Pathways to Brillouin-Induced Raman Modes}{65}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Conclusion}{65}{subsection.4.6.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{71}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{73}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Fabrication of $CS_{2}$-Filled Liquid-Core Optical Fiber}{73}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Splicing}{73}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Reservoir Assembly}{77}{subsection.A.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}Filling with Carbon Disulfide}{80}{subsection.A.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}Typical Optical Performance}{81}{subsection.A.1.4}%
-\contentsline {section}{\numberline {A.2}Improvements in Yield and Efficiency of \acs {LCOF} Samples}{82}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Tabulated Fit and Uncertainty Values Derived from the Observed Data}{84}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Cooling Experiment~A Tabulated Values}{84}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Cooling Experiment~B Tabulated Values}{85}{subsection.A.3.2}%
-\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter~\ref {ch:CoBS}}{87}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Coupled-Wave Equations}{87}{section.B.1}%
-\contentsline {subsection}{\numberline {B.1.1}Acoustic Field}{88}{subsection.B.1.1}%
-\contentsline {subsection}{\numberline {B.1.2}Optical Fields}{89}{subsection.B.1.2}%
-\contentsline {section}{\numberline {B.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{94}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Observance of Fano-Resonant Asymmetries at Small Signals}{99}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Fano Experiment~A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{99}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Fano Experiment~B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{102}{subsection.B.3.2}%
-\contentsline {section}{\numberline {B.4}CoBS Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{108}{section.B.4}%
-\contentsline {section}{\numberline {B.5}Data}{111}{section.B.5}%
-\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter~\ref {ch:Raman}}{113}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Thin Film Fabrication via Physical Vapor Deposition}{113}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Fiber-Chip-Fiber Waveguide Optical Alignment}{113}{section.C.2}%
-\contentsline {section}{\numberline {C.3}Chip Waveguide Case Study~A: Thermal Effect on Brillouin Frequency Shift}{113}{section.C.3}%
-\contentsline {section}{\numberline {C.4}Chip Waveguide Case Study~B: Pump-Probe Detuning Effect on Scattered Power}{113}{section.C.4}%
-\contentsline {chapter}{\numberline {D}Code and Data Availability}{119}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Plotting Data In Go}{119}{section.D.1}%
-\contentsline {chapter}{References}{120}{section*.157}%
+\contentsline {section}{\numberline {4.2}From Traveling-Wave to Raman-Like Standing-Wave Modes}{60}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Review of Brillouin and Raman Scattering}{60}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Brillouin-Induced Raman Modes}{61}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Key Parameters and Feasibility}{64}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Experimental Platforms and Collaborative Fabrication}{66}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Germanium-Doped Optical Fiber}{66}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Free-Space Optics with Liquid Carbon Disulfide}{66}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Tellurium Dioxide Thin Film}{66}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Tellurium Thin Film}{67}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Carbon Disulfide Micrometer Cell}{67}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Suspended Silica Rib Waveguide}{67}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Elastically-Suspended Photonic-Phononic Waveguide}{67}{subsection.4.3.7}%
+\contentsline {section}{\numberline {4.4}Methods}{67}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Instrument Overview}{67}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Measurement Protocol}{68}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Data Analysis Steps}{68}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Results}{68}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Initial Findings}{68}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Challenges and Partial Outcomes}{68}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Interpretation in Light of Theory}{69}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Discussion}{69}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Pathways to Brillouin-Induced Raman Modes}{69}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Conclusion}{69}{subsection.4.6.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{75}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{77}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Fabrication of $CS_{2}$-Filled Liquid-Core Optical Fiber}{77}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Splicing}{77}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Reservoir Assembly}{81}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Filling with Carbon Disulfide}{84}{subsection.A.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Typical Optical Performance}{85}{subsection.A.1.4}%
+\contentsline {section}{\numberline {A.2}Improvements in Yield and Efficiency of \acs {LCOF} Samples}{86}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Tabulated Fit and Uncertainty Values Derived from the Observed Data}{88}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Cooling Experiment~A Tabulated Values}{88}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Cooling Experiment~B Tabulated Values}{89}{subsection.A.3.2}%
+\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter~\ref {ch:CoBS}}{91}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Coupled-Wave Equations}{91}{section.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}Acoustic Field}{92}{subsection.B.1.1}%
+\contentsline {subsection}{\numberline {B.1.2}Optical Fields}{93}{subsection.B.1.2}%
+\contentsline {section}{\numberline {B.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{98}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Observance of Fano-Resonant Asymmetries at Small Signals}{103}{section.B.3}%
+\contentsline {subsection}{\numberline {B.3.1}Fano Experiment~A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{103}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Fano Experiment~B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{106}{subsection.B.3.2}%
+\contentsline {section}{\numberline {B.4}CoBS Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{112}{section.B.4}%
+\contentsline {section}{\numberline {B.5}Data}{115}{section.B.5}%
+\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter~\ref {ch:Raman}}{117}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Thin Film Fabrication via Physical Vapor Deposition}{117}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Fiber-Chip-Fiber Waveguide Optical Alignment}{117}{section.C.2}%
+\contentsline {section}{\numberline {C.3}Chip Waveguide Case Study~A: Thermal Effect on Brillouin Frequency Shift}{117}{section.C.3}%
+\contentsline {section}{\numberline {C.4}Chip Waveguide Case Study~B: Pump-Probe Detuning Effect on Scattered Power}{117}{section.C.4}%
+\contentsline {chapter}{\numberline {D}Code and Data Availability}{123}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Plotting Data In Go}{123}{section.D.1}%
+\contentsline {chapter}{References}{124}{section*.158}%

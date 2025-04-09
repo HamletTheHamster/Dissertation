@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{65}
+\begin{thebibliography}{91}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -337,13 +337,14 @@ A~Gerakis, MN~Shneider, and PF~Barker.
 \newblock Coherent brillouin scattering.
 \newblock \emph{Optics Express}, 19\penalty0 (24):\penalty0 24046--24054, 2011.
 
-\bibitem[Pant et~al.(2011)Pant, Li, Choi, Poulton, Madden, Luther-Davies, and
-  Eggleton]{pant2011cavity}
+\bibitem[Pant et~al.(2011{\natexlab{a}})Pant, Li, Choi, Poulton, Madden,
+  Luther-Davies, and Eggleton]{pant2011cavity}
 Ravi Pant, Enbang Li, D-Y Choi, CG~Poulton, Stephen~J Madden, Barry
   Luther-Davies, and Benjamin~J Eggleton.
 \newblock Cavity enhanced stimulated brillouin scattering in an optical chip
   for multiorder stokes generation.
-\newblock \emph{Optics letters}, 36\penalty0 (18):\penalty0 3687--3689, 2011.
+\newblock \emph{Optics letters}, 36\penalty0 (18):\penalty0 3687--3689,
+  2011{\natexlab{a}}.
 
 \bibitem[Kittlaus et~al.(2017)Kittlaus, Otterstrom, and
   Rakich]{kittlaus2017chip}
@@ -427,6 +428,175 @@ Linpeng Gu, Liang Fang, Hanlin Fang, Juntao Li, Jianbang Zheng, Jianlin Zhao,
 \newblock Fano resonance lineshapes in a waveguide-microring structure enabled
   by an air-hole.
 \newblock \emph{APL photonics}, 5\penalty0 (1), 2020.
+
+\bibitem[Kippenberg and Vahala(2008)]{kippenberg2008cavity}
+Tobias~J Kippenberg and Kerry~J Vahala.
+\newblock Cavity optomechanics: back-action at the mesoscale.
+\newblock \emph{science}, 321\penalty0 (5893):\penalty0 1172--1176, 2008.
+
+\bibitem[Vahala et~al.(2009)Vahala, Herrmann, Kn{\"u}nz, Batteiger, Saathoff,
+  H{\"a}nsch, and Udem]{vahala2009phonon}
+Kerry Vahala, Maximilian Herrmann, Sebastian Kn{\"u}nz, Valentin Batteiger,
+  Guido Saathoff, TW~H{\"a}nsch, and Th~Udem.
+\newblock A phonon laser.
+\newblock \emph{Nature Physics}, 5\penalty0 (9):\penalty0 682--686, 2009.
+
+\bibitem[Balram et~al.(2016)Balram, Davan{\c{c}}o, Song, and
+  Srinivasan]{balram2016coherent}
+Krishna~C Balram, Marcelo~I Davan{\c{c}}o, Jin~Dong Song, and Kartik
+  Srinivasan.
+\newblock Coherent coupling between radiofrequency, optical and acoustic waves
+  in piezo-optomechanical circuits.
+\newblock \emph{Nature photonics}, 10\penalty0 (5):\penalty0 346--352, 2016.
+
+\bibitem[Schliesser and Kippenberg(2014)]{schliesser2014cavity}
+A~Schliesser and TJ~Kippenberg.
+\newblock Cavity optomechanics with whispering-gallery-mode microresonators.
+\newblock In \emph{Cavity Optomechanics: Nano-and Micromechanical Resonators
+  Interacting with Light}, pages 121--148. Springer, 2014.
+
+\bibitem[Galliou et~al.(2013)Galliou, Goryachev, Bourquin, Abb{\'e}, Aubry, and
+  Tobar]{galliou2013extremely}
+Serge Galliou, Maxim Goryachev, Roger Bourquin, Philippe Abb{\'e}, Jean~Pierre
+  Aubry, and Michael~E Tobar.
+\newblock Extremely low loss phonon-trapping cryogenic acoustic cavities for
+  future physical experiments.
+\newblock \emph{Scientific reports}, 3\penalty0 (1):\penalty0 2132, 2013.
+
+\bibitem[Pant et~al.(2011{\natexlab{b}})Pant, Poulton, Choi, Mcfarlane, Hile,
+  Li, Thevenaz, Luther-Davies, Madden, and Eggleton]{pant2011chip}
+Ravi Pant, Christopher~G Poulton, Duk-Yong Choi, Hannah Mcfarlane, Samuel Hile,
+  Enbang Li, Luc Thevenaz, Barry Luther-Davies, Stephen~J Madden, and
+  Benjamin~J Eggleton.
+\newblock On-chip stimulated brillouin scattering.
+\newblock \emph{Optics express}, 19\penalty0 (9):\penalty0 8285--8290,
+  2011{\natexlab{b}}.
+
+\bibitem[Cardona and Merlin(2007)]{cardona2007light}
+Manuel Cardona and Roberto Merlin.
+\newblock \emph{Light scattering in solids IX}.
+\newblock Springer, 2007.
+
+\bibitem[Ferraro(2003)]{ferraro2003introductory}
+John~R Ferraro.
+\newblock \emph{Introductory raman spectroscopy}.
+\newblock Elsevier, 2003.
+
+\bibitem[Shuker and Gammon(1970)]{shuker1970raman}
+Reuben Shuker and Robert~W Gammon.
+\newblock Raman-scattering selection-rule breaking and the density of states in
+  amorphous materials.
+\newblock \emph{Physical Review Letters}, 25\penalty0 (4):\penalty0 222, 1970.
+
+\bibitem[Duval et~al.(1990)Duval, Boukenter, and Achibat]{duval1990vibrational}
+E~Duval, A~Boukenter, and T~Achibat.
+\newblock Vibrational dynamics and the structure of glasses.
+\newblock \emph{Journal of Physics: Condensed Matter}, 2\penalty0
+  (51):\penalty0 10227, 1990.
+
+\bibitem[Winterling(1975)]{winterling1975very}
+G~Winterling.
+\newblock Very-low-frequency raman scattering in vitreous silica.
+\newblock \emph{Physical Review B}, 12\penalty0 (6):\penalty0 2432, 1975.
+
+\bibitem[Nemanich(1977)]{nemanich1977low}
+Robert~John Nemanich.
+\newblock Low-frequency inelastic light scattering from chalcogenide glasses
+  and alloys.
+\newblock \emph{Physical Review B}, 16\penalty0 (4):\penalty0 1655, 1977.
+
+\bibitem[Martin and Brenig(1974)]{martin1974model}
+AJ~Martin and W~Brenig.
+\newblock Model for brillouin scattering in amorphous solids.
+\newblock \emph{physica status solidi (b)}, 64\penalty0 (1):\penalty0 163--172,
+  1974.
+
+\bibitem[Malinovsky and Sokolov(1986)]{malinovsky1986nature}
+Valeriy~K Malinovsky and Alexei~P Sokolov.
+\newblock The nature of boson peak in raman scattering in glasses.
+\newblock \emph{Solid state communications}, 57\penalty0 (9):\penalty0
+  757--761, 1986.
+
+\bibitem[Buchenau et~al.(1986)Buchenau, Prager, N{\"u}cker, Dianoux, Ahmad, and
+  Phillips]{buchenau1986low}
+U~Buchenau, M~Prager, N~N{\"u}cker, AJ~Dianoux, N~Ahmad, and WA~Phillips.
+\newblock Low-frequency modes in vitreous silica.
+\newblock \emph{Physical Review B}, 34\penalty0 (8):\penalty0 5665, 1986.
+
+\bibitem[Malinovsky et~al.(1987)Malinovsky, Novikov, and
+  Sokolov]{malinovsky1987investigation}
+VK~Malinovsky, VN~Novikov, and AP~Sokolov.
+\newblock Investigation of structural correlations in disordered materials by
+  raman scattering measurements.
+\newblock \emph{Journal of Non Crystalline Solids}, 90\penalty0 (1):\penalty0
+  485--488, 1987.
+
+\bibitem[Chumakov et~al.(2011)Chumakov, Monaco, Monaco, Crichton, Bosak,
+  R{\"u}ffer, Meyer, Kargl, Comez, Fioretto, et~al.]{chumakov2011equivalence}
+A\_I Chumakov, Giulio Monaco, A~Monaco, W\_A Crichton, A~Bosak, R~R{\"u}ffer,
+  A~Meyer, F~Kargl, Lucia Comez, Daniele Fioretto, et~al.
+\newblock Equivalence of the boson peak in glasses to the transverse acoustic
+  van hove singularity in crystals.
+\newblock \emph{Physical review letters}, 106\penalty0 (22):\penalty0 225501,
+  2011.
+
+\bibitem[Lamb(1881)]{lamb1881vibrations}
+Horace Lamb.
+\newblock On the vibrations of an elastic sphere.
+\newblock \emph{Proceedings of the London Mathematical Society}, 1\penalty0
+  (1):\penalty0 189--212, 1881.
+
+\bibitem[Duval et~al.(1986)Duval, Boukenter, and
+  Champagnon]{duval1986vibration}
+E~Duval, A~Boukenter, and B~Champagnon.
+\newblock Vibration eigenmodes and size of microcrystallites in glass:
+  observation by very-low-frequency raman scattering.
+\newblock \emph{Physical Review Letters}, 56\penalty0 (19):\penalty0 2052,
+  1986.
+
+\bibitem[Renninger et~al.(2018)Renninger, Kharel, Behunin, and
+  Rakich]{renninger2018bulk}
+WH~Renninger, P~Kharel, RO~Behunin, and PT~Rakich.
+\newblock Bulk crystalline optomechanics.
+\newblock \emph{Nature Physics}, 14\penalty0 (6):\penalty0 601--607, 2018.
+
+\bibitem[MacCabe et~al.(2020)MacCabe, Ren, Luo, Cohen, Zhou, Sipahigil,
+  Mirhosseini, and Painter]{maccabe2020nano}
+Gregory~S MacCabe, Hengjiang Ren, Jie Luo, Justin~D Cohen, Hengyun Zhou, Alp
+  Sipahigil, Mohammad Mirhosseini, and Oskar Painter.
+\newblock Nano-acoustic resonator with ultralong phonon lifetime.
+\newblock \emph{Science}, 370\penalty0 (6518):\penalty0 840--843, 2020.
+
+\bibitem[Sanghera et~al.(2010)Sanghera, Shaw, Pureza, Nguyen, Gibson, Busse,
+  Aggarwal, Florea, and Kung]{sanghera2010nonlinear}
+Jas~S Sanghera, Leslie~B Shaw, Paul Pureza, Vinh~Q Nguyen, Dan Gibson, Lynda
+  Busse, Ishwar~D Aggarwal, Catalin~M Florea, and Frederic~H Kung.
+\newblock Nonlinear properties of chalcogenide glass fibers.
+\newblock \emph{International Journal of Applied Glass Science}, 1\penalty0
+  (3):\penalty0 296--308, 2010.
+
+\bibitem[Heiman et~al.(1979)Heiman, Hamilton, and
+  Hellwarth]{heiman1979brillouin}
+D~Heiman, DS~Hamilton, and RW~Hellwarth.
+\newblock Brillouin scattering measurements on optical glasses.
+\newblock \emph{Physical Review B}, 19\penalty0 (12):\penalty0 6583, 1979.
+
+\bibitem[Bucaro and Dardy(1974)]{bucaro1974high}
+JA~Bucaro and HD~Dardy.
+\newblock High-temperature brillouin scattering in fused quartz.
+\newblock \emph{Journal of Applied Physics}, 45\penalty0 (12):\penalty0
+  5324--5329, 1974.
+
+\bibitem[Maris(1990)]{maris1990phonon}
+Humphrey~J Maris.
+\newblock Phonon propagation with isotope scattering and spontaneous anharmonic
+  decay.
+\newblock \emph{Physical Review B}, 41\penalty0 (14):\penalty0 9736, 1990.
+
+\bibitem[Auld(1973)]{auld1973acoustic}
+Bertram~Alexander Auld.
+\newblock \emph{Acoustic fields and waves in solids}.
+\newblock Ripol Klassik, 1973.
 
 \bibitem[Boyd et~al.(1990)Boyd, Rzaewski, and Narum]{boyd1990noise}
 Robert~W Boyd, Kazimierz Rzaewski, and Paul Narum.
