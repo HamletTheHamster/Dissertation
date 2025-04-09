@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  8 APR 2025 23:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.17)  8 APR 2025 23:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1524,27 +1524,17 @@ igs/4-Raman/1mm UHNA3 in apparatus.jpeg>]
 File: figs/4-Raman/1mmCS2.jpg Graphic file (type jpg)
 <use figs/4-Raman/1mmCS2.jpg>
 Package pdftex.def Info: figs/4-Raman/1mmCS2.jpg  used on input line 175.
-(pdftex.def)             Requested size: 469.75502pt x 1021.15504pt.
-
-
-LaTeX Warning: Float too large for page by 390.12498pt on input line 178.
-
+(pdftex.def)             Requested size: 239.3857pt x 520.34598pt.
 <figs/4-Raman/100umCS2.jpg, id=3161, 487.8225pt x 1065.9825pt>
 File: figs/4-Raman/100umCS2.jpg Graphic file (type jpg)
 <use figs/4-Raman/100umCS2.jpg>
 Package pdftex.def Info: figs/4-Raman/100umCS2.jpg  used on input line 182.
-(pdftex.def)             Requested size: 469.75502pt x 1026.51964pt.
-
-LaTeX Warning: Float too large for page by 395.48958pt on input line 185.
-
+(pdftex.def)             Requested size: 238.127pt x 520.34598pt.
 <figs/4-Raman/10umCS2.jpg, id=3162, 487.8225pt x 1063.975pt>
 File: figs/4-Raman/10umCS2.jpg Graphic file (type jpg)
 <use figs/4-Raman/10umCS2.jpg>
 Package pdftex.def Info: figs/4-Raman/10umCS2.jpg  used on input line 189.
-(pdftex.def)             Requested size: 469.75502pt x 1024.58646pt.
-
-LaTeX Warning: Float too large for page by 393.5564pt on input line 192.
-
+(pdftex.def)             Requested size: 238.58105pt x 520.34598pt.
 
 
 [67 <./figs/4-Raman/1cmCS2.jpeg> <./figs/4-Raman/4mmCS2.jpg>]
@@ -2209,7 +2199,7 @@ dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist
 /fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (149 pages, 29980963 bytes).
+Output written on main.pdf (149 pages, 29980977 bytes).
 PDF statistics:
  4057 PDF objects out of 4296 (max. 8388607)
  2874 compressed objects within 29 object streams
