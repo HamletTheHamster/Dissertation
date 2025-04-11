@@ -535,11 +535,6 @@ INPUT ./figs/4-Raman/GainOfRelevantMaterials.png
 INPUT ./figs/4-Raman/GainOfRelevantMaterials.png
 INPUT ./figs/4-Raman/GainOfRelevantMaterials.png
 INPUT ./figs/4-Raman/GainOfRelevantMaterials.png
-INPUT ./figs/4-Raman/AcousticImpedance.png
-INPUT ./figs/4-Raman/AcousticImpedance.png
-INPUT ./figs/4-Raman/AcousticImpedance.png
-INPUT ./figs/4-Raman/AcousticImpedance.png
-INPUT ./figs/4-Raman/AcousticImpedance.png
 INPUT ./figs/4-Raman/1cm UHNA3.jpeg
 INPUT ./figs/4-Raman/1cm UHNA3.jpeg
 INPUT ./figs/4-Raman/1cm UHNA3.jpeg
@@ -560,6 +555,11 @@ INPUT ./figs/4-Raman/4mmCS2.jpg
 INPUT ./figs/4-Raman/4mmCS2.jpg
 INPUT ./figs/4-Raman/4mmCS2.jpg
 INPUT ./figs/4-Raman/4mmCS2.jpg
+INPUT ./figs/4-Raman/AcousticImpedance.png
+INPUT ./figs/4-Raman/AcousticImpedance.png
+INPUT ./figs/4-Raman/AcousticImpedance.png
+INPUT ./figs/4-Raman/AcousticImpedance.png
+INPUT ./figs/4-Raman/AcousticImpedance.png
 INPUT ./figs/4-Raman/1mmCS2.jpg
 INPUT ./figs/4-Raman/1mmCS2.jpg
 INPUT ./figs/4-Raman/1mmCS2.jpg

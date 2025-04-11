@@ -112,24 +112,26 @@ In what follows, we detail the experimental platforms and theoretical modeling t
   \label{fig:Raman:GainOfRelevantMaterials}
 \end{figure}
 
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=\textwidth]{figs/4-Raman/AcousticImpedance.png}
-  \caption{Acoustic impedance.}
-  \label{fig:Raman:AcousticImpedance}
-\end{figure}
-
 %--------------------------------------------------------------------%
 
-\section{Experimental Platforms and Collaborative Fabrication}
-\label{sec:Raman:ExperimentalPlatformsandCollaborativeFabrication}
+\section{Results}
+\label{sec:Raman:Results}
+
+Plots
+\begin{itemize}
+  \item UHNA3 - 1cm, 1mm
+  \item CS2 vial - 4mm, 2mm
+  \item TeO2 films - 1um, 500nm
+  \item CS2 - 1mm, 100um, (10um not quite)
+  \item chip waveguide - chip/nochip, holes
+\end{itemize}
 
 \subsection{Germanium-Doped Optical Fiber}
 \label{subsec:Raman:Target:UHNA3}
 
-%1cm -> 1mm
-
-
+\begin{itemize}
+  \item 1cm, 1mm
+\end{itemize}
 
 \begin{figure}[t]
     \centering
@@ -153,7 +155,9 @@ In what follows, we detail the experimental platforms and theoretical modeling t
 \subsection{Free-Space Optics with Liquid Carbon Disulfide}
 \label{subsec:Raman:Target:CS2Vial}
 
-Free space with vial
+\begin{itemize}
+  \item Free space with vial
+\end{itemize}
 
 \begin{figure}[t]
     \centering
@@ -177,54 +181,68 @@ Free space with vial
 \subsection{Tellurium Dioxide Thin Film}
 \label{subsec:Raman:Target:TeO2}
 
-Gibbs collab
-deposit Te, oxidize into TeO2
-
-table of relevant TeO2 parameters
+\begin{itemize}
+  \item Gibbs collab
+  \item deposit Te, oxidize into TeO2
+  \item table of relevant TeO2 parameters
+\end{itemize}
 
 \subsection{Tellurium Thin Film}
 \label{subsec:Raman:Target:Te}
 
-Gibbs collab and CINT collab
-oxidizes to TeO2
+\begin{itemize}
+  \item Gibbs collab and CINT collab
+  \item oxidizes to TeO2
+  \item table of relevant Te parameters
+\end{itemize}
 
-table of relevant Te parameters
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=.8\textwidth]{figs/4-Raman/AcousticImpedance.png}
+  \caption{Acoustic impedance.}
+  \label{fig:Raman:AcousticImpedance}
+\end{figure}
 
 \subsection{Carbon Disulfide Micrometer Cell}
 \label{subsec:Raman:Target:CS2Cells}
 
-table of relevant CS2 parameters
-
-cells -> 1 W amp, bubble test
-
-\begin{figure}[t]
-  \centering
-  \includegraphics[height=.8\textheight]{figs/4-Raman/1mmCS2.jpg}
-  \caption{\SI{1}{\milli\meter} \ce{CS2} cell secured in beam path of \acl{CoBS}.}
-  \label{fig:Raman:1mmCS2}
-\end{figure}
+\begin{itemize}
+  \item table of relevant CS2 parameters
+  \item cells, 1 W amp, bubble test
+\end{itemize}
 
 \begin{figure}[t]
-  \centering
-  \includegraphics[height=.8\textheight]{figs/4-Raman/100umCS2.jpg}
-  \caption{\SI{100}{\micro\meter} \ce{CS2} cell secured in beam path of \acl{CoBS}.}
-  \label{fig:Raman:100umCS2}
-\end{figure}
-
-\begin{figure}[t]
-  \centering
-  \includegraphics[height=.8\textheight]{figs/4-Raman/10umCS2.jpg}
-  \caption{\SI{10}{\micro\meter} \ce{CS2} cell secured in beam path of \acl{CoBS}.}
-  \label{fig:Raman:10umCS2}
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/4-Raman/1mmCS2.jpg}
+        \label{fig:Raman:1mmCS2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/4-Raman/100umCS2.jpg}
+        \label{fig:Raman:100umCS2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/4-Raman/10umCS2.jpg}
+        \label{fig:Raman:10umCS2}
+    \end{subfigure}
+    %
+    \caption{Three \ce{CS2} cells of different path lengths (\SI{1}{\milli\meter}, \SI{100}{\micro\meter}, and \SI{10}{\micro\meter}) secured in the beam path of the \acl{CoBS}.}
+    \label{fig:Raman:CS2Comparison}
 \end{figure}
 
 \subsection{Suspended Silica Rib Waveguide}
 \label{subsec:Raman:Target:Waveguide}
 
-BYU collab
-If we can couple chip waveguide into CoBS fiber-chip-fiber, then we have access to a playground of materials and geometries
-initial test took 9 months to learn and measure
-
+\begin{itemize}
+  \item BYU collab
+  \item If we can couple chip waveguide into CoBS fiber-chip-fiber, then we have access to a playground of materials and geometries
+  \item initial test took 9 months to learn and measure
+\end{itemize}
 
 \subsection{Elastically-Suspended Photonic-Phononic Waveguide}
 \label{subsec:Raman:Target:WigglyWaveguide}
@@ -249,7 +267,7 @@ where \(v_{\rm s}\) is the speed of sound in the silica rib and \(d\) is the lat
 In principle, when optically excited via the \ac{CoBS} process, the rib breathing mode can couple to and drive displacement of the underlying membrane. Conversely, membrane motion at or near the rib’s breathing-frequency range can stimulate the rib's motion. Indeed, the waveguide design permits either the drumhead mode of the membrane or the rib breathing mode to be excited off-resonance and potentially induce mechanical vibration in the other. Beneath the rib, the polymer membrane is suspended over an open region which has been etched away, and is anchored on either side. We thus expect a classical drumhead family of modes in which the membrane oscillates out-of-plane. The tension provided by the fabrication curing process (on the order of a few tens of \si{\mega\pascal}) indicates that the membrane is tension-dominated. For a square membrane of length and width \(L\), under tension \(T\) and with mass density \(\rho\) and thickness \(h\), the fundamental frequency (1,1) can be approximated by
 
 \begin{equation}
-  f_{\rm membrane, (1,1)} = \frac{v_{\rm s}}{\sqrt{2}L},
+  f_{\rm membrane,\,drumhead\,(1,1)} \approx \frac{v_{\rm s}}{\sqrt{2}L},
   \label{eq:Raman:SquareMembrane}
 \end{equation}
 \\
@@ -262,7 +280,7 @@ where \(v_{\rm s}\) is the \emph{transverse} sound speed of the membrane, given 
 \\
 where \(\sigma\) is the stress (\si{\pascal}) corresponding to the tension per membrane thickness (\(\sigma = T/h\)).
 
-Modeling the polymer membrane as a square membrane, we can estimate the fundamental membrane drumhead mode using a mean density of SU8 of \(\rho=\)\SI{1190}{\kilo\gram\per\cubic\meter} \cite{roch2003fabrication} and needle profilometer tension measurements performed on the membrane. Figure~\ref{fig:Raman:profilometer} plots deflection for various stylus force values applied to the membrane. The inverse of the slope of these data (taken to be linear, \(m\sim\)\SI{300}{\newton\per\meter}) allows for the membrane's approximate tension to be found via \(T=\frac{L}{4}m\sim\)\SI{2}{\milli\newton\per\meter}. For a \SI{2}{\micro\meter}-thickness with Equation~\ref{eq:Raman:TransverseSoundSpeed}, this gives an approximate transverse sound speed of a very low \(v_{\rm s}\sim\)\SI{1}{\meter\per\second}. Inserting this into Equation~\ref{eq:Raman:SquareMembrane} with length \(L\approx\)\SI{25}{\micro\meter}, we anticipate the fundamental drumhead mode resonant frequency of the SU8 membrane to lie around \SI{30}{\kilo\hertz}. Meanwhile, the rib breathing mode are predicted to lie around the mid-100s of \si{\mega\hertz}. Given this 4-order-of-magnitude discrepancy in resonant frequencies, the two mechanical modes are not expected to exhibit mechanical coupling, even when accounting for the possibility of off-resonant driving. To have the two resonances approach each other, one might alter the fabrication parameters to try significantly increasing the resulting tension of the membrane, perhaps by experimenting with different bake times or temperatures and membrane thicknesses. Alternatively, or additionally, shortening the length \(L\) across which the membrane spans from clamp-to-clamp would minimally nudge its resonant frequency higher.
+Modeling the polymer membrane as a square membrane, we can estimate the fundamental membrane drumhead mode using a mean density of SU8 (\(\rho=\)\SI{1190}{\kilo\gram\per\cubic\meter}) \cite{roch2003fabrication} and needle profilometer tension measurements performed on the membrane. Figure~\ref{fig:Raman:profilometer} plots deflection for various stylus force values applied to the membrane. The inverse of the slope of these data (taken to be linear, \(m\sim\)\SI{300}{\newton\per\meter}) allows for the membrane's approximate tension to be found via \(T=\frac{L}{4}m\sim\)\SI{2}{\milli\newton\per\meter}. For a \SI{2}{\micro\meter}-thickness with Equation~\ref{eq:Raman:TransverseSoundSpeed}, this gives an approximate transverse sound speed of a very low \(v_{\rm s}\sim\)\SI{1}{\meter\per\second}. Inserting this into Equation~\ref{eq:Raman:SquareMembrane} with length \(L\approx\)\SI{25}{\micro\meter}, we anticipate the fundamental drumhead mode resonant frequency of the SU8 membrane to lie around \SI{30}{\kilo\hertz}. Meanwhile, the rib breathing mode are predicted to lie around the mid-100s of \si{\mega\hertz}. Given this 4-order-of-magnitude discrepancy in resonant frequencies, the two mechanical modes are not expected to exhibit mechanical coupling, even when accounting for the possibility of off-resonant driving. To have the two resonances approach each other, one might alter the fabrication parameters to try significantly increasing the resulting tension of the membrane, perhaps by experimenting with different bake times or temperatures and membrane thicknesses. Alternatively, or additionally, shortening the length \(L\) across which the membrane spans from clamp-to-clamp would minimally nudge its resonant frequency higher.
 
 \begin{figure}[t]
   \centering
@@ -270,36 +288,6 @@ Modeling the polymer membrane as a square membrane, we can estimate the fundamen
   \caption{Needle profilometer force-deflection measurements (illustrated above) performed on the suspended polymer membrane of the photonic-phononic waveguide. The inverse slope of the data (taken to be linear) is proportional to the tension of the membrane (\(m\propto T\)). Using \(m\sim\)\SI{300}{\newton\per\meter}, we estimate the tension of the membrane to be \(T\sim\)\SI{2}{\milli\newton\per\meter}, giving a very slow transverse sound speed \(v_{\rm s}\sim\)\SI{1}{\meter\per\second} via Equation~\ref{eq:Raman:TransverseSoundSpeed}.}
   \label{fig:Raman:profilometer}
 \end{figure}
-
-%--------------------------------------------------------------------%
-
-\section{Results}
-\label{sec:Raman:Results}
-
-Plots
-\begin{itemize}
-  \item UHNA3 - 1cm, 1mm
-  \item CS2 vial - 4mm, 2mm
-  \item TeO2 films - 1um, 500nm
-  \item CS2 - 1mm, 100um, (10um not quite)
-  \item chip waveguide - chip/nochip, holes
-\end{itemize}
-
-\subsection{Initial Findings}
-\label{subsec:Raman:InitialFindings}
-
-\begin{itemize}
-  \item Display earliest data (e.g., on Te thin films) and how a strong feature turned out to be electronic background.
-  \item Show subsequent measurements (CS2, chip waveguides)
-\end{itemize}
-
-\subsection{Challenges and Partial Outcomes}
-\label{subsec:Raman:ChallengesandPartialOutcomes}
-
-\begin{itemize}
-  \item Explain complexity of proving Raman-like modes: acoustic mismatch, unexpected phonon damping, oxidation/ablation of thin films, or sample delays.
-  \item Highlight improvements achieved (watt amps, 11x scattered-signal boost)
-\end{itemize}
 
 \begin{figure}[t]
   \centering
@@ -322,20 +310,21 @@ Plots
 
 \subsection{Pathways to Brillouin-Induced Raman Modes}
 \label{subsec:Raman:Pathways}
+
 Ideal platforms by category
-  waveguide - long TeO2 rib, evenly spaced square holes
-  TeO2 thin film/crystal - dissolve only small area of substrate for beam spot
-  CS2 cell - 5um
-  Fiber - notched, acoustic fiber Bragg grating
+\begin{itemize}
+  \item waveguide - long TeO2 rib, evenly spaced square holes
+  \item TeO2 thin film/crystal - dissolve only small area of substrate for beam spot
+  \item CS2 cell - 5um
+  \item Fiber - notched, acoustic fiber Bragg grating
+\end{itemize}
 
 \subsection{Conclusion}
 \label{subsec:Raman:Conclusion}
 
+Connection to Dissertation Theme
 \begin{itemize}
-\item \textbf{Connection to Dissertation Theme}
-  \begin{itemize}
-    \item Relate back to the broader aims of controlling phonons at room temperature, highlighting how these efforts extend exploration of optomechanical interactions.
-  \end{itemize}
+  \item Relate back to the broader aims of controlling phonons at room temperature, highlighting how these efforts extend exploration of optomechanical interactions.
 \end{itemize}
 
 \clearpage
