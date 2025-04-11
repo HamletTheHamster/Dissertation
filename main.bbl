@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{91}
+\begin{thebibliography}{92}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -597,6 +597,14 @@ Humphrey~J Maris.
 Bertram~Alexander Auld.
 \newblock \emph{Acoustic fields and waves in solids}.
 \newblock Ripol Klassik, 1973.
+
+\bibitem[Roch et~al.(2003)Roch, Bidaud, Collard, and
+  Buchaillot]{roch2003fabrication}
+I~Roch, Ph~Bidaud, D~Collard, and Lionel Buchaillot.
+\newblock Fabrication and characterization of an su-8 gripper actuated by a
+  shape memory alloy thin film.
+\newblock \emph{Journal of Micromechanics and Microengineering}, 13\penalty0
+  (2):\penalty0 330, 2003.
 
 \bibitem[Boyd et~al.(1990)Boyd, Rzaewski, and Narum]{boyd1990noise}
 Robert~W Boyd, Kazimierz Rzaewski, and Paul Narum.
