@@ -492,18 +492,18 @@ INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
 INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
 INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
 INPUT ./figs/3-CoBS/Instrument-Design-V1_compat.pdf
-INPUT ./figs/3-CoBS/5fWSensitivity.pdf
-INPUT ./figs/3-CoBS/5fWSensitivity.pdf
-INPUT ./figs/3-CoBS/5fWSensitivity.pdf
-INPUT ./figs/3-CoBS/5fWSensitivity.pdf
-INPUT ./figs/3-CoBS/5fWSensitivity.pdf
+INPUT ./figs/3-CoBS/CoBS Sensitivity Measurement: 1 cm UHNA3 5 fW.png
+INPUT ./figs/3-CoBS/CoBS Sensitivity Measurement: 1 cm UHNA3 5 fW.png
+INPUT ./figs/3-CoBS/CoBS Sensitivity Measurement: 1 cm UHNA3 5 fW.png
+INPUT ./figs/3-CoBS/CoBS Sensitivity Measurement: 1 cm UHNA3 5 fW.png
+INPUT ./figs/3-CoBS/CoBS Sensitivity Measurement: 1 cm UHNA3 5 fW.png
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT ./figs/3-CoBS/1cmUHNA3.pdf
-INPUT ./figs/3-CoBS/1cmUHNA3.pdf
-INPUT ./figs/3-CoBS/1cmUHNA3.pdf
-INPUT ./figs/3-CoBS/1cmUHNA3.pdf
-INPUT ./figs/3-CoBS/1cmUHNA3.pdf
+INPUT ./figs/3-CoBS/CoBS Measurement: 1 cm UHNA3.png
+INPUT ./figs/3-CoBS/CoBS Measurement: 1 cm UHNA3.png
+INPUT ./figs/3-CoBS/CoBS Measurement: 1 cm UHNA3.png
+INPUT ./figs/3-CoBS/CoBS Measurement: 1 cm UHNA3.png
+INPUT ./figs/3-CoBS/CoBS Measurement: 1 cm UHNA3.png
 INPUT ./figs/3-CoBS/100umCS2.pdf
 INPUT ./figs/3-CoBS/100umCS2.pdf
 INPUT ./figs/3-CoBS/100umCS2.pdf
@@ -545,6 +545,16 @@ INPUT ./figs/4-Raman/1mm UHNA3 in apparatus.jpeg
 INPUT ./figs/4-Raman/1mm UHNA3 in apparatus.jpeg
 INPUT ./figs/4-Raman/1mm UHNA3 in apparatus.jpeg
 INPUT ./figs/4-Raman/1mm UHNA3 in apparatus.jpeg
+INPUT ./figs/4-Raman/CoBS Measurement: 1 cm UHNA3.png
+INPUT ./figs/4-Raman/CoBS Measurement: 1 cm UHNA3.png
+INPUT ./figs/4-Raman/CoBS Measurement: 1 cm UHNA3.png
+INPUT ./figs/4-Raman/CoBS Measurement: 1 cm UHNA3.png
+INPUT ./figs/4-Raman/CoBS Measurement: 1 cm UHNA3.png
+INPUT ./figs/4-Raman/CoBS Measurement: 1 mm UHNA3.png
+INPUT ./figs/4-Raman/CoBS Measurement: 1 mm UHNA3.png
+INPUT ./figs/4-Raman/CoBS Measurement: 1 mm UHNA3.png
+INPUT ./figs/4-Raman/CoBS Measurement: 1 mm UHNA3.png
+INPUT ./figs/4-Raman/CoBS Measurement: 1 mm UHNA3.png
 INPUT ./figs/4-Raman/1cmCS2.jpeg
 INPUT ./figs/4-Raman/1cmCS2.jpeg
 INPUT ./figs/4-Raman/1cmCS2.jpeg
