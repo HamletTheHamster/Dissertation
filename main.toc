@@ -83,4 +83,4 @@
 \contentsline {section}{\numberline {C.4}Chip Waveguide Case Study~B: Pump-Probe Detuning Effect on Scattered Power}{129}{section.C.4}%
 \contentsline {chapter}{\numberline {D}Code and Data Availability}{135}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Plotting Data In Go}{135}{section.D.1}%
-\contentsline {chapter}{References}{136}{section*.172}%
+\contentsline {chapter}{References}{136}{section*.174}%
