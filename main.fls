@@ -350,11 +350,6 @@ INPUT ./figs/1-Intro/Boyd scattering frequency shift domains.png
 INPUT ./figs/1-Intro/Boyd scattering frequency shift domains.png
 INPUT ./figs/1-Intro/Boyd scattering frequency shift domains.png
 INPUT ./figs/1-Intro/Boyd scattering frequency shift domains.png
-INPUT ./figs/1-Intro/Boyd homogeneous material no scatter.png
-INPUT ./figs/1-Intro/Boyd homogeneous material no scatter.png
-INPUT ./figs/1-Intro/Boyd homogeneous material no scatter.png
-INPUT ./figs/1-Intro/Boyd homogeneous material no scatter.png
-INPUT ./figs/1-Intro/Boyd homogeneous material no scatter.png
 INPUT ./Cooling.tex
 INPUT ./Cooling.tex
 OUTPUT Cooling.aux
@@ -668,16 +663,6 @@ INPUT ./figs/4-Raman/profilometer.png
 INPUT ./figs/4-Raman/profilometer.png
 INPUT ./figs/4-Raman/profilometer.png
 INPUT ./figs/4-Raman/profilometer.png
-INPUT ./figs/4-Raman/StartBigApproachSmall.png
-INPUT ./figs/4-Raman/StartBigApproachSmall.png
-INPUT ./figs/4-Raman/StartBigApproachSmall.png
-INPUT ./figs/4-Raman/StartBigApproachSmall.png
-INPUT ./figs/4-Raman/StartBigApproachSmall.png
-INPUT ./figs/4-Raman/HowWouldRamanModesAppear.png
-INPUT ./figs/4-Raman/HowWouldRamanModesAppear.png
-INPUT ./figs/4-Raman/HowWouldRamanModesAppear.png
-INPUT ./figs/4-Raman/HowWouldRamanModesAppear.png
-INPUT ./figs/4-Raman/HowWouldRamanModesAppear.png
 INPUT ./Conclusion.tex
 INPUT ./Conclusion.tex
 OUTPUT Conclusion.aux

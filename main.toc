@@ -51,10 +51,10 @@
 \contentsline {subsection}{\numberline {4.3.4}Tellurium Thin Film}{77}{subsection.4.3.4}%
 \contentsline {subsection}{\numberline {4.3.5}Carbon Disulfide Micrometer Cell}{79}{subsection.4.3.5}%
 \contentsline {subsection}{\numberline {4.3.6}Suspended Silica Rib Waveguide}{80}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}Elastically-Suspended Photonic-Phononic Waveguide}{80}{subsection.4.3.7}%
-\contentsline {section}{\numberline {4.4}Discussion}{84}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Pathways to Brillouin-Induced Raman Modes}{84}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Conclusion}{85}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.3.7}Elastically-Suspended Photonic-Phononic Waveguide}{81}{subsection.4.3.7}%
+\contentsline {section}{\numberline {4.4}Discussion}{87}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Pathways to Brillouin-Induced Raman Modes}{87}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Conclusion}{88}{subsection.4.4.2}%
 \contentsline {chapter}{\numberline {5}Conclusion}{91}{chapter.5}%
 \contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{93}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Fabrication of $CS_{2}$-Filled Liquid-Core Optical Fiber}{93}{section.A.1}%
@@ -83,4 +83,4 @@
 \contentsline {section}{\numberline {C.4}Chip Waveguide Case Study~B: Pump-Probe Detuning Effect on Scattered Power}{133}{section.C.4}%
 \contentsline {chapter}{\numberline {D}Code and Data Availability}{139}{appendix.D}%
 \contentsline {section}{\numberline {D.1}Plotting Data In Go}{139}{section.D.1}%
-\contentsline {chapter}{References}{140}{section*.180}%
+\contentsline {chapter}{References}{140}{section*.176}%

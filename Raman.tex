@@ -205,6 +205,7 @@ Having successfully measured the shortest practical lengths of optical fiber rea
     \centering
     \hspace{-2em}
     \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 1 cm CS2.png}
+    \caption{}
     \label{fig:Raman:1cmCS2}
   \end{subfigure}
   \hfill
@@ -212,6 +213,7 @@ Having successfully measured the shortest practical lengths of optical fiber rea
     \centering
     \hspace{-2em}
     \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 4 mm CS2.png}
+    \caption{}
     \label{fig:Raman:4mmCS2}
   \end{subfigure}
   \caption[\ac{CoBS} measurements of \SI{1}{\centi\meter} and \SI{4}{\milli\meter} liquid \ce{CS2}.]{\textbf{(a)}~Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\centi\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:1cmCS2pic}), with 1\(\sigma\) uncertainties smaller than the data point markers. The spectrum shows strong Fano asymmetry (see Section~\ref{Appendix:Fano} in Appendix~\ref{appendix: CoBS}), indicating interference of a weak signal with the broad background continuum. This is an older measurement, taken prior to orders of magnitude sensitivity improvements, and the Fano effects seen here indicate this was near the sensitivity limit of the instrument at the time. \textbf{(b)}~Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{4}{\milli\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:4mmCS2pic}), with 1\(\sigma\) uncertainties smaller than the data point markers. This is an older measurement, taken prior to orders of magnitude sensitivity improvements, and the Fano effects seen here indicate this was near the sensitivity limit of the instrument at the date of this measurement.}
@@ -455,35 +457,38 @@ Small path length cells were obtained for \SI{1}{\milli\meter}, \SI{100}{\micro\
     \label{fig:Raman:CS2cellpics}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[h!]
   \centering
-  \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 1 mm CS2.png}
-  \caption{Observed background-subtracted spectra obtained through a \ac{CoBS} measurement of \SI{1}{\milli\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:1mmCS2}) captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim\) \SI{0.25}{\cubic\watt}, with 1\(\sigma\) uncertainties smaller than the data point markers.}
-  \label{fig:Raman:1mmCS2}
-\end{figure}
-
-\begin{figure}[t]
-  \centering
-  \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 100 μm CS2.png}
-  \caption{Observed background-subtracted spectra obtained through a \ac{CoBS} measurement of \SI{100}{\micro\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:100umCS2}) captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim\) \SI{0.25}{\cubic\watt}, with 1\(\sigma\) uncertainties smaller than the data point markers.}
-  \label{fig:Raman:100umCS2}
-\end{figure}
-
-\begin{figure}[t]
-  \centering
-  \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 10 μm CS2.png}
-  \caption{Observed background-subtracted spectra obtained through a \ac{CoBS} measurement of \SI{10}{\micro\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:10umCS2}) captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim\) \SI{0.25}{\cubic\watt}, with 1\(\sigma\) uncertainties smaller than the data point markers.}
-  \label{fig:Raman:10umCS2}
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 1 mm CS2.png}
+    \caption{}
+    \label{fig:Raman:1mmCS2}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 100 μm CS2.png}
+    \caption{}
+    \label{fig:Raman:100umCS2}
+  \end{subfigure}
+  \vspace{1em}
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 10 μm CS2.png}
+    \caption{}
+    \label{fig:Raman:10umCS2}
+  \end{subfigure}
+  \caption[Observed background-subtracted spectra from \SI{1}{\milli\meter}, \SI{100}{\micro\meter}, and \SI{10}{\micro\meter} liquid \ce{CS2}]{Observed background-subtracted spectra obtained through \ac{CoBS} measurements of \textbf{(a)} \SI{1}{\milli\meter}, \textbf{(b)} \SI{100}{\micro\meter}, and \textbf{(c)} \SI{10}{\micro\meter} liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:10umCS2}), captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim \SI{0.25}{\cubic\watt}\). All measurements have 1\(\sigma\) uncertainties smaller than the data point markers.}
+  \label{fig:Raman:CS2combined}
 \end{figure}
 
 \subsection{Suspended Silica Rib Waveguide}
 \label{subsec:Raman:Target:Waveguide}
 
-\begin{itemize}
-  \item BYU collab
-  \item If we can couple chip waveguide into CoBS fiber-chip-fiber, then we have access to a playground of materials and geometries
-  \item initial test took 9 months to learn and measure
-\end{itemize}
+A collaborative connection was made with Dr. Aaron Hawkins' Semiconductor Devices and Microfabrication group at \ac{BYU} which opened up new possibilities for photonic-phononic interactions and control of phonons at room temperature. The Hawkins group specializes in advanced chip-waveguide and device design and fabrication, introducing the possibility for a collaboration with a widened sandbox of available materials and platform designs. We received suspended silica rib waveguides for initial investigaton and proof of principle. The goal was to measure backward Brillouin scattering in the silica rib of these suspended waveguides with the \ac{CoBS} instrument. The main challenge of this task became evident immediately: getting light into the chip. The method available was via careful fiber-to-chip alignment to align the cone of light output from the fiber end to be injected into the silica rib waveguide. Initial attemps were unsuccessful du to imprecise XYZ control and lack of experience. After many weeks of unsuccessful attempts and several video consultations with the Hawkins group for guidance, the opportunity was presented to visit the Hawkins group at \ac{BYU} in Provo, UT. This friendly and illuminating trip immediately shored up the lacking knowledge and experience, allowing for immediate success getting light into the chip upon return home. However, the silica rib waveguide closely shares many properties with the silica \ac{SMF-28} which comprises much of the \ac{CoBS} apparatus and the entirety of the sample stage where all interacting light and sound waves overlap.
+
+Initial measurements of the waveguide captured a spectral feature which seemed to match the known spectral response of the \ac{SMF-28} at \(\sim\SI{10.8(5)}{\giga\hertz}\). However, with perseverence and improved alignment of light into and out of the chip waveguide, distinct spectral features were observed which differentiated the response of the chip waveguide from the background measurement performed with chip waveguide removed. Figure~\ref{fig:Raman:August2024chipnochip} shows spectra gathered subsequently with and without the chip waveguide present in the instrument. A clear feature of the chip at \(\sim\SI{10.84}{\giga\hertz}\) rises above the background \ac{SMF-28} response, centered at \(\sim\SI{10.82}{\giga\hertz}\). This plausible measurement represented a significant step towards harnessing the opportunity of specialized chip-waveguide design to control phonons at room temperature and potentially observe Brillouin-induced Raman modes.
 
 \begin{figure}[t]
   \centering
@@ -495,7 +500,9 @@ Small path length cells were obtained for \SI{1}{\milli\meter}, \SI{100}{\micro\
 \subsection{Elastically-Suspended Photonic-Phononic Waveguide}
 \label{subsec:Raman:Target:WigglyWaveguide}
 
-Figure~\ref{fig:Raman:wigglyCoBSspectra} plots the spectra collected from a \ac{CoBS} measurement of backward Brillouin scattering in the elastically-suspended silica rib of the photonic-phononic waveguide. In this section, we present theoretical estimates of the key mechanical modes and optomechanical couplings predicted for the elastically-suspended photonic-phononic waveguide under development. The structure under consideration consists of a polymeric (SU-8) membrane that is tensioned during high-temperature curing and supports a rib waveguide above it. This combined membrane-and-rib geometry gives rise to multiple distinct mechanical resonances that can be excited and probed optically via the \ac{CoBS} instrument operating in the forwards scattering configuration. We summarize below the principal modes, referred to as ``drumhead'' modes for the membrane and ``breathing'' modes for the rib, and estimate rough frequency ranges in which they are expected to appear.
+In this section we provide analysis of expected optomechanical behavior from a specialized photonic--phononic waveguide suspended on a thin memberane of elastic SU-8 polymer, primarily used as a negative photoresist which acts as a sacrificial layer in forming complex layered designs. Instead, through collaborative discussions sharing ideas and specific domain knowledge, Dr. Hawkiins proposed we may see a big mechanical response from the elastic nature of the SU-8. It was also suggested to design notches or similar feature to support acoustic guidance down the length of the waveguides. Improved acoustic guidance would produce stronger opto-mechanical interactions between light and sound along the lenth of the wavegide due to more tightly confined mode overlap (\(A_{\rm eff}^{ao}\)). Lengthwise notches or other similar feature might also be designed as lengthwise acoustic resonators to trap traveling-wave phonons stimulated in the silica rib, thus effectively producing a controllable n-multiple of short path length samples within one chip waveguide by fabricating the side rails along the rib to feature n number of lengthwise acoustic resonators of desired spacing. These design featured were indeed implemented, and successful proof of principle elastically-suspended photonic-phononic waveguides were created and sent to us for testing.
+
+Figure~\ref{fig:Raman:wigglyCoBSspectra} plots the spectra collected from an initial test \ac{CoBS} measurement of backward Brillouin scattering in the elastically-suspended silica rib of the photonic-phononic waveguide. While some spectral features differ between the chip and No chip measurements, additional measurements and testing are required to confirm or deny the significance of these apparent features. In what follows, we present preliminary theoretical estimates of the key mechanical modes and optomechanical couplings predicted for the elastically-suspended photonic-phononic waveguide under development. The structure under consideration consists of a polymeric (SU-8) membrane that is tensioned during high-temperature curing and supports a rib waveguide above it. This combined membrane-and-rib geometry gives rise to multiple distinct mechanical resonances that can be excited and probed optically via the \ac{CoBS} instrument operating in the forwards scattering configuration. We summarize below the principal modes, referred to as ``drumhead'' modes for the membrane and ``breathing'' modes for the rib, and estimate rough frequency ranges in which they are expected to appear.
 
 \begin{figure}[t]
   \centering
@@ -530,25 +537,11 @@ where \(\sigma\) is the stress (\si{\pascal}) corresponding to the tension per m
 
 Modeling the polymer membrane as a square membrane, we can estimate the fundamental membrane drumhead mode using a mean density of SU8 (\(\rho=\)\SI{1190}{\kilo\gram\per\cubic\meter}) \cite{roch2003fabrication} and needle profilometer tension measurements performed on the membrane. Figure~\ref{fig:Raman:profilometer} plots deflection for various stylus force values applied to the membrane. The inverse of the slope of these data (taken to be linear, \(m\sim\)\SI{300}{\newton\per\meter}) allows for the membrane's approximate tension to be found via \(T=\frac{L}{4}m\sim\)\SI{2}{\milli\newton\per\meter}. For a \SI{2}{\micro\meter}-thickness with Equation~\ref{eq:Raman:TransverseSoundSpeed}, this gives an approximate transverse sound speed of a very low \(v_{\rm s}\sim\)\SI{1}{\meter\per\second}. Inserting this into Equation~\ref{eq:Raman:SquareMembrane} with length \(L\approx\)\SI{25}{\micro\meter}, we anticipate the fundamental drumhead mode resonant frequency of the SU8 membrane to lie around \SI{30}{\kilo\hertz}. Meanwhile, the rib breathing mode are predicted to lie around the mid-100s of \si{\mega\hertz}. Given this 4-order-of-magnitude discrepancy in resonant frequencies, the two mechanical modes are not expected to exhibit mechanical coupling, even when accounting for the possibility of off-resonant driving. To have the two resonances approach each other, one might alter the fabrication parameters to try significantly increasing the resulting tension of the membrane, perhaps by experimenting with different bake times or temperatures and membrane thicknesses. Alternatively, or additionally, shortening the length \(L\) across which the membrane spans from clamp-to-clamp would minimally nudge its resonant frequency higher.
 
-\begin{figure}[t]
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.7\textwidth]{figs/4-Raman/profilometer.png}
   \caption{Needle profilometer force-deflection measurements (illustrated above) performed on the suspended polymer membrane of the photonic-phononic waveguide. The inverse slope of the data (taken to be linear) is proportional to the tension of the membrane (\(m\propto T\)). Using \(m\sim\)\SI{300}{\newton\per\meter}, we estimate the tension of the membrane to be \(T\sim\)\SI{2}{\milli\newton\per\meter}, giving a transverse sound speed \(v_{\rm s}\sim\)\SI{1}{\meter\per\second} via Equation~\ref{eq:Raman:TransverseSoundSpeed}. Figure courtesy of Adams et al., \textit{manuscript in prep}.}
   \label{fig:Raman:profilometer}
-\end{figure}
-
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=\textwidth]{figs/4-Raman/StartBigApproachSmall.png}
-  \caption{Start big, approach small.}
-  \label{fig:StartBigApproachSmall}
-\end{figure}
-
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=\textwidth]{figs/4-Raman/HowWouldRamanModesAppear.png}
-  \caption{How would Raman modes appear.}
-  \label{fig:HowWouldRamanModesAppear}
 \end{figure}
 
 %--------------------------------------------------------------------%
@@ -556,24 +549,23 @@ Modeling the polymer membrane as a square membrane, we can estimate the fundamen
 \section{Discussion}
 \label{sec:Raman:Discussion}
 
+In this chapter, we have investigated the potential for creating Raman-like vibrational modes via Brillouin interactions in a variety of photonic and phononic structures. By examining how traveling-wave phonons can be transformed into standing-wave resonances, we bridge the gap between conventional Brillouin physics (characterized by traveling acoustic phonons) and a regime reminiscent of Raman scattering (where standing-wave vibrations couple strongly to light). Our experimental and theoretical efforts illustrate both the challenges and the promising pathways for realizing stable, high-quality, Brillouin-induced Raman modes in waveguides, crystals, and fibers. Below, we synthesize the key findings and discuss future directions.
+
 \subsection{Pathways to Brillouin-Induced Raman Modes}
 \label{subsec:Raman:Pathways}
 
-Ideal platforms by category
-\begin{itemize}
-  \item waveguide - long TeO2 rib, evenly spaced square holes
-  \item TeO2 thin film/crystal - dissolve only small area of substrate for beam spot
-  \item CS2 cell - 5um
-  \item Fiber - notched, acoustic fiber Bragg grating
-\end{itemize}
+A central goal has been to identify platforms capable of generating high-\(Q\) standing-wave vibrational modes, analogous to conventional Raman-active modes, by leveraging Brillouin coupling in materials where both the optical and the acoustic (or elastic) degrees of freedom can be engineered. These results highlight how geometry, acoustic impedance contrasts, and overall device configuration govern the competition between traveling- and standing-wave phonons. Here, we group the ideal platforms by three broad categories: waveguides, \ce{TeO2} crystals, and fiber-based approaches. A promising strategy for forming Raman-like resonances emerges from waveguide geometries that confine both light and sound. Notably, thin-film rib waveguides of \ce{TeO2} are attractive due to the high photoelastic coefficients of tellurite glasses and the possibility of incorporating evenly spaced square holes to pin acoustic modes. The fabrication of a long rib waveguide on the order of centimeters can allow an extended optical interaction length while introducing a phononic band structure via an engineered hole pattern. This pattern can create a 1D phononic bandgap, effectively reflecting phonons to form standing waves at selected frequencies. Tellurite-based waveguides combine strong Brillouin gain with a sufficiently low acoustic damping rate to enable coherent standing-wave formation at room temperature (Section~\ref{subsec:Raman:Target:TeO2}). Moreover, the large refractive index contrast of \ce{TeO2} relative to silica cladding supports robust optical confinement. As in earlier suspended photonic-phononic waveguides (Section~\ref{subsec:Raman:Target:WigglyWaveguide}), the tension in the membrane can significantly alter the acoustic mode spectrum. Proper design of periodic corrugations and sidewalls ensures that back-reflection of phonons gives rise to well-defined modes at the relevant Brillouin frequency. By tuning geometric parameters such as hole spacing, it is possible to achieve a strong overlap of optical and acoustic fields for selective mode conversion.
+
+Although many of our demonstrations focused on thin-film \ce{TeO2}, a bulk or thick-crystal platform is also a compelling route for Brillouin-induced Raman effects. \ce{TeO2} boasts among the largest photoelastic coefficients for chalcogenide or oxide glasses, making it an exemplary host for strong acousto-optic coupling. In a bulk crystal with polished facets or embedded reflectors, backward Brillouin scattering may transition into a standing-wave configuration, mimicking a Raman-like resonance. Relative to many polymeric or silica systems, crystalline \ce{TeO2} can exhibit reduced phonon damping, particularly for carefully oriented crystal axes. This intrinsic advantage can facilitate a higher mechanical \(Q\) and a narrower linewidth, key ingredients for stable Brillouin-induced Raman modes. Realizing a clear set of discrete “Raman-like” lines in a bulk crystal requires controlling reflections at each interface. Spurious acoustic reflections or partial mode mismatch can excite multiple unwanted phonon branches, broadening the spectrum. Future work could integrate an acoustic Bragg grating within the crystal or deposit patterned reflectors on crystal faces to support more robust mode confinement.
+
+Finally, optical fibers remain one of the most convenient photonic platforms for combining long interaction lengths with precise control over acoustic guidance. Introducing a series of periodic notches or refractive index modulations forms an acoustic mirror inside the fiber, providing a route to localized standing-wave phonons. Unlike conventional uniform-core fibers where traveling acoustic waves dominate, these fiber Bragg structures can reflect phonons at targeted frequencies. Once the phonon reflectivity is sufficiently high, coherent standing waves arise, facilitating strong coupling to the Stokes and anti-Stokes sidebands. Implementing an acoustic fiber Bragg grating must balance strong reflection of phonons (to produce standing-wave modes) with minimal introduction of optical loss. While doping or microstructuring the fiber is feasible, the potential for scattering or wavefront distortion may impact optical guidance.
+
+Collectively, these three categories (\ce{TeO2} waveguides, \ce{TeO2} crystals, and notched acoustic fibers) demonstrate overlapping yet distinct methods for accessing Brillouin-induced Raman modes. Each system can be fine-tuned for specific applications: \ce{TeO2} waveguides for integrated photonics where footprint is critical; bulk crystals for high-\(Q\) acoustic experiments; and fiber-based geometries for long-distance coupling and simpler device integration.
 
 \subsection{Conclusion}
 \label{subsec:Raman:Conclusion}
 
-Connection to Dissertation Theme
-\begin{itemize}
-  \item Relate back to the broader aims of controlling phonons at room temperature, highlighting how these efforts extend exploration of optomechanical interactions.
-\end{itemize}
+By mapping the transition from traveling-wave Brillouin phonons to standing-wave Raman-like modes across these diverse platforms, we underscore the broad adaptability of optomechanical coupling at room temperature. The demonstrations in this chapter affirm that controlling acoustic boundary conditions, whether via physical reflectors, periodic perturbations, or intrinsic interface mismatches, lies at the center of generating stable, high-\(Q\) vibrational modes. The overarching theme of the work presented in this document is control of phonons at room temperature. The progress reported here highlights that we do not need to confine ourselves exclusively to classical Raman systems or purely Brillouin-based traveling-wave scenarios. Instead, it is possible to strategically blend the strengths of each to realize new types of hybrid resonances with unique spectral signatures. Ultimately, these Brillouin-induced Raman modes broaden the scope of optomechanical interactions. They show that even modest structural modifications, whether in waveguides, bulk crystals, or specialized fibers, can tip the balance away from purely traveling acoustic waves toward fully resonant, discrete modes. This tunability promises new device functionalities at telecom and near-infrared wavelengths, where controlling phonons in tandem with photons stands to accelerate advances in sensing, signal processing, and quantum photonics.
 
 \clearpage
 \thispagestyle{empty}
