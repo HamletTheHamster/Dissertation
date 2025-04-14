@@ -126,7 +126,7 @@ In what follows, we detail the experimental platforms and theoretical modeling t
 
 In this section we detail results and progress toward measuring Brillouin-induced Raman modes, in chronological order of investigation. The overall approach was to start deep in the continuous Brillouin domain of longitudinally-traveling phonons in bulk material and steadily approach the discrete Raman domain by measuring incrementally shorter lengths of materials well-suited to the task. This investigative study began with user-friendly fiber-coupled lengths of \ac{UHNA3} fiber, progressed quickly to increasingly challenging free-space measurements of challenging materials such as liquid \ce{CS2} and thin films of \ce{TeO2} and \ce{Te}, and ultimately arrived at fiber-to-chip coupling into specialized suspended waveguides. We present here both the successes along the way as well key insights gained from setbacks, with special focus on illuminating the reasoning behind critical pivots in our investigation.
 
-\subsection{Germanium-Doped Optical Fiber}
+\subsection{\ce{Ge}-Doped Optical Fiber}
 \label{subsec:Raman:Target:UHNA3}
 
 To begin with a clear measurement firmly in the Brillouin domain, we target (short) lengths of the well-understood \ac{UHNA3} fiber. \cite{behunin2015long} \ac{UHNA3} features a Brillouin frequency shift distinct from the \ac{SMF-28} of the apparatus (\(f_{\rm B,\,UHNA3} =\) \SI{9.18}{\giga\hertz} vs \(f_{\rm B,\,SMF28} =\) \SI{10.85}{\giga\hertz}), making it easily distinguishable from instrument background. Additionally, its small core and high \ce{Ge} concentration (\(\sim\)44 wt.\%) make for tight acousto-optic overlap (\(A_{\rm eff}^{\rm ao}\)) and good guidance of both light and sound, respectively. Figure~\ref{fig:Raman:GainofRelevantMaterials} shows the key gain figures for \ac{UHNA3}. While its material gain (\(g_{0} = \SI{0.0015}{\meter\per\giga\watt}\)) is low, the acousto-optically adjusted effective Brillouin gain (\(G_{\rm B} = \frac{g_{0}}{A_{\rm eff}^{\rm ao}} = \SI{0.60}{\per\watt\per\meter}\)) is sufficiently high allow a measurement in sub-\si{\milli\meter} lengths for typical optical powers (Equation~\ref{eq:Raman:minimumL}).
@@ -150,16 +150,17 @@ This measurement is shown in Figure~\ref{fig:Raman:1mmUHNA3}, which features sli
         \caption{}
         \label{fig:Raman:1mmUHNA3pic}
     \end{subfigure}
-    \caption{\SI{1}{\centi\meter} (\ref{fig:Raman:1cmUHNA3pic}) and \SI{1}{\milli\meter} (\ref{fig:Raman:1mmUHNA3pic}) \ac{UHNA3}.}
+    \caption[Photographs of \SI{1}{\centi\meter} and \SI{1}{\milli\meter} lengths of \ac{UHNA3} fiber.]{Photographs of \textbf{(a)} \SI{1}{\centi\meter} and \textbf{(b)} \SI{1}{\milli\meter} lengths of \ac{UHNA3} fiber, marked by black sharpie markings and spliced into the \ac{SMF-28} of the \ac{CoBS} instrument. Samples were fabricated by first splicing a longer segment of \ac{UHNA3} to \ac{SMF-28} and marking the splice location such that the \ac{UHNA3} could subsequently be cleaved to the appropriate length as measured from the marking of the first splice.}
     \label{fig:Raman:UHNA3}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[h!]
   \centering
   \begin{subfigure}[b]{0.49\textwidth}
     \centering
     \hspace{-2em}
     \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 1 cm UHNA3.png}
+    \caption{}
     \label{fig:Raman:1cmUHNA3}
   \end{subfigure}
   \hfill
@@ -167,18 +168,17 @@ This measurement is shown in Figure~\ref{fig:Raman:1mmUHNA3}, which features sli
     \centering
     \hspace{-2em}
     \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 1 mm UHNA3.png}
+    \caption{}
     \label{fig:Raman:1mmUHNA3}
   \end{subfigure}
   \caption[\ac{CoBS} measurements of \SI{1}{\centi\meter} and \SI{1}{\milli\meter} \ac{UHNA3} fiber, in pursuit of observing Brillouin-induced Raman modes.]{\textbf{(a)}~Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\centi\meter} of \ac{UHNA3} fiber (pictured in Figure~\ref{fig:Raman:1cmUHNA3pic}) captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim \SI{0.25}{\cubic\watt}\), with 1\(\sigma\) uncertainties smaller than the data point markers. \textbf{(b)}~Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\milli\meter} of \ac{UHNA3} fiber (pictured in Figure~\ref{fig:Raman:1mmUHNA3pic}), with 1\(\sigma\) uncertainties smaller than the data point markers. The spectrum shows strong Fano asymmetry (see Section~\ref{Appendix:Fano} in Appendix~\ref{appendix: CoBS}), indicating interference of a weak signal with the broad background continuum. This is an older measurement, taken prior to orders of magnitude sensitivity improvements, and the Fano effects seen here indicate this was near the sensitivity limit of the instrument at the time.}
   \label{fig:Raman:UHNA3}
 \end{figure}
 
-\subsection{Free-Space Optics with Liquid Carbon Disulfide}
+\subsection{Free-Space Optics with Liquid \ce{CS2}}
 \label{subsec:Raman:Target:CS2Vial}
 
 Having successfully measured the shortest practical lengths of optical fiber reasonably fabricatable, a regime change to free-space optics in the sample stage was required to continue our investigation. To smooth this transition, we first targeted meaningful lengths of the high-gain liquid \ce{CS2}. From Figure~\ref{fig:Raman:GainofRelevantMaterials}, \ce{CS2} has a material Brillouin gain of \(\sim\SI{1.5}{\meter\per\giga\watt}\), which is \(10^{3}\) higher than that of \ac{UHNA3} fiber, however this material advantage is offset by the much lower acousto-optic mode overlap afforded by the beam waist produced by our lenses (\(A_{\rm eff,\,Free-Space}^{\rm ao} = \pi(\SI{17}{\micro\meter})^{2}\) vs \(A_{\rm eff,\,UHNA3}^{\rm ao} = \pi(\SI{0.9}{\micro\meter})^{2}\)). The resulting effective Brillouin gain of liquid \ce{CS2} in the free-space optical setup of our \ac{CoBS} instrument is \(G_{\rm B} = \sim\SI{1.65}{\per\watt\per\meter}\), nearly a factor of 3 greater than that of \ac{UHNA3}. This combined with an initially targeted length \(L = \SI{1}{\centi\meter}\) provided a sufficiently large target to make for a gentle transition from a fiber-coupled to free-space regime.
-
-Figure~\ref{fig:Raman:CS2Cuvetpics} shows photographs of a \SI{1}{\centi\meter}-by-\SI{4}{\milli\meter} path length cuvet of liquid \ce{CS2} mounted in the sample stage between two lenses. Light is guided from the fiber of the apparatus into free space, collimated and focused by the fiber ports on either side of the fiber bench, upon which the sample sits, and the diffraction-limited lenses. Figure~\ref{fig:Raman:1cmCS2pic} shows the cuvet placed in the \SI{1}{\centi\meter} path length configuration while Figure~\ref{fig:Raman:4mmCS2pic} shows it rotated \SI{90}{\degree} for the \SI{4}{\milli\meter} path length configuration.
 
 \begin{figure}[t]
     \centering
@@ -195,13 +195,11 @@ Figure~\ref{fig:Raman:CS2Cuvetpics} shows photographs of a \SI{1}{\centi\meter}-
         \caption{}
         \label{fig:Raman:4mmCS2pic}
     \end{subfigure}
-    \caption{\SI{1}{\centi\meter} (\ref{fig:Raman:1cmCS2pic}) and \SI{4}{\milli\meter} (\ref{fig:Raman:4mmCS2pic}) liquid \ce{CS2}.}
+    \caption{Photographs of \textbf{(a)} \SI{1}{\centi\meter} and \textbf{(b)} \SI{4}{\milli\meter} lengths of liquid \ce{CS2} in the beam path of the \ac{CoBS} instrument. The single \SI{1}{\centi\meter}-by-\SI{4}{\milli\meter} path length cuvet allowed for both measurements shown in Figure~\ref{fig:Raman:CS2Cuvet} via \SI{90}{\degree} rotation within its mount.}
     \label{fig:Raman:CS2Cuvetpics}
 \end{figure}
 
-Figure~\ref{fig:Raman:CS2Cuvet} shows the observed spectra from \ac{CoBS} measurements of \SI{1}{\centi\meter} and \SI{4}{\milli\meter} liquid \ce{CS2}, pictured in Figure~\ref{fig:Raman:CS2Cuvetpics}. Both measurements showcase significant Fano asymmetry, again indicative of signal-background interference in a low-signal regime (see Section~\ref{Appendix:Fano} in Appendix~\ref{appendix: CoBS}). The strong Fano interference in both measurements emphasizes the proximity to the sensitivity limit of the \ac{CoBS} instrument at the time these spectra were observed. Each progression to lower-signal (less scattered power \(P_{\rm CoBS}\), from Equation~\ref{eq:Raman:ScatteredPowerPhi}) represents iterative sensitivity and performance improvements to the \ac{CoBS} instrument, ranging from insights about the importance of well-cleaned and polished pigtail ends throughout the apparatus to operating setting discoveries such as setting both the pump and probe lasers to ``whisper'' instead of ``dither'' mode, as well as component upgrades such as the detector and higher power \ac{EDFA}s (see Chapter~\ref{ch:CoBS} for more details on the \ac{CoBS} instrument and its performance optimization).
-
-\begin{figure}[t]
+\begin{figure}[h!]
   \centering
   \begin{subfigure}[b]{0.49\textwidth}
     \centering
@@ -220,18 +218,20 @@ Figure~\ref{fig:Raman:CS2Cuvet} shows the observed spectra from \ac{CoBS} measur
   \label{fig:Raman:CS2Cuvet}
 \end{figure}
 
+Figure~\ref{fig:Raman:CS2Cuvetpics} shows photographs of a \SI{1}{\centi\meter}-by-\SI{4}{\milli\meter} path length cuvet of liquid \ce{CS2} mounted in the sample stage between two lenses. Light is guided from the fiber of the apparatus into free space, collimated and focused by the fiber ports on either side of the fiber bench, upon which the sample sits, and the diffraction-limited lenses. Figure~\ref{fig:Raman:1cmCS2pic} shows the cuvet placed in the \SI{1}{\centi\meter} path length configuration while Figure~\ref{fig:Raman:4mmCS2pic} shows it rotated \SI{90}{\degree} for the \SI{4}{\milli\meter} path length configuration.
+
+Figure~\ref{fig:Raman:CS2Cuvet} shows the observed spectra from \ac{CoBS} measurements of \SI{1}{\centi\meter} and \SI{4}{\milli\meter} liquid \ce{CS2}, pictured in Figure~\ref{fig:Raman:CS2Cuvetpics}. Both measurements showcase significant Fano asymmetry, again indicative of signal-background interference in a low-signal regime (see Section~\ref{Appendix:Fano} in Appendix~\ref{appendix: CoBS}). The strong Fano interference in both measurements emphasizes the proximity to the sensitivity limit of the \ac{CoBS} instrument at the time these spectra were observed. Each progression to lower-signal (less scattered power \(P_{\rm CoBS}\), from Equation~\ref{eq:Raman:ScatteredPowerPhi}) represents iterative sensitivity and performance improvements to the \ac{CoBS} instrument, ranging from insights about the importance of well-cleaned and polished pigtail ends throughout the apparatus to operating setting discoveries such as setting both the pump and probe lasers to ``whisper'' instead of ``dither'' mode, as well as component upgrades such as the detector and higher power \ac{EDFA}s (see Chapter~\ref{ch:CoBS} for more details on the \ac{CoBS} instrument and its performance optimization).
+
 With the free-space functionality demonstrated with the successful measurement of \SI{1}{\centi\meter} and \SI{4}{\milli\meter} bulk liquid \ce{CS2} in a cuvet, all basic experimental infrastructure was in place to pursue Brillouin-induced Raman modes in much shorter length samples. The newly-achieved \(\sim\SI{10}{\femto\watt}\) sensitivity limit of the instrument around this time, experimentally-obtained from reduced power measurements of \SI{1}{\centi\meter} \ac{UHNA3} fiber, supported the feasibility of measuring scattering in far shorter interaction lengths. With this in mind, we made the ambitious leap to thin films.
 
-\subsection{Tellurium Dioxide Thin Film}
+\subsection{\ce{TeO2} Thin Film}
 \label{subsec:Raman:Target:TeO2}
 
-\begin{itemize}
-  \item Gibbs collab
-  \item deposit Te, oxidize into TeO2
-  \item table of relevant TeO2 parameters
-\end{itemize}
+Table~\ref{tab:Raman:TeO2} presents key values for material properties of \ce{TeO2} (both crystalline and amorphous thin film) relevant to observing Brillouin-induced Raman modes. To observe Raman-like modes in a confined medium, we must be able to sufficiently excite traveling-wave phonons via the \ac{CoBS} process in an effective length equal to at most half the mean travel distance of the phonons in that material (coherence length \(L_{\rm coh}\)). Phonon coherence length is a function of the material's mechanical dissipation rate, or Brillouin linewidth \(\Gamma_{\rm B}/2\pi\). Setting the effective length at half of the phonon coherence length ensures the phonons make at least one round-trip in the material before dissipating (decohering), representing a critical requirement in observing Brillouin-induced Raman modes. A \ac{CoBS} scattered power estimate is given (via Equation~\ref{eq:Raman:ScatteredPowerPhi}) corresponding to half the phonon coherence length of the material. This figure (consistent for \(L_{\rm coh}/2\) and in \si{\pico\watt} reported units across all similar material property tables presented in this chapter) offers a reference for the minimum sensitivity performance required from the \ac{CoBS} instrument if Raman modes are to be observed in the material. For example, if Raman modes are to be observed in crystalline \ce{TeO2}, the effective length of the sample used to measure them must be at most \(L_{\rm eff,\,sample} = L_{\rm coh}/2 = \SI{215}{\micro\meter}\) and \ac{CoBS} must be capable of \SI{3500}{\pico\watt} sensitivity (which it achieves by \(\sim10^{3}\)). In the table, \(\tau\) is the phonon lifetime (\(\tau = (2\pi\cdot\Gamma_{\rm B})^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, \(n\) is the refractive index, and \(\Omega_{\rm B}\) and \(\Omega_{\rm R,\,\SI{1}{\micro\meter}}\) are the Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}) and the first harmonic (\(n = 1\)) of the fundamental \(L_{0}\) Raman mode for \(L = \SI{1}{\micro\meter}\) (Equation~\ref{eq:Raman:f_R}), respectively. The reported first harmonic Raman mode is also consistent across all material property tables in this chapter as calculated for \(L = \SI{1}{\micro\meter}\).
 
-\begin{table}[h]
+Table~\ref{tab:Raman:TeO2} shows that to measure Brillouin-induced Raman modes in an amorphous thin film of \ce{TeO2}, the the film may be at most \(L_{\rm coh}/2 \approx \SI{41}{\micro\meter}\) (notably beyond the standard thickness considered to be a ``thin film'') and \ac{CoBS} must be capable of \(P_{\rm CoBS,\,L_{\rm coh}/2} \approx \SI{137}{\pico\watt}\) sensitivity. This makes clear the viability of \ce{TeO2} as a good material platform for observing discrete Raman modes with the well-suited \ac{CoBS} instrument. For a typical thin film of \SI{1}{\micro\meter} thickness the required \ac{CoBS} sensitivity increases to \(\sim\SI{76}{\femto\watt}\), still within the measured sensitivity limit, with excited phonons making on average \(\sim\)80 round trips within the film before dissipating.
+
+\begin{table}[t]
     \centering
     \begin{tabular}{c c c c c c c c c}
         \toprule
@@ -262,9 +262,13 @@ With the free-space functionality demonstrated with the successful measurement o
         \bottomrule
         \\
     \end{tabular}
-    \caption[Material parameters for \ce{TeO2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for \ce{TeO2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes. The first row gives values for crystalline \ce{TeO2} \cite{renninger2018bulk, uchida1971optical}, while the second row reports measured values of our \SI{1}{\micro\meter} \ce{TeO2} thin film obtained from Figures~\ref{fig:Raman:1umTeO2} and \ref{fig:Raman:1umTeO2_combined}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = \Gamma_{\rm B}^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, and \(n\) is the refractive index. We take the refractive index for an amorphous thin film of \ce{TeO2} as the average of the crystalline-\ce{TeO2} ordinary (\(n(o) = 2.2\)) and extraordinary (\(n(e) = 2.34\)) refractive indices (\(n_{\rm avg} \approx 2.27\)), giving an expectedly reduced longitudinal sound speed \(v_{\rm s,\,film} \approx\)\SI{4150}{\meter\per\second} in the imperfect lattice of the \ac{PVD}-deposited film. \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), scattered power for a \ac{CoBS} process (\(P_{\rm CoBS}\)), reported here for \(L_{\rm coh,\,crystalline}/2 =\) \SI{215}{\micro\meter} and \(L_{\rm coh,\,thin\,film}/2 =\) \SI{42.5}{\micro\meter} \ce{TeO2}, scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). \(P_{\rm CoBS}\) improves slightly in the thin film due to the higher refractive index, but worstens significantly by faster dissipation \(\Gamma_{\rm B}\). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{1}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}).}
+    \caption[Material parameters for \ce{TeO2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for \ce{TeO2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes. The first row gives values for crystalline \ce{TeO2} \cite{renninger2018bulk, uchida1971optical}, while the second row reports measured values of our \SI{1}{\micro\meter} \ce{TeO2} thin film obtained from Figures~\ref{fig:Raman:1umTeO2} and \ref{fig:Raman:1umTeO2_combined}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = (2\pi\cdot\Gamma_{\rm B})^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, and \(n\) is the refractive index. We take the refractive index for an amorphous thin film of \ce{TeO2} as the average of the crystalline-\ce{TeO2} ordinary (\(n(o) = 2.2\)) and extraordinary (\(n(e) = 2.34\)) refractive indices (\(n_{\rm avg} \approx 2.27\)), giving an expectedly reduced longitudinal sound speed \(v_{\rm s,\,film} \approx\)\SI{4150}{\meter\per\second} in the imperfect lattice of the \ac{PVD}-deposited film. \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), scattered power for a \ac{CoBS} process (\(P_{\rm CoBS}\)), reported here for \(L_{\rm coh,\,crystalline}/2 =\) \SI{215}{\micro\meter} and \(L_{\rm coh,\,thin\,film}/2 =\) \SI{42.5}{\micro\meter} \ce{TeO2}, scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). \(P_{\rm CoBS}\) improves slightly in the thin film due to the higher refractive index, but worstens significantly by faster dissipation \(\Gamma_{\rm B}\). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{1}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}).}
     \label{tab:Raman:TeO2}
 \end{table}
+
+To fabricate \ce{TeO2} thin film samples we collaborated with Dr. John Gibbs' Nanotechnology Laboratory and its members to perform \ac{PVD} of controlled films onto glass substrates. \ce{TeO2} powder was initially attempted, via the recommended thermal evaporation method, however the fine \ce{TeO2} powder was observed to ballistically repel from the thermal evaporation boat while still in solid powder form before it had the chance to melt into the liquid phase. To resolve this, we attempted a pretreatment procedure of applying high-compression forces to the \ce{TeO2} powder with a hydraulic press. The resulting compressed plates of \ce{TeO2} powder (pictured in Figure~\ref{fig:Raman:GainofRelevantMaterials}) maintained stability in the thermal boat under vacuum and heating conditions, indicating initial success. However, the tungston thermal boat twice melted together with the compressed \ce{TeO2} plates, halting the deposition and preventing the completion of the sample.
+
+To surmount this issue, we resolved to deposit \ce{Te} metal and apply a post-deposition annealing treatment to oxidize the \ce{Te} into the desired \ce{TeO2}. This fabrication procedure proved successful. Initial deposition rate stability issues were resolved by inserting custom electrical circuit logic into the deposition chamber voltage controls. The circuit logic provided added sensitivity of deposition parameters by introducing a switchable ``course'' and ``fine'' voltage control mode, with the fine setting containing the phenomenologically-found sweet-spot of resistance for thermally depositing \ce{Te} metal. In our experience, thermally depositing \si{\micro\meter} films of \ce{Te} metal via multiple successive deposition-annealing cycles of annealable sublayers, occuring over \(\sim\SI{20}{\hour}\), and keeping the deposition rate steady with continuous adjustment of the fine-control knob is akin to rolling a ball lengthwise down the ouside of a pipe of diameter equal to the ball's. Nevertheless, this procedure proved a reliable method of producing \ce{TeO2} thin films deposited onto glass slides which could easily be inserted and secured in the beam path of the \ac{CoBS} instrument. Figure~\ref{fig:Raman:TeO2slide} shows an image of a glass slide with a deposited thin film of \ce{TeO2} which has been successfully annealed, converting the mirror-shine appearance of the deposited \ce{Te} into the semi-transparent appearance seen here. This sample is shown reattached to the \ac{PVD} substrate for additional layers to be deposited and subsequently annealed. The annealer was found to be capable of fully oxidizing a maximum of \(\sim\SI{300}{\nano\meter}\) of deposited \ce{Te}. This set the step size for building up \ce{TeO2} layers toward the total desired sample thickness.
 
 \begin{figure}[t]
   \centering
@@ -276,11 +280,11 @@ With the free-space functionality demonstrated with the successful measurement o
 \begin{figure}[t]
   \centering
   \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 1 μm TeO2 wide.png}
-  \caption{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\micro\meter} of \ce{TeO2} captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim \SI{0.25}{\cubic\watt}\), with 1\(\sigma\) uncertainties.}4
+  \caption{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\micro\meter} of \ce{TeO2} captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim \SI{0.25}{\cubic\watt}\), with 1\(\sigma\) uncertainties.}
   \label{fig:Raman:1umTeO2}
 \end{figure}
 
-\begin{figure}[t]
+\begin{figure}[th!]
   \centering
   \begin{subfigure}[b]{0.85\textwidth}
     \centering
@@ -309,22 +313,23 @@ With the free-space functionality demonstrated with the successful measurement o
   \label{fig:Raman:1umTeO2_combined}
 \end{figure}
 
+Figure~\ref{fig:Raman:1umTeO2} shows a \ac{CoBS} measurement of a \SI{1}{\micro\meter} thin film of \ce{TeO2}. Initial inspection of this measurement resulted in premature dismissal of a plausible measurement. From reported sound speed and refractive index for \ce{TeO2}, \cite{uchida1969elastic, schweppe1970elastic, ohmachi1972acoustic, peercy1975temperature, fleury2018non, harris1991multichannel, uchida1971optical} Equation~\ref{eq:Raman:f_B} predicts a Brillouin frequency shift for \ce{TeO2} to be \(f_{\rm B}\approx\SI{12.4(0.5)}{\giga\hertz}\), which is where we see a pronounced feature in the spectra presented in Figure~\ref{fig:Raman:1umTeO2}. An independent measurement was performed on a second similar but independent \SI{1}{\micro\meter} thin film of \ce{TeO2}. For this second measurement, after capturing the \ce{TeO2} film spectra, a repeated measurement was immediately performed in which the \ce{TeO2} sample was removed and a measurement was taken under identical parameters. Figure~\ref{fig:Raman:1umTeO2_combined} shows the result of these two measurements in three variations in resolution via binning: unbinned raw resolution (Figure~\ref{fig:Raman:1umTeO2Raw}), \SI{5}{\mega\hertz} bins (Figure~\ref{fig:Raman:1umTeO25MHzBin}), and \SI{10}{\mega\hertz} bins (Figure~\ref{fig:Raman:1umTeO10MHzBin}). In each, a notable \(\sim\SI{12.16}{\giga\hertz}\) feature can be seen in the \SI{1}{\micro\meter} \ce{TeO2} spectrum, above the background ``No sample'' spectrum. Both \SI{1}{\micro\meter} \ce{TeO2} spectra feature a consistent \ac{FWHM} linewidth of \(\sim\SI{50}{\mega\hertz}\). While perfectly crystalline \ce{TeO2} features a smaller linewidth \(\sim\SI{10}{\mega\hertz}\), \cite{renninger2018bulk} dissipation within a rough amorphous thin film of varying grain size and imperfect crystal structure would feature significantly higher dissipation (wider linewidth) than its crystalline counterpart. Additionally, these same imperfections would contribute to a slighly slower sound speed in the deposited \ce{TeO2}, explaining the Brillouin frequency shift appearing on the lower end of the expected range (see Equation~\ref{eq:Raman:f_B}). As previously noted, a measurement of \SI{1}{\micro\meter} \ce{TeO2} would require at least as great as \(sim\SI{76}{\femto\watt}\), which is well inside of the capability of the demonstrated \(\sim\SI{5}{\femto\watt}\) sensitivity of our \ac{CoBS} instrument. For all these reasons, we conclude plausible success in measurement of a \SI{1}{\micro\meter} thin film of \ce{TeO2}, awaiting further measurements to confirm.
+
+Figure~\ref{fig:Raman:500nmTeO2} shows a spectrum obtained for a \SI{500}{\nano\meter} thin film of \ce{TeO2}. A pronounced background noise profile dominates the spectrum, with no significant spectral features indicative of a measurement of \ce{TeO2}. While the scattered power produced from \SI{500}{\nano\meter} of \ce{TeO2} (\(P_{\rm CoBS,\,\SI{500}{\nano\meter}\,\ce{TeO2}} \approx \SI{19}{\femto\watt}\)) remains just within the sensitivity limit of the instrument, in practice, a host of non-ideal experimental conditions could prevent the instrument from performing at its full sensitivity limit.
+
 \begin{figure}[t]
   \centering
-  \hspace{-2em}\includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 500 nm TeO2.png}
+  \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 500 nm TeO2.png}
   \caption{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{500}{\nano\meter} of \ce{TeO2} captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim \SI{0.25}{\cubic\watt}\), with 1\(\sigma\) uncertainties.}
   \label{fig:Raman:500nmTeO2}
 \end{figure}
 
+As mentioned, the plausible measurements shown in Figures~\ref{fig:Raman:1umTeO2} and \ref{fig:Raman:1umTeO2_combined} were dismissed initially. In search of other options, and working with \ce{Te} metal over so many hours of \ac{PVD} depostions, we began researching the possibility of using un-annealed \ce{Te} over its oxidized counterpart, mostly due to the tremendously higher material gain factor offered by \ce{Te}.
+
 \subsection{Tellurium Thin Film}
 \label{subsec:Raman:Target:Te}
 
-\begin{itemize}
-  \item Gibbs collab and CINT collab
-  \item Se adhesion layer (sound speed \cite{kozhevnikov2007sound})
-  \item oxidizes to TeO2
-  \item table of relevant Te parameters
-\end{itemize}
+Table~\ref{tab:Raman:Te} gives the relevant parameters for \ce{Te} metal. While \ce{Te} is absorptive at \SI{1.55}{\micro\meter}, transmission becomes meaningful as films become thinner, with a \SI{1}{\micro\meter} thin film of \ce{Te} permitting 11.4\% of \SI{1.55}{\micro\meter} light to transmit and a \SI{500}{\nano\meter} film permitting 29\%. \cite{ciesielski2018permittivity} The \(n = 4.58\) refractive index of \ce{Te} contributes to a massive material Brillouin gain of \(g_{0} = \SI{13.1}{\meter\per\giga\watt}\), translating to an acousto-optic overlap-adjusted effective Brillouin gain \(G_{\rm B} = \SI{14.4}{\per\meter\per\watt}\). Having concluded that no successful measurement for \ce{TeO2} thin films were achieved, this much higher gain of \ce{Te} presented an apparent opportunity.
 
 \begin{table}[h]
     \centering
@@ -333,10 +338,10 @@ With the free-space functionality demonstrated with the successful measurement o
         \textbf{\ce{Te}} &
         \(\mathbf{\Gamma_{\rm \textbf{B}}}\) \cite{balakshii2008investigation, lin2016tellurium, voloshinov2017optic, khorkin2020acousto, voloshinov2008acousto} &
         \(\mathbf{\tau}\) &
-        \(\mathbf{v_{\rm \textbf{s,\,long}}}\) \cite{balakshii2008investigation, lin2016tellurium, voloshinov2017optic, khorkin2020acousto, voloshinov2008acousto} &
+        \(\mathbf{v_{\rm \textbf{s,\,long}}}\) \cite{balakshii2008investigation, lin2016tellurium, voloshinov2017optic, khorkin2020acousto, voloshinov2008acousto, kozhevnikov2007sound} &
         \(\mathbf{n}\) \cite{ciesielski2018permittivity, hartig1954infrared} &
         \(\mathbf{L_{\rm \textbf{coh}}}\) &
-        \(\mathbf{P_{\rm \textbf{CoBS,\,\(\mathbf{L_{\rm coh}}/2\)}}}\) &
+        \(\mathbf{P_{\rm \textbf{CoBS,\,\textbf{\SI{500}{\nano\meter}}}}}\) &
         \(\mathbf{\Omega_{\rm \textbf{B}}}\) &
         \(\mathbf{\Omega_{\rm \textbf{R,\,\textbf{\SI{1}{\micro\meter}}}}}\) \\
         &
@@ -350,29 +355,45 @@ With the free-space functionality demonstrated with the successful measurement o
         (\si{\giga\hertz}) \\
         \midrule
         \\
-        \textbf{Bulk} & \(\sim2\pi\cdot\)\num{10} & \num{100} & \(\sim\)\num{2610} & \num{4.58} & \num{261} & \(\sim\)\num{13e-3} & \(2\pi\cdot\)\num{15.4} & \(2\pi\cdot\)\num{1.31} \\
+        \textbf{Bulk} & \(\sim2\pi\cdot\)\num{10} & \num{100} & \(\sim\)\num{2610} & \num{4.58} & \num{261} & \(\sim\)\num{80e-3} & \(2\pi\cdot\)\num{15.4} & \(2\pi\cdot\)\num{1.31} \\
         \\
         \bottomrule
         \\
     \end{tabular}
-    \caption[Material parameters for \ce{Te} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for \ce{Te} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes, obtained from published values for bulk \ce{Te}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = \Gamma_{\rm B}^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, \(n\) is the refractive index, \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), and \(P_{\rm CoBS}\) is the scattered power for the \ac{CoBS} process, reported here for \SI{1}{\micro\meter} \ce{Te}, and scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{1}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}). While \ce{CS2} and \ce{TeO2} are transparent at \SI{1.55}{\micro\meter}, \ce{Te} is absorptive here. However, transmission becomes meaningful through thin films, with \SI{1}{\micro\meter} of deposited \ce{Te} permitting 11.4\% and \SI{500}{\nano\meter} permitting 29\% of \SI{1.55}{\micro\meter} light to transmit. \cite{ciesielski2018permittivity} This extra \(\sim\)90\% loss (for each of the three optical fields) has been accounted for in the scattered power value for the \ac{CoBS} process listed in the table.}
+    \caption[Material parameters for \ce{Te} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for \ce{Te} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes, obtained from published values for bulk \ce{Te}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = (2\pi\cdot\Gamma_{\rm B})^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, \(n\) is the refractive index, \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), and \(P_{\rm CoBS}\) is the scattered power for the \ac{CoBS} process, reported here for \SI{500}{\nano\meter} \ce{Te}, and scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{1}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}). While \ce{CS2} and \ce{TeO2} are transparent at \SI{1.55}{\micro\meter}, \ce{Te} is absorptive here. However, transmission becomes meaningful through thin films, with \SI{1}{\micro\meter} of deposited \ce{Te} permitting 11.4\% and \SI{500}{\nano\meter} permitting 29\% of \SI{1.55}{\micro\meter} light to transmit. \cite{ciesielski2018permittivity} This extra \(\sim\)70\% loss (for each of the three optical fields) has been accounted for in the scattered power value for the \ac{CoBS} process listed in the table.}
     \label{tab:Raman:Te}
 \end{table}
+
+Initial \ac{CoBS} measurements of \ce{Te} thin films resulted in evident ablation of the film from the glass substrate, with poor adhesion between the \ce{Te} and glass slide the determined cause. Collaborators at \ac{CINT} lent the insight that a thin adhesion layer of \ce{Se} is recommended between \ce{Te} deposited onto glass, and \ce{Se}-primed sapphire substrate samples were kindly sent to us ready for depositions of \ce{Te} to be performed ontop of a \SI{10}{\nano\meter} \ce{Se} layer. The \ce{Se} adhesion layer proved successful in adhering the \ce{Te}. A diagram of the material layering is shown in Figure~\ref{fig:Raman:AcousticImpedance}. A \SI{500}{\nano\meter} thin film of \ce{Te} was fabricated after estimations of feasible measurement resulted in a required sensitivity \(\sim15\times\) the sensitivity limit of the instrument. During measurement, it was discovered that the energy of the optical powers incident on the sample (of which \(\sim\)70\% is absorbed) caused significant heating in the thin film of \ce{Te}, resulting in oxidization of the \ce{Te} into \ce{TeO2} within the beam spot. Figure~\ref{fig:Raman:TeTeO2beamspot} shows a photograph which captures this resulting oxidized state of the \ce{Te} thin film after sitting for a measurement in the beam path of the instrument.
+
+With this unfortunate result, we began a broader reanalysis of the choice of platform for observing Brillouin-induced Raman modes at room temperature. Figure~\ref{fig:Raman:AcousticImpedance} also shows acoustic reflectivity values \(R\) for each interface of a \ce{Te} sample, calculated by the acoustic impedance \(Z\) of each material,
+
+\begin{equation}
+  R = \frac{Z_{\rm a} - Z_{\rm b}}{Z_{\rm a} + Z_{\rm b}},
+\end{equation}
+\\
+where \(Z\) is the product of the material's density and sound speed. While the \ce{Te}-air boundary offers near complete acoustic reflection, owing to the large acoustic impedance mismatch between \ce{Te} and air, the acoustic reflectivity is near zero between \ce{Te} and \ce{Se} and only \(\sim\)0.5 between the \ce{Se} and the sapphire substrate. These values are similar for \ce{TeO2}. To ultimately observe Raman modes, there must be sufficient confinement of the phonons. After some consideration of dissolvable substrates which may be engineered to expose a portion of the \ce{Te} or \ce{TeO2} to air on both sides, recovering both free bounds, we returned to the last (apparent) successful measurement: \ce{CS2}.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=.8\textwidth]{figs/4-Raman/AcousticImpedance.png}
-  \caption{Acoustic impedance.}
+  \caption{Illustration of the material layers of a \ce{Te} thin film sample. \SI{10}{\nano\meter} \ce{Se} is deposited by collaborators at \ac{CINT} to act as an adhesion layer between the sapphire and \ce{Te} film. Also shown are the acoustic reflectivity values at each interface as a result of acoustic impedance mismach between materials.}
   \label{fig:Raman:AcousticImpedance}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=.3\textwidth]{figs/4-Raman/TeTeO2beamspot.png}
+  \caption{Evidence of oxidization of the \SI{500}{\nano\meter} \ce{Te} thin film in the circular beam spot due to \(\sim\)70\% absorption of the \SI{1.55}{\micro\meter} optical fields.}
+  \label{fig:Raman:TeTeO2beamspot}
 \end{figure}
 
 \subsection{Carbon Disulfide Micrometer Cell}
 \label{subsec:Raman:Target:CS2Cells}
 
-\begin{itemize}
-  \item table of relevant CS2 parameters
-  \item cells, 1 W amp, bubble test
-\end{itemize}
+Table~\ref{tab:Raman:CS2} gives the relevant material parameters for achieving Brillouin-induced Raman modes in \ce{CS2}. Notably, the phonon dissipation rate within \ce{CS2} is nearly \(10^{1}\) greater than that of \ce{TeO2} or \ce{Te}, at \(\Gamma_{\rm B} = \SI{90(10)}{\mega\hertz}\). This in combination with its slower speed of sound \(V_{\rm s} = \SI{1150}{\meter\per\second}\) results in a short phonon coherence length \(L_{\rm coh} = \SI{13(2)}{\micro\meter}\) and a correspondingly high sensitivity requirement of \(P_{\rm CoBS,\,\SI{6.5}{\micro\meter}} \approx \SI{7.2}{\pico\watt}\). While this is smaller than the half-coherent-length sensitivity requrired for \ce{TeO2}, making for a harder measurement to observe Raman modes in \ce{CS2} than \ce{TeO2} by this metric, the reduced complexity of the \ce{CS2} experimental platform as compared to the amorphous thin films presented as attractive. Additionally, the air-\ce{CS2}-air boundaries represent near total acoustic confinement at the interfaces, and the narrower Raman mode spacing (multiples of \(f_{\rm R,\,\ce{CS2}} = \SI{575}{\mega\hertz}\), as opposed to \(f_{\rm R,\,\ce{TeO2}} = \SI{2.13}{\giga\hertz}\)) in combination with the wider linewidth of \ce{CS2} together offered the possibility of more achievable length-tuning for Raman mode placement near the Brillouin frequency shift.
+
+Small path length cells were obtained for \SI{1}{\milli\meter}, \SI{100}{\micro\meter}, and \SI{10}{\micro\meter} path lengths. Figure~\ref{fig:Raman:CS2cellpics} show photographs of each of these cells installed into the sample holder of the sample stage of \ac{CoBS}. Progressive measurements were attempted, with each 10\(\times\) decrease in effective length \(L\) corresponding to a 100\(\times\) decrease in scattered power produced, and thereby a 100\(\times\) higher sensitivity required for a successful measurement (see Equation~\ref{eq:Raman:ScatteredPowerPhi}). Figure~\ref{fig:Raman:1mmCS2} shows the observed spectra collected from a measurement of \SI{1}{\milli\meter} liquid \ce{CS2}. This spectrum is part of a set of measurements collected on the same day and which helped reveal the Fano interference behavior common to \ac{CoBS} measurements approaching the sensitivity limit. While the spectrum in Figure~\ref{fig:Raman:1mmCS2} shows mild to no Fano asymmetry, spectra corresponding to other pump-probe detunings display strong Fano asymmetry (see Section~\ref{Appendix:Fano:Experiment B} in Appendix~\ref{appendix: CoBS} for a description of the experiment and Figure~\ref{fig:Joy Division CS2} for the full measurement set). Figure~\ref{fig:Raman:100umCS2} shows the spectrum obtained from a \ac{CoBS} measurement of \SI{100}{\micro\meter} liquid \ce{CS2}. The \ac{SNR} of this measurement is significantly lower than that of the \SI{1}{\milli\meter} liquid \ce{CS2} spectrum, as expected from the 100\(\times\) reduction in scattered power produced as a result of the 10\(\times\) reduction in effective length. Finally, Figure~\ref{fig:Raman:10umCS2} shows the spectrum obtained from a \ac{CoBS} measurement attempt of \SI{10}{\micro\meter} liquid \ce{CS2}, binned to \SI{20}{\mega\hertz} bins. While the scattered power produced remains theoretically within the sensitivity limit of the instrument, a successful measurement of \SI{10}{\micro\meter} liquid \ce{CS2} could not be obtained, likely due to variations in experimental conditions. Furthermore, due to the short phonon mean travel distance \(L_{\rm coh} = \SI{13(2)}{\micro\meter}\), the \SI{10}{\micro\meter} path length cell would still have been insufficiently short to exhibit Brillouin-induced Raman modes. A \(\sim\SI{5}{\micro\meter}\) path length cell would be required for this result.
 
 \begin{table}[h]
     \centering
@@ -403,7 +424,7 @@ With the free-space functionality demonstrated with the successful measurement o
         \bottomrule
         \\
     \end{tabular}
-    \caption[Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes, obtained from published values as well as our own observations shown in Figures~\ref{fig:Raman:1cmCS2}, \ref{fig:Raman:4mmCS2}, \ref{fig:Raman:1mmCS2}, and \ref{fig:Raman:100umCS2}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = \Gamma_{\rm B}^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, \(n\) is the refractive index, \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), and \(P_{\rm CoBS}\) is the scattered power for the \ac{CoBS} process, reported here for \(L_{\rm coh}/2 =\) \SI{6.5}{\micro\meter} \ce{CS2}, and scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{10}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}).}
+    \caption[Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes, obtained from published values as well as our own observations shown in Figures~\ref{fig:Raman:1cmCS2}, \ref{fig:Raman:4mmCS2}, \ref{fig:Raman:1mmCS2}, and \ref{fig:Raman:100umCS2}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = (2\pi\cdot\Gamma_{\rm B})^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, \(n\) is the refractive index, \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), and \(P_{\rm CoBS}\) is the scattered power for the \ac{CoBS} process, reported here for \(L_{\rm coh}/2 =\) \SI{6.5}{\micro\meter} \ce{CS2}, and scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{10}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}).}
     \label{tab:Raman:CS2}
 \end{table}
 
@@ -412,23 +433,26 @@ With the free-space functionality demonstrated with the successful measurement o
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figs/4-Raman/1mmCS2.jpg}
+        \caption{}
         \label{fig:Raman:1mmCS2pic}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figs/4-Raman/100umCS2.jpg}
+        \caption{}
         \label{fig:Raman:100umCS2pic}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figs/4-Raman/10umCS2.jpg}
+        \caption{}
         \label{fig:Raman:10umCS2pic}
     \end{subfigure}
     %
     \caption{Three \ce{CS2} cells of different path lengths (\SI{1}{\milli\meter}, \SI{100}{\micro\meter}, and \SI{10}{\micro\meter}) secured in the beam path of the \acl{CoBS}.}
-    \label{fig:Raman:CS2Comparison}
+    \label{fig:Raman:CS2cellpics}
 \end{figure}
 
 \begin{figure}[t]

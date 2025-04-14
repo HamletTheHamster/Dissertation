@@ -657,12 +657,13 @@ Bertram~Alexander Auld.
 \newblock \emph{Acoustic fields and waves in solids}.
 \newblock Ripol Klassik, 1973.
 
-\bibitem[Kozhevnikov et~al.(2007)Kozhevnikov, Payne, Olson, Allen, and
-  Taylor]{kozhevnikov2007sound}
-VF~Kozhevnikov, WB~Payne, JK~Olson, A~Allen, and PC~Taylor.
-\newblock Sound velocity in liquid and glassy selenium.
-\newblock \emph{Journal of non-crystalline solids}, 353\penalty0
-  (32-40):\penalty0 3254--3259, 2007.
+\bibitem[Ciesielski et~al.(2018)Ciesielski, Skowronski, Pacuski, and
+  Szoplik]{ciesielski2018permittivity}
+Arkadiusz Ciesielski, Lukasz Skowronski, Wojciech Pacuski, and Tomasz Szoplik.
+\newblock Permittivity of ge, te and se thin films in the 200--1500 nm spectral
+  range. predicting the segregation effects in silver.
+\newblock \emph{Materials Science in Semiconductor Processing}, 81:\penalty0
+  64--67, 2018.
 
 \bibitem[Balakshii et~al.(2008)Balakshii, Voloshinov, Knyazev, and
   Kulakova]{balakshii2008investigation}
@@ -699,13 +700,12 @@ VB~Voloshinov, VI~Balakshy, LA~Kulakova, and N~Gupta.
 \newblock \emph{Journal of optics a: pure and applied optics}, 10\penalty0
   (9):\penalty0 095002, 2008.
 
-\bibitem[Ciesielski et~al.(2018)Ciesielski, Skowronski, Pacuski, and
-  Szoplik]{ciesielski2018permittivity}
-Arkadiusz Ciesielski, Lukasz Skowronski, Wojciech Pacuski, and Tomasz Szoplik.
-\newblock Permittivity of ge, te and se thin films in the 200--1500 nm spectral
-  range. predicting the segregation effects in silver.
-\newblock \emph{Materials Science in Semiconductor Processing}, 81:\penalty0
-  64--67, 2018.
+\bibitem[Kozhevnikov et~al.(2007)Kozhevnikov, Payne, Olson, Allen, and
+  Taylor]{kozhevnikov2007sound}
+VF~Kozhevnikov, WB~Payne, JK~Olson, A~Allen, and PC~Taylor.
+\newblock Sound velocity in liquid and glassy selenium.
+\newblock \emph{Journal of non-crystalline solids}, 353\penalty0
+  (32-40):\penalty0 3254--3259, 2007.
 
 \bibitem[Hartig and Loferski(1954)]{hartig1954infrared}
 Patricia~A Hartig and Joseph~J Loferski.
