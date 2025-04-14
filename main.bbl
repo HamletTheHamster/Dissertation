@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{111}
+\begin{thebibliography}{128}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,15 +14,103 @@ Joel~N Johnson, Danielle~R Haverkamp, Yi-Hsin Ou, Khanh Kieu, Nils~T
 \newblock \emph{Physical Review Applied}, 20\penalty0 (3):\penalty0 034047,
   2023.
 
+\bibitem[Boccara et~al.(1980)Boccara, Fournier, and Badoz]{boccara1980thermo}
+AC~Boccara, D~Fournier, and J~Badoz.
+\newblock Thermo-optical spectroscopy: Detection by the''mirage effect''.
+\newblock \emph{Applied Physics Letters}, 36\penalty0 (2):\penalty0 130--130,
+  1980.
+
+\bibitem[Sutar et~al.(2024)Sutar, Latthe, Wu, Nakata, Xing, Liu, and
+  Fujishima]{sutar2024design}
+Rajaram~S Sutar, Sanjay~Subhash Latthe, Xinna Wu, Kazuya Nakata, Ruimin Xing,
+  Shanhu Liu, and Akira Fujishima.
+\newblock Design and mechanism of photothermal soft actuators and their
+  applications.
+\newblock \emph{Journal of Materials Chemistry A}, 2024.
+
+\bibitem[Hirsch et~al.(2003)Hirsch, Stafford, Bankson, Sershen, Rivera, Price,
+  Hazle, Halas, and West]{hirsch2003nanoshell}
+Leon~R Hirsch, R~Jason Stafford, JA~Bankson, Scott~R Sershen, B~Rivera,
+  RE~Price, John~D Hazle, Naomi~J Halas, and Jennifer~L West.
+\newblock Nanoshell-mediated near-infrared thermal therapy of tumors under
+  magnetic resonance guidance.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 100\penalty0
+  (23):\penalty0 13549--13554, 2003.
+
 \bibitem[Rayleigh(1871)]{rayleigh1871light}
 Lord Rayleigh.
 \newblock On the light from the sky, its polarization and colour.
 \newblock \emph{Phil Mag}, 41:\penalty0 274, 1871.
 
+\bibitem[Vankeirsbilck et~al.(2002)Vankeirsbilck, Vercauteren, Baeyens, Van~der
+  Weken, Verpoort, Vergote, and Remon]{vankeirsbilck2002applications}
+Tineke Vankeirsbilck, Ann Vercauteren, Willy Baeyens, G~Van~der Weken, Francis
+  Verpoort, Geert Vergote, and Jean~Paul Remon.
+\newblock Applications of raman spectroscopy in pharmaceutical analysis.
+\newblock \emph{TrAC trends in analytical chemistry}, 21\penalty0
+  (12):\penalty0 869--877, 2002.
+
+\bibitem[Krafft and Popp(2015)]{krafft2015many}
+Christoph Krafft and J{\"u}rgen Popp.
+\newblock The many facets of raman spectroscopy for biomedical analysis.
+\newblock \emph{Analytical and bioanalytical chemistry}, 407:\penalty0
+  699--717, 2015.
+
+\bibitem[Scarcelli and Yun(2008)]{scarcelli2008confocal}
+Giuliano Scarcelli and Seok~Hyun Yun.
+\newblock Confocal brillouin microscopy for three-dimensional mechanical
+  imaging.
+\newblock \emph{Nature photonics}, 2\penalty0 (1):\penalty0 39--43, 2008.
+
+\bibitem[Horiguchi et~al.(1990)Horiguchi, Kurashima, and
+  Tateda]{horiguchi1990technique}
+TKMTT Horiguchi, Toshio Kurashima, and Mitsuhiro Tateda.
+\newblock A technique to measure distributed strain in optical fibers.
+\newblock \emph{IEEE photonics technology letters}, 2\penalty0 (5):\penalty0
+  352--354, 1990.
+
+\bibitem[Brody and Cummins(1968)]{brody1968brillouin}
+Edward~M Brody and Herman~Z Cummins.
+\newblock Brillouin-scattering study of the ferroelectric transition in k h 2 p
+  o 4.
+\newblock \emph{Physical Review Letters}, 21\penalty0 (17):\penalty0 1263,
+  1968.
+
+\bibitem[Bodhaine et~al.(1999)Bodhaine, Wood, Dutton, and
+  Slusser]{bodhaine1999rayleigh}
+Barry~A Bodhaine, Norman~B Wood, Ellsworth~G Dutton, and James~R Slusser.
+\newblock On rayleigh optical depth calculations.
+\newblock \emph{Journal of Atmospheric and Oceanic Technology}, 16\penalty0
+  (11):\penalty0 1854--1861, 1999.
+
+\bibitem[Amer et~al.(1975)Amer, Lin, and Shen]{amer1975temperature}
+Nabil~M Amer, YS~Lin, and YR~Shen.
+\newblock The temperature dependence of rayleigh-wing scattering from liquid
+  crystalline p-methoxybenzylidene-pn-butylaniline (mbba).
+\newblock \emph{Solid State Communications}, 16\penalty0 (10-11):\penalty0
+  1157--1160, 1975.
+
 \bibitem[Boyd(2020)]{boyd2020nonlinear}
 Robert~W Boyd.
 \newblock \emph{Nonlinear Optics}.
 \newblock Academic Press, 2020.
+
+\bibitem[Ashkin and Dziedzic(1987)]{ashkin1987optical}
+Arthur Ashkin and James~M Dziedzic.
+\newblock Optical trapping and manipulation of viruses and bacteria.
+\newblock \emph{Science}, 235\penalty0 (4795):\penalty0 1517--1520, 1987.
+
+\bibitem[Raab et~al.(1987)Raab, Prentiss, Cable, Chu, and
+  Pritchard]{raab1987trapping}
+Eric~L Raab, Mara Prentiss, Alex Cable, Steven Chu, and David~E Pritchard.
+\newblock Trapping of neutral sodium atoms with radiation pressure.
+\newblock \emph{Physical review letters}, 59\penalty0 (23):\penalty0 2631,
+  1987.
+
+\bibitem[Browaeys and Lahaye(2020)]{browaeys2020many}
+Antoine Browaeys and Thierry Lahaye.
+\newblock Many-body physics with individually controlled rydberg atoms.
+\newblock \emph{Nature Physics}, 16\penalty0 (2):\penalty0 132--142, 2020.
 
 \bibitem[Franken et~al.(1961)Franken, Hill, Peters, and
   Weinreich]{franken1961generation}
@@ -34,6 +122,32 @@ eg~PA Franken, Alan~E Hill, CW~el Peters, and Gabriel Weinreich.
 Theodore~H Maiman.
 \newblock Stimulated optical radiation in ruby.
 \newblock \emph{nature}, 187\penalty0 (4736):\penalty0 493--494, 1960.
+
+\bibitem[Mollenauer et~al.(1980)Mollenauer, Stolen, and
+  Gordon]{mollenauer1980experimental}
+Linn~F Mollenauer, Roger~H Stolen, and James~P Gordon.
+\newblock Experimental observation of picosecond pulse narrowing and solitons
+  in optical fibers.
+\newblock \emph{Physical review letters}, 45\penalty0 (13):\penalty0 1095,
+  1980.
+
+\bibitem[Strickland and Mourou(1985)]{strickland1985compression}
+Donna Strickland and Gerard Mourou.
+\newblock Compression of amplified chirped optical pulses.
+\newblock \emph{Optics communications}, 55\penalty0 (6):\penalty0 447--449,
+  1985.
+
+\bibitem[Haertling and Land(1971)]{haertling1971hot}
+Gene~H Haertling and C~E\_ Land.
+\newblock Hot-pressed (pb, la)(zr, ti) o3 ferroelectric ceramics for
+  electrooptic applications.
+\newblock \emph{Journal of the American Ceramic Society}, 54\penalty0
+  (1):\penalty0 1--11, 1971.
+
+\bibitem[Chu and Uchino(1995)]{chu1995photostrictive}
+Sheng-Yuan Chu and Kenji Uchino.
+\newblock Photostrictive effect in plzt-based ceramics and its applications.
+\newblock \emph{Ferroelectrics}, 174\penalty0 (1):\penalty0 185--196, 1995.
 
 \bibitem[H{\"a}nsch and Schawlow(1975)]{hansch1975cooling}
 Theodor~W H{\"a}nsch and Arthur~L Schawlow.

@@ -1,7 +1,7 @@
 \contentsline {chapter}{Abstract}{ii}{section*.1}%
-\contentsline {chapter}{Table of Contents}{iv}{section*.4}%
-\contentsline {chapter}{List of Tables}{vi}{section*.7}%
-\contentsline {chapter}{List of Figures}{vii}{section*.11}%
+\contentsline {chapter}{Table of Contents}{iv}{section*.6}%
+\contentsline {chapter}{List of Tables}{vi}{section*.8}%
+\contentsline {chapter}{List of Figures}{vii}{section*.12}%
 \contentsline {chapter}{List of Acronyms}{xi}{chapter*.16}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Laser Cooling of Traveling-Wave Phonons in an Optical Fiber}{7}{chapter.2}%
