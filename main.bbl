@@ -19,12 +19,6 @@ Joel~N Johnson, Danielle~R Haverkamp, Yi-Hsin Ou, Khanh Kieu, Nils~T
 \newblock \emph{Physical Review Applied}, 20\penalty0 (3):\penalty0 034047,
   2023.
 
-\bibitem[Dubinskii and Merkle(2004)]{dubinskii2004teo2}
-Mark~A Dubinskii and Larry~D Merkle.
-\newblock Teo2: Solid-state sbs material with exceptionally high gain.
-\newblock In \emph{Advanced Solid-State Photonics}, page 451. Optica Publishing
-  Group, 2004.
-
 \bibitem[Rayleigh(1871)]{rayleigh1871light}
 Lord Rayleigh.
 \newblock On the light from the sky, its polarization and colour.
@@ -581,28 +575,11 @@ Jas~S Sanghera, Leslie~B Shaw, Paul Pureza, Vinh~Q Nguyen, Dan Gibson, Lynda
 \newblock \emph{International Journal of Applied Glass Science}, 1\penalty0
   (3):\penalty0 296--308, 2010.
 
-\bibitem[Heiman et~al.(1979)Heiman, Hamilton, and
-  Hellwarth]{heiman1979brillouin}
-D~Heiman, DS~Hamilton, and RW~Hellwarth.
-\newblock Brillouin scattering measurements on optical glasses.
-\newblock \emph{Physical Review B}, 19\penalty0 (12):\penalty0 6583, 1979.
-
-\bibitem[Bucaro and Dardy(1974)]{bucaro1974high}
-JA~Bucaro and HD~Dardy.
-\newblock High-temperature brillouin scattering in fused quartz.
-\newblock \emph{Journal of Applied Physics}, 45\penalty0 (12):\penalty0
-  5324--5329, 1974.
-
-\bibitem[Maris(1990)]{maris1990phonon}
-Humphrey~J Maris.
-\newblock Phonon propagation with isotope scattering and spontaneous anharmonic
-  decay.
-\newblock \emph{Physical Review B}, 41\penalty0 (14):\penalty0 9736, 1990.
-
-\bibitem[Auld(1973)]{auld1973acoustic}
-Bertram~Alexander Auld.
-\newblock \emph{Acoustic fields and waves in solids}.
-\newblock Ripol Klassik, 1973.
+\bibitem[Dubinskii and Merkle(2004)]{dubinskii2004teo2}
+Mark~A Dubinskii and Larry~D Merkle.
+\newblock Teo2: Solid-state sbs material with exceptionally high gain.
+\newblock In \emph{Advanced Solid-State Photonics}, page 451. Optica Publishing
+  Group, 2004.
 
 \bibitem[Enright and Stoicheff(1974)]{enright1974depolarized}
 G~Enright and BP~Stoicheff.
@@ -615,15 +592,6 @@ Robert~W Coakley and Robert~W Detenbeck.
 \newblock Brillouin-scattering measurements of the acoustic absorption
   coefficient in liquid cs 2.
 \newblock \emph{JOSA}, 65\penalty0 (1):\penalty0 6--9, 1975.
-
-\bibitem[Geilen et~al.(2023)Geilen, Popp, Das, Junaid, Poulton, Chemnitz,
-  Marquardt, Schmidt, and Stiller]{geilen2023extreme}
-Andreas Geilen, Alexandra Popp, Debayan Das, Saher Junaid, Christopher~G
-  Poulton, Mario Chemnitz, Christoph Marquardt, Markus~A Schmidt, and Birgit
-  Stiller.
-\newblock Extreme thermodynamics in nanolitre volumes through stimulated
-  brillouin--mandelstam scattering.
-\newblock \emph{Nature Physics}, 19\penalty0 (12):\penalty0 1805--1812, 2023.
 
 \bibitem[Uchida and Ohmachi(1969)]{uchida1969elastic}
 Naoya Uchida and Yoshiro Ohmachi.
@@ -665,6 +633,38 @@ Dan~Owen Harris.
 Naoya Uchida.
 \newblock Optical properties of single-crystal paratellurite (te o 2).
 \newblock \emph{Physical Review B}, 4\penalty0 (10):\penalty0 3736, 1971.
+
+\bibitem[Heiman et~al.(1979)Heiman, Hamilton, and
+  Hellwarth]{heiman1979brillouin}
+D~Heiman, DS~Hamilton, and RW~Hellwarth.
+\newblock Brillouin scattering measurements on optical glasses.
+\newblock \emph{Physical Review B}, 19\penalty0 (12):\penalty0 6583, 1979.
+
+\bibitem[Bucaro and Dardy(1974)]{bucaro1974high}
+JA~Bucaro and HD~Dardy.
+\newblock High-temperature brillouin scattering in fused quartz.
+\newblock \emph{Journal of Applied Physics}, 45\penalty0 (12):\penalty0
+  5324--5329, 1974.
+
+\bibitem[Maris(1990)]{maris1990phonon}
+Humphrey~J Maris.
+\newblock Phonon propagation with isotope scattering and spontaneous anharmonic
+  decay.
+\newblock \emph{Physical Review B}, 41\penalty0 (14):\penalty0 9736, 1990.
+
+\bibitem[Auld(1973)]{auld1973acoustic}
+Bertram~Alexander Auld.
+\newblock \emph{Acoustic fields and waves in solids}.
+\newblock Ripol Klassik, 1973.
+
+\bibitem[Geilen et~al.(2023)Geilen, Popp, Das, Junaid, Poulton, Chemnitz,
+  Marquardt, Schmidt, and Stiller]{geilen2023extreme}
+Andreas Geilen, Alexandra Popp, Debayan Das, Saher Junaid, Christopher~G
+  Poulton, Mario Chemnitz, Christoph Marquardt, Markus~A Schmidt, and Birgit
+  Stiller.
+\newblock Extreme thermodynamics in nanolitre volumes through stimulated
+  brillouin--mandelstam scattering.
+\newblock \emph{Nature Physics}, 19\penalty0 (12):\penalty0 1805--1812, 2023.
 
 \bibitem[Kozhevnikov et~al.(2007)Kozhevnikov, Payne, Olson, Allen, and
   Taylor]{kozhevnikov2007sound}

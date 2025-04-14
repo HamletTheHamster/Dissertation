@@ -35,7 +35,7 @@ Figure~\ref{fig:Raman:BrillouinRamanTransition} offers a conceptual illustration
   \centering
   \includegraphics[width=\textwidth]{figs/4-Raman/ExploreBrillouinRamanTransition.png}
   \vspace{0.5em}
-  \caption{Conceptual illustration of the transition from a traveling acoustic wave to standing-wave vibrational modes. In a bulk material (left), light scatters from a continuum of (traveling) acoustic waves (Brillouin scattering), whereas in the molecular vibrations of atomic bonds (right), only discrete (standing-wave) phonon modes are allowed. The left diagram is a conceptual visualization of the \ac{CoBS} process for a longitudinally-traveling phonon \(\Omega\) while the right diagram gives a conceptual visualization of an analogous \ac{CARS} process with the standing-vibrations \(\omega_{\rm v}\) among bonded atoms in a molecule.}
+  \caption[Conceptual illustration of the transition from a traveling acoustic wave to standing-wave vibrational modes.]{Conceptual illustration of the transition from a traveling acoustic wave to standing-wave vibrational modes. In a bulk material (left), light scatters from a continuum of (traveling) acoustic waves (Brillouin scattering), whereas in the molecular vibrations of atomic bonds (right), only discrete (standing-wave) phonon modes are allowed. The left diagram is a conceptual visualization of the \ac{CoBS} process for a longitudinally-traveling phonon \(\Omega\) while the right diagram gives a conceptual visualization of an analogous \ac{CARS} process with the standing-vibrations \(\omega_{\rm v}\) among bonded atoms in a molecule.}
   \label{fig:Raman:BrillouinRamanTransition}
 \end{figure}
 
@@ -63,7 +63,7 @@ where \(v_{\rm s}\) is the sound velocity in the medium and \(n = 1, 2, 3, \dots
 \begin{figure}[t]
   \centering
   \includegraphics[width=.85\textwidth]{figs/4-Raman/GeometryDeterminesFundamentalFreq.png}
-  \caption{Illustration showing how geometry and sound speed of the material determine the allowed acoustic frequencies, given by Equation~\ref{eq:Raman:f_R}. Traveling-wave phonons around the material's Brillouin frequency shift \(f_{\rm B}\) are transduced within the medium via the \ac{CoBS} process. These phonons traverse the length to reach the boundary, where a high acoustic impedance mismatch causes them to reflect at the interface and retraverse the length of the medium in the reverse direction. The spatio-temporal overlap of counterpropagating traveling-wave phonons causes them to interfere, creating an acoustic standing-wave pattern within the material at discrete frequencies determined by the length and sound speed of the material. Shown in the illustration is the half-wavelength fundamental (\(n=1\)) mode, however in general, harmonics near the material's mechanical resonance frequency \(f_{\rm B}\) would be excited in the medium.}
+  \caption[Illustration showing how geometry and sound speed of the material determine the allowed acoustic frequencies, given by Equation~\ref{eq:Raman:f_R}.]{Illustration showing how geometry and sound speed of the material determine the allowed acoustic frequencies, given by Equation~\ref{eq:Raman:f_R}. Traveling-wave phonons around the material's Brillouin frequency shift \(f_{\rm B}\) are transduced within the medium via the \ac{CoBS} process. These phonons traverse the length to reach the boundary, where a high acoustic impedance mismatch causes them to reflect at the interface and retraverse the length of the medium in the reverse direction. The spatio-temporal overlap of counterpropagating traveling-wave phonons causes them to interfere, creating an acoustic standing-wave pattern within the material at discrete frequencies determined by the length and sound speed of the material. Shown in the illustration is the half-wavelength fundamental (\(n=1\)) mode, however in general, harmonics near the material's mechanical resonance frequency \(f_{\rm B}\) would be excited in the medium.}
   \label{fig:Raman:GeometryDeterminesFundamentalFreq}
 \end{figure}
 
@@ -95,9 +95,16 @@ Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth, \(\Omega\) (\(\Omeg
   \label{eq:Raman:g0}
 \end{equation}
 \\
-where \(\gamma_{\rm e}\) is the electrostrictive constant, \(\omega\) is the angular optical frequency, \(n\) is the refractive index, \(v_{\rm s}\) is the speed of sound in the material, \(c\) is the speed of light, and \(\rho_{0}\) is the mean density of the material. Short samples demand very high effective Brillouin gain to achieve significant scattered power in a small \(L\). Certain tellurium‐based materials, for instance, can offer gains orders of magnitude higher than silica, \cite{sanghera2010nonlinear, abedin2005observation} allowing measureable scattered power in sub‐\si{\milli\meter} cavities.
+where \(\gamma_{\rm e}\) is the electrostrictive constant, \(\omega\) is the angular optical frequency, \(n\) is the refractive index, \(v_{\rm s}\) is the speed of sound in the material, \(c\) is the speed of light, and \(\rho_{0}\) is the mean density of the material. Short samples demand very high effective Brillouin gain to achieve significant scattered power in a small \(L\). Certain tellurium‐based materials, for instance, can offer gains orders of magnitude higher than silica, \cite{sanghera2010nonlinear, abedin2005observation} allowing measureable scattered power in sub‐\si{\milli\meter} cavities. Figure~\ref{fig:Raman:GainofRelevantMaterials} shows a graphic which summarizes key gain parameters for the materials investigated in this study.
 
-Even if phonons are driven strongly, they must live long enough (i.e., have a low enough dissipation rate, or high enough acoustic Q) to form a standing wave. At room temperature, intrinsic damping can limit phonon \(Q_{\rm s}\) to \(\sim10^{3}\)–\(10^{4}\) in many solids, \cite{heiman1979brillouin, bucaro1974high} implying attenuation lengths of \si{\milli\meter} to \si{\centi\meter} for \si{\giga\hertz} frequencies. Ideally, the sample length \(L\) should be comparable to or less than half the attenuation length so that phonons undergo multiple round trips. This is considerably more difficult at room temperature than at cryogenic temperatures, where \(Q_{\rm s}\) can exceed \(10^{7}\). \cite{maris1990phonon, renninger2018bulk} Finally, the phonon must reflect rather than escape at the boundaries. A large acoustic impedance mismatch (e.g., a free surface with air on one side) can approach nearly 100\% reflection. \cite{galliou2013extremely, auld1973acoustic} Designing the sample with two opposing highly acoustically reflective boundaries is essential to generating a Raman-like standing-wave mode in the medium. In practice, however, partial reflections at each (or even just one) end can suffice so long as the net round‐trip reflectivity is high enough to sustain a mode.
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\textwidth]{figs/4-Raman/GainofRelevantMaterials.png}
+  \caption[Brillouin gain of investigated materials.]{Brillouin gain (\(g_{0}\), \si{\meter\per\giga\watt}) and acousto-optic overlap-adjusted Brillouin gain (\(G_{\rm B} = \frac{g_{0}}{A_{\rm eff}^{\rm ao}}\), \si{\per\watt\per\meter}) of the materials investigated in this study. While the material gain (top row text) of \ac{UHNA3} fiber is \(10^{3}\) lower than the other materials, the effective area is confined tightly within its \SI{0.9}{\micro\meter} radius core, greatly improving the acousto-optic response for given length and optical power. The lenses of our free-space optical setup offer comparatively less tight confinement of the light, with the beam waist having radius \(r_{\rm Waist}=\)\SI{17}{\micro\meter} (bottom row text). The effective gain (middle row text) is ultimately the important gain parameter, as it accounts for both the material gain and the area over which light and sound interact (see Equations~\ref{eq:Raman:GB} and \ref{eq:Raman:g0}). \cite{boyd2020nonlinear, dubinskii2004teo2, johnson2023laser, behunin2015long, enright1974depolarized, coakley1975brillouin, renninger2018bulk, uchida1969elastic, schweppe1970elastic, ohmachi1972acoustic, peercy1975temperature, fleury2018non, harris1991multichannel, uchida1971optical}}
+  \label{fig:Raman:GainofRelevantMaterials}
+\end{figure}
+
+Even if phonons are driven strongly, they must live long enough (i.e., have a low enough dissipation rate, or high enough acoustic Q) to form a standing wave. At room temperature, intrinsic damping can limit phonon \(Q_{\rm s}\) to \(\sim10^{3}\)–\(10^{4}\) in many solids, \cite{heiman1979brillouin, bucaro1974high} implying attenuation lengths of \si{\milli\meter} to \si{\centi\meter} for \si{\giga\hertz} frequencies. Ideally, the sample length \(L\) should be comparable to or less than half the attenuation length so that phonons undergo multiple round trips. This is considerably more difficult at room temperature than at cryogenic temperatures, where \(Q_{\rm s}\) can exceed \(10^{7}\). \cite{maris1990phonon, renninger2018bulk} Finally, the phonon must reflect rather than escape at the boundaries. A large acoustic impedance mismatch (e.g., a free surface with air on one side) can approach nearly 100\% reflection. \cite{galliou2013extremely, auld1973acoustic} Designing the sample with two opposing highly acoustically reflective boundaries is essential to generating a Raman-like standing-wave mode in the medium. In practice, however, partial reflections at each (or even just one) end may suffice so long as the net round‐trip reflectivity is high enough to sustain a mode.
 
 In short, we want to create a high-\(Q\) acoustic resonator inside a Brillouin-active medium at room temperature: strong enough acousto-optic driving to excite the phonons, low enough damping to maintain them, and robust boundary reflections to confine them. Meeting all of these conditions can be challenging. However, the high (\(\sim\)\SI{5}{\femto\watt}) sensitivity and unique short path length advantage of our \ac{CoBS} instrument (described in Chapter~\ref{ch:CoBS} and Section~\ref{appendix:comparison}) sparks new motivation, as it provides a new technique tailored for observing small-scale scattering phenomenon. Feasibility estimates and initial \ac{CoBS} measurements indicate that by utilizing ultra-high-gain media such as \ce{Te} \cite{sanghera2010nonlinear, abedin2005observation} or liquid \ce{CS2} \cite{boyd2020nonlinear}, and ensuring at least one boundary is acoustically reflective, one can push toward Brillouin-induced Raman modes even under ambient conditions.
 
@@ -112,33 +119,21 @@ where \(0 < \Phi < 1\) and increases for smaller \(L\). For \(P_{\rm Signal}\app
 
 In what follows, we detail the experimental platforms and theoretical modeling that guided our attempts to observe discrete phonon modes in high-gain materials. Although a conclusive demonstration proved elusive, the conceptual framework is robust and provides a foundation for ongoing efforts. By shrinking the acoustic path length, maximizing phonon reflectivity, and exploiting strong \ac{CoBS} gain, one can approach the regime where traveling-wave Brillouin scattering morphs into Raman-like standing-wave modes. This pursuit effectively unifies the traveling-wave and standing-wave paradigms of light-sound interaction, providing new opportunities in cavity-free phononics, resonant optomechanics, and coherent phonon devices at room temperature.
 
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=\textwidth]{figs/4-Raman/GainofRelevantMaterials.png}
-  \caption{Gain of relevant materials. \cite{dubinskii2004teo2}}
-  \label{fig:Raman:GainofRelevantMaterials}
-\end{figure}
-
 %--------------------------------------------------------------------%
 
 \section{Results}
 \label{sec:Raman:Results}
 
-Plots
-\begin{itemize}
-  \item UHNA3 - 1cm, 1mm
-  \item CS2 vial - 4mm, 2mm
-  \item TeO2 films - 1um, 500nm
-  \item CS2 - 1mm, 100um, (10um not quite)
-  \item chip waveguide - chip/nochip, holes
-\end{itemize}
+In this section we detail results and progress toward measuring Brillouin-induced Raman modes, in chronological order of investigation. The overall approach was to start deep in the continuous Brillouin domain of longitudinally-traveling phonons in bulk material and steadily approach the discrete Raman domain by measuring incrementally shorter lengths of materials well-suited to the task. This investigative study began with user-friendly fiber-coupled lengths of \ac{UHNA3} fiber, progressed quickly to increasingly challenging free-space measurements of challenging materials such as liquid \ce{CS2} and thin films of \ce{TeO2} and \ce{Te}, and ultimately arrived at fiber-to-chip coupling into specialized suspended waveguides. We present here both the successes along the way as well key insights gained from setbacks, with special focus on illuminating the reasoning behind critical pivots in our investigation.
 
 \subsection{Germanium-Doped Optical Fiber}
 \label{subsec:Raman:Target:UHNA3}
 
-\begin{itemize}
-  \item 1cm, 1mm
-\end{itemize}
+To begin with a clear measurement firmly in the Brillouin domain, we target (short) lengths of the well-understood \ac{UHNA3} fiber. \cite{behunin2015long} \ac{UHNA3} features a Brillouin frequency shift distinct from the \ac{SMF-28} of the apparatus (\(f_{\rm B,\,UHNA3} =\) \SI{9.18}{\giga\hertz} vs \(f_{\rm B,\,SMF28} =\) \SI{10.85}{\giga\hertz}), making it easily distinguishable from instrument background. Additionally, its small core and high \ce{Ge} concentration (\(\sim\)44 wt.\%) make for tight acousto-optic overlap (\(A_{\rm eff}^{\rm ao}\)) and good guidance of both light and sound, respectively. Figure~\ref{fig:Raman:GainofRelevantMaterials} shows the key gain figures for \ac{UHNA3}. While its material gain (\(g_{0} = \SI{0.0015}{\meter\per\giga\watt}\)) is low, the acousto-optically adjusted effective Brillouin gain (\(G_{\rm B} = \frac{g_{0}}{A_{\rm eff}^{\rm ao}} = \SI{0.60}{\per\watt\per\meter}\)) is sufficiently high allow a measurement in sub-\si{\milli\meter} lengths for typical optical powers (Equation~\ref{eq:Raman:minimumL}).
+
+Figure~\ref{fig:Raman:UHNA3} shows pictures of measured \SI{1}{\centi\meter} and \SI{1}{\milli\meter} lengths of \ac{UHNA3} fiber (Figures~\ref{fig:Raman:1cmUHNA3pic} and \ref{fig:Raman:1mmUHNA3pic}, respectively) spliced into the \ac{SMF-28} of the sample stage of the \ac{CoBS} apparatus. Figure~\ref{fig:Raman:1cmUHNA3} shows the observed spectra for this \SI{1}{\centi\meter} segments of \ac{UHNA3} captured at maximum available optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim \SI{0.25}{\cubic\watt}\). The peak spectral amplitude has been normalized to unity and spectral density is expressed in Arbitrary Units for clean presentation, a standard practice which acknowledges the arbitrary nature of the optical-to-electrical conversion unique to each photodiode detector. 1\(\sigma\) uncertainties are smaller than the data point markers. Figure~\ref{fig:Raman:1cmUHNA3} showcases a measurement taken more recently, after orders of magnitude sensitivity and performance improvements to the \ac{CoBS} instrument, however the measurement gathered initially also represented a strong successful measurement of \SI{1}{\centi\meter} \ac{UHNA3}, prompting an advance to attempting a measurement of \SI{1}{\milli\meter} \ac{UHNA3}.
+
+This measurement is shown in Figure~\ref{fig:Raman:1mmUHNA3}, which features slight Fano asymmetry in lineshape indicative of signal-background interference in a low-signal regime (see Section ~\ref{Appendix:Fano} in Appendix~\ref{appendix: CoBS}). Unlike Figure~\ref{fig:Raman:1cmUHNA3}, which was recaptured recently, after orders-of-magnitude sensitivity and performance improvements to the \ac{CoBS} instrument, the spectra shown in Figure~\ref{fig:Raman:1mmUHNA3} dates to the time of its relevance to this investigation. The slight Fano asymmetry indicates that this measurement, while very clear and of high SNR, was captured from a signal which was near the order of the background continuum, placing the measurement not far from the sensitivity limit of the instrument at the time. Nonetheless, Figure~\ref{fig:Raman:1mmUHNA3} represents a clear successful measurement of \SI{1}{\milli\meter} \ac{UHNA3} fiber, prompting a continuation on the path to shorter lengths and Brillouin-induced Raman modes.
 
 \begin{figure}[t]
     \centering
@@ -161,24 +156,50 @@ Plots
 
 \begin{figure}[t]
   \centering
-  \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 1 cm UHNA3.png}
-  \caption{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\centi\meter} of \ac{UHNA3} fiber (pictured in Figure~\ref{fig:Raman:1cmUHNA3pic}) captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim\) \SI{0.25}{\cubic\watt}, with 1\(\sigma\) uncertainties smaller than the data point markers.}
-  \label{fig:Raman:1cmUHNA3}
-\end{figure}
-
-\begin{figure}[t]
-  \centering
-  \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 1 mm UHNA3.png}
-  \caption{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\milli\meter} of \ac{UHNA3} fiber (pictured in Figure~\ref{fig:Raman:1mmUHNA3pic}) captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim\) \SI{0.25}{\cubic\watt}, with 1\(\sigma\) uncertainties smaller than the data point markers.}
-  \label{fig:Raman:1mmUHNA3}
+  \begin{subfigure}[b]{0.49\textwidth}
+    \centering
+    \hspace{-2em}
+    \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 1 cm UHNA3.png}
+    \label{fig:Raman:1cmUHNA3}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.49\textwidth}
+    \centering
+    \hspace{-2em}
+    \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 1 mm UHNA3.png}
+    \label{fig:Raman:1mmUHNA3}
+  \end{subfigure}
+  \caption[\ac{CoBS} measurements of \SI{1}{\centi\meter} and \SI{1}{\milli\meter} \ac{UHNA3} fiber, in pursuit of observing Brillouin-induced Raman modes.]{\textbf{(a)}~Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\centi\meter} of \ac{UHNA3} fiber (pictured in Figure~\ref{fig:Raman:1cmUHNA3pic}) captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim \SI{0.25}{\cubic\watt}\), with 1\(\sigma\) uncertainties smaller than the data point markers. \textbf{(b)}~Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\milli\meter} of \ac{UHNA3} fiber (pictured in Figure~\ref{fig:Raman:1mmUHNA3pic}), with 1\(\sigma\) uncertainties smaller than the data point markers. The spectrum shows strong Fano asymmetry (see Section~\ref{Appendix:Fano} in Appendix~\ref{appendix: CoBS}), indicating interference of a weak signal with the broad background continuum. This is an older measurement, taken prior to orders of magnitude sensitivity improvements, and the Fano effects seen here indicate this was near the sensitivity limit of the instrument at the time.}
+  \label{fig:Raman:UHNA3}
 \end{figure}
 
 \subsection{Free-Space Optics with Liquid Carbon Disulfide}
 \label{subsec:Raman:Target:CS2Vial}
 
-\begin{itemize}
-  \item Free space with vial
-\end{itemize}
+Having successfully measured the shortest practical lengths of optical fiber reasonably fabricatable, a regime change to free-space optics in the sample stage was required to continue our investigation. To smooth this transition, we first targeted meaningful lengths of the high-gain liquid \ce{CS2}. From Figure~\ref{fig:Raman:GainofRelevantMaterials}, \ce{CS2} has a material Brillouin gain of \(\sim\SI{1.5}{\meter\per\giga\watt}\), which is \(10^{3}\) higher than that of \ac{UHNA3} fiber, however this material advantage is offset by the much lower acousto-optic mode overlap afforded by the beam waist produced by our lenses (\(A_{\rm eff,\,Free-Space}^{\rm ao} = \pi(\SI{17}{\micro\meter})^{2}\) vs \(A_{\rm eff,\,UHNA3}^{\rm ao} = \pi(\SI{0.9}{\micro\meter})^{2}\)). The resulting effective Brillouin gain of liquid \ce{CS2} in the free-space optical setup of our \ac{CoBS} instrument is \(G_{\rm B} = \sim\SI{1.65}{\per\watt\per\meter}\), nearly a factor of 3 greater than that of \ac{UHNA3}. This combined with an initially targeted length \(L = \SI{1}{\centi\meter}\) provided a sufficiently large target to make for a gentle transition from a fiber-coupled to free-space regime.
+
+Figure~\ref{fig:Raman:CS2Cuvetpics} shows photographs of a \SI{1}{\centi\meter}-by-\SI{4}{\milli\meter} path length cuvet of liquid \ce{CS2} mounted in the sample stage between two lenses. Light is guided from the fiber of the apparatus into free space, collimated and focused by the fiber ports on either side of the fiber bench, upon which the sample sits, and the diffraction-limited lenses. Figure~\ref{fig:Raman:1cmCS2pic} shows the cuvet placed in the \SI{1}{\centi\meter} path length configuration while Figure~\ref{fig:Raman:4mmCS2pic} shows it rotated \SI{90}{\degree} for the \SI{4}{\milli\meter} path length configuration.
+
+\begin{figure}[t]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/4-Raman/1cmCS2.jpeg}
+        \caption{}
+        \label{fig:Raman:1cmCS2pic}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figs/4-Raman/4mmCS2.jpg}
+        \caption{}
+        \label{fig:Raman:4mmCS2pic}
+    \end{subfigure}
+    \caption{\SI{1}{\centi\meter} (\ref{fig:Raman:1cmCS2pic}) and \SI{4}{\milli\meter} (\ref{fig:Raman:4mmCS2pic}) liquid \ce{CS2}.}
+    \label{fig:Raman:CS2Cuvetpics}
+\end{figure}
+
+Figure~\ref{fig:Raman:CS2Cuvet} shows the observed spectra from a \ac{CoBS} measurement of \SI{1}{\centi\meter} liquid \ce{CS2}
 
 \begin{table}[h]
     \centering
@@ -204,7 +225,7 @@ Plots
         (\si{\giga\hertz}) \\
         \midrule
         \\
-        \textbf{Bulk Liquid} & \(2\pi\cdot\)\num{90(10)} & \num{10} & \num{1150} & \num{1.59} & \num{13(2)} & \(\sim\)\num{7.2} & \(2\pi\cdot\)\num{2.54(3)} & \(2\pi\cdot\)\num{0.575} \\
+        \textbf{Liquid} & \(2\pi\cdot\)\num{90(10)} & \num{10} & \num{1150} & \num{1.59} & \num{13(2)} & \(\sim\)\num{7.2} & \(2\pi\cdot\)\num{2.54(3)} & \(2\pi\cdot\)\num{0.575} \\
         \\
         \bottomrule
         \\
@@ -212,25 +233,6 @@ Plots
     \caption[Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes, obtained from published values as well as our own observations shown in Figures~\ref{fig:Raman:1cmCS2}, \ref{fig:Raman:4mmCS2}, \ref{fig:Raman:1mmCS2}, and \ref{fig:Raman:100umCS2}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = \Gamma_{\rm B}^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, \(n\) is the refractive index, \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), and \(P_{\rm CoBS}\) is the scattered power for the \ac{CoBS} process, reported here for \(L_{\rm coh}/2 =\) \SI{6.5}{\micro\meter} \ce{CS2}, and scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{10}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}).}
     \label{tab:Raman:CS2}
 \end{table}
-
-\begin{figure}[t]
-    \centering
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{figs/4-Raman/1cmCS2.jpeg}
-        \caption{}
-        \label{fig:Raman:1cmCS2pic}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{figs/4-Raman/4mmCS2.jpg}
-        \caption{}
-        \label{fig:Raman:4mmCS2pic}
-    \end{subfigure}
-    \caption{\SI{1}{\centi\meter} (\ref{fig:Raman:1cmCS2}) and \SI{4}{\milli\meter} (\ref{fig:Raman:4mmCS2}) liquid \ce{CS2}.}
-    \label{fig:Raman:CS2Cuvet}
-\end{figure}
 
 \begin{figure}[t]
   \centering
