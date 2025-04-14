@@ -42,7 +42,14 @@ Figure~\ref{fig:Raman:BrillouinRamanTransition} offers a conceptual illustration
 \subsection{Brillouin-Induced Raman Modes}
 \label{subsec:Raman:Brillouin-InducedRamanModes}
 
-In a traditional SBS experiment, a pump laser drives an acoustic wave through electrostriction, and the scattered Stokes light is down-shifted by the acoustic frequency \(f_{\rm B}\). In an unbounded or long medium, \(f_{\rm B}\) is determined by material properties (sound speed and optical dispersion) and the acoustic wave can be thought of as a traveling grating moving through the medium. If the medium is shortened such that the acoustic wave can reflect off the sample boundaries, the traveling acoustic wave can auto-interfere with itself to form a standing-wave pattern in the medium. Under these system conditions, a phonon induced by \ac{SBS} will propagate to the sample end, reflect (assuming a high acoustic impedance mismatch at the boundary), and traverse the medium in the reverse direction. If the length \(L\) between acoustic interfaces is a half-integer number of acoustic wavelengths, the forward and backward phonon waves can interfere to form a standing wave pattern (i.e., a resonance), in essence trapping the traveling phonon in the cavity defined by the sample. This standing wave in turn acts like a stable grating, enhancing the scattering of light at well-defined frequencies corresponding to its resonances. We term these resonant phonon excitations “Brillouin-induced Raman modes” to reflect their hybrid character.
+In a traditional SBS experiment, a pump laser drives an acoustic wave through electrostriction, and the scattered Stokes light is down-shifted by the acoustic frequency \(f_{\rm B}\), given by \cite{boyd2020nonlinear}
+
+\begin{equation}
+  f_{\rm B} = \frac{2v_{\rm s}n}{\lambda},
+  \label{eq:Raman:f_B}
+\end{equation}
+
+where \(v_{\rm s}\) is the longitudinal sound speed, \(n\) is the refractive index, and \(\lambda\) is the optical frequency. In an unbounded or long medium, the frequency response of the scattered light is determined by material properties (sound speed and optical dispersion) and the acoustic wave can be thought of as a traveling grating moving through the medium. If the medium is shortened such that the acoustic wave can reflect off the sample boundaries, the traveling acoustic wave can auto-interfere with itself to form a standing-wave pattern in the medium. Under these system conditions, a phonon induced by \ac{SBS} will propagate to the sample end, reflect (assuming a high acoustic impedance mismatch at the boundary), and traverse the medium in the reverse direction. If the length \(L\) between acoustic interfaces is a half-integer number of acoustic wavelengths, the forward and backward phonon waves can interfere to form a standing wave pattern (i.e., a resonance), in essence trapping the traveling phonon in the cavity defined by the sample. This standing wave in turn acts like a stable grating, enhancing the scattering of light at well-defined frequencies corresponding to its resonances. We term these resonant phonon excitations “Brillouin-induced Raman modes” to reflect their hybrid character.
 
 In more concrete terms, the finite-length system behaves like an acoustic Fabry–Pérot cavity. For a longitudinal acoustic mode, the condition for a standing wave is that an integer number \(n\) of half-wavelengths equals the round-trip length: \(n \cdot (\lambda_{\rm s}/2) = L\). Equivalently, the allowed acoustic frequencies are
 
@@ -173,20 +180,53 @@ Plots
   \item Free space with vial
 \end{itemize}
 
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c c c c c c c c c}
+        \toprule
+        \textbf{\ce{CS2}} &
+        \(\mathbf{\Gamma_{\rm \textbf{B}}}\) \cite{boyd2020nonlinear, johnson2023laser, enright1974depolarized, coakley1975brillouin} &
+        \(\mathbf{\tau}\) &
+        \(\mathbf{v_{\rm \textbf{s,\,long}}}\) \cite{boyd2020nonlinear, johnson2023laser, behunin2019spontaneous, geilen2023extreme} &
+        \(\mathbf{n}\) \cite{boyd2020nonlinear, johnson2023laser} &
+        \(\mathbf{L_{\rm \textbf{coh}}}\) &
+        \(\mathbf{P_{\rm \textbf{CoBS,\,\(L_{\rm coh}/2\)}}}\) &
+        \(\mathbf{\Omega_{\rm \textbf{B}}}\) &
+        \(\mathbf{\Omega_{\rm \textbf{R,\,\SI{1}{\micro\meter}}}}\) \\
+        &
+        (\si{\mega\hertz}) &
+        (\si{\nano\second}) &
+        (\si{\meter\per\second}) &
+        &
+        (\si{\micro\meter}) &
+        (\si{\pico\watt}) &
+        (\si{\giga\hertz}) &
+        (\si{\giga\hertz}) \\
+        \midrule
+        \\
+        \textbf{Bulk Liquid} & \(2\pi\cdot\)\num{90(10)} & \num{10} & \num{1150} & \num{1.59} & \num{13(2)} & \(\sim\)\num{7.2} & \(2\pi\cdot\)\num{2.54(3)} & \(2\pi\cdot\)\num{0.575} \\
+        \\
+        \bottomrule
+        \\
+    \end{tabular}
+    \caption[Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes, obtained from published values as well as our own observations shown in Figures~\ref{fig:Raman:1cmCS2}, \ref{fig:Raman:4mmCS2}, \ref{fig:Raman:1mmCS2}, and \ref{fig:Raman:100umCS2}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = \Gamma_{\rm B}^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, \(n\) is the refractive index, \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), and \(P_{\rm CoBS}\) is the scattered power for the \ac{CoBS} process, reported here for \(L_{\rm coh}/2 =\) \SI{6.5}{\micro\meter} \ce{CS2}, and scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{10}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}).}
+    \label{tab:Raman:CS2}
+\end{table}
+
 \begin{figure}[t]
     \centering
     \begin{subfigure}[b]{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figs/4-Raman/1cmCS2.jpeg}
         \caption{}
-        \label{fig:Raman:1cmCS2}
+        \label{fig:Raman:1cmCS2pic}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figs/4-Raman/4mmCS2.jpg}
         \caption{}
-        \label{fig:Raman:4mmCS2}
+        \label{fig:Raman:4mmCS2pic}
     \end{subfigure}
     \caption{\SI{1}{\centi\meter} (\ref{fig:Raman:1cmCS2}) and \SI{4}{\milli\meter} (\ref{fig:Raman:4mmCS2}) liquid \ce{CS2}.}
     \label{fig:Raman:CS2Cuvet}
@@ -195,14 +235,14 @@ Plots
 \begin{figure}[t]
   \centering
   \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 1 cm CS2.png}
-  \caption{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\centi\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:1cmCS2}) captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim\) \SI{0.25}{\cubic\watt}, with 1\(\sigma\) uncertainties smaller than the data point markers.}
+  \caption[\ac{CoBS} measurement of \SI{1}{\centi\meter} liquid \ce{CS2}.]{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\centi\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:1cmCS2}), with 1\(\sigma\) uncertainties smaller than the data point markers. The spectrum shows strong Fano asymmetry (see Section ~\ref{Appendix:Fano} in Appendix~\ref{appendix: CoBS}), indicating interference of a weak signal with the broad background continnuum. This is an older measurement, taken prior to orders of magnitude sensitivity improvements, and the Fano effects seen here indicate this was near the sensitivity limit of the instrument at the time.}
   \label{fig:Raman:1cmCS2}
 \end{figure}
 
 \begin{figure}[t]
   \centering
   \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 4 mm CS2.png}
-  \caption{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{4}{\milli\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:4mmCS2}) captured at maximum operating optical powers \(P_{\rm P}P_{\rm S}P_{\rm Pr} \sim\) \SI{0.25}{\cubic\watt}, with 1\(\sigma\) uncertainties smaller than the data point markers.}
+  \caption[\ac{CoBS} measurement of \SI{4}{\milli\meter} liquid \ce{CS2}.]{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{4}{\milli\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:4mmCS2}), with 1\(\sigma\) uncertainties smaller than the data point markers. This is an older measurement, taken prior to orders of magnitude sensitivity improvements, and the Fano effects seen here indicate this was near the sensitivity limit of the instrument at the date of this measurement.}
   \label{fig:Raman:4mmCS2}
 \end{figure}
 
@@ -215,6 +255,40 @@ Plots
   \item table of relevant TeO2 parameters
 \end{itemize}
 
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c c c c c c c c c}
+        \toprule
+        \textbf{\ce{TeO2}} &
+        \(\mathbf{\Gamma_{\rm \textbf{B}}}\) \cite{renninger2018bulk} &
+        \(\mathbf{\tau}\) &
+        \(\mathbf{v_{\rm \textbf{s,\,long}}}\) \cite{uchida1969elastic, schweppe1970elastic, ohmachi1972acoustic, peercy1975temperature, fleury2018non, harris1991multichannel} &
+        \(\mathbf{n}\) \cite{uchida1971optical} &
+        \(\mathbf{L_{\rm \textbf{coh}}}\) &
+        \(\mathbf{P_{\rm \textbf{CoBS,\,\(L_{\rm coh}/2\)}}}\) &
+        \(\mathbf{\Omega_{\rm \textbf{B}}}\) &
+        \(\mathbf{\Omega_{\rm \textbf{R,\,\SI{1}{\micro\meter}}}}\) \\
+        &
+        (\si{\mega\hertz}) &
+        (\si{\nano\second}) &
+        (\si{\meter\per\second}) &
+        &
+        (\si{\micro\meter}) &
+        (\si{\pico\watt}) &
+        (\si{\giga\hertz}) &
+        (\si{\giga\hertz}) \\
+        \midrule
+        \\
+        \textbf{Crystal} & \(2\pi\cdot\)\num{10} & \num{100} & \num{4260} & \num{2.2} & \num{430} & \(\sim\)\num{3.5e3} & \(2\pi\cdot\)\num{12.1} & \(2\pi\cdot\)\num{2.13} \\
+        \\
+        \textbf{Thin Film} & \(2\pi\cdot\)\num{50(10)} & \num{20} & \(\sim\)\num{4150} & \num{2.27} & \num{83} & \(\sim\)\num{137} & \(2\pi\cdot\)\num{12.2} & \(2\pi\cdot\)\num{2.08} \\
+        \\
+        \bottomrule
+        \\
+    \end{tabular}
+    \caption[Material parameters for \ce{TeO2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for \ce{TeO2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes. The first row gives values for crystalline \ce{TeO2} \cite{renninger2018bulk, uchida1971optical}, while the second row reports measured values of our \SI{1}{\micro\meter} \ce{TeO2} thin film obtained from Figures~\ref{fig:Raman:1umTeO2} and \ref{fig:Raman:1umTeO2_combined}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = \Gamma_{\rm B}^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, and \(n\) is the refractive index. We take the refractive index for an amorphous thin film of \ce{TeO2} as the average of the crystalline-\ce{TeO2} ordinary (\(n(o) = 2.2\)) and extraordinary (\(n(e) = 2.34\)) refractive indices (\(n_{\rm avg} \approx 2.27\)), giving an expectedly reduced longitudinal sound speed \(v_{\rm s,\,film} \approx\)\SI{4150}{\meter\per\second} in the imperfect lattice of the \ac{PVD}-deposited film. \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), scattered power for a \ac{CoBS} process (\(P_{\rm CoBS}\)), reported here for \(L_{\rm coh,\,crystalline}/2 =\) \SI{215}{\micro\meter} and \(L_{\rm coh,\,thin\,film}/2 =\) \SI{42.5}{\micro\meter} \ce{TeO2}, scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). \(P_{\rm CoBS}\) improves slightly in the thin film due to the higher refractive index, but worstens significantly by faster dissipation \(\Gamma_{\rm B}\). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{1}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}).}
+    \label{tab:Raman:TeO2}
+\end{table}
 
 \begin{figure}[t]
   \centering
@@ -271,9 +345,43 @@ Plots
 
 \begin{itemize}
   \item Gibbs collab and CINT collab
+  \item Se adhesion layer (sound speed \cite{kozhevnikov2007sound})
   \item oxidizes to TeO2
   \item table of relevant Te parameters
 \end{itemize}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c c c c c c c c c}
+        \toprule
+        \textbf{\ce{Te}} &
+        \(\mathbf{\Gamma_{\rm \textbf{B}}}\) \cite{balakshii2008investigation, lin2016tellurium, voloshinov2017optic, khorkin2020acousto, voloshinov2008acousto} &
+        \(\mathbf{\tau}\) &
+        \(\mathbf{v_{\rm \textbf{s,\,long}}}\) \cite{balakshii2008investigation, lin2016tellurium, voloshinov2017optic, khorkin2020acousto, voloshinov2008acousto} &
+        \(\mathbf{n}\) \cite{ciesielski2018permittivity, hartig1954infrared} &
+        \(\mathbf{L_{\rm \textbf{coh}}}\) &
+        \(\mathbf{P_{\rm \textbf{CoBS,\,\(\mathbf{L_{\rm coh}}/2\)}}}\) &
+        \(\mathbf{\Omega_{\rm \textbf{B}}}\) &
+        \(\mathbf{\Omega_{\rm \textbf{R,\,\textbf{\SI{1}{\micro\meter}}}}}\) \\
+        &
+        (\si{\mega\hertz}) &
+        (\si{\nano\second}) &
+        (\si{\meter\per\second}) &
+        &
+        (\si{\micro\meter}) &
+        (\si{\pico\watt}) &
+        (\si{\giga\hertz}) &
+        (\si{\giga\hertz}) \\
+        \midrule
+        \\
+        \textbf{Bulk} & \(\sim2\pi\cdot\)\num{10} & \num{100} & \(\sim\)\num{2610} & \num{4.58} & \num{261} & \(\sim\)\num{13e-3} & \(2\pi\cdot\)\num{15.4} & \(2\pi\cdot\)\num{1.31} \\
+        \\
+        \bottomrule
+        \\
+    \end{tabular}
+    \caption[Material parameters for \ce{Te} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for \ce{Te} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes, obtained from published values for bulk \ce{Te}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = \Gamma_{\rm B}^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, \(n\) is the refractive index, \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), and \(P_{\rm CoBS}\) is the scattered power for the \ac{CoBS} process, reported here for \SI{1}{\micro\meter} \ce{Te}, and scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{1}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}). While \ce{CS2} and \ce{TeO2} are transparent at \SI{1.55}{\micro\meter}, \ce{Te} is absorptive here. However, transmission becomes meaningful through thin films, with \SI{1}{\micro\meter} of deposited \ce{Te} permitting 11.4\% of \SI{1.55}{\micro\meter} light to transmit. \cite{ciesielski2018permittivity} This extra \(\sim\)90\% loss (for each of the three optical fields) has been accounted for in the scattered power value for the \ac{CoBS} process listed in the table.}
+    \label{tab:Raman:Te}
+\end{table}
 
 \begin{figure}[t]
   \centering

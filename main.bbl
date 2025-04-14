@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{92}
+\begin{thebibliography}{110}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -597,6 +597,124 @@ Humphrey~J Maris.
 Bertram~Alexander Auld.
 \newblock \emph{Acoustic fields and waves in solids}.
 \newblock Ripol Klassik, 1973.
+
+\bibitem[Enright and Stoicheff(1974)]{enright1974depolarized}
+G~Enright and BP~Stoicheff.
+\newblock Depolarized brillouin spectrum of liquid cs2.
+\newblock \emph{The Journal of Chemical Physics}, 60\penalty0 (6):\penalty0
+  2536--2539, 1974.
+
+\bibitem[Coakley and Detenbeck(1975)]{coakley1975brillouin}
+Robert~W Coakley and Robert~W Detenbeck.
+\newblock Brillouin-scattering measurements of the acoustic absorption
+  coefficient in liquid cs 2.
+\newblock \emph{JOSA}, 65\penalty0 (1):\penalty0 6--9, 1975.
+
+\bibitem[Geilen et~al.(2023)Geilen, Popp, Das, Junaid, Poulton, Chemnitz,
+  Marquardt, Schmidt, and Stiller]{geilen2023extreme}
+Andreas Geilen, Alexandra Popp, Debayan Das, Saher Junaid, Christopher~G
+  Poulton, Mario Chemnitz, Christoph Marquardt, Markus~A Schmidt, and Birgit
+  Stiller.
+\newblock Extreme thermodynamics in nanolitre volumes through stimulated
+  brillouin--mandelstam scattering.
+\newblock \emph{Nature Physics}, 19\penalty0 (12):\penalty0 1805--1812, 2023.
+
+\bibitem[Uchida and Ohmachi(1969)]{uchida1969elastic}
+Naoya Uchida and Yoshiro Ohmachi.
+\newblock Elastic and photoelastic properties of teo2 single crystal.
+\newblock \emph{Journal of Applied Physics}, 40\penalty0 (12):\penalty0
+  4692--4695, 1969.
+
+\bibitem[Schweppe(1970)]{schweppe1970elastic}
+H~Schweppe.
+\newblock Elastic and piezoelectric properties of paratellurite (teo2).
+\newblock \emph{Ultrasonics}, 8\penalty0 (2):\penalty0 84--87, 1970.
+
+\bibitem[Ohmachi et~al.(1972)Ohmachi, Uchida, and Niizeki]{ohmachi1972acoustic}
+Yoshiro Ohmachi, Naoya Uchida, and Nobukazu Niizeki.
+\newblock Acoustic wave propagation in teo 2 single crystal.
+\newblock \emph{The Journal of the Acoustical Society of America}, 51\penalty0
+  (1B):\penalty0 164--168, 1972.
+
+\bibitem[Peercy et~al.(1975)Peercy, Fritz, and Samara]{peercy1975temperature}
+PS~Peercy, IJ~Fritz, and GA~Samara.
+\newblock Temperature and pressure dependences of the properties and phase
+  transition in paratellurite (teo2: Ultrasonic, dielectric and raman and
+  brillouin scattering results.
+\newblock \emph{Journal of Physics and Chemistry of Solids}, 36\penalty0
+  (10):\penalty0 1105--1122, 1975.
+
+\bibitem[Fleury et~al.(2018)Fleury, Sounas, and Alu]{fleury2018non}
+Romain Fleury, DL~Sounas, and Andrea Alu.
+\newblock Non-reciprocal optical mirrors based on spatio-temporal acousto-optic
+  modulation.
+\newblock \emph{Journal of Optics}, 20\penalty0 (3):\penalty0 034007, 2018.
+
+\bibitem[Harris(1991)]{harris1991multichannel}
+Dan~Owen Harris.
+\newblock Multichannel acousto-optic crossbar switch.
+\newblock \emph{Applied optics}, 30\penalty0 (29):\penalty0 4245--4256, 1991.
+
+\bibitem[Uchida(1971)]{uchida1971optical}
+Naoya Uchida.
+\newblock Optical properties of single-crystal paratellurite (te o 2).
+\newblock \emph{Physical Review B}, 4\penalty0 (10):\penalty0 3736, 1971.
+
+\bibitem[Kozhevnikov et~al.(2007)Kozhevnikov, Payne, Olson, Allen, and
+  Taylor]{kozhevnikov2007sound}
+VF~Kozhevnikov, WB~Payne, JK~Olson, A~Allen, and PC~Taylor.
+\newblock Sound velocity in liquid and glassy selenium.
+\newblock \emph{Journal of non-crystalline solids}, 353\penalty0
+  (32-40):\penalty0 3254--3259, 2007.
+
+\bibitem[Balakshii et~al.(2008)Balakshii, Voloshinov, Knyazev, and
+  Kulakova]{balakshii2008investigation}
+VI~Balakshii, VB~Voloshinov, GA~Knyazev, and LA~Kulakova.
+\newblock Investigation into the acoustooptic properties of tellurium crystals
+  by anisotropic diffraction of light.
+\newblock \emph{Technical Physics}, 53:\penalty0 1336--1343, 2008.
+
+\bibitem[Lin et~al.(2016)Lin, Li, Chen, Shen, Ge, and Pei]{lin2016tellurium}
+Siqi Lin, Wen Li, Zhiwei Chen, Jiawen Shen, Binghui Ge, and Yanzhong Pei.
+\newblock Tellurium as a high-performance elemental thermoelectric.
+\newblock \emph{Nature communications}, 7\penalty0 (1):\penalty0 10287, 2016.
+
+\bibitem[Voloshinov et~al.(2017)Voloshinov, Khorkin, Kulakova, and
+  Gupta]{voloshinov2017optic}
+VB~Voloshinov, VS~Khorkin, LA~Kulakova, and N~Gupta.
+\newblock Optic, acoustic and acousto-optic properties of tellurium in
+  close-to-axis regime of diffraction.
+\newblock \emph{Journal of Physics Communications}, 1\penalty0 (2):\penalty0
+  025006, 2017.
+
+\bibitem[Khorkin et~al.(2020)Khorkin, Voloshinov, Efimova, and
+  Kulakova]{khorkin2020acousto}
+VS~Khorkin, VB~Voloshinov, AI~Efimova, and LA~Kulakova.
+\newblock Acousto-optic properties of germanium-, selenium-, silicon-, and
+  tellurium-based alloys.
+\newblock \emph{Optics and Spectroscopy}, 128:\penalty0 244--249, 2020.
+
+\bibitem[Voloshinov et~al.(2008)Voloshinov, Balakshy, Kulakova, and
+  Gupta]{voloshinov2008acousto}
+VB~Voloshinov, VI~Balakshy, LA~Kulakova, and N~Gupta.
+\newblock Acousto-optic properties of tellurium that are useful in anisotropic
+  diffraction.
+\newblock \emph{Journal of optics a: pure and applied optics}, 10\penalty0
+  (9):\penalty0 095002, 2008.
+
+\bibitem[Ciesielski et~al.(2018)Ciesielski, Skowronski, Pacuski, and
+  Szoplik]{ciesielski2018permittivity}
+Arkadiusz Ciesielski, Lukasz Skowronski, Wojciech Pacuski, and Tomasz Szoplik.
+\newblock Permittivity of ge, te and se thin films in the 200--1500 nm spectral
+  range. predicting the segregation effects in silver.
+\newblock \emph{Materials Science in Semiconductor Processing}, 81:\penalty0
+  64--67, 2018.
+
+\bibitem[Hartig and Loferski(1954)]{hartig1954infrared}
+Patricia~A Hartig and Joseph~J Loferski.
+\newblock Infrared index of refraction of tellurium crystals.
+\newblock \emph{Journal of the Optical Society of America}, 44\penalty0
+  (1):\penalty0 17--18, 1954.
 
 \bibitem[Roch et~al.(2003)Roch, Bidaud, Collard, and
   Buchaillot]{roch2003fabrication}
