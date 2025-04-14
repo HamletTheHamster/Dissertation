@@ -199,54 +199,28 @@ Figure~\ref{fig:Raman:CS2Cuvetpics} shows photographs of a \SI{1}{\centi\meter}-
     \label{fig:Raman:CS2Cuvetpics}
 \end{figure}
 
-Figure~\ref{fig:Raman:CS2Cuvet} shows the observed spectra from a \ac{CoBS} measurement of \SI{1}{\centi\meter} liquid \ce{CS2}
+Figure~\ref{fig:Raman:CS2Cuvet} shows the observed spectra from \ac{CoBS} measurements of \SI{1}{\centi\meter} and \SI{4}{\milli\meter} liquid \ce{CS2}, pictured in Figure~\ref{fig:Raman:CS2Cuvetpics}. Both measurements showcase significant Fano asymmetry, again indicative of signal-background interference in a low-signal regime (see Section~\ref{Appendix:Fano} in Appendix~\ref{appendix: CoBS}). The strong Fano interference in both measurements emphasizes the proximity to the sensitivity limit of the \ac{CoBS} instrument at the time these spectra were observed. Each progression to lower-signal (less scattered power \(P_{\rm CoBS}\), from Equation~\ref{eq:Raman:ScatteredPowerPhi}) represents iterative sensitivity and performance improvements to the \ac{CoBS} instrument, ranging from insights about the importance of well-cleaned and polished pigtail ends throughout the apparatus to operating setting discoveries such as setting both the pump and probe lasers to ``whisper'' instead of ``dither'' mode, as well as component upgrades such as the detector and higher power \ac{EDFA}s (see Chapter~\ref{ch:CoBS} for more details on the \ac{CoBS} instrument and its performance optimization).
 
-\begin{table}[h]
+\begin{figure}[t]
+  \centering
+  \begin{subfigure}[b]{0.49\textwidth}
     \centering
-    \begin{tabular}{c c c c c c c c c}
-        \toprule
-        \textbf{\ce{CS2}} &
-        \(\mathbf{\Gamma_{\rm \textbf{B}}}\) \cite{boyd2020nonlinear, johnson2023laser, enright1974depolarized, coakley1975brillouin} &
-        \(\mathbf{\tau}\) &
-        \(\mathbf{v_{\rm \textbf{s,\,long}}}\) \cite{boyd2020nonlinear, johnson2023laser, behunin2019spontaneous, geilen2023extreme} &
-        \(\mathbf{n}\) \cite{boyd2020nonlinear, johnson2023laser} &
-        \(\mathbf{L_{\rm \textbf{coh}}}\) &
-        \(\mathbf{P_{\rm \textbf{CoBS,\,\(L_{\rm coh}/2\)}}}\) &
-        \(\mathbf{\Omega_{\rm \textbf{B}}}\) &
-        \(\mathbf{\Omega_{\rm \textbf{R,\,\SI{1}{\micro\meter}}}}\) \\
-        &
-        (\si{\mega\hertz}) &
-        (\si{\nano\second}) &
-        (\si{\meter\per\second}) &
-        &
-        (\si{\micro\meter}) &
-        (\si{\pico\watt}) &
-        (\si{\giga\hertz}) &
-        (\si{\giga\hertz}) \\
-        \midrule
-        \\
-        \textbf{Liquid} & \(2\pi\cdot\)\num{90(10)} & \num{10} & \num{1150} & \num{1.59} & \num{13(2)} & \(\sim\)\num{7.2} & \(2\pi\cdot\)\num{2.54(3)} & \(2\pi\cdot\)\num{0.575} \\
-        \\
-        \bottomrule
-        \\
-    \end{tabular}
-    \caption[Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes, obtained from published values as well as our own observations shown in Figures~\ref{fig:Raman:1cmCS2}, \ref{fig:Raman:4mmCS2}, \ref{fig:Raman:1mmCS2}, and \ref{fig:Raman:100umCS2}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = \Gamma_{\rm B}^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, \(n\) is the refractive index, \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), and \(P_{\rm CoBS}\) is the scattered power for the \ac{CoBS} process, reported here for \(L_{\rm coh}/2 =\) \SI{6.5}{\micro\meter} \ce{CS2}, and scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{10}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}).}
-    \label{tab:Raman:CS2}
-\end{table}
-
-\begin{figure}[t]
-  \centering
-  \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 1 cm CS2.png}
-  \caption[\ac{CoBS} measurement of \SI{1}{\centi\meter} liquid \ce{CS2}.]{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\centi\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:1cmCS2}), with 1\(\sigma\) uncertainties smaller than the data point markers. The spectrum shows strong Fano asymmetry (see Section ~\ref{Appendix:Fano} in Appendix~\ref{appendix: CoBS}), indicating interference of a weak signal with the broad background continnuum. This is an older measurement, taken prior to orders of magnitude sensitivity improvements, and the Fano effects seen here indicate this was near the sensitivity limit of the instrument at the time.}
-  \label{fig:Raman:1cmCS2}
+    \hspace{-2em}
+    \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 1 cm CS2.png}
+    \label{fig:Raman:1cmCS2}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.49\textwidth}
+    \centering
+    \hspace{-2em}
+    \includegraphics[width=\textwidth]{figs/4-Raman/CoBS Measurement: 4 mm CS2.png}
+    \label{fig:Raman:4mmCS2}
+  \end{subfigure}
+  \caption[\ac{CoBS} measurements of \SI{1}{\centi\meter} and \SI{4}{\milli\meter} liquid \ce{CS2}.]{\textbf{(a)}~Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{1}{\centi\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:1cmCS2pic}), with 1\(\sigma\) uncertainties smaller than the data point markers. The spectrum shows strong Fano asymmetry (see Section~\ref{Appendix:Fano} in Appendix~\ref{appendix: CoBS}), indicating interference of a weak signal with the broad background continuum. This is an older measurement, taken prior to orders of magnitude sensitivity improvements, and the Fano effects seen here indicate this was near the sensitivity limit of the instrument at the time. \textbf{(b)}~Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{4}{\milli\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:4mmCS2pic}), with 1\(\sigma\) uncertainties smaller than the data point markers. This is an older measurement, taken prior to orders of magnitude sensitivity improvements, and the Fano effects seen here indicate this was near the sensitivity limit of the instrument at the date of this measurement.}
+  \label{fig:Raman:CS2Cuvet}
 \end{figure}
 
-\begin{figure}[t]
-  \centering
-  \hspace{-2em}\includegraphics[width=.85\textwidth]{figs/4-Raman/CoBS Measurement: 4 mm CS2.png}
-  \caption[\ac{CoBS} measurement of \SI{4}{\milli\meter} liquid \ce{CS2}.]{Observed background-subtracted spectrum obtained through a \ac{CoBS} measurement of \SI{4}{\milli\meter} of liquid \ce{CS2} (pictured in Figure~\ref{fig:Raman:4mmCS2}), with 1\(\sigma\) uncertainties smaller than the data point markers. This is an older measurement, taken prior to orders of magnitude sensitivity improvements, and the Fano effects seen here indicate this was near the sensitivity limit of the instrument at the date of this measurement.}
-  \label{fig:Raman:4mmCS2}
-\end{figure}
+With the free-space functionality demonstrated with the successful measurement of \SI{1}{\centi\meter} and \SI{4}{\milli\meter} bulk liquid \ce{CS2} in a cuvet, all basic experimental infrastructure was in place to pursue Brillouin-induced Raman modes in much shorter length samples. The newly-achieved \(\sim\SI{10}{\femto\watt}\) sensitivity limit of the instrument around this time, experimentally-obtained from reduced power measurements of \SI{1}{\centi\meter} \ac{UHNA3} fiber, supported the feasibility of measuring scattering in far shorter interaction lengths. With this in mind, we made the ambitious leap to thin films.
 
 \subsection{Tellurium Dioxide Thin Film}
 \label{subsec:Raman:Target:TeO2}
@@ -399,6 +373,39 @@ Figure~\ref{fig:Raman:CS2Cuvet} shows the observed spectra from a \ac{CoBS} meas
   \item table of relevant CS2 parameters
   \item cells, 1 W amp, bubble test
 \end{itemize}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c c c c c c c c c}
+        \toprule
+        \textbf{\ce{CS2}} &
+        \(\mathbf{\Gamma_{\rm \textbf{B}}}\) \cite{boyd2020nonlinear, johnson2023laser, enright1974depolarized, coakley1975brillouin} &
+        \(\mathbf{\tau}\) &
+        \(\mathbf{v_{\rm \textbf{s,\,long}}}\) \cite{boyd2020nonlinear, johnson2023laser, behunin2019spontaneous, geilen2023extreme} &
+        \(\mathbf{n}\) \cite{boyd2020nonlinear, johnson2023laser} &
+        \(\mathbf{L_{\rm \textbf{coh}}}\) &
+        \(\mathbf{P_{\rm \textbf{CoBS,\,\(L_{\rm coh}/2\)}}}\) &
+        \(\mathbf{\Omega_{\rm \textbf{B}}}\) &
+        \(\mathbf{\Omega_{\rm \textbf{R,\,\SI{1}{\micro\meter}}}}\) \\
+        &
+        (\si{\mega\hertz}) &
+        (\si{\nano\second}) &
+        (\si{\meter\per\second}) &
+        &
+        (\si{\micro\meter}) &
+        (\si{\pico\watt}) &
+        (\si{\giga\hertz}) &
+        (\si{\giga\hertz}) \\
+        \midrule
+        \\
+        \textbf{Liquid} & \(2\pi\cdot\)\num{90(10)} & \num{10} & \num{1150} & \num{1.59} & \num{13(2)} & \(\sim\)\num{7.2} & \(2\pi\cdot\)\num{2.54(3)} & \(2\pi\cdot\)\num{0.575} \\
+        \\
+        \bottomrule
+        \\
+    \end{tabular}
+    \caption[Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.]{Material parameters for bulk liquid \ce{CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes, obtained from published values as well as our own observations shown in Figures~\ref{fig:Raman:1cmCS2}, \ref{fig:Raman:4mmCS2}, \ref{fig:Raman:1mmCS2}, and \ref{fig:Raman:100umCS2}. Here, \(\Gamma_{\rm B}\) is the angular Brillouin linewidth (phonon dissipation rate) and the inverse of phonon lifetime (\(\tau = \Gamma_{\rm B}^{-1}\)), \(v_{\rm s,\,long}\) is the longitudinal sound speed, \(n\) is the refractive index, \(l_{\rm coh}\) is the phonon coherence length (mean travel distance), and \(P_{\rm CoBS}\) is the scattered power for the \ac{CoBS} process, reported here for \(L_{\rm coh}/2 =\) \SI{6.5}{\micro\meter} \ce{CS2}, and scales with \(L^{2}\) (Equation~\ref{eq:Raman:ScatteredPowerPhi}). Finally, \(\Omega_{\rm B}\) is the angular Brillouin frequency shift (Equation~\ref{eq:Raman:f_B}), and \(\Omega_{\rm R,\,\SI{10}{\micro\meter}}\) is the first harmonic (\(n=1\)) of the fundamental \(L_{0}\) Raman-like mode for \(L=\)\SI{1}{\micro\meter} (Equation~\ref{eq:Raman:f_R}).}
+    \label{tab:Raman:CS2}
+\end{table}
 
 \begin{figure}[t]
     \centering

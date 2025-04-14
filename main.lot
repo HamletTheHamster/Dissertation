@@ -4,9 +4,9 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Experimental parameters used in observing \(P_{\rm Sig}\approx \) \SI {5}{\femto \watt } sensitivity of the \ac {CoBS} instrument. The resulting spectra is shown in Figure~\ref {fig:CoBS:5fWSensitivity}.}}{50}{table.caption.100}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Material parameters for bulk liquid \ce {CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{69}{table.caption.118}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Material parameters for \ce {TeO2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{74}{table.caption.121}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Material parameters for \ce {Te} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{76}{table.caption.127}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Material parameters for \ce {TeO2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{73}{table.caption.120}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Material parameters for \ce {Te} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{76}{table.caption.126}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Material parameters for bulk liquid \ce {CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{76}{table.caption.128}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {A.1}{\ignorespaces Measured anti-Stokes parameters for Experiment~A. Here \(P_{\mathrm {P}}\) is the nominal pump power, measured via a 1\% tap just prior to launching into the LCOF, and \(P_{\mathrm {Intra}}\) is the power actually guided within the fiber. Amplitude, Linewidth, Center, and Offset are the peak spectral density, FWHM linewidth, center frequency, and vertical baseline offset, respectively, obtained from a Lorentzian fit of the data. Uncertainties are 1\(\sigma \).}}{102}{table.caption.150}%

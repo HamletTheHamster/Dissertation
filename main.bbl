@@ -657,15 +657,6 @@ Bertram~Alexander Auld.
 \newblock \emph{Acoustic fields and waves in solids}.
 \newblock Ripol Klassik, 1973.
 
-\bibitem[Geilen et~al.(2023)Geilen, Popp, Das, Junaid, Poulton, Chemnitz,
-  Marquardt, Schmidt, and Stiller]{geilen2023extreme}
-Andreas Geilen, Alexandra Popp, Debayan Das, Saher Junaid, Christopher~G
-  Poulton, Mario Chemnitz, Christoph Marquardt, Markus~A Schmidt, and Birgit
-  Stiller.
-\newblock Extreme thermodynamics in nanolitre volumes through stimulated
-  brillouin--mandelstam scattering.
-\newblock \emph{Nature Physics}, 19\penalty0 (12):\penalty0 1805--1812, 2023.
-
 \bibitem[Kozhevnikov et~al.(2007)Kozhevnikov, Payne, Olson, Allen, and
   Taylor]{kozhevnikov2007sound}
 VF~Kozhevnikov, WB~Payne, JK~Olson, A~Allen, and PC~Taylor.
@@ -721,6 +712,15 @@ Patricia~A Hartig and Joseph~J Loferski.
 \newblock Infrared index of refraction of tellurium crystals.
 \newblock \emph{Journal of the Optical Society of America}, 44\penalty0
   (1):\penalty0 17--18, 1954.
+
+\bibitem[Geilen et~al.(2023)Geilen, Popp, Das, Junaid, Poulton, Chemnitz,
+  Marquardt, Schmidt, and Stiller]{geilen2023extreme}
+Andreas Geilen, Alexandra Popp, Debayan Das, Saher Junaid, Christopher~G
+  Poulton, Mario Chemnitz, Christoph Marquardt, Markus~A Schmidt, and Birgit
+  Stiller.
+\newblock Extreme thermodynamics in nanolitre volumes through stimulated
+  brillouin--mandelstam scattering.
+\newblock \emph{Nature Physics}, 19\penalty0 (12):\penalty0 1805--1812, 2023.
 
 \bibitem[Roch et~al.(2003)Roch, Bidaud, Collard, and
   Buchaillot]{roch2003fabrication}
