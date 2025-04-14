@@ -75,7 +75,6 @@
 \contentsline {subsection}{\numberline {B.3.1}Fano Experiment~A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{121}{subsection.B.3.1}%
 \contentsline {subsection}{\numberline {B.3.2}Fano Experiment~B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{124}{subsection.B.3.2}%
 \contentsline {section}{\numberline {B.4}CoBS Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{130}{section.B.4}%
-\contentsline {section}{\numberline {B.5}Measurement Protocol}{133}{section.B.5}%
-\contentsline {chapter}{\numberline {C}Code and Data Availability}{135}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Plotting Data In Go}{135}{section.C.1}%
-\contentsline {chapter}{References}{136}{section*.144}%
+\contentsline {chapter}{\numberline {C}Code and Data Availability}{133}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Plotting Data In Go}{133}{section.C.1}%
+\contentsline {chapter}{References}{134}{section*.144}%
