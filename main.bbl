@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{110}
+\begin{thebibliography}{111}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -18,6 +18,12 @@ Joel~N Johnson, Danielle~R Haverkamp, Yi-Hsin Ou, Khanh Kieu, Nils~T
 \newblock Laser cooling of traveling-wave phonons in an optical fiber.
 \newblock \emph{Physical Review Applied}, 20\penalty0 (3):\penalty0 034047,
   2023.
+
+\bibitem[Dubinskii and Merkle(2004)]{dubinskii2004teo2}
+Mark~A Dubinskii and Larry~D Merkle.
+\newblock Teo2: Solid-state sbs material with exceptionally high gain.
+\newblock In \emph{Advanced Solid-State Photonics}, page 451. Optica Publishing
+  Group, 2004.
 
 \bibitem[Rayleigh(1871)]{rayleigh1871light}
 Lord Rayleigh.
