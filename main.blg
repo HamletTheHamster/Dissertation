@@ -13,13 +13,12 @@ A level-1 auxiliary file: Raman.aux
 A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: post/A-Cooling.aux
 A level-1 auxiliary file: post/A-CoBS.aux
-A level-1 auxiliary file: post/A-Raman.aux
 A level-1 auxiliary file: post/A-Code.aux
 Database file #1: references.bib
 Warning--I didn't find a database entry for ""
 You've used 111 entries,
             2481 wiz_defined-function locations,
-            1204 strings with 24509 characters,
+            1203 strings with 24493 characters,
 and the built_in function-call counts, 46549 in all, are:
 = -- 3644
 > -- 2923

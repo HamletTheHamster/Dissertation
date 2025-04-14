@@ -1,8 +1,8 @@
 \contentsline {chapter}{Abstract}{ii}{section*.1}%
 \contentsline {chapter}{Table of Contents}{iv}{section*.4}%
 \contentsline {chapter}{List of Tables}{vi}{section*.7}%
-\contentsline {chapter}{List of Figures}{viii}{section*.12}%
-\contentsline {chapter}{List of Acronyms}{xxi}{chapter*.39}%
+\contentsline {chapter}{List of Figures}{vii}{section*.11}%
+\contentsline {chapter}{List of Acronyms}{xi}{chapter*.16}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Laser Cooling of Traveling-Wave Phonons in an Optical Fiber}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{7}{section.2.1}%
@@ -56,31 +56,26 @@
 \contentsline {subsection}{\numberline {4.4.1}Pathways to Brillouin-Induced Raman Modes}{87}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Conclusion}{88}{subsection.4.4.2}%
 \contentsline {chapter}{\numberline {5}Conclusion}{91}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{93}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Fabrication of $CS_{2}$-Filled Liquid-Core Optical Fiber}{93}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Splicing}{93}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Reservoir Assembly}{97}{subsection.A.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}Filling with Carbon Disulfide}{100}{subsection.A.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}Typical Optical Performance}{101}{subsection.A.1.4}%
-\contentsline {section}{\numberline {A.2}Improvements in Yield and Efficiency of \acs {LCOF} Samples}{102}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Tabulated Fit and Uncertainty Values Derived from the Observed Data}{104}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Cooling Experiment~A Tabulated Values}{104}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Cooling Experiment~B Tabulated Values}{105}{subsection.A.3.2}%
-\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter~\ref {ch:CoBS}}{107}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Coupled-Wave Equations}{107}{section.B.1}%
-\contentsline {subsection}{\numberline {B.1.1}Acoustic Field}{108}{subsection.B.1.1}%
-\contentsline {subsection}{\numberline {B.1.2}Optical Fields}{109}{subsection.B.1.2}%
-\contentsline {section}{\numberline {B.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{114}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Observance of Fano-Resonant Asymmetries at Small Signals}{119}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Fano Experiment~A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{119}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Fano Experiment~B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{122}{subsection.B.3.2}%
-\contentsline {section}{\numberline {B.4}CoBS Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{128}{section.B.4}%
-\contentsline {section}{\numberline {B.5}Measurement Protocol}{131}{section.B.5}%
-\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter~\ref {ch:Raman}}{133}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Thin Film Fabrication via Physical Vapor Deposition}{133}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Fiber-Chip-Fiber Waveguide Optical Alignment}{133}{section.C.2}%
-\contentsline {section}{\numberline {C.3}Chip Waveguide Case Study~A: Thermal Effect on Brillouin Frequency Shift}{133}{section.C.3}%
-\contentsline {section}{\numberline {C.4}Chip Waveguide Case Study~B: Pump-Probe Detuning Effect on Scattered Power}{133}{section.C.4}%
-\contentsline {chapter}{\numberline {D}Code and Data Availability}{139}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Plotting Data In Go}{139}{section.D.1}%
-\contentsline {chapter}{References}{140}{section*.176}%
+\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{95}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Fabrication of $CS_{2}$-Filled Liquid-Core Optical Fiber}{95}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Splicing}{95}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Reservoir Assembly}{99}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Filling with Carbon Disulfide}{102}{subsection.A.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Typical Optical Performance}{103}{subsection.A.1.4}%
+\contentsline {section}{\numberline {A.2}Improvements in Yield and Efficiency of \acs {LCOF} Samples}{104}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Tabulated Fit and Uncertainty Values Derived from the Observed Data}{106}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Cooling Experiment~A Tabulated Values}{106}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Cooling Experiment~B Tabulated Values}{107}{subsection.A.3.2}%
+\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter~\ref {ch:CoBS}}{109}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Coupled-Wave Equations}{109}{section.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}Acoustic Field}{110}{subsection.B.1.1}%
+\contentsline {subsection}{\numberline {B.1.2}Optical Fields}{111}{subsection.B.1.2}%
+\contentsline {section}{\numberline {B.2}Scattered Power Comparison to Traditional Brillouin Scattering Processes}{116}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Observance of Fano-Resonant Asymmetries at Small Signals}{121}{section.B.3}%
+\contentsline {subsection}{\numberline {B.3.1}Fano Experiment~A: Extended \SI {1}{\centi \meter } UHNA3 Fiber Spectra}{121}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Fano Experiment~B: \SI {1}{\milli \meter } \ce {CS2} Spectra and Fano Distortions}{124}{subsection.B.3.2}%
+\contentsline {section}{\numberline {B.4}CoBS Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{130}{section.B.4}%
+\contentsline {section}{\numberline {B.5}Measurement Protocol}{133}{section.B.5}%
+\contentsline {chapter}{\numberline {C}Code and Data Availability}{135}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Plotting Data In Go}{135}{section.C.1}%
+\contentsline {chapter}{References}{136}{section*.142}%

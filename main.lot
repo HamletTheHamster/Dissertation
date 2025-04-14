@@ -2,19 +2,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Experimental parameters used in observing \(P_{\rm Sig}\approx \) \SI {5}{\femto \watt } sensitivity of the \ac {CoBS} instrument. The resulting spectra is shown in Figure~\ref {fig:CoBS:5fWSensitivity}.}}{50}{table.caption.100}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Experimental parameters used in observing \(P_{\rm Sig}\approx \) \SI {5}{\femto \watt } sensitivity of the \ac {CoBS} instrument.}}{50}{table.caption.77}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Material parameters for \ce {TeO2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{72}{table.caption.120}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Material parameters for \ce {Te} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{77}{table.caption.127}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Material parameters for bulk liquid \ce {CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{80}{table.caption.132}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Material parameters for \ce {TeO2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{72}{table.caption.97}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Material parameters for \ce {Te} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{77}{table.caption.104}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Material parameters for bulk liquid \ce {CS2} relevant to observing Brillouin traveling-wave modes and Raman standing-wave modes.}}{80}{table.caption.109}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Measured anti-Stokes parameters for Experiment~A. Here \(P_{\mathrm {P}}\) is the nominal pump power, measured via a 1\% tap just prior to launching into the LCOF, and \(P_{\mathrm {Intra}}\) is the power actually guided within the fiber. Amplitude, Linewidth, Center, and Offset are the peak spectral density, FWHM linewidth, center frequency, and vertical baseline offset, respectively, obtained from a Lorentzian fit of the data. Uncertainties are 1\(\sigma \).}}{104}{table.caption.151}%
-\contentsline {table}{\numberline {A.2}{\ignorespaces Measured Stokes parameters for Experiment~A, in the same format as Table~\ref {tab:Cooling:Experiment A anti-Stokes}.}}{104}{table.caption.152}%
-\contentsline {table}{\numberline {A.3}{\ignorespaces Measured anti-Stokes parameters for Experiment~B. Here \(P_{\mathrm {P}}\) is the nominal pump power, measured via a 1\% tap just prior to launching into the LCOF, \(P_{\mathrm {Intra}}\) is the power actually guided within the fiber, and \(P_{\mathrm {Pr}}\) is the probe power, also measured just prior to launching into the \ac {LCOF}. Amplitude, Linewidth, Center, and Offset are the peak spectral density, FWHM linewidth, center frequency, and vertical baseline offset, respectively, obtained from a Lorentzian fit of the data. Uncertainties are 1\(\sigma \).}}{105}{table.caption.153}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Measured anti-Stokes parameters for Experiment~A.}}{106}{table.caption.128}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Measured Stokes parameters for Experiment~A.}}{106}{table.caption.129}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Measured anti-Stokes parameters for Experiment~B.}}{107}{table.caption.130}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces Parameters relevant to the coherently stimulated backward Brillouin scattering process for the example UHNA3 fiber. \(G_{\mathrm {B}}\) is the effective Brillouin gain, \(P_{\mathrm {P}}\) is the pump power, \(P_{\mathrm {S}}\) is the Stokes power, \(P_{\mathrm {Pr}}\) is the probe power, and \(\Delta \lambda \) is the wavelength detuning of the probe from the pump.}}{116}{table.caption.154}%
-\contentsline {table}{\numberline {B.2}{\ignorespaces Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example \ac {UHNA3} fiber. \(G_{\mathrm {B}}\) is the Brillouin gain coefficient, \(P_{\mathrm {P}}\) is the pump power, \(\omega \) is the optical angular frequency, \(\Gamma _{\mathrm {B}}\) is the acoustic damping rate, \(k_{\mathrm {B}}\) is Boltzmann's constant, \(T\) is the temperature, and \(\Omega _{\mathrm {B}}\) is the acoustic angular frequency.}}{117}{table.caption.155}%
-\contentsline {table}{\numberline {B.3}{\ignorespaces Power values for each source (Pump, Stokes, Probe) across the three measurements, with the multiplicative total power for each setup.}}{128}{table.caption.162}%
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Parameters relevant to the coherently stimulated backward Brillouin scattering process for the example \ac {UHNA3} fiber.}}{118}{table.caption.131}%
+\contentsline {table}{\numberline {B.2}{\ignorespaces Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example \ac {UHNA3} fiber.}}{119}{table.caption.133}%
+\contentsline {table}{\numberline {B.3}{\ignorespaces Power values for each source (Pump, Stokes, Probe) across the three measurements, with the multiplicative total power for each setup.}}{130}{table.caption.139}%
 \addvspace {10\p@ }
