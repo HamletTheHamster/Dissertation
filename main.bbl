@@ -1,22 +1,14 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{128}
+\begin{thebibliography}{129}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Johnson et~al.(2023)Johnson, Haverkamp, Ou, Kieu, Otterstrom, Rakich,
-  and Behunin]{johnson2023laser}
-Joel~N Johnson, Danielle~R Haverkamp, Yi-Hsin Ou, Khanh Kieu, Nils~T
-  Otterstrom, Peter~T Rakich, and Ryan~O Behunin.
-\newblock Laser cooling of traveling-wave phonons in an optical fiber.
-\newblock \emph{Physical Review Applied}, 20\penalty0 (3):\penalty0 034047,
-  2023.
-
 \bibitem[Boccara et~al.(1980)Boccara, Fournier, and Badoz]{boccara1980thermo}
 AC~Boccara, D~Fournier, and J~Badoz.
-\newblock Thermo-optical spectroscopy: Detection by the''mirage effect''.
+\newblock Thermo-optical spectroscopy: Detection by the ``mirage effect''.
 \newblock \emph{Applied Physics Letters}, 36\penalty0 (2):\penalty0 130--130,
   1980.
 
@@ -36,6 +28,12 @@ Leon~R Hirsch, R~Jason Stafford, JA~Bankson, Scott~R Sershen, B~Rivera,
   magnetic resonance guidance.
 \newblock \emph{Proceedings of the National Academy of Sciences}, 100\penalty0
   (23):\penalty0 13549--13554, 2003.
+
+\bibitem[Johnson(2018)]{johnson2018hybridization}
+Joel~N Johnson.
+\newblock Hybridization of surface plasmon resonance in immiscible solid
+  composite nanostructures.
+\newblock \emph{Masters Thesis}, page~6, 2018.
 
 \bibitem[Rayleigh(1871)]{rayleigh1871light}
 Lord Rayleigh.
@@ -148,6 +146,14 @@ Gene~H Haertling and C~E\_ Land.
 Sheng-Yuan Chu and Kenji Uchino.
 \newblock Photostrictive effect in plzt-based ceramics and its applications.
 \newblock \emph{Ferroelectrics}, 174\penalty0 (1):\penalty0 185--196, 1995.
+
+\bibitem[Johnson et~al.(2023)Johnson, Haverkamp, Ou, Kieu, Otterstrom, Rakich,
+  and Behunin]{johnson2023laser}
+Joel~N Johnson, Danielle~R Haverkamp, Yi-Hsin Ou, Khanh Kieu, Nils~T
+  Otterstrom, Peter~T Rakich, and Ryan~O Behunin.
+\newblock Laser cooling of traveling-wave phonons in an optical fiber.
+\newblock \emph{Physical Review Applied}, 20\penalty0 (3):\penalty0 034047,
+  2023.
 
 \bibitem[H{\"a}nsch and Schawlow(1975)]{hansch1975cooling}
 Theodor~W H{\"a}nsch and Arthur~L Schawlow.

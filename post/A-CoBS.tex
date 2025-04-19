@@ -7,7 +7,7 @@
 \section{Coupled-Wave Equations}
 \label{Appendix:Coupled-Wave Equations}
 
-Here we derive the coupled wave equations that describe coherent stimulated Brillouin scattering involving a pump, Stokes, probe, and backscattered optical field given respectively by
+Here we derive the coupled wave equations that describe Coherently stimulated Brillouin Scattering (\acs{CoBS}) involving a pump, Stokes, probe, and backscattered optical field given respectively by
 \\
 \begin{equation}
     \tilde{E}_{P}(z,t) = A_{P}e^{i(k_{P}z - \omega_{P}t)} + c.c.,
@@ -350,11 +350,11 @@ where \(x = P_{\mathrm{S}}(0)/P_{\mathrm{P}}(0)\), or the ratio of the unknown S
   P_{\mathrm{S}}(0) = xP_{\mathrm{P}}(0).
 \end{equation}
 
-The solution to this numeric approach to scattered power in the high-gain (stimulated) Brillouin scattering regime with pump depletion effects at large \(G\) is plotted for varying effective lengths in Figure~\ref{fig:SponBSvsStimBSvsCoBS}, along with the analytical solutions derived previously for the low-gain (spontaneous) regime and our coherently stimulated Brillouin spectrometer given by Equation~\ref{Eq:Theoretical Framework:Scattered Power}. System parameters used to generate the plot for each of the three processes are provided in Tables \ref{tab:CoBS Parameters} and \ref{tab:SBS Parameters}. Wherever possible, the parameters shared by all three Brillouin scattering processes were kept consistent, while quantities unique to each process were assigned their respective values.
+The solution to this numeric approach to scattered power in the high-gain (stimulated) Brillouin scattering regime with pump depletion effects at large \(G\) is plotted for varying effective lengths in Figure~\ref{fig:SponBSvsStimBSvsCoBS}, along with the analytical solutions derived previously for the low-gain (spontaneous) regime and our coherently stimulated Brillouin spectrometer (\acs{CoBS}) given by Equation~\ref{Eq:Theoretical Framework:Scattered Power}. System parameters used to generate the plot for each of the three processes are provided in Tables \ref{tab:CoBS Parameters} and \ref{tab:SBS Parameters}. Wherever possible, the parameters shared by all three Brillouin scattering processes were kept consistent, while quantities unique to each process were assigned their respective values.
 
 \begin{table}[ht]
   \centering
-  \caption[Parameters relevant to the coherently stimulated backward Brillouin scattering process for the example \ac{UHNA3} fiber.]{Parameters relevant to the coherently stimulated backward Brillouin scattering process for the example \ac{UHNA3} fiber. \(G_{\mathrm{B}}\) is the effective Brillouin gain, \(P_{\mathrm{P}}\) is the pump power, \(P_{\mathrm{S}}\) is the Stokes power, \(P_{\mathrm{Pr}}\) is the probe power, and \(\Delta\lambda\) is the wavelength detuning of the probe from the pump.}
+  \caption[Parameters relevant to the \acs{CoBS} process for the example \ac{UHNA3} fiber.]{Parameters relevant to the \acs{CoBS} process for the example \ac{UHNA3} fiber. \(G_{\mathrm{B}}\) is the effective Brillouin gain, \(P_{\mathrm{P}}\) is the pump power, \(P_{\mathrm{S}}\) is the Stokes power, \(P_{\mathrm{Pr}}\) is the probe power, and \(\Delta\lambda\) is the wavelength detuning of the probe from the pump.}
   \textbf{Coherently Stimulated Brillouin Scattering Process Model System Parameters}
   \renewcommand{\arraystretch}{1.2}
   \begin{tabular}{c c c c c}
@@ -397,6 +397,7 @@ The solution to this numeric approach to scattered power in the high-gain (stimu
     \multicolumn{1}{c}{(\si{\watt})} &
     \multicolumn{1}{c}{(\si{\pico\watt})} &
     \multicolumn{1}{c}{} &
+    \multicolumn{1}{c}{(\si{\nano\meter})} &
     \multicolumn{1}{c}{(\si{\mega\hertz})} &
     \multicolumn{1}{c}{(\si{\joule\per\kelvin})} &
     \multicolumn{1}{c}{(\si{\kelvin})} &
@@ -409,16 +410,16 @@ The solution to this numeric approach to scattered power in the high-gain (stimu
   \label{tab:SBS Parameters}
 \end{table}
 
-At lengths beyond a centimeter, the phase-matching relaxation of the coherently stimulated process begins to break down, and the specific choice in pump and probe detuning becomes critical. This corresponds to a narrowing of the \(\mathrm{sinc}^{2}\) function given in Equation~\ref{Eq:Phi}. The scattered power beyond this length rises and falls according to the oscillations of the \(\mathrm{sinc}^{2}\) function far from the origin. As length increases continuously beyond \SI{1}{\meter}, the scattered power oscillates with increasing frequency and ceases to offer practical significance. To better visualize the scattered power offered by the instrument in this region, we have computed the envelope of scattered power. In a laboratory setting, the appropriate pump and probe detuning would be selected for the specific sample length being measured such that the scattered power function lies on a local peak of the \(\mathrm{sinc}^{2}\) function.
+At lengths beyond a centimeter, the phase-matching relaxation of the \acs{CoBS} process begins to break down, and the specific choice in pump and probe detuning becomes critical. This corresponds to a narrowing of the \(\mathrm{sinc}^{2}\) function given in Equation~\ref{Eq:Phi}. The scattered power beyond this length rises and falls according to the oscillations of the \(\mathrm{sinc}^{2}\) function far from the origin. As length increases continuously beyond \SI{1}{\meter}, the scattered power oscillates with increasing frequency and ceases to offer practical significance. To better visualize the scattered power offered by the instrument in this region, we have computed the envelope of scattered power. In a laboratory setting, the appropriate pump and probe detuning would be selected for the specific sample length being measured such that the scattered power function lies on a local peak of the \(\mathrm{sinc}^{2}\) function.
 
 \begin{figure}[ht]
 \centering
 \includegraphics[width=\textwidth]{figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf}
-\caption{Comparison of scattered power from a spontaneous Brillouin scattering process and our coherently stimulated Brillouin spectrometer.}
+\caption{Comparison of scattered power from traditional Brillouin scattering processes and \acs{CoBS}.}
 \label{fig:SponBSvsStimBSvsCoBS}
 \end{figure}
 
-Figure~\ref{fig:SponBSvsStimBSvsCoBS} shows the advantage that our coherently stimulated Brillouin spectrometer offers compared to the traditional Brillouin processes for the example medium of \ac{UHNA3} fiber. For lengths up to about \SI{50}{\meter} and down to as low as \SI{100}{\nano\meter}, the coherently stimulated process employed by our instrument offers superior scattered power, with the relative advantage peaking for a length just under \SI{1}{\centi\meter}. At this length, the gain factor \(G\) places the traditional process within the low-gain (spontaneous) regime, and thus the scattered power generated is only on the order of 10s of \si{\pico\watt}. In contrast, the scattered power for the same system offered by our instrument is on the order of 10s of \si{\micro\watt}, exceeding that of the spontenous process by a factor of a million. This is, of course, the most ideal case for this system, however it can be seen from Figure~\ref{fig:SponBSvsStimBSvsCoBS} that the coherently stimulated process offers orders of magnitude more scattered power than either traditional process through a wide range of lengths.
+Figure~\ref{fig:SponBSvsStimBSvsCoBS} shows the advantage that \acs{CoBS} offers compared to the traditional Brillouin processes for the example medium of \ac{UHNA3} fiber. For lengths up to about \SI{50}{\meter} and down to as low as \SI{100}{\nano\meter}, the coherently stimulated process employed by our instrument offers superior scattered power, with the relative advantage peaking for a length just under \SI{1}{\centi\meter}. At this length, the gain factor \(G\) places the traditional process within the low-gain (spontaneous) regime, and thus the scattered power generated is only on the order of 10s of \si{\pico\watt}. In contrast, the scattered power for the same system offered by our instrument is on the order of 10s of \si{\micro\watt}, exceeding that of the spontenous process by a factor of a million. This is, of course, the most ideal case for this system, however it can be seen from Figure~\ref{fig:SponBSvsStimBSvsCoBS} that \acs{CoBS} offers orders of magnitude more scattered power than either traditional process through a wide range of lengths.
 
 \newpage
 
@@ -439,7 +440,7 @@ Figure~\ref{fig:Joy Division UHNA3} highlights the progressive shift from Lorent
 \begin{figure}[ht]
 \centering
 \includegraphics[height=0.90\textheight]{figs/3-CoBS/JoyDivisionCoBSUHNA3.pdf}
-\caption[All measured Brillouin spectra for \SI{1}{\centi\meter}~\ac{UHNA3} at detuning steps of \SI{0.5}{\giga\hertz} from \SI{5}{\giga\hertz} to \SI{42}{\giga\hertz}.]{All measured Brillouin spectra for \SI{1}{\centi\meter}~\ac{UHNA3} at detuning steps of \SI{0.5}{\giga\hertz} from \SI{5}{\giga\hertz} (top spectrum) to \SI{42}{\giga\hertz} (bottom spectrum). Each trace is offset for clarity. The resulting asymmetries highlight the characteristic Fano-resonant behavior under low signal conditions.}
+\caption[All measured Brillouin spectra for \SI{1}{\centi\meter}~\ac{UHNA3} at pump-probe detuning steps of \SI{0.5}{\giga\hertz} from \SI{5}{\giga\hertz} to \SI{42}{\giga\hertz}.]{All measured Brillouin spectra for \SI{1}{\centi\meter}~\ac{UHNA3} at pump-probe detuning steps of \SI{0.5}{\giga\hertz} from \SI{5}{\giga\hertz} (top spectrum) to \SI{42}{\giga\hertz} (bottom spectrum). Each trace is offset for clarity. The resulting asymmetries highlight the characteristic Fano-resonant behavior under low signal conditions.}
 \label{fig:Joy Division UHNA3}
 \end{figure}
 
@@ -452,14 +453,14 @@ We now turn to measurements on a \SI{1}{\milli\meter}-thick cell of \ce{CS2} in 
 
 Figure~\ref{fig:Joy Division CS2} shows all 17 spectra obtained at detuning increments of \SI{0.25}{\giga\hertz}, presented in order of increasing detuning from top spectrum to bottom spectrum. Each trace is offset vertically for clarity, with the topmost spectrum corresponding to \SI{10}{\giga\hertz} and the bottom spectrum corresponding to \SI{14}{\giga\hertz} detuning of the pump and the probe. A change in the detuning of the pump and probe via adjustment of the probe laser wavelength produces a change in phase of the resonant Brillouin signal. This changing resonant Brillouin phase relative to the background continuum produces spectra with different Fano-resonant distortions corresponding to specific values of the Fano parameter, \(q\), as discussed in \textit{Fano-Resonant Asymmetries at Small Signals} in the main text (Section~\ref{Results:Fano-Resonant Asymmetries at Small Signals}). Fano-resonant asymmetries are seen in nearly every spectrum of this liquid experiment, indicating that the background continuum is competing strongly with the Brillouin amplitude in all measurements.
 
-The Brillouin amplitudes featured in this experiment are an order of magnitude lower compared to the highest amplitudes seen in Experiment~A. This is caused by the order of magnitude shorter sample length of \ce{CS2} (\SI{1}{\milli\meter}) as compared to the \SI{1}{\centi\meter} length of \ac{UHNA3} fiber used in Experiment~A. The \(\sim\)1000 times higher Brillouin gain offered by the \ce{CS2} (\SI{1.5}{\meter\per\giga\watt}) is discounted significantly by the \(\sim\)350 times larger effective area offered by the beam waist in the free-space optical setup compared to the core of \ac{UHNA3} fiber used in Experiment~A (\(\sim\)\SI{17}{\micro\meter} radius beam waist vs. \(\sim\)\SI{0.9}{\micro\meter} radius core of UHNA3). The effective Brillouin gain of the \ce{CS2} used in Experiment~B is thus a net \(\sim\)3 times greater than that of the \ac{UHNA3} fiber. From Equations~\ref{Eq:Theoretical Framework:Scattered Power} and \ref{Eq:Effective Brillouin Gain} in the main text, scattered power scales with the square of both the length and the effective Brillouin gain of the sample (\(P_{Sig} \propto L^{2}G_{B}^{2}\)). Cumulatively, this makes for an approximate order-of-magnitude signal reduction for similar optical powers and pump-probe detuning.
+The Brillouin amplitudes featured in this experiment are an order of magnitude lower compared to the highest amplitudes seen in Experiment~A. This is caused by the order of magnitude shorter sample length of \ce{CS2} (\SI{1}{\milli\meter}) as compared to the \SI{1}{\centi\meter} length of \ac{UHNA3} fiber used in Experiment~A. The \(\sim\)1000 times higher Brillouin gain offered by the \ce{CS2} (\SI{1.5}{\meter\per\giga\watt}) is discounted significantly by the \(\sim\)350 times larger effective area offered by the beam waist in the free-space optical setup compared to the core of \ac{UHNA3} fiber used in Experiment~A (\(\sim\)\SI{17}{\micro\meter} radius beam waist vs. \(\sim\)\SI{0.9}{\micro\meter} radius core of UHNA3). The effective Brillouin gain of the \ce{CS2} used in Experiment~B is thus a net \(\sim\)3 times greater than that of the \ac{UHNA3} fiber. From Equations~\ref{Eq:Theoretical Framework:Scattered Power} and \ref{Eq:Effective Brillouin Gain} in the main text, scattered power scales with the square of both the length and the effective Brillouin gain of the sample (\(P_{\rm Sig} \propto L^{2}G_{\rm B}^{2}\)). Cumulatively, this makes for an approximate order-of-magnitude signal reduction for similar optical powers and pump-probe detuning.
 
 However, both experiments (A and B) feature a sweep through a range of pump-probe detunings, with Experiment~B featuring a step size effectively 25 times finer than that of Experiment~A. This further corroborates these two data sets, as the signal reduction from near-center peak to a side trough of the \(\mathrm{sinc^{2}}\) profile is also on the order of a 10 times reduction (Figure~\ref{fig:Phase-Match}). This places the signal amplitudes of the \ce{CS2} spectra from Experiment~B (all near \textit{peak-center} of its \(\mathrm{sinc^{2}}\) profile) on the same order as the signal amplitudes near the \textit{troughs} of the UHNA3 fiber spectra from Experiment~A. These spectra all share strong Fano asymmetries, indicating as they should that they all sit in a similar signal amplitude range: small enough that the background continuum competes but does not dominate over the signal.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.7\textwidth]{figs/3-CoBS/JoyDivisionCoBSCS2.pdf}
-  \caption[All measured Brillouin spectra for \SI{1}{\milli\meter}~\ce{CS2} at detuning steps of \SI{0.25}{\giga\hertz} from \SI{10}{\giga\hertz} to \SI{14}{\giga\hertz}.]{All measured Brillouin spectra for \SI{1}{\milli\meter}~\ce{CS2} at detuning steps of \SI{0.25}{\giga\hertz} from \SI{10}{\giga\hertz} (top spectrum) to \SI{14}{\giga\hertz} (bottom spectrum). Each trace is offset for clarity.}
+  \caption[All measured Brillouin spectra for \SI{1}{\milli\meter}~\ce{CS2} at pump-probe detuning steps of \SI{0.25}{\giga\hertz} from \SI{10}{\giga\hertz} to \SI{14}{\giga\hertz}.]{All measured Brillouin spectra for \SI{1}{\milli\meter}~\ce{CS2} at pump-probe detuning steps of \SI{0.25}{\giga\hertz} from \SI{10}{\giga\hertz} (top spectrum) to \SI{14}{\giga\hertz} (bottom spectrum). Each trace is offset for clarity.}
   \label{fig:Joy Division CS2}
 \end{figure}
 
@@ -472,14 +473,14 @@ Notably, in the \(\SI{11}{\giga\hertz}\) case, our Fano fit reveals a local ampl
 \begin{figure}[ht]
   \centering
   \includegraphics[width=\textwidth]{figs/3-CoBS/CS2FanoCompare.png}
-  \caption[Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs. negative \(q\) asymmetry in \SI{1}{\milli\meter} \ce{CS2}.]{Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs. negative \(q\) asymmetry in \SI{1}{\milli\meter} \ce{CS2}. A Fano function fit has been applied to each spectra, with \(\chi^{2}\) value for each fit listed in the plot legend.}
+  \caption[Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs. negative \(q\) asymmetry in \SI{1}{\milli\meter} \ce{CS2}, with a Fano fit applied.]{Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs. negative \(q\) asymmetry in \SI{1}{\milli\meter} \ce{CS2}. A Fano function fit has been applied to each spectra, with \(\chi^{2}\) value for each fit listed in the plot legend.}
   \label{fig:CS2FanoCompare}
 \end{figure}
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=\textwidth]{figs/3-CoBS/CS2LorentzCompare.png}
-  \caption[Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs.\ negative \(q\) asymmetry in \SI{1}{\milli\meter} \ce{CS2}.]{Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs.\ negative \(q\) asymmetry in \SI{1}{\milli\meter} \ce{CS2}. Here, a naïve Lorentz function fit has been applied to each spectra, with \(\chi^{2}\) value for each fit listed in the plot legend. These spectra show strong Fano-resonant asymmetry and thus the standard Lorentz function offers a poor fit for these spectra, quantified by the \(\chi^{2}\) evaluation metric for goodness of fit as compared to the same evaluation of the Fano function fit.}
+  \caption[Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs.\ negative \(q\) asymmetry in \SI{1}{\milli\meter} \ce{CS2}, with a naïve Lorentz fit applied.]{Comparison of representative spectra at \SI{11}{\giga\hertz} and \SI{13}{\giga\hertz}, showing the positive vs.\ negative \(q\) asymmetry in \SI{1}{\milli\meter} \ce{CS2}. Here, a naïve Lorentz function fit has been applied to each spectra, with \(\chi^{2}\) value for each fit listed in the plot legend. These spectra show strong Fano-resonant asymmetry and thus the standard Lorentz function offers a poor fit for these spectra, quantified by the \(\chi^{2}\) evaluation metric for goodness of fit as compared to the same evaluation of the Fano function fit.}
   \label{fig:CS2LorentzCompare}
 \end{figure}
 
@@ -532,14 +533,14 @@ Figure~\ref{fig:PSPr-Contribute-Equally} displays the average results from these
 \begin{figure}[ht]
   \centering
   \includegraphics[width=\textwidth]{figs/3-CoBS/PSPr-Contribute-Equally.pdf}
-  \caption{Signal power contributions with error bars representing one standard deviation of the mean for each measurement.}
+  \caption{Scattered power spectra with varying proportions of pump, Stokes, and probe power and error bars representing one standard deviation of the mean for each measurement.}
   \label{fig:PSPr-Contribute-Equally}
 \end{figure}
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=\textwidth]{figs/3-CoBS/PSPr-Contribute-Equally-2sigma.pdf}
-  \caption{Signal power contributions with error bars extended to two standard deviations of the mean for each measurement.}
+  \caption{Scattered power spectra with varying proportions of pump, Stokes, and probe power and error bars extended to two standard deviations of the mean for each measurement.}
   \label{fig:PSPr-Contribute-Equally-2sigma}
 \end{figure}
 

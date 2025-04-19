@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Physical Mechanism}{10}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Spectral Signatures of Cooling and Heating}{12}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Methods}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}$CS_{2}$-Filled Liquid-Core Optical Fiber}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}\ce {CS2}-Filled Liquid-Core Optical Fiber}{16}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Cooling Experiment~A: Spontaneous Brillouin Cooling}{17}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Cooling Experiment~B: Pump-Probe Verification}{19}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2.4}Results}{21}{section.2.4}%
@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {2.4.2}Cooling Experiment~B Results}{25}{subsection.2.4.2}%
 \contentsline {subsection}{\numberline {2.4.3}Evidence of Transmission Degradation}{29}{subsection.2.4.3}%
 \contentsline {section}{\numberline {2.5}Discussion}{34}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}The \textit {C}-Value: A Standardized Cooling Metric}{34}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.1}The C-Value: A Standardized Cooling Metric}{34}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Parallel Achievement: Max Planck Institute}{35}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Pathways to Net Cooling}{36}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Applications to Ground State Cooling}{37}{subsection.2.5.4}%
@@ -42,14 +42,14 @@
 \contentsline {section}{\numberline {4.1}Introduction}{59}{section.4.1}%
 \contentsline {section}{\numberline {4.2}From Traveling-Wave to Raman-Like Standing-Wave Modes}{60}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Review of Brillouin and Raman Scattering}{60}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Brillouin-Induced Raman Modes}{62}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Brillouin-Induced Raman Modes}{61}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Key Parameters and Feasibility}{64}{subsection.4.2.3}%
 \contentsline {section}{\numberline {4.3}Results}{67}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}\ce {Ge}-Doped Optical Fiber}{67}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Free-Space Optics with Liquid \ce {CS2}}{68}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}Free-Space Optics with Liquid \ce {CS2}}{69}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}\ce {TeO2} Thin Film}{71}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Tellurium Thin Film}{77}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Carbon Disulfide Micrometer Cell}{79}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.4}\ce {Te} Thin Film}{76}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}\ce {CS2} Micrometer Cell}{79}{subsection.4.3.5}%
 \contentsline {subsection}{\numberline {4.3.6}Suspended Silica Rib Waveguide}{80}{subsection.4.3.6}%
 \contentsline {subsection}{\numberline {4.3.7}Elastically-Suspended Photonic-Phononic Waveguide}{81}{subsection.4.3.7}%
 \contentsline {section}{\numberline {4.4}Discussion}{87}{section.4.4}%
@@ -57,7 +57,7 @@
 \contentsline {subsection}{\numberline {4.4.2}Conclusion}{88}{subsection.4.4.2}%
 \contentsline {chapter}{\numberline {5}Conclusion}{91}{chapter.5}%
 \contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{95}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Fabrication of $CS_{2}$-Filled Liquid-Core Optical Fiber}{95}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Fabrication of \ce {CS2}-Filled Liquid-Core Optical Fiber}{95}{section.A.1}%
 \contentsline {subsection}{\numberline {A.1.1}Splicing}{95}{subsection.A.1.1}%
 \contentsline {subsection}{\numberline {A.1.2}Reservoir Assembly}{99}{subsection.A.1.2}%
 \contentsline {subsection}{\numberline {A.1.3}Filling with Carbon Disulfide}{102}{subsection.A.1.3}%
@@ -77,4 +77,4 @@
 \contentsline {section}{\numberline {B.4}CoBS Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{130}{section.B.4}%
 \contentsline {chapter}{\numberline {C}Code and Data Availability}{133}{appendix.C}%
 \contentsline {section}{\numberline {C.1}Plotting Data In Go}{133}{section.C.1}%
-\contentsline {chapter}{References}{134}{section*.144}%
+\contentsline {chapter}{References}{134}{section*.157}%
