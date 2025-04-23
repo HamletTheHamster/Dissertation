@@ -732,8 +732,6 @@ OUTPUT post/A-CoBS.aux
 INPUT ./post/A-CoBS.tex
 INPUT ./post/A-CoBS.tex
 INPUT post/A-CoBS.tex
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT ./figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf
 INPUT ./figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf
 INPUT ./figs/3-CoBS/SponBSvsStimBSvsCoBS.pdf
@@ -837,7 +835,6 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb

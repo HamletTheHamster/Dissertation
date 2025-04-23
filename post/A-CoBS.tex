@@ -10,22 +10,22 @@
 Here we derive the coupled wave equations that describe Coherently stimulated Brillouin Scattering (\acs{CoBS}) involving a pump, Stokes, probe, and backscattered optical field given respectively by
 \\
 \begin{equation}
-    \tilde{E}_{P}(z,t) = A_{P}e^{i(k_{P}z - \omega_{P}t)} + c.c.,
+    \tilde{E}_{\rm P}(z,t) = A_{\rm P}e^{i(k_{\rm P}z - \omega_{\rm P}t)} + c.c.,
     \label{eq:Pump optical field}
 \end{equation}
 \\
 \begin{equation}
-    \tilde{E}_{S}(z,t) = A_{S}e^{i(-k_{S}z - \omega_{S}t)} + c.c.,
+    \tilde{E}_{\rm S}(z,t) = A_{\rm S}e^{i(-k_{\rm S}z - \omega_{\rm S}t)} + c.c.,
     \label{eq:Stokes optical field}
 \end{equation}
 \\
 \begin{equation}
-    \tilde{E}_{Pr}(z,t) = A_{Pr}e^{i(k_{Pr}z - \omega_{Pr}t)} + c.c.,
+    \tilde{E}_{\rm Pr}(z,t) = A_{\rm Pr}e^{i(k_{\rm Pr}z - \omega_{\rm Pr}t)} + c.c.,
     \label{eq:Probe optical field}
 \end{equation}
 \\
 \begin{equation}
-    \tilde{E}_{Sig}(z,t) = A_{Sig}e^{i(-k_{Sig}z - \omega_{Sig}t)} + c.c.,
+    \tilde{E}_{\rm Sig}(z,t) = A_{\rm Sig}e^{i(-k_{\rm Sig}z - \omega_{\rm Sig}t)} + c.c.,
     \label{eq:Signal optical field}
 \end{equation}
 \\
@@ -36,7 +36,7 @@ Here we derive the coupled wave equations that describe Coherently stimulated Br
     \label{eq:acoustic field}
 \end{equation}
 \\
-\noindent where \(\Omega = \omega_{P} - \omega_{S}\) and \(q = k_{P} - k_{S} \approx 2k_{P}\).
+\noindent where \(\Omega = \omega_{\rm P} - \omega_{\rm S}\) and \(q = k_{\rm P} - k_{\rm S} \approx 2k_{\rm P}\).
 
 
 \subsection{Acoustic Field}
@@ -45,59 +45,59 @@ Here we derive the coupled wave equations that describe Coherently stimulated Br
 As in the case of SBS\cite{boyd2020nonlinear}, we start by assuming that the material obeys the acoustic wave equation,
 \\
 \begin{equation}
-    \frac{\partial^{2}\tilde{\rho}}{\partial t^{2}} - \Gamma^{\prime}\nabla^{2}\frac{\partial\tilde{\rho}}{\partial t} - v_{s}^{2}\nabla^{2}\tilde{\rho} = \nabla\cdot\vec{f},
+    \frac{\partial^{2}\tilde{\rho}}{\partial t^{2}} - \Gamma^{\prime}\nabla^{2}\frac{\partial\tilde{\rho}}{\partial t} - v_{\rm s}^{2}\nabla^{2}\tilde{\rho} = \nabla\cdot\vec{f},
     \label{eq:acoustic wave equation}
 \end{equation}
 \\
-\noindent where \(v_{s}\) is the sound speed in the material and \(\Gamma^{\prime}\) is a damping parameter given by
+\noindent where \(v_{\rm s}\) is the sound speed in the material and \(\Gamma^{\prime}\) is a damping parameter given by
 \\
 \begin{equation}
-    \Gamma^{\prime} = \frac{1}{\rho}\left[\frac{4}{3}\eta_{s} + \eta_{b} + \frac{\kappa}{C_{p}}(\gamma - 1)\right],
+    \Gamma^{\prime} = \frac{1}{\rho}\left[\frac{4}{3}\eta_{\rm s} + \eta_{\rm b} + \frac{\kappa}{C_{\rm p}}(\gamma - 1)\right],
 \end{equation}
 \\
-\noindent where \(\eta_{s}\) and \(\eta_{b}\) are the shear and bulk viscosity coefficients of the material, respectively. The source term on the right side of Equation~\ref{eq:acoustic wave equation} is the divergence of the electrostrictive force:
+\noindent where \(\eta_{\rm s}\) and \(\eta_{\rm b}\) are the shear and bulk viscosity coefficients of the material, respectively. The source term on the right side of Equation~\ref{eq:acoustic wave equation} is the divergence of the electrostrictive force:
 \\
 \begin{equation}
-    \vec{f} = \nabla p_{st} = \nabla \cdot \Bigg[-\frac{1}{2}\epsilon_{0}\gamma_{e}\Big(\langle\tilde{E}_{P} \cdot \tilde{E}_{S}\rangle + \langle\tilde{E}_{Pr} \cdot \tilde{E}_{Sig}\rangle\Big)\Bigg],
+    \vec{f} = \nabla p_{\rm st} = \nabla \cdot \Bigg[-\frac{1}{2}\epsilon_{0}\gamma_{\rm e}\Big(\langle\tilde{E}_{\rm P} \cdot \tilde{E}_{\rm S}\rangle + \langle\tilde{E}_{\rm Pr} \cdot \tilde{E}_{\rm Sig}\rangle\Big)\Bigg],
 \end{equation}
 \\
 which yields, assuming the acoustic wave varies slowly in time,
 \\
 \begin{equation}
-    \nabla\cdot\vec{f} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz},
+    \nabla\cdot\vec{f} = \epsilon_{0}\gamma_{\rm e}q^{2}(A_{\rm P}A_{\rm S}^{*} + A_{\rm Pr}A_{\rm Sig}^{*})e^{i\Delta kz},
     \label{eq:electrostrictive force term}
 \end{equation}
 \\
-where \(\Delta k = (k_{Pr} - k_{Sig}) - (k_{P} - k_{S})\) is the phase mismatch between the four optical fields. Only two electrostrictive terms survive after accounting for the orthogonal polarization of the pump and Stokes fields with respect to that of the probe and backscattered signal. Inserting this electrostrictive force term (Equation~\ref{eq:electrostrictive force term}) and the acoustic field (Equation~\ref{eq:acoustic field}) into the acoustic wave equation (Equation~\ref{eq:acoustic wave equation}), we find
+where \(\Delta k = (k_{\rm Pr} - k_{\rm Sig}) - (k_{\rm P} - k_{\rm S})\) is the phase mismatch between the four optical fields. Only two electrostrictive terms survive after accounting for the orthogonal polarization of the pump and Stokes fields with respect to that of the probe and backscattered signal. Inserting this electrostrictive force term (Equation~\ref{eq:electrostrictive force term}) and the acoustic field (Equation~\ref{eq:acoustic field}) into the acoustic wave equation (Equation~\ref{eq:acoustic wave equation}), we find
 \\
 \begin{equation}
-    -2i\Omega\frac{\partial\rho}{\partial t} - \Gamma^{\prime}2iq^{2}\Omega\rho - 2iqv_{s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz},
+    -2i\Omega\frac{\partial\rho}{\partial t} - \Gamma^{\prime}2iq^{2}\Omega\rho - 2iqv_{\rm s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{\rm e}q^{2}(A_{\rm P}A_{\rm S}^{*} + A_{\rm Pr}A_{\rm Sig}^{*})e^{i\Delta kz},
 \end{equation}
 \\
-which can be restated in terms of the Brillouin linewidth, \(\Gamma_{B} = q^{2}\Gamma^{\prime}\), as
+which can be restated in terms of the Brillouin linewidth, \(\Gamma_{\rm B} = q^{2}\Gamma^{\prime}\), as
 \\
 \begin{equation}
-    -2i\Omega\frac{\partial\rho}{\partial t} - 2i\Omega\Gamma_{B}\rho - 2iqv_{s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
+    -2i\Omega\frac{\partial\rho}{\partial t} - 2i\Omega\Gamma_{\rm B}\rho - 2iqv_{\rm s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{\rm e}q^{2}(A_{\rm P}A_{\rm S}^{*} + A_{\rm Pr}A_{\rm Sig}^{*})e^{i\Delta kz}.
     \label{eq:in terms of Brillouin linewidth}
 \end{equation}
 \\
-Given the phonon dispersion relations \(\Omega_{B} = |q_{B}|v_{s}\) and \(\Omega^{2} = q^{2}\left(v_{s}^{2} - i\Omega\Gamma^{\prime}\right)\), Equation~\ref{eq:in terms of Brillouin linewidth} can be rewritten as
+Given the phonon dispersion relations \(\Omega_{\rm B} = |q_{\rm B}|v_{\rm s}\) and \(\Omega^{2} = q^{2}\left(v_{\rm s}^{2} - i\Omega\Gamma^{\prime}\right)\), Equation~\ref{eq:in terms of Brillouin linewidth} can be rewritten as
 \\
 \begin{equation}
-    -2i\Omega\frac{\partial\rho}{\partial t} + \left(\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}\right)\rho - 2iqv_{s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
+    -2i\Omega\frac{\partial\rho}{\partial t} + \left(\Omega_{\rm B}^{2} - \Omega^{2} - i\Omega\Gamma_{\rm B}\right)\rho - 2iqv_{\rm s}^{2}\frac{\partial\rho}{\partial z} = \epsilon_{0}\gamma_{\rm e}q^{2}(A_{\rm P}A_{\rm S}^{*} + A_{\rm Pr}A_{\rm Sig}^{*})e^{i\Delta kz}.
     \label{eq:in terms of Omega_B}
 \end{equation}
 \\
 We take the common assumption that the phonon propagation distance is small compared to the distance over which the source term varies significantly, which allows the spatial derivative term in Equation~\ref{eq:in terms of Omega_B} to be dropped. We further assume steady-state conditions such that the time derivative term also vanishes, leaving
 \\
 \begin{equation}
-    (\Omega^{2}_{B} - \Omega^{2} - i\Omega\Gamma_{B})\rho = \epsilon_{0}\gamma_{e}q^{2}(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}.
+    (\Omega^{2}_{\rm B} - \Omega^{2} - i\Omega\Gamma_{\rm B})\rho = \epsilon_{0}\gamma_{\rm e}q^{2}(A_{\rm P}A_{\rm S}^{*} + A_{\rm Pr}A_{\rm Sig}^{*})e^{i\Delta kz}.
 \end{equation}
 \\
 We thus find the acoustic field amplitude to be
 \\
 \begin{equation}
-    \rho(z,t) = \epsilon_{0}\gamma_{e}q^{2}\frac{(A_{P}A_{S}^{*} + A_{Pr}A_{Sig}^{*})e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}}.
+    \rho(z,t) = \epsilon_{0}\gamma_{\rm e}q^{2}\frac{(A_{\rm P}A_{\rm S}^{*} + A_{\rm Pr}A_{\rm Sig}^{*})e^{i\Delta kz}}{\Omega_{\rm B}^{2} - \Omega^{2} - i\Omega\Gamma_{\rm B}}.
     \label{eq:Acoustic field amplitude}
 \end{equation}
 
@@ -115,135 +115,135 @@ We now turn to the spatial evolution of the optical fields, described by the wav
 where \(i\) denotes the four optical fields, namely: pump, Stokes, probe, and the backscattered signal. The total nonlinear polarization that gives rise to the source term in the wave Equation~is given by
 \\
 \begin{equation}
-    \tilde{P} = \epsilon_{0}\Delta\chi\tilde{E} = \epsilon_{0}\Delta\epsilon\tilde{E} = \epsilon_{0}\rho^{-1}\gamma_{e}\tilde{\rho}\tilde{E}.
+    \tilde{P} = \epsilon_{0}\Delta\chi\tilde{E} = \epsilon_{0}\Delta\epsilon\tilde{E} = \epsilon_{0}\rho^{-1}\gamma_{\rm e}\tilde{\rho}\tilde{E}.
 \end{equation}
 \\
 The parts of \(\tilde{P}\) that can act as phase-matched source terms for the optical fields are
 \\
 \begin{equation}
-    \tilde{P}_{P} = p_{P}e^{i(k_{P}z - \omega_{P} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{e}\rho A_{S}e^{i(k_{P}z - \omega_{P} t)},
+    \tilde{P}_{\rm P} = p_{\rm P}e^{i(k_{\rm P}z - \omega_{\rm P} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{\rm e}\rho A_{\rm S}e^{i(k_{\rm P}z - \omega_{\rm P} t)},
     \label{eq:Pump phase-matched source term}
 \end{equation}
 \\
 \begin{equation}
-    \tilde{P}_{S} = p_{S}e^{i(-k_{S}z - \omega_{S} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{e}\rho^{*} A_{P}e^{i(-k_{S}z - \omega_{S} t)},
+    \tilde{P}_{\rm S} = p_{\rm S}e^{i(-k_{\rm S}z - \omega_{\rm S} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{\rm e}\rho^{*} A_{\rm P}e^{i(-k_{\rm S}z - \omega_{\rm S} t)},
     \label{eq:Stokes phase-matched source term}
 \end{equation}
 \\
 \begin{equation}
-    \tilde{P}_{Pr} = p_{Pr}e^{i(k_{Pr}z - \omega_{Pr} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{e}\rho A_{Sig}e^{i(k_{Pr}z - \omega_{Pr} t)}e^{i\Delta kz},
+    \tilde{P}_{\rm Pr} = p_{\rm Pr}e^{i(k_{\rm Pr}z - \omega_{\rm Pr} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{\rm e}\rho A_{\rm Sig}e^{i(k_{\rm Pr}z - \omega_{\rm Pr} t)}e^{i\Delta kz},
     \label{eq:Probe phase-matched source term}
 \end{equation}
 \\
 \begin{equation}
-    \tilde{P}_{Sig} = p_{Sig}e^{i(-k_{Sig}z - \omega_{Sig} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{e}\rho^{*} A_{Pr}e^{i(-k_{Sig}z - \omega_{Sig} t)}e^{-i\Delta kz}.
+    \tilde{P}_{\rm Sig} = p_{\rm Sig}e^{i(-k_{\rm Sig}z - \omega_{\rm Sig} t)} + c.c. = \frac{1}{2}\epsilon_{0}\rho_{0}^{-1}\gamma_{\rm e}\rho^{*} A_{\rm Pr}e^{i(-k_{\rm Sig}z - \omega_{\rm Sig} t)}e^{-i\Delta kz}.
     \label{eq:Signal phase-matched source term}
 \end{equation}
 \\
 Inserting the optical fields (Equations~\ref{eq:Pump optical field}-\ref{eq:Signal optical field}) and phase-matched source terms (Equations~\ref{eq:Pump phase-matched source term}-\ref{eq:Signal phase-matched source term}) into Equation~\ref{eq:Wave equation}, we obtain
 \\
 \begin{equation}
-    \frac{\partial A_{P}}{\partial z} + \frac{n}{c}\frac{\partial A_{P}}{\partial t} = \frac{i\omega_{P}\gamma_{e}}{2nc\rho_{0}}\rho A_{2},
+    \frac{\partial A_{\rm P}}{\partial z} + \frac{n}{c}\frac{\partial A_{\rm P}}{\partial t} = \frac{i\omega_{\rm P}\gamma_{\rm e}}{2nc\rho_{0}}\rho A_{\rm S},
 \end{equation}
 \\
 \begin{equation}
-    -\frac{\partial A_{S}}{\partial z} + \frac{n}{c}\frac{\partial A_{S}}{\partial t} = \frac{i\omega_{S}\gamma_{e}}{2nc\rho_{0}}\rho^{*}A_{P},
+    -\frac{\partial A_{\rm S}}{\partial z} + \frac{n}{c}\frac{\partial A_{\rm S}}{\partial t} = \frac{i\omega_{\rm S}\gamma_{\rm e}}{2nc\rho_{0}}\rho^{*}A_{\rm P},
 \end{equation}
 \\
 \begin{equation}
-    \frac{\partial A_{Pr}}{\partial z} + \frac{n}{c}\frac{\partial A_{Pr}}{\partial t} = \frac{i\omega_{Pr}\gamma_{e}}{2nc\rho_{0}}\rho A_{Sig},
+    \frac{\partial A_{\rm Pr}}{\partial z} + \frac{n}{c}\frac{\partial A_{\rm Pr}}{\partial t} = \frac{i\omega_{\rm Pr}\gamma_{\rm e}}{2nc\rho_{0}}\rho A_{\rm Sig},
 \end{equation}
 \\
 \begin{equation}
-    -\frac{\partial A_{Sig}}{\partial z} + \frac{n}{c}\frac{\partial A_{Sig}}{\partial t} = \frac{i\omega_{Sig}\gamma_{e}}{2nc\rho_{0}}\rho^{*}A_{Pr},
+    -\frac{\partial A_{\rm Sig}}{\partial z} + \frac{n}{c}\frac{\partial A_{\rm Sig}}{\partial t} = \frac{i\omega_{\rm Sig}\gamma_{\rm e}}{2nc\rho_{0}}\rho^{*}A_{\rm Pr},
 \end{equation}
 \\
 We again assume steady-state conditions, allowing the time derivative term to be dropped. Plugging in the acoustic field amplitude (Equation~\ref{eq:Acoustic field amplitude}), we arrive at the coupled-amplitude wave equations for the optical fields,
 \\
 \begin{equation}
-    \frac{\partial A_{P}}{\partial z} = \frac{i\epsilon_{0}\omega_{P} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{(A_{P}|A_{S}|^{2} + A_{Pr}A_{Sig}^{*}A_{S})e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}},
+    \frac{\partial A_{\rm P}}{\partial z} = \frac{i\epsilon_{0}\omega_{\rm P} q^{2}\gamma_{\rm e}^{2}}{2nc\rho_{0}}\frac{(A_{\rm P}|A_{\rm S}|^{2} + A_{\rm Pr}A_{\rm Sig}^{*}A_{\rm S})e^{i\Delta kz}}{\Omega_{\rm B}^{2} - \Omega^{2} - i\Omega\Gamma_{\rm B}},
     \label{eq:Pump coupled-amplitude wave equation}
 \end{equation}
 \\
 \begin{equation}
-    \frac{\partial A_{S}}{\partial z} = -\frac{i\epsilon_{0}\omega_{S} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{(|A_{P}|^{2}A_{S}^{*} + A_{Pr}A_{Sig}^{*}A_{P})e^{-i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}},
+    \frac{\partial A_{\rm S}}{\partial z} = -\frac{i\epsilon_{0}\omega_{\rm S} q^{2}\gamma_{\rm e}^{2}}{2nc\rho_{0}}\frac{(|A_{\rm P}|^{2}A_{\rm S}^{*} + A_{\rm Pr}A_{\rm Sig}^{*}A_{\rm P})e^{-i\Delta kz}}{\Omega_{\rm B}^{2} - \Omega^{2} + i\Omega\Gamma_{\rm B}},
 \end{equation}
 \\
 \begin{equation}
-    \frac{\partial A_{Pr}}{\partial z} = \frac{i\epsilon_{0}\omega_{Pr} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{(A_{P}A_{S}^{*}A_{Sig} + A_{Pr}|A_{Sig}|^{2})e^{i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}},
+    \frac{\partial A_{\rm Pr}}{\partial z} = \frac{i\epsilon_{0}\omega_{\rm Pr} q^{2}\gamma_{\rm e}^{2}}{2nc\rho_{0}}\frac{(A_{\rm P}A_{\rm S}^{*}A_{\rm Sig} + A_{\rm Pr}|A_{\rm Sig}|^{2})e^{i\Delta kz}}{\Omega_{\rm B}^{2} - \Omega^{2} - i\Omega\Gamma_{\rm B}},
 \end{equation}
 \\
 \begin{equation}
-    \frac{\partial A_{Sig}}{\partial z} = -\frac{i\epsilon_{0}\omega_{Sig} q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{(A_{P}A_{S}^{*}A_{Pr} + |A_{Pr}|^{2}A_{Sig}^{*})e^{-i\Delta kz}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}}.
+    \frac{\partial A_{\rm Sig}}{\partial z} = -\frac{i\epsilon_{0}\omega_{\rm Sig} q^{2}\gamma_{\rm e}^{2}}{2nc\rho_{0}}\frac{(A_{\rm P}A_{\rm S}^{*}A_{\rm Pr} + |A_{\rm Pr}|^{2}A_{\rm Sig}^{*})e^{-i\Delta kz}}{\Omega_{\rm B}^{2} - \Omega^{2} + i\Omega\Gamma_{\rm B}}.
     \label{eq:Signal coupled-amplitude wave equation}
 \end{equation}
 \\
 We drop the very small signal amplitude terms on the right side of Equations~\ref{eq:Pump coupled-amplitude wave equation}-\ref{eq:Signal coupled-amplitude wave equation} and integrate each along the effective length to get the amplitudes,
 \\
 \begin{equation}
-  A_{P} = \frac{i\epsilon_{0}\omega_{P}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}|A_{S}|^{2}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
+  A_{\rm P} = \frac{i\epsilon_{0}\omega_{\rm P}q^{2}\gamma_{\rm e}^{2}}{2nc\rho_{0}}\frac{A_{\rm P}|A_{\rm S}|^{2}}{\Omega_{\rm B}^{2} - \Omega^{2} - i\Omega\Gamma_{\rm B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
 \end{equation}
 \\
 \begin{equation}
-  A_{S} = -\frac{i\epsilon_{0}\omega_{S}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{|A_{P}|^{2}A_{S}^{*}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
+  A_{\rm S} = -\frac{i\epsilon_{0}\omega_{\rm S}q^{2}\gamma_{\rm e}^{2}}{2nc\rho_{0}}\frac{|A_{\rm P}|^{2}A_{\rm S}^{*}}{\Omega_{\rm B}^{2} - \Omega^{2} + i\Omega\Gamma_{\rm B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
 \end{equation}
 \\
 \begin{equation}
-  A_{Pr} = \frac{i\epsilon_{0}\omega_{Pr}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Sig}}{\Omega_{B}^{2} - \Omega^{2} - i\Omega\Gamma_{B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
+  A_{\rm Pr} = \frac{i\epsilon_{0}\omega_{\rm Pr}q^{2}\gamma_{\rm e}^{2}}{2nc\rho_{0}}\frac{A_{\rm P}A_{\rm S}^{*}A_{\rm Sig}}{\Omega_{\rm B}^{2} - \Omega^{2} - i\Omega\Gamma_{\rm B}} \frac{e^{i\Delta kL} - 1}{i\Delta k},
 \end{equation}
 \\
 \begin{equation}
-  A_{Sig} = -\frac{i\epsilon_{0}\omega_{Sig}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr}}{\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
+  A_{\rm Sig} = -\frac{i\epsilon_{0}\omega_{\rm Sig}q^{2}\gamma_{\rm e}^{2}}{2nc\rho_{0}}\frac{A_{\rm P}A_{\rm S}^{*}A_{\rm Pr}}{\Omega_{\rm B}^{2} - \Omega^{2} + i\Omega\Gamma_{\rm B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
   \label{eq:Signal amplitude}
 \end{equation}
 \\
 We focus on the signal amplitude given by Equation~\ref{eq:Signal amplitude}, noting that close to resonance, the denomenator of the middle term containing \(\Omega\) can be approximated as,
 \\
 \begin{equation}
-\Omega_{B}^{2} - \Omega^{2} + i\Omega\Gamma_{B} \approx \Omega_{B}(\Omega - \Omega_{B} + i\Gamma_{B}),
+\Omega_{\rm B}^{2} - \Omega^{2} + i\Omega\Gamma_{\rm B} \approx \Omega_{\rm B}(\Omega - \Omega_{\rm B} + i\Gamma_{\rm B}),
 \end{equation}
 \\
 giving
 \\
 \begin{equation}
-  A_{Sig} = -\frac{i\epsilon_{0}\omega_{Sig}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr}}{\Omega_{B}(\Omega - \Omega_{B} + i\Gamma_{B})} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
+  A_{\rm Sig} = -\frac{i\epsilon_{0}\omega_{\rm Sig}q^{2}\gamma_{\rm e}^{2}}{2nc\rho_{0}}\frac{A_{\rm P}A_{\rm S}^{*}A_{\rm Pr}}{\Omega_{\rm B}(\Omega - \Omega_{\rm B} + i\Gamma_{\rm B})} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
   \label{eq:resonance}
 \end{equation}
 \\
 and in fact on resonance the expression reduces to
 \\
 \begin{equation}
-  A_{Sig} = -\frac{i\epsilon_{0}\omega_{Sig}q^{2}\gamma_{e}^{2}}{2nc\rho_{0}}\frac{A_{P}A_{S}^{*}A_{Pr}}{\Omega_{B}i\Gamma_{B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
+  A_{\rm Sig} = -\frac{i\epsilon_{0}\omega_{\rm Sig}q^{2}\gamma_{\rm e}^{2}}{2nc\rho_{0}}\frac{A_{\rm P}A_{\rm S}^{*}A_{\rm Pr}}{\Omega_{\rm B}i\Gamma_{\rm B}} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
 \end{equation}
 \\
-Using \(q = 2k_{P} = 2\omega n/c\) and \(q = \Omega_{B}/v_{s}\), we can express the leading terms as
+Using \(q = 2k_{\rm P} = 2\omega n/c\) and \(q = \Omega_{\rm B}/v_{\rm s}\), we can express the leading terms as
 \\
 \begin{equation}
-  A_{Sig} = -\frac{\epsilon_{0}\omega^{2}\gamma_{e}^{2}}{c^{2}v_{s}\rho_{0}\Gamma_{B}}A_{P}A_{S}^{*}A_{Pr} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
+  A_{\rm Sig} = -\frac{\epsilon_{0}\omega^{2}\gamma_{\rm e}^{2}}{c^{2}v_{\rm s}\rho_{0}\Gamma_{\rm B}}A_{\rm P}A_{\rm S}^{*}A_{\rm Pr} \frac{e^{-i\Delta kL} - 1}{-i\Delta k},
 \end{equation}
 \\
 where we have dropped the signal designator on \(\omega\). Defining the Brillouin gain factor, \(g_{0}\), as Boyd does,
 \\
 \begin{equation}
-  g_{0} = \frac{\gamma_{e}^{2}\omega^{2}}{nv_{s}c^{3}\rho_{0}\Gamma_{B}},
+  g_{0} = \frac{\gamma_{\rm e}^{2}\omega^{2}}{nv_{\rm s}c^{3}\rho_{0}\Gamma_{\rm B}},
 \end{equation}
 reduces this expression to
 \\
 \begin{equation}
-  A_{Sig} = -\epsilon_{0}ncg_{0}A_{P}A_{S}^{*}A_{Pr} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
+  A_{\rm Sig} = -\epsilon_{0}ncg_{0}A_{\rm P}A_{\rm S}^{*}A_{\rm Pr} \frac{e^{-i\Delta kL} - 1}{-i\Delta k}.
 \end{equation}
 \\
 The intensity of the backscattered signal is given by the magnitude of the time-averaged Poynting vector, given by
 \\
 \begin{equation}
-  I_{i} = 2n\epsilon_{0}c|A_{i}|^{2}, \qquad i = 1,2,3,...
+  I_{i} = 2n\epsilon_{0}c|A_{i}|^{2}, \qquad i = \mathrm{P},\,\mathrm{S},\,\mathrm{Pr},\,\mathrm{Sig}
 \end{equation}
 \\
 which produces for the signal intensity
 \\
 \begin{equation}
-  I_{Sig} = 2\epsilon_{0}nc(\epsilon_{0}ncg_{0})^{2}|A_{P}|^{2}|A_{S}^{*}|^{2}|A_{Pr}|^{2}\left|\frac{e^{-e\Delta kL} - 1}{-i\Delta k}\right|^{2}
-  = 2\epsilon_{0}^{3}\epsilon_{0}n^{3}c^{3}g_{0}^{2}\frac{I_{P}}{2\epsilon_{0}nc}\frac{I_{S}}{2\epsilon_{0}nc}\frac{I_{Pr}}{2\epsilon_{0}nc}\left|\frac{e^{-e\Delta kL} - 1}{-i\Delta k}\right|^{2}.
+  I_{\rm Sig} = 2\epsilon_{0}nc(\epsilon_{0}ncg_{0})^{2}|A_{\rm P}|^{2}|A_{\rm S}^{*}|^{2}|A_{\rm Pr}|^{2}\left|\frac{e^{-e\Delta kL} - 1}{-i\Delta k}\right|^{2}
+  = 2\epsilon_{0}^{3}\epsilon_{0}n^{3}c^{3}g_{0}^{2}\frac{I_{\rm P}}{2\epsilon_{0}nc}\frac{I_{\rm S}}{2\epsilon_{0}nc}\frac{I_{\rm Pr}}{2\epsilon_{0}nc}\left|\frac{e^{-e\Delta kL} - 1}{-i\Delta k}\right|^{2}.
 \end{equation}
 \\
 The squared modulus term containing \(\Delta k\) can be reduced as
@@ -256,26 +256,26 @@ The squared modulus term containing \(\Delta k\) can be reduced as
 giving as a final expression for backscattered signal intensity,
 \\
 \begin{equation}
-I_{Sig} = \frac{1}{4}(g_{0}L)^{2}I_{P}I_{S}I_{Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right).
+I_{\rm Sig} = \frac{1}{4}(g_{0}L)^{2}I_{\rm P}I_{\rm S}I_{\rm Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right).
 \end{equation}
 \\
 
-To find the power of the backscattered signal, we would integrate this intensity over the effective area. For a uniform area \(A_{eff}\), this gives
+To find the power of the backscattered signal, we would integrate this intensity over the effective area. For a uniform area \(A_{\rm eff}\), this gives
 \\
 \begin{equation}
-  P_{Sig} = I_{Sig}A_{eff} = \frac{1}{4}(g_{0}L)^{2}\frac{A_{eff}}{A_{eff}}I_{P}\frac{A_{eff}}{A_{eff}}I_{S}\frac{A_{eff}}{A_{eff}}I_{Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right)A_{eff},
+  P_{\rm Sig} = I_{\rm Sig}A_{\rm eff} = \frac{1}{4}(g_{0}L)^{2}\frac{A_{\rm eff}}{A_{\rm eff}}I_{\rm P}\frac{A_{\rm eff}}{A_{\rm eff}}I_{\rm S}\frac{A_{\rm eff}}{A_{\rm eff}}I_{\rm Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right)A_{\rm eff},
 \end{equation}
 \\
 or,
 \\
 \begin{equation}
-  P_{Sig} = \frac{1}{4}(G_{B}L)^{2}P_{P}P_{S}P_{Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right),
+  P_{\rm Sig} = \frac{1}{4}(G_{\rm B}L)^{2}P_{\rm P}P_{\rm S}P_{\rm Pr}sinc^{2}\left(\frac{\Delta kL}{2}\right),
 \end{equation}
 \\
 where,
 \\
 \begin{equation}
-  G_{B} = \frac{g_{0}}{A_{eff}}.
+  G_{\rm B} = \frac{g_{0}}{A_{\rm eff}}.
 \end{equation}
 \\
 It can be seen that off resonance, the \(\Omega\) term from Equation~\ref{eq:resonance} goes to a lorentzian form after taking the squared modulus for intensity.
@@ -292,69 +292,69 @@ This appendix provides a comparative analysis of the scattered power produced by
 Despite shared dependence on basic Brillouin scattering principles, the three techniques compared here (spontaneous-, stimulated-, and coherently stimulated Brillouin scattering) yield significantly different scattered power for identical experimental paramters. At small lengths, the high-gain threshold for optical stimulation of the material fluctuations is often not achievable without the use of extremely large optical powers. This prevents the system from entering a process of exponential growth of the scattered Stokes light indicative of stimulated Brillouin scattering.\cite{boyd2020nonlinear} In this low-gain regime, any scattered Stokes light is spontanously scattered from thermal fluctuations of the material, or from quantum-mechanical fluctuations of materials at the ground state. The low-gain regime is defined by an overall process gain factor, denoted by \(G = G_{\mathrm{P}}P_{\mathrm{P}}L\), which is much less than unity (\(G \ll 1\)). Here, \(G_{\mathrm{B}}\) is the effective Brillouin gain in \si{\per\watt\per\meter} (\(G_{\mathrm{B}} = \frac{g}{A_{\mathrm{eff}}}\)), \(P_{\mathrm{P}}\) is the pump power, and \(L\) is the effective length. This spontaneous scattering process follows a linear growth trend described by Boyd et al in 1990 \cite{boyd1990noise} as
 
 \begin{equation}
-  R = \frac{\langle|E_{\mathrm{S}}|^{2}\rangle}{\langle|E_{\mathrm{P}}|^{2}\rangle} = (\bar{n} + 1)g\hbar\omega_{\mathrm{S}}\Gamma_{\mathrm{B}}\frac{L}{4A_{\mathrm{eff}}},
+  R = \frac{\langle|E_{\rm S}|^{2}\rangle}{\langle|E_{\rm P}|^{2}\rangle} = (\bar{n} + 1)g\hbar\omega_{\rm S}\Gamma_{\rm B}\frac{L}{4A_{\rm eff}},
 \end{equation}
 
-where R is the reflectivity, or the ratio of scattered Stokes intensity to incident pump intensity, and \(\bar{n} = (e^{\frac{\hbar\Omega_{\mathrm{B}}}{k_{\mathrm{B}}T}} - 1)^{-1}\) is the mean number of phonons occupying the mode due to thermal fluctuations of the material. Rearranging this Equation and converting to effective Brillouin gain, \(G_{\mathrm{B}}\), and power by applying the effective area, we arrive at the scattered power of the Stokes spontaneous Brillouin scattering process,
+where R is the reflectivity, or the ratio of scattered Stokes intensity to incident pump intensity, and \(\bar{n} = (e^{\frac{\hbar\Omega_{\rm B}}{k_{\rm B}T}} - 1)^{-1}\) is the mean number of phonons occupying the mode due to thermal fluctuations of the material. Rearranging this Equation and converting to effective Brillouin gain, \(G_{\rm B}\), and power by applying the effective area, we arrive at the scattered power of the Stokes spontaneous Brillouin scattering process,
 
 \begin{equation}
-  P_{\mathrm{S}} = \frac{1}{4}G_{\mathrm{B}}P_{\mathrm{P}}L\hbar\omega_{\mathrm{S}}\Gamma_{\mathrm{B}}(\bar{n} + 1).
+  P_{\rm S} = \frac{1}{4}G_{\rm B}P_{\rm P}L\hbar\omega_{\rm S}\Gamma_{\rm B}(\bar{n} + 1).
   \label{eq:SponBSnbar}
 \end{equation}
 
-At room temperature and typical Brillouin frequencies in the GHz range, the quantity \(k_{\mathrm{B}}T \gg \hbar\Omega_{\mathrm{B}}\), allowing
+At room temperature and typical Brillouin frequencies in the GHz range, the quantity \(k_{\rm B}T \gg \hbar\Omega_{\rm B}\), allowing
 
 \begin{equation}
-e^{\frac{\hbar\Omega_{\mathrm{B}}}{k_{\mathrm{B}}T}} \approx 1 + \frac{\hbar\Omega_{\mathrm{B}}}{k_{\mathrm{B}}T}
+e^{\frac{\hbar\Omega_{\rm B}}{k_{\rm B}T}} \approx 1 + \frac{\hbar\Omega_{\rm B}}{k_{\rm B}T}
 \end{equation}
 
 to be a good approximation. We thus find that
 
 \begin{equation}
-(\bar{n} + 1) \approx \bar{n} \approx \frac{k_{\mathrm{B}}T}{\hbar\Omega_{\mathrm{B}}}.
+(\bar{n} + 1) \approx \bar{n} \approx \frac{k_{\rm B}T}{\hbar\Omega_{\rm B}}.
 \end{equation}
 
 Inserting this reduced quantity into Equation~\ref{eq:SponBSnbar}, we arrive at a convenient expression for the scattered power of the Stokes spontaneous Brillouin scattering process,
 
 \begin{equation}
-  P_{S, \,\textit{SponBS}} = \frac{G_{\mathrm{B}}P_{\mathrm{P}}L\omega_{\mathrm{S}}\Gamma_{\mathrm{B}}k_{\mathrm{B}}T}{4\Omega_{\mathrm{B}}}.
+  P_{\rm S,\,SponBS} = \frac{G_{\rm B}P_{\rm P}L\omega_{\rm S}\Gamma_{\rm B}k_{\rm B}T}{4\Omega_{\rm B}}.
   \label{eq:sponBSscatteredPower}
 \end{equation}
 
 It may be noted that the derived expression for the low-gain spontaneous regime here matches the form reported by Kharel et al. in 2016 \cite{kharel2016noise} for the complementary forward scattering process. While our backward scattering geometry differs from the forward scattering geometry discussed by Kharel et al., the underlying physics of light coupling to thermally excited acoustic modes is the same..
 
-Next we turn to the high-gain regime leading to a stimulated Brillouin scattering process. This regime is defined by an overall process gain factor, \(G = G_{\mathrm{P}}P_{\mathrm{P}}L\), that is much greater than unity (\(G \gg 1\)). For organic liquids, this crossover threshold from spontaneous to stimulated regimes occurs in the range of \(20 < G < 25\), \cite{boyd1990noise} whereas for typical lengths of single mode fiber it can be lower \cite{ippen1972stimulated} owing to the small effective area compared to longer effective lengths of fiber typically used.
+Next we turn to the high-gain regime leading to a stimulated Brillouin scattering process. This regime is defined by an overall process gain factor, \(G = G_{\rm P}P_{\rm P}L\), that is much greater than unity (\(G \gg 1\)). For organic liquids, this crossover threshold from spontaneous to stimulated regimes occurs in the range of \(20 < G < 25\), \cite{boyd1990noise} whereas for typical lengths of single mode fiber it can be lower \cite{ippen1972stimulated} owing to the small effective area compared to longer effective lengths of fiber typically used.
 
 The reflectivity of a stimulated Brillouin scattering process in the high-gain regime is given by \cite{boyd1990noise}
 
 \begin{equation}
-  R = \frac{\langle|E_{\mathrm{S}}|^{2}\rangle}{\langle|E_{\mathrm{P}}|^{2}\rangle} = \frac{Y}{\sqrt{\pi}}\frac{e^{G}}{G^{\frac{3}{2}}},
+  R = \frac{\langle|E_{\rm S}|^{2}\rangle}{\langle|E_{\rm P}|^{2}\rangle} = \frac{Y}{\sqrt{\pi}}\frac{e^{G}}{G^{\frac{3}{2}}},
 \end{equation}
 
-where \(Y\) is the reflectivity of the low-gain (spontaneous) regime given above and \(G\) is the overall process gain factor, \(G = G_{\mathrm{P}}P_{\mathrm{P}}L\). Again, converting to the effective Brillouin gain, \(G_{\mathrm{B}}\), and power by applying the effective area, we solve for the scattered power of the Stokes field,
+where \(Y\) is the reflectivity of the low-gain (spontaneous) regime given above and \(G\) is the overall process gain factor, \(G = G_{\rm P}P_{\rm P}L\). Again, converting to the effective Brillouin gain, \(G_{\rm B}\), and power by applying the effective area, we solve for the scattered power of the Stokes field,
 
 \begin{equation}
-  P_{\mathrm{S,\,StimBS}} = \frac{G_{\mathrm{B}}P_{\mathrm{P}}L\omega_{\mathrm{S}}\Gamma_{\mathrm{B}}k_{\mathrm{B}}T}{4\sqrt{\pi}\Omega_{\mathrm{B}}}\frac{e^{G}}{G^{\frac{3}{2}}}
+  P_{\rm S,\,StimBS} = \frac{G_{\rm B}P_{\rm P}L\omega_{\rm S}\Gamma_{\rm B}k_{\rm B}T}{4\sqrt{\pi}\Omega_{\rm B}}\frac{e^{G}}{G^{\frac{3}{2}}}
   \label{eq:StimBSUndepletedPump}
 \end{equation}
 
-This expression captures the exponential growth in scattered power as any parameter within the overall process gain factor, \(G = G_{\mathrm{B}}P_{\mathrm{P}}L\), increases. However, this exponential growth can only continue while the pump is not significantly undepleted. Once the scattered power described by Equation~\ref{eq:StimBSUndepletedPump} grows to a significant fraction of the driving pump power, the exponential increase in scattered Stokes power asymptotically approaches the pump power. For very large \(G\), virtually all of the pump energy is converted to scattered Stokes energy in a complete transfer process.\cite{boyd2020nonlinear} To account for pump depletion, we numerically solve the transendental Equation~derived in Boyd's Nonlinear Optics which describes the effects of pump depletion, given here in terms of power as
+This expression captures the exponential growth in scattered power as any parameter within the overall process gain factor, \(G = G_{\rm B}P_{\rm P}L\), increases. However, this exponential growth can only continue while the pump is not significantly undepleted. Once the scattered power described by Equation~\ref{eq:StimBSUndepletedPump} grows to a significant fraction of the driving pump power, the exponential increase in scattered Stokes power asymptotically approaches the pump power. For very large \(G\), virtually all of the pump energy is converted to scattered Stokes energy in a complete transfer process.\cite{boyd2020nonlinear} To account for pump depletion, we numerically solve the transendental Equation~derived in Boyd's Nonlinear Optics which describes the effects of pump depletion, given here in terms of power as
 
 \begin{equation}
-  P_{\mathrm{S}}(L) = \frac{P_{\mathrm{S}}(0)x(1 - x)}{e^{G_{\mathrm{B}}P_{\mathrm{P}}(0)L(1 - x)} - x},
+  P_{\rm S}(L) = \frac{P_{\rm S}(0)x(1 - x)}{e^{G_{\rm B}P_{\rm P}(0)L(1 - x)} - x},
 \end{equation}
 
-where \(x = P_{\mathrm{S}}(0)/P_{\mathrm{P}}(0)\), or the ratio of the unknown Stokes power at the end of its journey through the medium (\(z=0\)) to the known pump power at the beginning (also \(z=0\)). This solution for \(x\), specific to system parameters such as length, offers via its definition the solution to the unknown power of the scattered Stokes light at the end of its traversal through the effective length, given as
+where \(x = P_{\rm S}(0)/P_{\rm P}(0)\), or the ratio of the unknown Stokes power at the end of its journey through the medium (\(z=0\)) to the known pump power at the beginning (also \(z=0\)). This solution for \(x\), specific to system parameters such as length, offers via its definition the solution to the unknown power of the scattered Stokes light at the end of its traversal through the effective length, given as
 
 \begin{equation}
-  P_{\mathrm{S}}(0) = xP_{\mathrm{P}}(0).
+  P_{\rm S}(0) = xP_{\rm P}(0).
 \end{equation}
 
 The solution to this numeric approach to scattered power in the high-gain (stimulated) Brillouin scattering regime with pump depletion effects at large \(G\) is plotted for varying effective lengths in Figure~\ref{fig:SponBSvsStimBSvsCoBS}, along with the analytical solutions derived previously for the low-gain (spontaneous) regime and our coherently stimulated Brillouin spectrometer (\acs{CoBS}) given by Equation~\ref{Eq:Theoretical Framework:Scattered Power}. System parameters used to generate the plot for each of the three processes are provided in Tables \ref{tab:CoBS Parameters} and \ref{tab:SBS Parameters}. Wherever possible, the parameters shared by all three Brillouin scattering processes were kept consistent, while quantities unique to each process were assigned their respective values.
 
 \begin{table}[ht]
   \centering
-  \caption[Parameters relevant to the \acs{CoBS} process for the example \ac{UHNA3} fiber.]{Parameters relevant to the \acs{CoBS} process for the example \ac{UHNA3} fiber. \(G_{\mathrm{B}}\) is the effective Brillouin gain, \(P_{\mathrm{P}}\) is the pump power, \(P_{\mathrm{S}}\) is the Stokes power, \(P_{\mathrm{Pr}}\) is the probe power, and \(\Delta\lambda\) is the wavelength detuning of the probe from the pump.}
+  \caption[Parameters relevant to the \acs{CoBS} process for the example \ac{UHNA3} fiber.]{Parameters relevant to the \acs{CoBS} process for the example \ac{UHNA3} fiber. \(G_{\rm B}\) is the effective Brillouin gain, \(P_{\rm P}\) is the pump power, \(P_{\rm S}\) is the Stokes power, \(P_{\rm Pr}\) is the probe power, and \(\Delta\lambda\) is the wavelength detuning of the probe from the pump.}
   \textbf{Coherently Stimulated Brillouin Scattering Process Model System Parameters}
   \renewcommand{\arraystretch}{1.2}
   \begin{tabular}{c c c c c}
@@ -379,7 +379,7 @@ The solution to this numeric approach to scattered power in the high-gain (stimu
 
 \begin{table}[ht]
   \centering
-  \caption[Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example \ac{UHNA3} fiber.]{Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example \ac{UHNA3} fiber. \(G_{\mathrm{B}}\) is the Brillouin gain coefficient, \(P_{\mathrm{P}}\) is the pump power, \(\omega\) is the optical angular frequency, \(\Gamma_{\mathrm{B}}\) is the acoustic damping rate, \(k_{\mathrm{B}}\) is Boltzmann's constant, \(T\) is the temperature, and \(\Omega_{\mathrm{B}}\) is the acoustic angular frequency.}
+  \caption[Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example \ac{UHNA3} fiber.]{Parameters relevant to the spontaneous and/or stimulated backward Brillouin scattering processes for the example \ac{UHNA3} fiber. \(G_{\rm B}\) is the Brillouin gain coefficient, \(P_{\rm P}\) is the pump power, \(\omega\) is the optical angular frequency, \(\Gamma_{\rm B}\) is the acoustic damping rate, \(k_{\rm B}\) is Boltzmann's constant, \(T\) is the temperature, and \(\Omega_{\rm B}\) is the acoustic angular frequency.}
   \textbf{Spontaneous and Stimulated Scattering Process Model System Parameters}
   \renewcommand{\arraystretch}{1.2}
   \begin{tabular}{c c c c c c c c c}
