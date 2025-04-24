@@ -16,45 +16,45 @@ A level-1 auxiliary file: post/A-CoBS.aux
 A level-1 auxiliary file: post/A-Code.aux
 Database file #1: references.bib
 Warning--I didn't find a database entry for ""
-You've used 129 entries,
+You've used 130 entries,
             2481 wiz_defined-function locations,
-            1302 strings with 27786 characters,
-and the built_in function-call counts, 53965 in all, are:
-= -- 4262
-> -- 3341
-< -- 50
-+ -- 1255
-- -- 996
-* -- 4789
-:= -- 8837
-add.period$ -- 390
-call.type$ -- 129
-change.case$ -- 254
-chr.to.int$ -- 128
-cite$ -- 129
-duplicate$ -- 2482
-empty$ -- 4742
-format.name$ -- 1180
-if$ -- 11168
+            1306 strings with 27863 characters,
+and the built_in function-call counts, 54264 in all, are:
+= -- 4285
+> -- 3356
+< -- 51
++ -- 1261
+- -- 1000
+* -- 4806
+:= -- 8885
+add.period$ -- 393
+call.type$ -- 130
+change.case$ -- 255
+chr.to.int$ -- 129
+cite$ -- 130
+duplicate$ -- 2501
+empty$ -- 4772
+format.name$ -- 1187
+if$ -- 11233
 int.to.chr$ -- 2
-int.to.str$ -- 130
-missing$ -- 133
-newline$ -- 654
-num.names$ -- 387
-pop$ -- 947
+int.to.str$ -- 131
+missing$ -- 135
+newline$ -- 659
+num.names$ -- 390
+pop$ -- 959
 preamble$ -- 2
-purify$ -- 129
+purify$ -- 130
 quote$ -- 0
-skip$ -- 1387
+skip$ -- 1398
 stack$ -- 0
-substring$ -- 2745
-swap$ -- 289
+substring$ -- 2747
+swap$ -- 291
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 891
+type$ -- 895
 warning$ -- 0
-while$ -- 450
+while$ -- 452
 width$ -- 0
-write$ -- 1682
+write$ -- 1694
 (There was 1 warning)
