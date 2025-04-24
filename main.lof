@@ -4,62 +4,62 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of optomechanical heating and cooling processes.}}{13}{figure.caption.23}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Schematic of \ac {LCOF} design.}}{17}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of experimental setup for Experiment~A.}}{19}{figure.caption.37}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Schematic of experimental setup for Experiment~B.}}{20}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Stokes spectra for a range of pump powers obtained for Experiment~A via spontaneous backwards Brillouin scattering.}}{22}{figure.caption.42}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Anti-Stokes spectra for a range of pump powers obtained for Experiment~A via spontaneous backwards Brillouin scattering.}}{23}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Lorentzian-fitted peak amplitudes of the observed Stokes and anti-Stokes spectra.}}{24}{figure.caption.44}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Stokes and anti-Stokes linewidths for each pump power, obtained from a lorentzian fit.}}{25}{figure.caption.45}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces A simulated Brillouin gain spectrum \(G_{\rm B}\) of the \ac {LCOF}, overtop the lowest power anti-Stokes spectrum.}}{26}{figure.caption.46}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Anti-Stokes probe spectra collected for \SI {0.0}{\milli \watt } intrafiber pump power in Experiment~B.}}{27}{figure.caption.47}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Anti-Stokes probe spectra collected for \SI {22.7}{\milli \watt } intrafiber pump power in Experiment~B.}}{28}{figure.caption.48}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Anti-Stokes probe spectra collected for \SI {45.4}{\milli \watt } intrafiber pump power in Experiment~B.}}{29}{figure.caption.49}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Anti-Stokes probe spectra collected for \SI {68.0}{\milli \watt } intrafiber pump power in Experiment~B.}}{30}{figure.caption.50}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Computed Lorentzian fits from the observed anti-Stokes probe spectra gathered for Experiment~B.}}{31}{figure.caption.51}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Plot of peak spectral density amplitudes for the anti-Stokes spectra gathered for Experiment~B.}}{32}{figure.caption.52}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Plot of the \ac {FWHM} linewidths of the anti-Stokes spectra gathered for Experiment~B.}}{33}{figure.caption.53}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic of experimental setup for Experiment~A.}}{18}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Schematic of experimental setup for Experiment~B.}}{20}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Stokes spectra for a range of pump powers obtained for Experiment~A via spontaneous backwards Brillouin scattering.}}{22}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Anti-Stokes spectra for a range of pump powers obtained for Experiment~A via spontaneous backwards Brillouin scattering.}}{23}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Lorentzian-fitted peak amplitudes of the observed Stokes and anti-Stokes spectra.}}{24}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Stokes and anti-Stokes linewidths for each pump power, obtained from a lorentzian fit.}}{25}{figure.caption.47}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces A simulated Brillouin gain spectrum \(G_{\rm B}\) of the \ac {LCOF}, overtop the lowest power anti-Stokes spectrum.}}{26}{figure.caption.48}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Anti-Stokes probe spectra collected for \SI {0.0}{\milli \watt } intrafiber pump power in Experiment~B.}}{27}{figure.caption.49}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Anti-Stokes probe spectra collected for \SI {22.7}{\milli \watt } intrafiber pump power in Experiment~B.}}{28}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Anti-Stokes probe spectra collected for \SI {45.4}{\milli \watt } intrafiber pump power in Experiment~B.}}{29}{figure.caption.51}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Anti-Stokes probe spectra collected for \SI {68.0}{\milli \watt } intrafiber pump power in Experiment~B.}}{30}{figure.caption.52}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Computed Lorentzian fits from the observed anti-Stokes probe spectra gathered for Experiment~B.}}{31}{figure.caption.53}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Plot of peak spectral density amplitudes for the anti-Stokes spectra gathered for Experiment~B.}}{32}{figure.caption.54}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Plot of the \ac {FWHM} linewidths of the anti-Stokes spectra gathered for Experiment~B.}}{33}{figure.caption.55}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustrations of standard (three‐wave) stimulated Brillouin scattering and Coherently stimulated (four-wave) Brillouin Scattering (\acs {CoBS}).}}{43}{figure.caption.60}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Design schematic of the Coherently stimulated Brillouin Spectrometer (\acs {CoBS}).}}{46}{figure.caption.63}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Observed spectra demonstrating \(P_{\rm Signal}\approx \) \SI {5}{\femto \watt } sensitivity of the instrument.}}{49}{figure.caption.80}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Observed spectra of \SI {1}{\centi \meter } \ac {UHNA3} fiber captured at maximum operating optical powers.}}{51}{figure.caption.84}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Observed spectra of \SI {100}{\micro \meter } liquid \ce {CS2} captured at maximum operating optical powers.}}{52}{figure.caption.86}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Spectral peaks of 75 observed spectra of \SI {1(0.1)}{\centi \meter } \ac {UHNA3} across a range of pump-probe detunings.}}{54}{figure.caption.87}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustrations of standard (three‐wave) stimulated Brillouin scattering and Coherently stimulated (four-wave) Brillouin Scattering (\acs {CoBS}).}}{43}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Design schematic of the Coherently stimulated Brillouin Spectrometer (\acs {CoBS}).}}{46}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Observed spectra demonstrating \(P_{\rm Signal}\approx \) \SI {5}{\femto \watt } sensitivity of the instrument.}}{49}{figure.caption.82}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Observed spectra of \SI {1}{\centi \meter } \ac {UHNA3} fiber captured at maximum operating optical powers.}}{51}{figure.caption.86}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Observed spectra of \SI {100}{\micro \meter } liquid \ce {CS2} captured at maximum operating optical powers.}}{52}{figure.caption.88}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Spectral peaks of 75 observed spectra of \SI {1(0.1)}{\centi \meter } \ac {UHNA3} across a range of pump-probe detunings.}}{54}{figure.caption.89}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Conceptual illustration of the transition from a traveling acoustic wave to standing-wave vibrational modes.}}{62}{figure.caption.90}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Illustration showing how geometry and sound speed of the material determine the allowed acoustic frequencies.}}{64}{figure.caption.93}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Brillouin gain of investigated materials.}}{66}{figure.caption.94}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Photographs of \SI {1}{\centi \meter } and \SI {1}{\milli \meter } lengths of \ac {UHNA3} fiber.}}{68}{figure.caption.97}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \ac {CoBS} measurements of \SI {1}{\centi \meter } and \SI {1}{\milli \meter } \ac {UHNA3} fiber, in pursuit of observing Brillouin-induced Raman modes.}}{69}{figure.caption.98}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Photographs of \SI {1}{\centi \meter } and \SI {4}{\milli \meter } lengths of liquid \ce {CS2} in the beam path of the \ac {CoBS} instrument.}}{70}{figure.caption.99}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces \ac {CoBS} measurements of \SI {1}{\centi \meter } and \SI {4}{\milli \meter } liquid \ce {CS2}.}}{70}{figure.caption.100}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Glass slide with a thin film of \ce {TeO2} deposited via \ac {PVD}.}}{73}{figure.caption.104}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Observed spectrum obtained through a \ac {CoBS} measurement of \SI {1}{\micro \meter } of \ce {TeO2}.}}{74}{figure.caption.105}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Observed spectra obtained through a \ac {CoBS} measurement of \SI {1}{\micro \meter } of \ce {TeO2}.}}{75}{figure.caption.106}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Observed spectrum obtained through a \ac {CoBS} measurement of \SI {500}{\nano \meter } of \ce {TeO2}.}}{76}{figure.caption.108}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Illustration of the material layers of a \ce {Te} thin film sample.}}{78}{figure.caption.111}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Evidence of oxidization of the \SI {500}{\nano \meter } \ce {Te} thin film in the circular beam spot.}}{78}{figure.caption.112}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Three \ce {CS2} cells of different path lengths (\SI {1}{\milli \meter }, \SI {100}{\micro \meter }, and \SI {10}{\micro \meter }) secured in the beam path of the \acl {CoBS}.}}{81}{figure.caption.115}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Observed spectra obtained through a \acs {CoBS} measurement of \SI {1}{\milli \meter }, \SI {100}{\micro \meter }, and \SI {10}{\micro \meter } liquid \ce {CS2}.}}{82}{figure.caption.116}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces \ac {CoBS} measurement of a suspended silica rib waveguide for a backward scattering process.}}{83}{figure.caption.118}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces \ac {CoBS} measurement of the elastically-suspended photonic-phononic waveguide for a backward scattering process.}}{84}{figure.caption.120}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Needle profilometer force-deflection measurements performed on the suspended polymer membrane of the photonic-phononic waveguide.}}{86}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Conceptual illustration of the transition from a traveling acoustic wave to standing-wave vibrational modes.}}{62}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Illustration showing how geometry and sound speed of the material determine the allowed acoustic frequencies.}}{64}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Brillouin gain of investigated materials.}}{66}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Photographs of \SI {1}{\centi \meter } and \SI {1}{\milli \meter } lengths of \ac {UHNA3} fiber.}}{68}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \ac {CoBS} measurements of \SI {1}{\centi \meter } and \SI {1}{\milli \meter } \ac {UHNA3} fiber, in pursuit of observing Brillouin-induced Raman modes.}}{69}{figure.caption.100}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Photographs of \SI {1}{\centi \meter } and \SI {4}{\milli \meter } lengths of liquid \ce {CS2} in the beam path of the \ac {CoBS} instrument.}}{70}{figure.caption.101}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \ac {CoBS} measurements of \SI {1}{\centi \meter } and \SI {4}{\milli \meter } liquid \ce {CS2}.}}{70}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Glass slide with a thin film of \ce {TeO2} deposited via \ac {PVD}.}}{73}{figure.caption.106}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Observed spectrum obtained through a \ac {CoBS} measurement of \SI {1}{\micro \meter } of \ce {TeO2}.}}{74}{figure.caption.107}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Observed spectra obtained through a \ac {CoBS} measurement of \SI {1}{\micro \meter } of \ce {TeO2}.}}{75}{figure.caption.108}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Observed spectrum obtained through a \ac {CoBS} measurement of \SI {500}{\nano \meter } of \ce {TeO2}.}}{76}{figure.caption.110}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Illustration of the material layers of a \ce {Te} thin film sample.}}{78}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Evidence of oxidization of the \SI {500}{\nano \meter } \ce {Te} thin film in the circular beam spot.}}{78}{figure.caption.114}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Three \ce {CS2} cells of different path lengths (\SI {1}{\milli \meter }, \SI {100}{\micro \meter }, and \SI {10}{\micro \meter }) secured in the beam path of the \acl {CoBS}.}}{81}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Observed spectra obtained through a \acs {CoBS} measurement of \SI {1}{\milli \meter }, \SI {100}{\micro \meter }, and \SI {10}{\micro \meter } liquid \ce {CS2}.}}{82}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces \ac {CoBS} measurement of a suspended silica rib waveguide for a backward scattering process.}}{83}{figure.caption.120}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces \ac {CoBS} measurement of the elastically-suspended photonic-phononic waveguide for a backward scattering process.}}{84}{figure.caption.122}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Needle profilometer force-deflection measurements performed on the suspended polymer membrane of the photonic-phononic waveguide.}}{86}{figure.caption.123}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces \acs {LCOF} Fabrication: Picture of the Vytran software interface camera imaging system showing a microscope view of the two fiber ends pre-splice.}}{96}{figure.caption.126}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces \acs {LCOF} Fabrication: Example images of \ac {LCOF} splices.}}{97}{figure.caption.127}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces \acs {LCOF} Fabrication: Picture of both lengths of fiber braced by folded paper sawhorses and Kimwipe boxes.}}{98}{figure.caption.128}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces \acs {LCOF} Fabrication: Picture of splice successfully transferred onto a glass slide and tacked on either side with drops of epoxy.}}{99}{figure.caption.129}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces \acs {LCOF} Fabrication: Picture of a complete splice assembly.}}{100}{figure.caption.130}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces \acs {LCOF} Fabrication: Picture of a complete sample under the fume hood with lights dimmed and red laser light injected into the end of the sample for monitoring.}}{101}{figure.caption.131}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces \acs {LCOF} Fabrication: Images of an \ac {LCOF} sample in the filling process.}}{102}{figure.caption.132}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces \acs {LCOF} Fabrication: Images of a fully finished \ce {CS2}-\ac {LCOF} sample.}}{102}{figure.caption.133}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces \acs {LCOF} Fabrication: Picture of the Vytran software interface camera imaging system showing a microscope view of the two fiber ends pre-splice.}}{96}{figure.caption.128}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces \acs {LCOF} Fabrication: Example images of \ac {LCOF} splices.}}{97}{figure.caption.129}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces \acs {LCOF} Fabrication: Picture of both lengths of fiber braced by folded paper sawhorses and Kimwipe boxes.}}{98}{figure.caption.130}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces \acs {LCOF} Fabrication: Picture of splice successfully transferred onto a glass slide and tacked on either side with drops of epoxy.}}{99}{figure.caption.131}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces \acs {LCOF} Fabrication: Picture of a complete splice assembly.}}{100}{figure.caption.132}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces \acs {LCOF} Fabrication: Picture of a complete sample under the fume hood with lights dimmed and red laser light injected into the end of the sample for monitoring.}}{101}{figure.caption.133}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces \acs {LCOF} Fabrication: Images of an \ac {LCOF} sample in the filling process.}}{102}{figure.caption.134}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces \acs {LCOF} Fabrication: Images of a fully finished \ce {CS2}-\ac {LCOF} sample.}}{102}{figure.caption.135}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of scattered power from traditional Brillouin scattering processes and \acs {CoBS}.}}{117}{figure.caption.145}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces All measured Brillouin spectra for \SI {1}{\centi \meter }~\ac {UHNA3} at pump-probe detuning steps of \SI {0.5}{\giga \hertz } from \SI {5}{\giga \hertz } to \SI {42}{\giga \hertz }.}}{121}{figure.caption.150}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces All measured Brillouin spectra for \SI {1}{\milli \meter }~\ce {CS2} at pump-probe detuning steps of \SI {0.25}{\giga \hertz } from \SI {10}{\giga \hertz } to \SI {14}{\giga \hertz }.}}{123}{figure.caption.151}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Comparison of representative spectra at \SI {11}{\giga \hertz } and \SI {13}{\giga \hertz }, showing the positive vs. negative \(q\) asymmetry in \SI {1}{\milli \meter } \ce {CS2}, with a Fano fit applied.}}{125}{figure.caption.152}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Comparison of representative spectra at \SI {11}{\giga \hertz } and \SI {13}{\giga \hertz }, showing the positive vs.\ negative \(q\) asymmetry in \SI {1}{\milli \meter } \ce {CS2}, with a naïve Lorentz fit applied.}}{126}{figure.caption.153}%
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Scattered power spectra with varying proportions of pump, Stokes, and probe power and error bars representing one standard deviation of the mean for each measurement.}}{129}{figure.caption.155}%
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Scattered power spectra with varying proportions of pump, Stokes, and probe power and error bars extended to two standard deviations of the mean for each measurement.}}{130}{figure.caption.156}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of scattered power from traditional Brillouin scattering processes and \acs {CoBS}.}}{117}{figure.caption.147}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces All measured Brillouin spectra for \SI {1}{\centi \meter }~\ac {UHNA3} at pump-probe detuning steps of \SI {0.5}{\giga \hertz } from \SI {5}{\giga \hertz } to \SI {42}{\giga \hertz }.}}{121}{figure.caption.152}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces All measured Brillouin spectra for \SI {1}{\milli \meter }~\ce {CS2} at pump-probe detuning steps of \SI {0.25}{\giga \hertz } from \SI {10}{\giga \hertz } to \SI {14}{\giga \hertz }.}}{123}{figure.caption.153}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Comparison of representative spectra at \SI {11}{\giga \hertz } and \SI {13}{\giga \hertz }, showing the positive vs. negative \(q\) asymmetry in \SI {1}{\milli \meter } \ce {CS2}, with a Fano fit applied.}}{125}{figure.caption.154}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Comparison of representative spectra at \SI {11}{\giga \hertz } and \SI {13}{\giga \hertz }, showing the positive vs.\ negative \(q\) asymmetry in \SI {1}{\milli \meter } \ce {CS2}, with a naïve Lorentz fit applied.}}{126}{figure.caption.155}%
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Scattered power spectra with varying proportions of pump, Stokes, and probe power and error bars representing one standard deviation of the mean for each measurement.}}{129}{figure.caption.157}%
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Scattered power spectra with varying proportions of pump, Stokes, and probe power and error bars extended to two standard deviations of the mean for each measurement.}}{130}{figure.caption.158}%
 \addvspace {10\p@ }
