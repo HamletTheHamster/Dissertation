@@ -49,12 +49,12 @@
 \contentsline {subsection}{\numberline {4.3.2}Free-Space Optics with Liquid \ce {CS2}}{69}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}\ce {TeO2} Thin Film}{71}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}\ce {Te} Thin Film}{76}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}\ce {CS2} Micrometer Cell}{79}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Suspended Silica Rib Waveguide}{80}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.5}\ce {CS2} Micrometer Cell}{78}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Suspended Silica Rib Waveguide}{79}{subsection.4.3.6}%
 \contentsline {subsection}{\numberline {4.3.7}Elastically-Suspended Photonic-Phononic Waveguide}{81}{subsection.4.3.7}%
-\contentsline {section}{\numberline {4.4}Discussion}{87}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Pathways to Brillouin-Induced Raman Modes}{87}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Conclusion}{88}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.4}Discussion}{86}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Pathways to Brillouin-Induced Raman Modes}{86}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Conclusion}{87}{subsection.4.4.2}%
 \contentsline {chapter}{\numberline {5}Conclusion}{91}{chapter.5}%
 \contentsline {chapter}{\numberline {A}Supplementary Information for Chapter~\ref {ch:Cooling}}{95}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Fabrication of \ce {CS2}-Filled Liquid-Core Optical Fiber}{95}{section.A.1}%
@@ -77,4 +77,4 @@
 \contentsline {section}{\numberline {B.4}CoBS Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{128}{section.B.4}%
 \contentsline {chapter}{\numberline {C}Code and Data Availability}{131}{appendix.C}%
 \contentsline {section}{\numberline {C.1}Plotting Data In Go}{131}{section.C.1}%
-\contentsline {chapter}{References}{132}{section*.159}%
+\contentsline {chapter}{References}{132}{section*.158}%

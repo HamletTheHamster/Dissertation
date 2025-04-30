@@ -36,30 +36,30 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Glass slide with a thin film of \ce {TeO2} deposited via \ac {PVD}.}}{73}{figure.caption.106}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Observed spectrum obtained through a \ac {CoBS} measurement of \SI {1}{\micro \meter } of \ce {TeO2}.}}{74}{figure.caption.107}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Observed spectra obtained through a \ac {CoBS} measurement of \SI {1}{\micro \meter } of \ce {TeO2}.}}{75}{figure.caption.108}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Observed spectrum obtained through a \ac {CoBS} measurement of \SI {500}{\nano \meter } of \ce {TeO2}.}}{76}{figure.caption.110}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Illustration of the material layers of a \ce {Te} thin film sample.}}{78}{figure.caption.113}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Evidence of oxidization of the \SI {500}{\nano \meter } \ce {Te} thin film in the circular beam spot.}}{78}{figure.caption.114}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Three \ce {CS2} cells of different path lengths (\SI {1}{\milli \meter }, \SI {100}{\micro \meter }, and \SI {10}{\micro \meter }) secured in the beam path of the \acl {CoBS}.}}{81}{figure.caption.117}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Observed spectra obtained through a \acs {CoBS} measurement of \SI {1}{\milli \meter }, \SI {100}{\micro \meter }, and \SI {10}{\micro \meter } liquid \ce {CS2}.}}{82}{figure.caption.118}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces \ac {CoBS} measurement of a suspended silica rib waveguide for a backward scattering process.}}{83}{figure.caption.120}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces \ac {CoBS} measurement of the elastically-suspended photonic-phononic waveguide for a backward scattering process.}}{84}{figure.caption.122}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Needle profilometer force-deflection measurements performed on the suspended polymer membrane of the photonic-phononic waveguide.}}{86}{figure.caption.123}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Observed spectrum obtained through a \ac {CoBS} measurement of \SI {500}{\nano \meter } of \ce {TeO2}.}}{76}{figure.caption.109}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Illustration of the material layers of a \ce {Te} thin film sample.}}{78}{figure.caption.112}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Evidence of oxidization of the \SI {500}{\nano \meter } \ce {Te} thin film in the circular beam spot.}}{78}{figure.caption.113}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Three \ce {CS2} cells of different path lengths (\SI {1}{\milli \meter }, \SI {100}{\micro \meter }, and \SI {10}{\micro \meter }) secured in the beam path of the \acl {CoBS}.}}{81}{figure.caption.116}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Observed spectra obtained through a \acs {CoBS} measurement of \SI {1}{\milli \meter }, \SI {100}{\micro \meter }, and \SI {10}{\micro \meter } liquid \ce {CS2}.}}{82}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces \ac {CoBS} measurement of a suspended silica rib waveguide for a backward scattering process.}}{83}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces \ac {CoBS} measurement of the elastically-suspended photonic-phononic waveguide for a backward scattering process.}}{84}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Needle profilometer force-deflection measurements performed on the suspended polymer membrane of the photonic-phononic waveguide.}}{89}{figure.caption.122}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces \acs {LCOF} Fabrication: Picture of the Vytran software interface camera imaging system showing a microscope view of the two fiber ends pre-splice.}}{96}{figure.caption.128}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces \acs {LCOF} Fabrication: Example images of \ac {LCOF} splices.}}{97}{figure.caption.129}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces \acs {LCOF} Fabrication: Picture of both lengths of fiber braced by folded paper sawhorses and Kimwipe boxes.}}{98}{figure.caption.130}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces \acs {LCOF} Fabrication: Picture of splice successfully transferred onto a glass slide and tacked on either side with drops of epoxy.}}{99}{figure.caption.131}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces \acs {LCOF} Fabrication: Picture of a complete splice assembly.}}{100}{figure.caption.132}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces \acs {LCOF} Fabrication: Picture of a complete sample under the fume hood with lights dimmed and red laser light injected into the end of the sample for monitoring.}}{101}{figure.caption.133}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces \acs {LCOF} Fabrication: Images of an \ac {LCOF} sample in the filling process.}}{102}{figure.caption.134}%
-\contentsline {figure}{\numberline {A.8}{\ignorespaces \acs {LCOF} Fabrication: Images of a fully finished \ce {CS2}-\ac {LCOF} sample.}}{102}{figure.caption.135}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces \acs {LCOF} Fabrication: Picture of the Vytran software interface camera imaging system showing a microscope view of the two fiber ends pre-splice.}}{96}{figure.caption.127}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces \acs {LCOF} Fabrication: Example images of \ac {LCOF} splices.}}{97}{figure.caption.128}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces \acs {LCOF} Fabrication: Picture of both lengths of fiber braced by folded paper sawhorses and Kimwipe boxes.}}{98}{figure.caption.129}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces \acs {LCOF} Fabrication: Picture of splice successfully transferred onto a glass slide and tacked on either side with drops of epoxy.}}{99}{figure.caption.130}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces \acs {LCOF} Fabrication: Picture of a complete splice assembly.}}{100}{figure.caption.131}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces \acs {LCOF} Fabrication: Picture of a complete sample under the fume hood with lights dimmed and red laser light injected into the end of the sample for monitoring.}}{101}{figure.caption.132}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces \acs {LCOF} Fabrication: Images of an \ac {LCOF} sample in the filling process.}}{102}{figure.caption.133}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces \acs {LCOF} Fabrication: Images of a fully finished \ce {CS2}-\ac {LCOF} sample.}}{102}{figure.caption.134}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of scattered power from traditional Brillouin scattering processes and \acs {CoBS}.}}{117}{figure.caption.147}%
-\contentsline {figure}{\numberline {B.2}{\ignorespaces All measured Brillouin spectra for \SI {1}{\centi \meter }~\ac {UHNA3} at pump-probe detuning steps of \SI {0.5}{\giga \hertz } from \SI {5}{\giga \hertz } to \SI {42}{\giga \hertz }.}}{121}{figure.caption.152}%
-\contentsline {figure}{\numberline {B.3}{\ignorespaces All measured Brillouin spectra for \SI {1}{\milli \meter }~\ce {CS2} at pump-probe detuning steps of \SI {0.25}{\giga \hertz } from \SI {10}{\giga \hertz } to \SI {14}{\giga \hertz }.}}{123}{figure.caption.153}%
-\contentsline {figure}{\numberline {B.4}{\ignorespaces Comparison of representative spectra at \SI {11}{\giga \hertz } and \SI {13}{\giga \hertz }, showing the positive vs. negative \(q\) asymmetry in \SI {1}{\milli \meter } \ce {CS2}, with a Fano fit applied.}}{125}{figure.caption.154}%
-\contentsline {figure}{\numberline {B.5}{\ignorespaces Comparison of representative spectra at \SI {11}{\giga \hertz } and \SI {13}{\giga \hertz }, showing the positive vs.\ negative \(q\) asymmetry in \SI {1}{\milli \meter } \ce {CS2}, with a naïve Lorentz fit applied.}}{126}{figure.caption.155}%
-\contentsline {figure}{\numberline {B.6}{\ignorespaces Scattered power spectra with varying proportions of pump, Stokes, and probe power and error bars representing one standard deviation of the mean for each measurement.}}{129}{figure.caption.157}%
-\contentsline {figure}{\numberline {B.7}{\ignorespaces Scattered power spectra with varying proportions of pump, Stokes, and probe power and error bars extended to two standard deviations of the mean for each measurement.}}{130}{figure.caption.158}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Comparison of scattered power from traditional Brillouin scattering processes and \acs {CoBS}.}}{117}{figure.caption.146}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces All measured Brillouin spectra for \SI {1}{\centi \meter }~\ac {UHNA3} at pump-probe detuning steps of \SI {0.5}{\giga \hertz } from \SI {5}{\giga \hertz } to \SI {42}{\giga \hertz }.}}{121}{figure.caption.151}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces All measured Brillouin spectra for \SI {1}{\milli \meter }~\ce {CS2} at pump-probe detuning steps of \SI {0.25}{\giga \hertz } from \SI {10}{\giga \hertz } to \SI {14}{\giga \hertz }.}}{123}{figure.caption.152}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Comparison of representative spectra at \SI {11}{\giga \hertz } and \SI {13}{\giga \hertz }, showing the positive vs. negative \(q\) asymmetry in \SI {1}{\milli \meter } \ce {CS2}, with a Fano fit applied.}}{125}{figure.caption.153}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Comparison of representative spectra at \SI {11}{\giga \hertz } and \SI {13}{\giga \hertz }, showing the positive vs.\ negative \(q\) asymmetry in \SI {1}{\milli \meter } \ce {CS2}, with a naïve Lorentz fit applied.}}{126}{figure.caption.154}%
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Scattered power spectra with varying proportions of pump, Stokes, and probe power and error bars representing one standard deviation of the mean for each measurement.}}{129}{figure.caption.156}%
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Scattered power spectra with varying proportions of pump, Stokes, and probe power and error bars extended to two standard deviations of the mean for each measurement.}}{130}{figure.caption.157}%
 \addvspace {10\p@ }
