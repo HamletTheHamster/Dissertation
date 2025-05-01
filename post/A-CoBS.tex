@@ -260,10 +260,10 @@ I_{\rm Sig} = \frac{1}{4}(g_{0}L)^{2}I_{\rm P}I_{\rm S}I_{\rm Pr}\mathrm{sinc}^{
 \end{equation}
 \\
 
-To find the power of the backscattered signal, we would integrate this intensity over the effective area. For a uniform area \(A_{\rm eff}\), this gives
+To find the power of the backscattered signal, we would integrate this intensity over the effective area (acousto-optic mode overlap). For a uniform area \(A_{\rm eff}^{\rm ao}\), this gives
 \\
 \begin{equation}
-  P_{\rm Sig} = I_{\rm Sig}A_{\rm eff} = \frac{1}{4}(g_{0}L)^{2}\frac{A_{\rm eff}}{A_{\rm eff}}I_{\rm P}\frac{A_{\rm eff}}{A_{\rm eff}}I_{\rm S}\frac{A_{\rm eff}}{A_{\rm eff}}I_{\rm Pr}\mathrm{sinc}^{2}\left(\frac{\Delta kL}{2}\right)A_{\rm eff},
+  P_{\rm Sig} = I_{\rm Sig}A_{\rm eff}^{\rm ao} = \frac{1}{4}(g_{0}L)^{2}\frac{A_{\rm eff}^{\rm ao}}{A_{\rm eff}^{\rm ao}}I_{\rm P}\frac{A_{\rm eff}^{\rm ao}}{A_{\rm eff}^{\rm ao}}I_{\rm S}\frac{A_{\rm eff}^{\rm ao}}{A_{\rm eff}^{\rm ao}}I_{\rm Pr}\mathrm{sinc}^{2}\left(\frac{\Delta kL}{2}\right)A_{\rm eff}^{\rm ao},
 \end{equation}
 \\
 or,
@@ -275,7 +275,7 @@ or,
 where,
 \\
 \begin{equation}
-  G_{\rm B} = \frac{g_{0}}{A_{\rm eff}}.
+  G_{\rm B} = \frac{g_{0}}{A_{\rm eff}^{\rm ao}}.
 \end{equation}
 \\
 It can be seen that off resonance, the \(\Omega\) term from Equation~\ref{eq:resonance} goes to a lorentzian form after taking the squared modulus for intensity.
@@ -289,10 +289,10 @@ It can be seen that off resonance, the \(\Omega\) term from Equation~\ref{eq:res
 
 This appendix provides a comparative analysis of the scattered power produced by our instrument to that of standard Brillouin scattering processes-that is, spontaneous and stimulated Brillouin scattering. The difference in behavior of our instrumdent from the traditional techniques arises due to the coherent stimulation of the acoustic mode by the pump and Stokes fields, producing a 4-wave-coupled-amplitude interaction that yields much higher scattered powers in smaller lengths. While our instrument is particularly well suited to small interaction lengths due to enhanced phase-matching relaxation, it maintains production of a significant amount of scatterd power at greater lengths as well (greater than \SI{1}{\meter}). This is because the reduction in scattered power from the breakdown of phase-matching relaxation at greater lengths is perfectly counter-balanced by the quadradic dependence on length in the overall scatterd power, as seen in Equation~\ref{Eq:Theoretical Framework:Scattered Power}. At very large lengths (greater than \SI{1}{\kilo\meter}), the instrument is ultimately limited by the coherence length of the lasers employed, as the process relies on the coherent stimulation of the phonon mode and thus the mutual coherence of the pump and Stokes fields over the interaction length. Here we offer an exploration into the respective performance of each technique across the entire meaningful length scale, from nanometers to kilometers.
 
-Despite shared dependence on basic Brillouin scattering principles, the three techniques compared here (spontaneous-, stimulated-, and coherently stimulated Brillouin scattering) yield significantly different scattered power for identical experimental paramters. At small lengths, the high-gain threshold for optical stimulation of the material fluctuations is often not achievable without the use of extremely large optical powers. This prevents the system from entering a process of exponential growth of the scattered Stokes light indicative of stimulated Brillouin scattering.\cite{boyd2020nonlinear} In this low-gain regime, any scattered Stokes light is spontanously scattered from thermal fluctuations of the material, or from quantum-mechanical fluctuations of materials at the ground state. The low-gain regime is defined by an overall process gain factor, denoted by \(G = G_{\mathrm{P}}P_{\mathrm{P}}L\), which is much less than unity (\(G \ll 1\)). Here, \(G_{\mathrm{B}}\) is the effective Brillouin gain in \si{\per\watt\per\meter} (\(G_{\mathrm{B}} = \frac{g}{A_{\mathrm{eff}}}\)), \(P_{\mathrm{P}}\) is the pump power, and \(L\) is the effective length. This spontaneous scattering process follows a linear growth trend described by Boyd et al in 1990 \cite{boyd1990noise} as
+Despite shared dependence on basic Brillouin scattering principles, the three techniques compared here (spontaneous-, stimulated-, and coherently stimulated Brillouin scattering) yield significantly different scattered power for identical experimental paramters. At small lengths, the high-gain threshold for optical stimulation of the material fluctuations is often not achievable without the use of extremely large optical powers. This prevents the system from entering a process of exponential growth of the scattered Stokes light indicative of stimulated Brillouin scattering.\cite{boyd2020nonlinear} In this low-gain regime, any scattered Stokes light is spontanously scattered from thermal fluctuations of the material, or from quantum-mechanical fluctuations of materials at the ground state. The low-gain regime is defined by an overall process gain factor, denoted by \(G = G_{\mathrm{P}}P_{\mathrm{P}}L\), which is much less than unity (\(G \ll 1\)). Here, \(G_{\mathrm{B}}\) is the effective Brillouin gain in \si{\per\watt\per\meter} (\(G_{\mathrm{B}} = \frac{g}{A_{\rm eff}^{\rm ao}}\)), \(P_{\mathrm{P}}\) is the pump power, and \(L\) is the effective length. This spontaneous scattering process follows a linear growth trend described by Boyd et al in 1990 \cite{boyd1990noise} as
 
 \begin{equation}
-  R = \frac{\langle|E_{\rm S}|^{2}\rangle}{\langle|E_{\rm P}|^{2}\rangle} = (\bar{n} + 1)g\hbar\omega_{\rm S}\Gamma_{\rm B}\frac{L}{4A_{\rm eff}},
+  R = \frac{\langle|E_{\rm S}|^{2}\rangle}{\langle|E_{\rm P}|^{2}\rangle} = (\bar{n} + 1)g\hbar\omega_{\rm S}\Gamma_{\rm B}\frac{L}{4A_{\rm eff}^{\rm ao}},
 \end{equation}
 
 where R is the reflectivity, or the ratio of scattered Stokes intensity to incident pump intensity, and \(\bar{n} = (e^{\frac{\hbar\Omega_{\rm B}}{k_{\rm B}T}} - 1)^{-1}\) is the mean number of phonons occupying the mode due to thermal fluctuations of the material. \cite{kittel1980thermal} Rearranging this Equation and converting to effective Brillouin gain, \(G_{\rm B}\), and power by applying the effective area, we arrive at the scattered power of the Stokes spontaneous Brillouin scattering process,

@@ -135,6 +135,22 @@
 \usepackage[super,comma,sort&compress]{natbib}
 \bibliographystyle{unsrtnat}  % Add different bib style .bst file if you'd like
 
+% Ensure a nice space after comma in citation lists
+\makeatletter
+\renewcommand\NAT@citesuper[3]{%
+ \ifNAT@swa
+  \unskip\hspace{1pt}%
+  \textsuperscript{#1}%
+  \if*#3*\else\ (#3)\fi
+ \else
+  \textsuperscript{#1}%
+  \if*#3*\else\ (#3)\fi
+ \fi
+ \endgroup
+}
+\renewcommand\NAT@sep{,\;}
+\makeatother
+
 \usepackage{enumitem}
 \usepackage{makecell} % 12/27/2017 COC for multi-lined entries in tables
 \usepackage{longtable} % spanning pages
