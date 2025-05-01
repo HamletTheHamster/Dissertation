@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{132}
+\begin{thebibliography}{133}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -847,13 +847,10 @@ Andreas Geilen, Alexandra Popp, Debayan Das, Saher Junaid, Christopher~G
   brillouin--mandelstam scattering.
 \newblock \emph{Nature Physics}, 19\penalty0 (12):\penalty0 1805--1812, 2023.
 
-\bibitem[Roch et~al.(2003)Roch, Bidaud, Collard, and
-  Buchaillot]{roch2003fabrication}
-I~Roch, Ph~Bidaud, D~Collard, and Lionel Buchaillot.
-\newblock Fabrication and characterization of an su-8 gripper actuated by a
-  shape memory alloy thin film.
-\newblock \emph{Journal of Micromechanics and Microengineering}, 13\penalty0
-  (2):\penalty0 330, 2003.
+\bibitem[Strauss(2007)]{strauss2007partial}
+Walter~A Strauss.
+\newblock \emph{Partial differential equations: An introduction}.
+\newblock John Wiley \& Sons, 2007.
 
 \bibitem[Blevins and Plunkett(1980)]{blevins1980formulas}
 Robert~D Blevins and R~Plunkett.
@@ -865,6 +862,14 @@ Robert~D Blevins and R~Plunkett.
 Stephen Timoshenko and Sergius Woinowsky-Krieger.
 \newblock Theory of plates and shells.
 \newblock 1959.
+
+\bibitem[Roch et~al.(2003)Roch, Bidaud, Collard, and
+  Buchaillot]{roch2003fabrication}
+I~Roch, Ph~Bidaud, D~Collard, and Lionel Buchaillot.
+\newblock Fabrication and characterization of an su-8 gripper actuated by a
+  shape memory alloy thin film.
+\newblock \emph{Journal of Micromechanics and Microengineering}, 13\penalty0
+  (2):\penalty0 330, 2003.
 
 \bibitem[Boyd et~al.(1990)Boyd, Rzaewski, and Narum]{boyd1990noise}
 Robert~W Boyd, Kazimierz Rzaewski, and Paul Narum.

@@ -17,45 +17,45 @@ A level-1 auxiliary file: post/A-Code.aux
 Database file #1: references.bib
 Warning--I didn't find a database entry for ""
 Warning--empty journal in timoshenko1959theory
-You've used 132 entries,
+You've used 133 entries,
             2481 wiz_defined-function locations,
-            1316 strings with 28094 characters,
-and the built_in function-call counts, 54905 in all, are:
-= -- 4338
-> -- 3386
-< -- 53
-+ -- 1273
-- -- 1008
-* -- 4849
-:= -- 8987
-add.period$ -- 399
-call.type$ -- 132
-change.case$ -- 259
-chr.to.int$ -- 131
-cite$ -- 133
-duplicate$ -- 2538
-empty$ -- 4834
-format.name$ -- 1201
-if$ -- 11370
+            1320 strings with 28194 characters,
+and the built_in function-call counts, 55163 in all, are:
+= -- 4358
+> -- 3393
+< -- 54
++ -- 1277
+- -- 1010
+* -- 4860
+:= -- 9029
+add.period$ -- 402
+call.type$ -- 133
+change.case$ -- 260
+chr.to.int$ -- 132
+cite$ -- 134
+duplicate$ -- 2557
+empty$ -- 4864
+format.name$ -- 1204
+if$ -- 11426
 int.to.chr$ -- 2
-int.to.str$ -- 133
-missing$ -- 137
-newline$ -- 669
-num.names$ -- 396
-pop$ -- 977
+int.to.str$ -- 134
+missing$ -- 139
+newline$ -- 674
+num.names$ -- 399
+pop$ -- 989
 preamble$ -- 2
-purify$ -- 132
+purify$ -- 133
 quote$ -- 0
-skip$ -- 1422
+skip$ -- 1432
 stack$ -- 0
-substring$ -- 2760
-swap$ -- 294
+substring$ -- 2762
+swap$ -- 296
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 909
+type$ -- 913
 warning$ -- 1
-while$ -- 457
+while$ -- 459
 width$ -- 0
-write$ -- 1718
+write$ -- 1730
 (There were 2 warnings)
