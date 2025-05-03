@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {3.4.2}Experimental Techniques}{47}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Results}{48}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Instrument Sensitivity}{48}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Measurements}{50}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.2}Measurements}{49}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Phase Matching Bandwidth}{53}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}Fano-Resonant Asymmetries at Small Signals}{53}{subsection.3.5.4}%
 \contentsline {section}{\numberline {3.6}Conclusion}{57}{section.3.6}%
@@ -77,4 +77,4 @@
 \contentsline {section}{\numberline {B.4}CoBS Mini Experiment: Equal Contribution of Pump, Stokes, and Probe}{130}{section.B.4}%
 \contentsline {chapter}{\numberline {C}Code and Data Availability}{133}{appendix.C}%
 \contentsline {section}{\numberline {C.1}Plotting Data In Go}{133}{section.C.1}%
-\contentsline {chapter}{References}{135}{section*.172}%
+\contentsline {chapter}{References}{135}{section*.174}%
