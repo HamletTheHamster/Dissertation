@@ -360,11 +360,11 @@ INPUT ./Introduction.tex
 INPUT Introduction.tex
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./figs/1-Intro/Boyd scattering frequency shift domains.png
-INPUT ./figs/1-Intro/Boyd scattering frequency shift domains.png
-INPUT ./figs/1-Intro/Boyd scattering frequency shift domains.png
-INPUT ./figs/1-Intro/Boyd scattering frequency shift domains.png
-INPUT ./figs/1-Intro/Boyd scattering frequency shift domains.png
+INPUT ./figs/1-Intro/frequencyShifts.pdf
+INPUT ./figs/1-Intro/frequencyShifts.pdf
+INPUT ./figs/1-Intro/frequencyShifts.pdf
+INPUT ./figs/1-Intro/frequencyShifts.pdf
+INPUT ./figs/1-Intro/frequencyShifts.pdf
 INPUT ./Cooling.tex
 INPUT ./Cooling.tex
 OUTPUT Cooling.aux
