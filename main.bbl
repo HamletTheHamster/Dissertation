@@ -1,5 +1,5 @@
 \providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
-\begin{thebibliography}{133}
+\begin{thebibliography}{141}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -870,6 +870,63 @@ I~Roch, Ph~Bidaud, D~Collard, and Lionel Buchaillot.
   shape memory alloy thin film.
 \newblock \emph{Journal of Micromechanics and Microengineering}, 13\penalty0
   (2):\penalty0 330, 2003.
+
+\bibitem[Frankis et~al.(2021)Frankis, Bonneville, and
+  Bradley]{frankis2021tellurite}
+Henry~C Frankis, Dawson~B Bonneville, and Jonathan~DB Bradley.
+\newblock Tellurite glass microcavity resonators integrated on a silicon
+  photonics platform.
+\newblock \emph{Journal of Optical Microsystems}, 1\penalty0 (2):\penalty0
+  024002--024002, 2021.
+
+\bibitem[Frankis et~al.(2018)Frankis, Su, Bonneville, and
+  Bradley]{frankis2018tellurium}
+Henry~C Frankis, Daniel Su, Dawson~B Bonneville, and Jonathan~DB Bradley.
+\newblock A tellurium oxide microcavity resonator sensor integrated on-chip
+  with a silicon waveguide.
+\newblock \emph{Sensors}, 18\penalty0 (11):\penalty0 4061, 2018.
+
+\bibitem[Mbonde(2022)]{mbonde2022nonlinear}
+Hamidu~Mohamed Mbonde.
+\newblock \emph{Nonlinear Optical Phenomena in Hybrid TeO2-Si3N4 Waveguides}.
+\newblock PhD thesis, 2022.
+
+\bibitem[Califa et~al.(2015)Califa, Munk, Genish, Kaganovskii, Bakish,
+  Rosenbluh, and Zadok]{califa2015large}
+R~Califa, D~Munk, H~Genish, Yu~Kaganovskii, I~Bakish, M~Rosenbluh, and A~Zadok.
+\newblock Large one-time photo-induced tuning of directional couplers in
+  chalcogenide-on-silicon platform.
+\newblock \emph{Optics Express}, 23\penalty0 (22):\penalty0 28234--28243, 2015.
+
+\bibitem[Grillet et~al.(2006)Grillet, Smith, Freeman, Madden, Luther-Davies,
+  Magi, Moss, and Eggleton]{grillet2006efficient}
+Christian Grillet, Cameron Smith, Darren Freeman, Steve Madden, Barry
+  Luther-Davies, Eric~C Magi, David~J Moss, and Benjamin~J Eggleton.
+\newblock Efficient coupling to chalcogenide glass photonic crystal waveguides
+  via silica optical fiber nanowires.
+\newblock \emph{Optics Express}, 14\penalty0 (3):\penalty0 1070--1078, 2006.
+
+\bibitem[Yang et~al.(2022)Yang, Wang, Jin, et~al.]{yang2022review}
+Zhen Yang, YF~Wang, HM~Jin, et~al.
+\newblock Review of chalcogenide glass integrated photonic devices (invited).
+\newblock \emph{Infrared and Laser Engineering}, 51\penalty0 (3):\penalty0
+  20220152, 2022.
+
+\bibitem[Lin et~al.(2023)Lin, Wei, Lei, Yang, Ma, Zhong, Luo, Li, Li, Lin,
+  et~al.]{lin2023compact}
+Xiaobin Lin, Maoliang Wei, Kunhao Lei, Songtao Yang, Hui Ma, Chuyu Zhong,
+  Ye~Luo, Da~Li, Junying Li, Changgui Lin, et~al.
+\newblock Compact mid-infrared chalcogenide glass photonic devices based on
+  robust-inverse design.
+\newblock \emph{Laser \& Photonics Reviews}, 17\penalty0 (2):\penalty0 2200445,
+  2023.
+
+\bibitem[Lei et~al.(2024)Lei, Wei, Bao, Xu, Li, and Lin]{lei2024scalable}
+Kunhao Lei, Maoliang Wei, Kangjian Bao, Kai Xu, Lan Li, and Hongtao Lin.
+\newblock Scalable fabrication techniques for high-performance chalcogenide
+  integrated photonic devices.
+\newblock In \emph{AOPC 2024: Optical Devices and Integration}, volume 13499,
+  pages 55--60. SPIE, 2024.
 
 \bibitem[Boyd et~al.(1990)Boyd, Rzaewski, and Narum]{boyd1990noise}
 Robert~W Boyd, Kazimierz Rzaewski, and Paul Narum.

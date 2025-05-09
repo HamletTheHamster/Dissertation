@@ -244,12 +244,22 @@
 \let\cleardoublepage\clearpage  % Allow chapters to start on even pages
 \doublespacing
   \include{pre/0-Title}
+  \cleardoublepage
+  \newpage
+  \thispagestyle{empty}
+  \null
+  \newpage
   \include{pre/0-Abstract}
   %%\include{pre/0-Copyright}
 
-  % \include{pre/0-Dedication}
   \include{pre/0-Epigraph}
-  % \include{pre/0-Acknowledgements}
+  \include{pre/0-Dedication}
+  \cleardoublepage
+  \newpage
+  \thispagestyle{empty}
+  \null
+  \newpage
+  \include{pre/0-Acknowledgements}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \singlespacing
